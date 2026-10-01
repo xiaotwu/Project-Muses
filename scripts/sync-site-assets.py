@@ -12,7 +12,7 @@ args = parser.parse_args()
 ios = root / 'Muses-Erato'
 subprocess.run(['python3', str(ios / 'scripts/build-privacy-site.py'), '--check'], check=True)
 pairs = [(ios / 'docs/site' / name, root / 'docs/ios' / name)
-         for name in ['index.html', 'privacy.html', 'terms.html', 'styles.css', '.nojekyll']]
+         for name in ['privacy.html', 'terms.html', 'styles.css', '.nojekyll']]
 pairs.append((root / 'Muses-Polyhymnia/assets/icon.png', root / 'docs/assets/icon.png'))
 for source, destination in pairs:
     if args.check:

@@ -1,26 +1,32 @@
 ---
 layout: default
-title: Installation
+title: Get Muses
 ---
 
-# Choose your Muses
+# Find your Muses
 
-All platform releases are collected in [Project-Muses Releases](https://github.com/xiaotwu/Project-Muses/releases). Version numbers belong to each platform. A release for iOS does not update your Mac or Windows app.
+Choose the version for your device. Features and availability differ by platform; each edition has its own release version.
 
 ## macOS — Polyhymnia
 
-Requires **macOS 14 or later**. Download the DMG or ZIP from [Polyhymnia 0.5.6](https://github.com/xiaotwu/Project-Muses/releases/tag/polyhymnia%2Fv0.5.6). Open the DMG and drag **Muses** into **Applications**, or unzip the app into Applications. These published artifacts are signed, notarized and stapled; aggregation does not alter their bytes.
+Requires **macOS 14 or later**. Download the DMG or ZIP from [Polyhymnia 0.5.6](https://github.com/xiaotwu/Project-Muses/releases/tag/polyhymnia%2Fv0.5.6).
 
-Your library remains available when replacing the application. Start with Home or import a YouTube playlist. Connect Google in Settings → Account if desired. Browser-session Home requires separate consent.
+Open the DMG and drag **Muses** into **Applications**, or unzip the application into Applications. The published Mac application is signed and notarized. Your library remains available when replacing the application.
+
+Start with Home, explore your collection or open a playlist.
 
 ## iOS — Erato
 
-Requires **iOS 18 or later**, with adaptive iPhone/iPad layouts. [Erato 1.0.0 beta 2](https://github.com/xiaotwu/Project-Muses/releases/tag/erato%2Fv1.0.0-beta.2) contains separate Public and experimental Native IPAs. Follow the installation and signing restrictions in its release notes.
+Requires **iOS 18 or later**, with layouts for iPhone and iPad. [Erato 1.0.0 beta 2](https://github.com/xiaotwu/Project-Muses/releases/tag/erato%2Fv1.0.0-beta.2) is available in separate Public and experimental Native editions.
 
-The Public IPA has App Store distribution signing for App Store Connect/TestFlight upload; it is not directly installable as an Ad Hoc package. The Native IPA is Ad Hoc and requires a provisioned device or valid re-signing. GitHub publication does not establish Apple review or Google OAuth verification. Public uses a visible YouTube player and pauses when backgrounded; Native background/lock-screen behavior remains experimental. Google account features may require an approved test account.
+The Public edition uses visible video playback and pauses when the player closes or the app enters the background. The Native edition includes experimental background audio that still requires further validation.
 
-See [iOS support](ios/), [privacy](ios/privacy.html), [terms](ios/terms.html) and [source/build instructions](https://github.com/xiaotwu/Muses-Erato).
+The Public IPA is signed for App Store distribution and is not directly installable as an Ad Hoc package. The Native IPA requires a provisioned device or valid re-signing. Read the installation restrictions in the release notes before downloading. A published beta does not establish store approval.
+
+[Product & support](ios/) · [Privacy](ios/privacy.html) · [Terms](ios/terms.html)
 
 ## Windows 11 — Euterpe
 
-No downloadable Windows release is currently published. Microsoft Store and WinGet distribution are also unpublished. Build from [Euterpe source](https://github.com/xiaotwu/Muses-Euterpe) using .NET 10; native playback needs mpv and yt-dlp. Follow the repository's [installation and packaging guide](https://github.com/xiaotwu/Muses-Euterpe/blob/main/INSTALL.md). MSIX packaging requires Windows and the Windows SDK.
+The Windows edition is in development. A downloadable application or store package is not yet published.
+
+Follow [Muses releases](https://github.com/xiaotwu/Project-Muses/releases) for availability updates.

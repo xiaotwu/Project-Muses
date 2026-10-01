@@ -3,6 +3,7 @@
 import argparse
 from html.parser import HTMLParser
 from pathlib import Path
+import re
 from urllib.parse import unquote, urlsplit
 
 
@@ -67,6 +68,13 @@ def main():
                 raise ValueError(f'{path}: missing link/resource: {link}')
             if url.fragment and target in pages and url.fragment not in pages[target].ids:
                 raise ValueError(f'{path}: missing fragment: {link}')
+    # Product-facing pages keep provider and tooling names out of their copy.
+    forbidden = re.compile(r'youtube|google|chatgpt|codex', re.IGNORECASE)
+    product_pages = [root / 'index.html', root / 'ios/index.html',
+                     root / ('installation.html' if args.rendered else 'installation.md')]
+    for product_page in product_pages:
+        if forbidden.search(product_page.read_text()):
+            raise ValueError(f'{product_page}: provider/tooling name in product copy')
     homepage = (root / 'index.html').read_text()
     for expected in ['Polyhymnia', 'Erato', 'Euterpe', 'macOS', 'iOS', 'Windows 11', 'role="tablist"', 'prefers-reduced-motion']:
         assert expected in homepage, f'Missing homepage contract: {expected}'

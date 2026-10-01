@@ -1,9 +1,18 @@
 title: Muses
-description: A native YouTube music home for macOS, iOS and Windows 11.
+description: A native music home for macOS, iOS and Windows 11.
 url: https://xiaotwu.github.io
 baseurl: /Project-Muses
 markdown: kramdown
-exclude: [site-content]
+exclude:
+  - site-content
+  - development.md
+  - platform-baseline.md
+  - remaining-validation-0.5.1.md
+  - release-notes-0.5.1.md
+  - release-notes-0.5.2.md
+  - release-notes-0.5.3.md
+  - release-notes-0.5.5.md
+  - release-notes-0.5.6.md
 defaults:
   - scope:
       path: ""

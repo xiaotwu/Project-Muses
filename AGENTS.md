@@ -10,3 +10,7 @@ Project-Muses is the family introduction, GitHub Pages and release hub. The thre
 - Commit child work first, merge and push child main branches, then commit the updated submodule references here.
 - Validate site links, generated iOS policy parity, release sync logic and relevant platform checks before publication.
 - Never add automated-assistant attribution or co-author trailers to commits, tags or PRs.
+
+## Public product copy
+
+Root READMEs introduce the family or platform product only. Product-facing website pages use the same editorial scope and omit provider/tooling names (YouTube, YouTube Music, Google, ChatGPT and Codex). Keep development, workspace and publication instructions in separate engineering documents outside the published site. Preserve accurate feature/availability boundaries and necessary provider disclosures in privacy policies and terms. The iOS landing page is editorial; only its legal pages/styles are mirrored from platform policy output.
