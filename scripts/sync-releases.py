@@ -88,6 +88,9 @@ def sync(platform, source, existing, plan=False):
                     'prerelease': source['prerelease'], 'assets': []}
         for asset in assets:
             name = asset_name(asset['name'])
+            if matches(asset):
+                manifest['assets'].append({'name': name, 'size': asset['size'], 'digest': asset['digest']})
+                continue
             path = temp / name
             # Download exact assets through their numeric API IDs; names are not glob patterns.
             with path.open('wb') as output:
@@ -112,7 +115,9 @@ def sync(platform, source, existing, plan=False):
                 gh('release', 'upload', tag, str(temp / asset['name']), '--repo', DESTINATION)
         # The generated provenance may change when a source release gains an asset.
         gh('release', 'upload', tag, str(provenance), '--repo', DESTINATION, '--clobber')
-        uploaded = api(f'repos/{DESTINATION}/releases/tags/{quote(tag, safe="")}')
+        # Draft releases have no published tag ref; GitHub's by-tag API returns 404.
+        release_id = json.loads(gh('release', 'view', tag, '--repo', DESTINATION, '--json', 'databaseId'))['databaseId']
+        uploaded = api(f'repos/{DESTINATION}/releases/{release_id}')
         remote_assets = {a['name']: a for a in uploaded['assets']}
         for a in manifest['assets']:
             b = remote_assets[a['name']]
