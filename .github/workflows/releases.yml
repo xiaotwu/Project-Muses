@@ -1,0 +1,34 @@
+name: Aggregate platform releases
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: Platform to aggregate
+        type: choice
+        options: [all, polyhymnia, erato, euterpe]
+        default: all
+      count:
+        description: Recent published releases per platform
+        type: number
+        default: 1
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: aggregate-releases
+  cancel-in-progress: false
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify mirror logic
+        run: python3 -m unittest discover -s tests
+      - name: Copy published releases with provenance and digest verification
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PLATFORM: ${{ inputs.platform || 'all' }}
+          COUNT: ${{ inputs.count || '5' }}
+        run: python3 scripts/sync-releases.py --platform "$PLATFORM" --count "$COUNT"

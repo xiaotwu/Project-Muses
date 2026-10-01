@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Muses brings YouTube music and libraries to macOS, iOS and Windows 11. Polyhymnia is the core, with Erato and Euterpe adapting it to each platform.">
+  <link rel="canonical" href="https://xiaotwu.github.io/Project-Muses/">
+  <meta name="theme-color" content="#121316">
+  <title>Muses — One music home, three platforms</title>
+  <link rel="icon" href="assets/icon.png">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main-content">Skip to content</a>
+  <header class="site-head shell"><a class="brand" href="./"><img src="assets/icon.png" alt="">Muses</a><nav aria-label="Main navigation"><a href="#platforms">Platforms</a><a href="#tour">Mac tour</a><a href="installation.html">Install</a><a href="https://github.com/xiaotwu/Project-Muses">GitHub</a></nav></header>
+  <main class="shell" id="main-content">
+    <section class="hero"><div class="kicker">macOS · iOS · Windows 11</div><h1>Stay with the music.</h1><p>A native home for YouTube music and playlists. Built around Polyhymnia on the Mac, with Erato for iPhone and iPad and Euterpe for Windows 11.</p><div class="actions"><a class="button primary" href="https://github.com/xiaotwu/Project-Muses/releases/tag/polyhymnia%2Fv0.5.6">Get Muses for Mac ↗</a><a class="button" href="#tour">Explore the app ↓</a></div><p class="requirement">macOS 14+ · iOS 18+ · Windows 11 · Open source</p></section>
+    <section class="platforms" id="platforms" aria-labelledby="platforms-title">
+      <div class="section-heading"><div class="kicker">The Muses family</div><h2 id="platforms-title">One idea. At home on your device.</h2><p>Polyhymnia leads the product. Each port keeps the library and listening experience native to its platform.</p></div>
+      <div class="platform-grid">
+        <article class="platform core"><span class="platform-os">macOS 14+</span><h3>Polyhymnia</h3><p class="platform-role">The core Muses experience</p><p>YouTube music, playlist imports, podcasts, contextual queues, cover or vinyl Now Playing, available lyrics and native menu-bar controls.</p><p class="platform-status">Signed and notarized Mac release available.</p><div class="platform-links"><a href="https://github.com/xiaotwu/Project-Muses/releases/tag/polyhymnia%2Fv0.5.6">Download for Mac ↗</a><a href="https://github.com/xiaotwu/Muses-Polyhymnia">Source</a></div></article>
+        <article class="platform"><span class="platform-os">iOS 18+ · iPhone &amp; iPad</span><h3>Erato</h3><p class="platform-role">Your collection, on the move</p><p>Search, saved videos, favorites, playlists, queue, notes and time bookmarks, with adaptive iPhone and iPad layouts.</p><p class="platform-status">Beta. Public uses a visible YouTube player and pauses in the background. Native is experimental; IPA signing and device restrictions apply.</p><div class="platform-links"><a href="https://github.com/xiaotwu/Project-Muses/releases/tag/erato%2Fv1.0.0-beta.2">View iOS beta ↗</a><a href="ios/">Support &amp; policies</a></div></article>
+        <article class="platform"><span class="platform-os">Windows 11</span><h3>Euterpe</h3><p class="platform-role">Muses for the Windows desktop</p><p>Avalonia and FluentAvalonia, yt-dlp → mpv playback, contextual queue, lyrics, WebView2 video, and Windows media and tray integration.</p><p class="platform-status">In development. No Windows release, Microsoft Store listing or WinGet package is published. macOS visual parity remains in progress.</p><div class="platform-links"><a href="https://github.com/xiaotwu/Muses-Euterpe">Explore Windows source ↗</a><a href="installation.html">Build guide</a></div></article>
+      </div>
+    </section>
+    <section class="tour" id="tour" aria-labelledby="tour-title"><div class="tour-head"><div><div class="kicker">Inside Polyhymnia · macOS</div><h2 id="tour-title">A closer look</h2></div><p>Choose a view or use the arrow keys.</p></div>
+      <div class="tour-tabs" role="tablist" aria-label="App screens">
+        <button class="tour-tab" role="tab" id="tab-home" aria-controls="tour-panel" aria-selected="true" tabindex="0" data-screen="0">Home</button>
+        <button class="tour-tab" role="tab" id="tab-songs" aria-controls="tour-panel" aria-selected="false" tabindex="-1" data-screen="1">Songs</button>
+        <button class="tour-tab" role="tab" id="tab-now" aria-controls="tour-panel" aria-selected="false" tabindex="-1" data-screen="2">Now Playing</button>
+        <button class="tour-tab" role="tab" id="tab-settings" aria-controls="tour-panel" aria-selected="false" tabindex="-1" data-screen="3">Settings</button>
+      </div>
+      <div id="tour-panel" class="tour-stage" role="tabpanel" aria-labelledby="tab-home"><img id="tour-image" src="assets/tour-home.png" alt="Muses Home in light appearance with music shelves and a floating player" width="1568" height="980"></div>
+      <div class="tour-caption" aria-live="polite"><div><strong id="tour-name">Discover from Home</strong><p id="tour-description">Artwork leads the way, while the floating player keeps your current song close.</p></div><div class="tour-controls"><button type="button" id="tour-prev" aria-label="Previous screen">←</button><button type="button" id="tour-next" aria-label="Next screen">→</button></div></div>
+      <p class="tour-note">Captured macOS app screens from the published tour; these do not represent iOS or Windows, or every subsequent development change. This tour switches views; playback and account actions happen in the Mac app.</p>
+    </section>
+    <section class="features" aria-label="macOS highlights"><article class="feature"><span class="num">01 / DISCOVER</span><h3>Bring your YouTube library along.</h3><p>Import playlists, browse music, albums, artists and videos, and keep favorites and listening history together.</p></article><article class="feature"><span class="num">02 / LISTEN</span><h3>A queue with context.</h3><p>Previous, Next, Up Next, repeat and shuffle work with the collection you started from. Control playback from the app, menu bar, keyboard or system media keys.</p></article><article class="feature"><span class="num">03 / GO DEEPER</span><h3>More than a cover.</h3><p>Open Now Playing for artwork and available lyrics, switch to vinyl, watch the video on demand, or return to a podcast where you left off.</p></article></section>
+    <section class="closing"><div><h2>Start with your platform.</h2><p>Download the Mac release, explore the iOS beta, or follow the Windows port.</p></div><div class="actions"><a class="button primary" href="https://github.com/xiaotwu/Project-Muses/releases/tag/polyhymnia%2Fv0.5.6">Get Muses for Mac ↗</a><a class="button" href="installation.html">Installation guide</a></div></section>
+  </main>
+  <footer class="site-foot shell"><span>© Muses · MIT licensed</span><div class="foot-links"><a href="privacy.html">Privacy</a><a href="https://github.com/xiaotwu/Project-Muses/releases">Releases</a><a href="development.html">Contribute</a></div></footer>
+  <script>
+    (() => {
+      const screens = [
+        {src:'assets/tour-home.png', alt:'Muses Home in light appearance with music shelves and a floating player', name:'Discover from Home', description:'Artwork leads the way, while the floating player keeps your current song close.'},
+        {src:'assets/tour-songs.png', alt:'Muses Songs in dark appearance with a sortable song table', name:'Your songs, your way', description:'Move from an artwork stage to the complete sortable song table without leaving the library.'},
+        {src:'assets/tour-now-playing.jpg', alt:'Muses Now Playing in dark appearance with square cover art and timed lyrics', name:'Give the song the room', description:'Cover or vinyl artwork, playback controls and available timed lyrics take over the window.'},
+        {src:'assets/tour-settings.jpg', alt:'Muses settings in dark appearance with first-level categories and flat sections', name:'Made for your desktop', description:'Adjust appearance, playback and desktop controls in one integrated window.'}
+      ];
+      screens.forEach(screen => { const img = new Image(); img.src = screen.src; });
+      const tabs = [...document.querySelectorAll('.tour-tab')];
+      const panel = document.getElementById('tour-panel');
+      const image = document.getElementById('tour-image');
+      const name = document.getElementById('tour-name');
+      const description = document.getElementById('tour-description');
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      let current = 0;
+      let pending = 0;
+      function select(index, focus = false) {
+        const next = (index + screens.length) % screens.length;
+        if (next === current) return;
+        current = next;
+        tabs.forEach((tab, i) => { tab.setAttribute('aria-selected', String(i === next)); tab.tabIndex = i === next ? 0 : -1; });
+        panel.setAttribute('aria-labelledby', tabs[next].id);
+        if (focus) tabs[next].focus();
+        const update = () => { const screen = screens[next]; image.src = screen.src; image.alt = screen.alt; name.textContent = screen.name; description.textContent = screen.description; image.classList.remove('changing'); };
+        clearTimeout(pending);
+        if (reduceMotion.matches) update(); else { image.classList.add('changing'); pending = setTimeout(update, 180); }
+      }
+      tabs.forEach((tab, i) => { tab.addEventListener('click', () => select(i)); tab.addEventListener('keydown', e => { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); select(current + (e.key === 'ArrowRight' ? 1 : -1), true); } else if (e.key === 'Home' || e.key === 'End') { e.preventDefault(); select(e.key === 'Home' ? 0 : screens.length - 1, true); } }); });
+      document.getElementById('tour-prev').addEventListener('click', () => select(current - 1));
+      document.getElementById('tour-next').addEventListener('click', () => select(current + 1));
+    })();
+  </script>
+</body>
+</html>

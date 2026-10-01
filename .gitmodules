@@ -1,0 +1,12 @@
+[submodule "Muses-Polyhymnia"]
+	path = Muses-Polyhymnia
+	url = https://github.com/xiaotwu/Muses-Polyhymnia.git
+	branch = main
+[submodule "Muses-Erato"]
+	path = Muses-Erato
+	url = https://github.com/xiaotwu/Muses-Erato.git
+	branch = main
+[submodule "Muses-Euterpe"]
+	path = Muses-Euterpe
+	url = https://github.com/xiaotwu/Muses-Euterpe.git
+	branch = main
