@@ -2,6 +2,7 @@ import importlib.util
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 spec = importlib.util.spec_from_file_location('sync', Path(__file__).parents[1] / 'scripts/sync-releases.py')
 sync = importlib.util.module_from_spec(spec)
@@ -33,6 +34,22 @@ class ReleaseSyncTests(unittest.TestCase):
         source = {'tag_name': 'v1', 'assets': [{'name': 'app.zip'}]}
         with self.assertRaises(ValueError):
             sync.sync('erato', source, {'erato/v1': {'body': 'Owner release notes'}}, plan=True)
+
+    def test_draft_recovery_uses_release_id_and_keeps_verified_assets(self):
+        asset = {'name': 'app.zip', 'size': 100, 'digest': 'sha256:abc'}
+        source = {'tag_name': 'v1', 'assets': [asset], 'prerelease': False,
+                  'html_url': 'https://github.com/xiaotwu/Muses-Polyhymnia/releases/tag/v1'}
+        target = {'body': sync.MARKER, 'assets': [asset], 'prerelease': False, 'draft': True}
+        def command(*args):
+            return '{"databaseId": 123}' if args[:2] == ('release', 'view') else ''
+        with patch.object(sync, 'gh', side_effect=command) as commands, \
+             patch.object(sync, 'api', side_effect=[{'sha': 'source-sha'}, {'assets': [asset]}]) as requests, \
+             patch.object(sync.subprocess, 'run') as download:
+            sync.sync('polyhymnia', source, {'polyhymnia/v1': target})
+        download.assert_not_called()
+        self.assertEqual(requests.call_args_list[-1].args[0], 'repos/xiaotwu/Project-Muses/releases/123')
+        self.assertTrue(any(call.args[:2] == ('release', 'edit') and '--draft=false' in call.args
+                            for call in commands.call_args_list))
 
     def test_completed_mirror_is_idempotent_without_download(self):
         asset = {'name': 'app.zip', 'size': 100, 'digest': 'sha256:abc'}

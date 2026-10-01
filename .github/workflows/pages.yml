@@ -16,8 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: true
       - name: Validate publication source
-        run: python3 scripts/check-site.py
+        run: |
+          python3 scripts/check-site.py
+          python3 scripts/sync-site-assets.py --check
       - uses: actions/configure-pages@v5
         if: github.event_name != 'pull_request'
       - uses: actions/jekyll-build-pages@v1

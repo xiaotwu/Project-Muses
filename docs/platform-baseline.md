@@ -42,3 +42,5 @@ A shared product baseline does not make all playback engines interchangeable. Re
 The Windows implementation may be replaced rather than preserving its old layout. Preserve user data and useful validated domain behavior; rebuild UI and platform integration against Polyhymnia. First establish a data preservation fixture and playback/queue acceptance cases, then rebuild shell/navigation, collections, player/queue/Now Playing, discovery and Windows integrations. Verify each milestone on Windows 11 before claiming parity or distributing an installer.
 
 This repository migration establishes ownership and direction. It does not certify complete iOS/Windows feature or visual parity and does not constitute a completed Windows rebuild.
+
+The owner selected a full Windows rebuild on 2026-09-30 and will start it in a separate project. This migration does not begin that rebuild.
