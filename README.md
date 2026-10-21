@@ -20,11 +20,13 @@ Features and availability vary by platform.
 
 | Project | Platform | Experience |
 | --- | --- | --- |
-| [Polyhymnia](https://github.com/xiaotwu/Muses-Polyhymnia) | macOS 14+ | The core desktop experience, with an immersive player and native Mac controls |
+| [Polyhymnia](https://github.com/xiaotwu/Muses-Polyhymnia) | macOS 26+ · Apple Silicon | The core desktop experience, with an immersive player and native Mac controls |
 | [Erato](https://github.com/xiaotwu/Muses-Erato) | iOS 18+ · iPhone & iPad | A portable collection with adaptive layouts, notes and time bookmarks; currently in beta |
 | [Euterpe](https://github.com/xiaotwu/Muses-Euterpe) | Windows 11 | A desktop adaptation with media controls and tray integration; currently in development |
 
 [![Muses on macOS](docs/assets/tour-home.png)](https://xiaotwu.github.io/Project-Muses/#tour)
+
+Muses 0.5.11 remains available for macOS 14 and 15; see the [installation guide](https://xiaotwu.github.io/Project-Muses/installation.html).
 
 ## Find your Muses
 

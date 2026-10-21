@@ -9,11 +9,15 @@ Choose the version for your device. Features and availability differ by platform
 
 ## macOS — Polyhymnia
 
-Requires **macOS 14 or later**. Download the DMG or ZIP from [Polyhymnia 0.5.6](https://github.com/xiaotwu/Project-Muses/releases/tag/polyhymnia%2Fv0.5.6).
+Requires **macOS 26 or later on Apple Silicon (arm64)**. Download the DMG or ZIP from the [latest stable Mac release](https://github.com/xiaotwu/Muses-Polyhymnia/releases/latest).
 
 Open the DMG and drag **Muses** into **Applications**, or unzip the application into Applications. The published Mac application is signed and notarized. Your library remains available when replacing the application.
 
 Start with Home, explore your collection or open a playlist.
+
+Browse the [Mac release history](https://github.com/xiaotwu/Muses-Polyhymnia/releases) for earlier versions and their requirements.
+
+For macOS 14 or 15, [Polyhymnia 0.5.11](https://github.com/xiaotwu/Project-Muses/releases/tag/polyhymnia%2Fv0.5.11) remains available as the compatible release.
 
 ## iOS — Erato
 
