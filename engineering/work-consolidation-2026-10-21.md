@@ -4,7 +4,7 @@
 
 PR #18、#17、#19 已分别审阅合并；XW-107／118／119／120／121 的窄修复 Done。含 XW-121 的新冻结版本源码为 `73f1dbe6e5a93f6cb7fdf147e98f2e8ef037ee12`，0.6.2 / build `20261023.4`，完整 CI 40042082311 通过。全新 Release／音频依赖、1,092 项回归、15 项严格线程检查、50 项发布检查、Developer ID、应用及 DMG 公证、完整归档及离线签名 feed、9/9 固定媒体冷态播放、实际控制／暂停重启和目录返回小节已完成。详细身份、摘要、资料差异和证据边界见[新 RC 回执](../Muses-Polyhymnia/docs/engineering/release-candidate-pr19-2026-10-23.md)。
 
-用户确认本轮 `.4` 连续正常音乐后，已公开 [v0.6.2](https://github.com/xiaotwu/Muses-Polyhymnia/releases/tag/v0.6.2)，tag 精确指向 `73f1dbe`，stable/latest 与三个资产实际匿名下载均核对通过。公开 feed 的签名、归档签名及旧三条全部字段均通过，updates 保持 prerelease。家族 [polyhymnia/v0.6.2](https://github.com/xiaotwu/Project-Muses/releases/tag/polyhymnia%2Fv0.6.2) 已按相同字节及 source-release.json 聚合；不重建、不改变安装限制。官网 `/releases/latest` 实际跳转新版本，macOS14/15 的0.5.11入口返回200；无需修改网站链接或额外部署Pages。继续最小宽度焦点卡与连续桌面歌词；XW-74／Premium／Erato 暂停保持。
+用户确认本轮 `.4` 连续正常音乐后，已公开 [v0.6.2](https://github.com/xiaotwu/Muses-Polyhymnia/releases/tag/v0.6.2)，tag 精确指向 `73f1dbe`，stable/latest 与三个资产实际匿名下载均核对通过。公开 feed 的签名、归档签名及旧三条全部字段均通过，updates 保持 prerelease。家族 [polyhymnia/v0.6.2](https://github.com/xiaotwu/Project-Muses/releases/tag/polyhymnia%2Fv0.6.2) 已按相同字节及 source-release.json 聚合；不重建、不改变安装限制。官网 `/releases/latest` 实际跳转新版本，macOS14/15 的0.5.11入口返回200；无需修改网站链接或额外部署Pages。已接续[发布后验收](../Muses-Polyhymnia/docs/engineering/post-release-acceptance-2026-10-23.md)，但当前 Mac 锁屏使驱动读取零 AX 元素并拒绝 Settings 操作；两项界面小节没有新增通过，须待唤醒解锁后继续及正常退出隔离候选。XW-74／Premium／Erato 暂停保持。
 
 Linear 全部工作仍仅属于 Muses：107 项，84 Done、23 开放。新回执保留 535 曲目非播放资料、534 队列顺序、旧事件和精确集合 ID 变化说明；15 项候选偏好恢复、十个保护根同值，自有进程与会话结束。家族站点本地链接、政策／图标一致性及六项模拟发布同步测试通过；这六项测试不代表实际发布。
 
