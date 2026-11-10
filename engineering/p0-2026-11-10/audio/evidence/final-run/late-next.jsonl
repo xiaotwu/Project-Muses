@@ -1,0 +1,2 @@
+{"kind":"dependency","ffmpeg":"8.0","license":"LGPL version 2.1 or later","miniaudio":"0.11.26","runtime_linking":false}
+{"kind":"late_next_native_session","muted":true,"initial_next_decoded_frames":0,"clock_frames":82432,"transition_start_frame":39104,"transition_end_frame":63104,"transitions":1,"underflows":0,"callbacks":322}

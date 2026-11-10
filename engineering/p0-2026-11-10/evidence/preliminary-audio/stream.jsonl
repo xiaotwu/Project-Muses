@@ -1,0 +1,10 @@
+[opus @ 0x7c8b044700] Error parsing Opus packet header.
+[opus @ 0x7c8b044700] Error parsing Opus packet header.
+[opus @ 0x7c8b044e00] Error parsing Opus packet header.
+[opus @ 0x7c8b045180] Error parsing Opus packet header.
+{"kind":"dependency","ffmpeg":"8.0","license":"LGPL version 2.1 or later","miniaudio":"0.11.26","runtime_linking":false}
+{"kind":"decode_seek","codec":"aac","frames":192000,"rms":0.0623384,"seek_first_pts":1.5000000,"seek_frames":120000,"seek_alignment_frames":0,"seek_rms_error":0.0000069,"ring_high_frames":16384}
+{"kind":"decode_seek","codec":"opus","frames":192000,"rms":0.0625412,"seek_first_pts":1.5000000,"seek_frames":120024,"seek_alignment_frames":-24,"seek_rms_error":0.0000546,"ring_high_frames":12480}
+{"kind":"equal_power_crossfade","clock_frames":336000,"underflows":0,"clipped":0,"minimum_10ms_rms":0.0585880,"pcm_pool_bytes":524288}
+{"kind":"gapless","clock_frames":384000,"underflows":0,"clipped":0,"minimum_10ms_rms":0.0596416,"pcm_pool_bytes":524288}
+{"kind":"cancellation","blocked_io_cancel_ms":100.949,"cancelled_generation_frames":0,"full_ring_frames":32768,"replacement_frames":192000}

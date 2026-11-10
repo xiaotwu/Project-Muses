@@ -1,0 +1,46 @@
+{
+  "paths": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos",
+      "logical_bytes": 7030932,
+      "allocated_bytes": 8626176
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/superseded-python-bytecode",
+      "logical_bytes": 9978,
+      "allocated_bytes": 12288
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/ffmpeg-8.0.tar.xz",
+      "logical_bytes": 11384428,
+      "allocated_bytes": 11665408
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/results",
+      "logical_bytes": 7970,
+      "allocated_bytes": 40960
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx",
+      "logical_bytes": 9131054,
+      "allocated_bytes": 10706944
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources",
+      "logical_bytes": 89937652,
+      "allocated_bytes": 116862976
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/fixtures",
+      "logical_bytes": 117810,
+      "allocated_bytes": 131072
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/stress",
+      "logical_bytes": 3907913,
+      "allocated_bytes": 3928064
+    }
+  ],
+  "actual_free_bytes": 574859677696,
+  "cleanup": "Not deleted. Root coordinates recoverable cleanup; active iOS integration still depends on iphoneos artifacts."
+}

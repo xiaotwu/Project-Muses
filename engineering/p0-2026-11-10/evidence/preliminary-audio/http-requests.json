@@ -1,0 +1,71 @@
+[
+  {
+    "path": "/tone-a.m4a",
+    "range_start": 0,
+    "range_end": 49972
+  },
+  {
+    "path": "/tone-a.m4a",
+    "range_start": 0,
+    "range_end": 49972
+  },
+  {
+    "path": "/tone-b.webm",
+    "range_start": 0,
+    "range_end": 66761
+  },
+  {
+    "path": "/tone-b.webm",
+    "range_start": 0,
+    "range_end": 66761
+  },
+  {
+    "path": "/tone-b.webm",
+    "range_start": 928,
+    "range_end": 66761
+  },
+  {
+    "path": "/tone-b.webm",
+    "range_start": 508,
+    "range_end": 66761
+  },
+  {
+    "path": "/tone-b.webm",
+    "range_start": 508,
+    "range_end": 66761
+  },
+  {
+    "path": "/tone-a.m4a",
+    "range_start": 0,
+    "range_end": 49972
+  },
+  {
+    "path": "/tone-b.webm",
+    "range_start": 0,
+    "range_end": 66761
+  },
+  {
+    "path": "/tone-b.webm",
+    "range_start": 0,
+    "range_end": 66761
+  },
+  {
+    "path": "/tone-a.m4a",
+    "range_start": 0,
+    "range_end": 49972
+  },
+  {
+    "path": "/slow",
+    "delayed_headers_ms": 3000
+  },
+  {
+    "path": "/tone-a.m4a",
+    "range_start": 0,
+    "range_end": 49972
+  },
+  {
+    "path": "/tone-a.m4a",
+    "range_start": 0,
+    "range_end": 49972
+  }
+]

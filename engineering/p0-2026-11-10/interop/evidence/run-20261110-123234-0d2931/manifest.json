@@ -1,0 +1,122 @@
+{
+  "run": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "steps": [
+    {
+      "name": "rust-version",
+      "exit": 0,
+      "seconds": 0.112,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/rust-version.log",
+      "log_sha256": "13c251159309829475c0022f90c5f2090461c55ea85e5ffb4717f6f8d839f788"
+    },
+    {
+      "name": "cargo-version",
+      "exit": 0,
+      "seconds": 0.026,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/cargo-version.log",
+      "log_sha256": "32361150dc530c7b355695af5921ed8e649594591bc8bae5f4807fcb5dc0c23c"
+    },
+    {
+      "name": "swift-version",
+      "exit": 0,
+      "seconds": 1.258,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/swift-version.log",
+      "log_sha256": "2c51121364fd2418268b8d4b91d1269963f6a2a14e2c0d997cc3e65c01ca7935"
+    },
+    {
+      "name": "dotnet-version",
+      "exit": 0,
+      "seconds": 0.165,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/dotnet-version.log",
+      "log_sha256": "38c8354f0a1a3a4e913e03fe6396aa12c2ef1d427921d44b19123e42dcb74e92"
+    },
+    {
+      "name": "rust-build",
+      "exit": 0,
+      "seconds": 0.543,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/rust-build.log",
+      "log_sha256": "81fdc108bb29476a97d4bcb2a9299672b7d94aceb1732796f9d267e73921b079"
+    },
+    {
+      "name": "rust-tests",
+      "exit": 0,
+      "seconds": 0.226,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/rust-tests.log",
+      "log_sha256": "f8773eff86c4990827b4343896d01ca2470c510e3170f791c167eb3489b4a853"
+    },
+    {
+      "name": "swift-build",
+      "exit": 1,
+      "seconds": 1.524,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/swift-build.log",
+      "log_sha256": "31ea59853d4343102553ef6af1278d50a82c958be53e3cede4b4e325c6eae9db"
+    }
+  ],
+  "commands": [
+    [
+      "rustc",
+      "--version"
+    ],
+    [
+      "cargo",
+      "--version"
+    ],
+    [
+      "swiftc",
+      "--version"
+    ],
+    [
+      "dotnet",
+      "--version"
+    ],
+    [
+      "cargo",
+      "build",
+      "--offline",
+      "--manifest-path",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/Cargo.toml"
+    ],
+    [
+      "cargo",
+      "test",
+      "--offline",
+      "--manifest-path",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/Cargo.toml"
+    ],
+    [
+      "swiftc",
+      "-module-cache-path",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/swift-module-cache",
+      "-I",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/include",
+      "-L",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/cargo-target/debug",
+      "-lmuses_p0_core",
+      "-Xlinker",
+      "-rpath",
+      "-Xlinker",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/cargo-target/debug",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/swift-proof"
+    ]
+  ],
+  "result": "failed",
+  "dylib": {
+    "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931/cargo-target/debug/libmuses_p0_core.dylib",
+    "sha256": "43e4cc6608e8862111112b98a2521e26ee7572d22de4d4228cadac1c699570ee"
+  },
+  "error": "swift-build failed",
+  "sources": {
+    "Cargo.lock": "5b32762e2d390300d62cbb4bc00b0c09487035af45f83b8e831a412589648d41",
+    "Cargo.toml": "1342c1b7f2c9fbbbc2eb817ab037837d39fb181361a55e86ea376b59f443b8fa",
+    "build_and_verify.py": "70c1f81f1f41f34e75cf5b16f86f01bcacde511edcbfac1f510a94c01019cb04",
+    "csharp/Interop.csproj": "a3c922547f29ce8679e2900e6aa5e8919e9534ce1a45b9a04e929ebf56a619fe",
+    "csharp/NuGet.Config": "2142cfb2dfa2c7feefbe40fabcc68b0dfecadafa99a1db9b70239d977cf2a7ef",
+    "csharp/Program.cs": "1ee1155855468579db7008285da581f6a795ec71f94f4dc44e44c6aaa1a4ab20",
+    "include/module.modulemap": "e533074cdfa6f139f2ce30d9c207ddefe43ed35fb2754c039a84cba478c64069",
+    "include/muses_p0.h": "01f5fb7f3dd6952a02ee1e707974f89b6c3ff329b63ec8e51334090c7de9065a",
+    "src/lib.rs": "8da0a6538ae0aff2a7306e7e82f5cec6df41ea35e5b82f28a6c9476baa999c7c",
+    "swift/main.swift": "02483677aa531de8f2a5255930865b853ebb734ef38df80ed0d726e2a4a44ebf"
+  }
+}

@@ -1,0 +1,4 @@
+module MusesP0 {
+    header "muses_p0.h"
+    export *
+}

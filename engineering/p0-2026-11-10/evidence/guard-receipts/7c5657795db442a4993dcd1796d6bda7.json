@@ -1,0 +1,17 @@
+{
+  "allocation": "coordination",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "3d8455a32560861ba0d4e30193298bd3e29ede3531d782227f37fe7f7aab1ac1",
+  "executable": "/usr/bin/true",
+  "pid": 57274,
+  "started_unix": 1794342194.521659,
+  "elapsed_seconds": 2.0092289447784424,
+  "returncode": 0,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 4096,
+    "allocation": 0
+  },
+  "remaining_free_bytes": 573795532800
+}

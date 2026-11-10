@@ -1,0 +1,95 @@
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-ios17.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-DP0_LIBRARY_ONLY", "-x", "objective-c++", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos/audio-probe.o"]
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:14:
+In file included from /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/avcodec.h:32:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavutil/avutil.h:198:6: error: definition of type 'AVMediaType' conflicts with typedef of the same name
+  198 | enum AVMediaType {
+      |      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: 'AVMediaType' declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:14:
+In file included from /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/avcodec.h:32:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavutil/avutil.h:212:43: error: typedef 'AVMediaType' cannot be referenced with the 'enum' specifier
+  212 | const char *av_get_media_type_string(enum AVMediaType media_type);
+      |                                           ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:14:
+In file included from /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/avcodec.h:41:
+In file included from /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/codec.h:33:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/codec_id.h:632:6: error: typedef 'AVMediaType' cannot be referenced with the 'enum' specifier
+  632 | enum AVMediaType avcodec_get_type(enum AVCodecID codec_id);
+      |      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:14:
+In file included from /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/avcodec.h:41:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/codec.h:185:10: error: typedef 'AVMediaType' cannot be referenced with the 'enum' specifier
+  185 |     enum AVMediaType type;
+      |          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:14:
+In file included from /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/avcodec.h:52:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/codec_desc.h:40:10: error: typedef 'AVMediaType' cannot be referenced with the 'enum' specifier
+   40 |     enum AVMediaType type;
+      |          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:14:
+In file included from /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/avcodec.h:53:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/codec_par.h:51:10: error: typedef 'AVMediaType' cannot be referenced with the 'enum' specifier
+   51 |     enum AVMediaType codec_type;
+      |          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:14:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/avcodec.h:439:10: error: typedef 'AVMediaType' cannot be referenced with the 'enum' specifier
+  439 |     enum AVMediaType codec_type; /* see AVMEDIA_TYPE_xxx */
+      |          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:14:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavcodec/avcodec.h:1949:10: error: typedef 'AVMediaType' cannot be referenced with the 'enum' specifier
+ 1949 |     enum AVMediaType type;
+      |          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:15:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavformat/avformat.h:2256:30: error: typedef 'AVMediaType' cannot be referenced with the 'enum' specifier
+ 2256 |                         enum AVMediaType type,
+      |                              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:15:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/libavformat/avformat.h:2596:36: error: typedef 'AVMediaType' cannot be referenced with the 'enum' specifier
+ 2596 |                               enum AVMediaType type);
+      |                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVMediaFormat.h:15:20: note: declared here
+   15 | typedef NSString * AVMediaType NS_EXTENSIBLE_STRING_ENUM;
+      |                    ^
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:87:72: error: use of undeclared identifier 'AVMEDIA_TYPE_AUDIO'
+   87 |         if (result >= 0) result = stream = av_find_best_stream(format, AVMEDIA_TYPE_AUDIO, -1, -1, nullptr, 0);
+      |                                                                        ^~~~~~~~~~~~~~~~~~
+11 errors generated.
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-ios17.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos/miniaudio-backend.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-ios17.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-DP0_LIBRARY_ONLY", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos/audio-probe.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-ios17.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos/miniaudio-backend.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-ios17.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-DP0_LIBRARY_ONLY", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos/audio-probe.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-ios17.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos/miniaudio-backend.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-ios17.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-DP0_LIBRARY_ONLY", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/iphoneos/audio-probe.o"]

@@ -1,0 +1,15 @@
+{
+  "library": "YouTubeKit",
+  "commit": "7f75a2299dc329c0b7855afb25d47663a02855cb",
+  "exit_code": -15,
+  "stop_reason": "external process RSS ceiling",
+  "elapsed_seconds": 5.178211083984934,
+  "process_peak_rss_bytes": 541786112,
+  "stdout": "{\"browser_cookies\":false,\"commit\":\"7f75a2299dc329c0b7855afb25d47663a02855cb\",\"gate\":\"alternate_runtime\",\"library\":\"YouTubeKit\",\"method\":\"local_only\",\"native_network\":\"URLSession\",\"oauth\":false,\"outcome\":\"started\",\"remote_fallback\":false,\"runtime\":\"Swift + JavaScriptCore\"}\n{\"aac_count\":6,\"elapsed_ms\":5139,\"gate\":\"alternate_extract\",\"native_requests\":5,\"outcome\":\"pass\",\"stream_count\":34}\n{\"count\":3,\"declared_lengths\":[10271496,15479228,30767611,30468811,30468809,3871021],\"gate\":\"alternate_bounded_candidates\",\"outcome\":\"observed\"}\n{\"gate\":\"alternate_availability\",\"outcome\":\"pending\",\"required_wait_ms\":0}\n{\"bytes\":15479228,\"gate\":\"alternate_length\",\"outcome\":\"pass\"}\n",
+  "stderr_bytes": 202,
+  "host_sha256": "7d4156cc9a946ef278dd3580a28e7f9caf246065c2e4357cf17c561049da4c74",
+  "external_deadline_seconds": 60,
+  "rss_limit_bytes": 536870912,
+  "explicit_diagnostic_exception": true,
+  "production_budget_changed": false
+}

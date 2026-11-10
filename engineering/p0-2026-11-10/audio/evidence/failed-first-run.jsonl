@@ -1,0 +1,6 @@
+[opus @ 0x789f02c380] Error parsing Opus packet header.
+[opus @ 0x789f02c380] Error parsing Opus packet header.
+FAIL: seek signal differs from reference
+FAIL: audio tests
+{"kind":"dependency","ffmpeg":"8.0","license":"LGPL version 2.1 or later","miniaudio":"0.11.26","runtime_linking":false}
+{"kind":"decode_seek","codec":"aac","frames":192000,"rms":0.0623384,"seek_first_pts":1.5000000,"seek_frames":120000,"seek_rms_error":0.0035643,"ring_high_frames":32768}

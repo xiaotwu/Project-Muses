@@ -1,0 +1,350 @@
+{
+  "device_model": "iPhone 15 Pro (iPhone16,1)",
+  "os": "iOS 27.2.1 (24B156)",
+  "bundle": "org.muses.p0.sourceprobe",
+  "personal_library_used": false,
+  "runs": [
+    {
+      "run": 3,
+      "trace_sha256": "c393a259fe312af1a30ba480e2b94afde9ec2a1585e01a58aaa887585f0e66e6",
+      "duration_seconds": 90.05724349999946,
+      "catalog_outcome": "fail",
+      "catalog_recorded_state": "active",
+      "final_clock_frames": 4320768,
+      "final_underflow_frames": 0,
+      "final_transition_count": 1,
+      "post_fade_nonzero_delta_pairs": [
+        {
+          "first_clock": 1681152,
+          "second_clock": 1920768,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 1920768,
+          "second_clock": 2164992,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2164992,
+          "second_clock": 2404096,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2404096,
+          "second_clock": 2641920,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2641920,
+          "second_clock": 2882816,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2882816,
+          "second_clock": 3122944,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3122944,
+          "second_clock": 3363584,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3363584,
+          "second_clock": 3600640,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3600640,
+          "second_clock": 3840768,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3840768,
+          "second_clock": 4084224,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 4084224,
+          "second_clock": 4320768,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        }
+      ],
+      "locked_background_gate": "not_established",
+      "reason": "manually maintained lifecycle label lacks foreground-inactive/authoritative scene and app state; captured labels do not corroborate a sustained locked window",
+      "source_media_gate": "not_tested_by_calibration"
+    },
+    {
+      "run": 4,
+      "trace_sha256": "39c3e7f7bef6007456c973adb40b377a2db6a4df28c5a2526c8c66ef5b586238",
+      "duration_seconds": 90.0483630000017,
+      "catalog_outcome": "pass",
+      "catalog_recorded_state": "active",
+      "final_clock_frames": 4320256,
+      "final_underflow_frames": 0,
+      "final_transition_count": 1,
+      "post_fade_nonzero_delta_pairs": [
+        {
+          "first_clock": 1684992,
+          "second_clock": 1925376,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 1925376,
+          "second_clock": 2164736,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2164736,
+          "second_clock": 2401280,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2401280,
+          "second_clock": 2643968,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2643968,
+          "second_clock": 2881280,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2881280,
+          "second_clock": 3123200,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3123200,
+          "second_clock": 3365376,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3365376,
+          "second_clock": 3603712,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3603712,
+          "second_clock": 3841024,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3841024,
+          "second_clock": 4081152,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 4081152,
+          "second_clock": 4320256,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        }
+      ],
+      "locked_background_gate": "not_established",
+      "reason": "manually maintained lifecycle label lacks foreground-inactive/authoritative scene and app state; captured labels do not corroborate a sustained locked window",
+      "source_media_gate": "not_tested_by_calibration"
+    },
+    {
+      "run": 5,
+      "trace_sha256": "49eef9b999fd06708019c4c51d3b5c36fbe5365b4f8095a1025aa038539298e8",
+      "duration_seconds": 90.0844615833339,
+      "catalog_outcome": "pass",
+      "catalog_recorded_state": "active",
+      "final_clock_frames": 4321280,
+      "final_underflow_frames": 0,
+      "final_transition_count": 1,
+      "post_fade_nonzero_delta_pairs": [
+        {
+          "first_clock": 1682944,
+          "second_clock": 1923072,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 1923072,
+          "second_clock": 2162944,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2162944,
+          "second_clock": 2404096,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2404096,
+          "second_clock": 2642944,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2642944,
+          "second_clock": 2883072,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 2883072,
+          "second_clock": 3123456,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3123456,
+          "second_clock": 3363072,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3363072,
+          "second_clock": 3602944,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3602944,
+          "second_clock": 3843072,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 3843072,
+          "second_clock": 4084736,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        },
+        {
+          "first_clock": 4084736,
+          "second_clock": 4321280,
+          "app_states": [
+            "active",
+            "active"
+          ],
+          "both_report_background": false
+        }
+      ],
+      "locked_background_gate": "not_established",
+      "reason": "manually maintained lifecycle label lacks foreground-inactive/authoritative scene and app state; captured labels do not corroborate a sustained locked window",
+      "source_media_gate": "not_tested_by_calibration"
+    }
+  ]
+}

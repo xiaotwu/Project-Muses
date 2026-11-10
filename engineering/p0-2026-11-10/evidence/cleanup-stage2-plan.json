@@ -1,0 +1,318 @@
+{
+  "stage": "completed-audio-and-source-experiments",
+  "created_utc": "2026-11-10T21:27:16.248181+00:00",
+  "owned_root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01",
+  "trash_root": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01",
+  "source_inventory_sha256": "7da01c7aec7ae8402269e0e468b27a6e58580786f7ca641d4ee043a29b35a40f",
+  "script_sha256": "2b8f6f7a675908bbd7e002199fcb8cefb69acfe6446289fc52c85fba87bb8bd8",
+  "moves": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/YouTubeKit-7f75a2299dc329c0b7855afb25d47663a02855cb",
+      "destination_name": "source--YouTubeKit-7f75a2299dc329c0b7855afb25d47663a02855cb",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/NativeHost-shared.o",
+      "destination_name": "source--build--NativeHost-shared.o",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/cutils.o",
+      "destination_name": "source--build--cutils.o",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/dtoa.o",
+      "destination_name": "source--build--dtoa.o",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/libregexp.o",
+      "destination_name": "source--build--libregexp.o",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/libunicode.o",
+      "destination_name": "source--build--libunicode.o",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/quickjs.o",
+      "destination_name": "source--build--quickjs.o",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/source-proof",
+      "destination_name": "source--build--source-proof",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/source-proof-jsc",
+      "destination_name": "source--build--source-proof-jsc",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/deps",
+      "destination_name": "source--deps",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/downloads",
+      "destination_name": "source--downloads",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/development-entitlements.plist",
+      "destination_name": "source--iphoneos--development-entitlements.plist",
+      "owner": "root coordinator",
+      "reason": "root review; superseded signing/duplicate synthetic fixture"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/signed-calibration-1",
+      "destination_name": "source--iphoneos--signed-calibration-1",
+      "owner": "root coordinator",
+      "reason": "root review; superseded signing/duplicate synthetic fixture"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/signed-calibration-2",
+      "destination_name": "source--iphoneos--signed-calibration-2",
+      "owner": "root coordinator",
+      "reason": "root review; superseded signing/duplicate synthetic fixture"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/media",
+      "destination_name": "source--media",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/npm-cache",
+      "destination_name": "source--npm-cache",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/results",
+      "destination_name": "source--results",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/tmp",
+      "destination_name": "source--tmp",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-build",
+      "destination_name": "source--youtubekit-build",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-cache",
+      "destination_name": "source--youtubekit-cache",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-config",
+      "destination_name": "source--youtubekit-config",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-module-cache",
+      "destination_name": "source--youtubekit-module-cache",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-probe",
+      "destination_name": "source--youtubekit-probe",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-security",
+      "destination_name": "source--youtubekit-security",
+      "owner": "p0_source agent",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/ffmpeg-8.0.tar.xz",
+      "destination_name": "audio--ffmpeg-8.0.tar.xz",
+      "owner": "p0_audio agent",
+      "reason": "completed or superseded proof build, source or fixtures; exact bounded result evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/fixtures",
+      "destination_name": "audio--fixtures",
+      "owner": "p0_audio agent",
+      "reason": "completed or superseded proof build, source or fixtures; exact bounded result evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx",
+      "destination_name": "audio--macosx",
+      "owner": "p0_audio agent",
+      "reason": "completed or superseded proof build, source or fixtures; exact bounded result evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/results",
+      "destination_name": "audio--results",
+      "owner": "p0_audio agent",
+      "reason": "completed or superseded proof build, source or fixtures; exact bounded result evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources",
+      "destination_name": "audio--sources",
+      "owner": "p0_audio agent",
+      "reason": "completed or superseded proof build, source or fixtures; exact bounded result evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/stress",
+      "destination_name": "audio--stress",
+      "owner": "p0_audio agent",
+      "reason": "completed or superseded proof build, source or fixtures; exact bounded result evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/superseded-python-bytecode",
+      "destination_name": "audio--superseded-python-bytecode",
+      "owner": "p0_audio agent",
+      "reason": "completed or superseded proof build, source or fixtures; exact bounded result evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-calibration-3-early.jsonl",
+      "destination_name": "coordination--iphone-calibration-3-early.jsonl",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-calibration-3-mid.jsonl",
+      "destination_name": "coordination--iphone-calibration-3-mid.jsonl",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-calibration-4-readback.jsonl",
+      "destination_name": "coordination--iphone-calibration-4-readback.jsonl",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-crashes-calibration-2.json",
+      "destination_name": "coordination--iphone-crashes-calibration-2.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-details.json",
+      "destination_name": "coordination--iphone-details.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-details.log",
+      "destination_name": "coordination--iphone-details.log",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-files-calibration-2.json",
+      "destination_name": "coordination--iphone-files-calibration-2.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-install-calibration-1.json",
+      "destination_name": "coordination--iphone-install-calibration-1.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-install-calibration-2.json",
+      "destination_name": "coordination--iphone-install-calibration-2.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-install-calibration-3.json",
+      "destination_name": "coordination--iphone-install-calibration-3.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-calibration-2.json",
+      "destination_name": "coordination--iphone-launch-calibration-2.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-calibration-3.json",
+      "destination_name": "coordination--iphone-launch-calibration-3.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-calibration-4.json",
+      "destination_name": "coordination--iphone-launch-calibration-4.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-calibration-5.json",
+      "destination_name": "coordination--iphone-launch-calibration-5.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-diagnostic-2.json",
+      "destination_name": "coordination--iphone-launch-diagnostic-2.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-lock-before.json",
+      "destination_name": "coordination--iphone-lock-before.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-lock-during-calibration-4.json",
+      "destination_name": "coordination--iphone-lock-during-calibration-4.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-processes-calibration-2.json",
+      "destination_name": "coordination--iphone-processes-calibration-2.json",
+      "owner": "root coordinator",
+      "reason": "superseded private device queries or partial trace; final bounded sanitized evidence retained"
+    }
+  ],
+  "preflight": {
+    "active_probe_processes": [],
+    "actual_free_bytes": 574721294336,
+    "successful_and_failed_guard_receipts_preserved": 115
+  },
+  "retain": [
+    "tested signed iOS candidate 3 (private profile, local only)",
+    "unsigned telemetry-fixed candidate 4 (not installed)",
+    "small pinned QuickJS sources, native iOS objects and calibration fixtures for unfinished validation",
+    "audio iPhone static libraries/objects and headers for unfinished validation",
+    "final private device traces and small crash diagnostic (not published)",
+    "bounded successful and failed guard receipts"
+  ],
+  "deletion": "recoverable same-volume rename only; no purge; shared dependencies and system caches excluded"
+}

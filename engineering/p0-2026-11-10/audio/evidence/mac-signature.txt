@@ -1,0 +1,14 @@
+Executable=/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe
+Identifier=audio-probe-55554944fed61b71dab135baa1ab420881b679eb
+Format=Mach-O thin (arm64)
+CodeDirectory v=20500 size=4245 flags=0x10002(adhoc,runtime) hashes=126+2 location=embedded
+Signature=adhoc
+Info.plist=not bound
+TeamIdentifier=not set
+Runtime Version=27.2.0
+Sealed Resources=none
+Internal requirements count=0 size=12
+Total signatures=1
+Chosen signature=1
+
+exit=0

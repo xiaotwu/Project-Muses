@@ -1,0 +1,10 @@
+{
+  "mode": "catalog",
+  "timestamp": "20261110T203244.600074Z",
+  "exit_code": 0,
+  "elapsed_seconds": 2.3337130830041133,
+  "stdout": "{\"gate\":\"host_capabilities\",\"outcome\":\"pass\",\"runtime\":\"QuickJS 2026-06-04\",\"library\":\"youtubei.js 18.3.0\",\"native_network\":\"URLSession\",\"webview\":false,\"node_runtime\":false}\n{\"gate\":\"session\",\"outcome\":\"pass\",\"elapsed_ms\":224,\"player_loaded\":false}\n{\"gate\":\"search\",\"outcome\":\"pass\",\"elapsed_ms\":422,\"result_count\":20,\"video_count\":20,\"has_continuation\":true}\n{\"gate\":\"search_continuation\",\"outcome\":\"pass\",\"elapsed_ms\":454,\"result_count\":20}\n{\"gate\":\"music_search\",\"outcome\":\"pass\",\"elapsed_ms\":460,\"section_count\":29}\n{\"js_memory_bytes\":5420972,\"deadline_seconds\":90,\"received_bytes\":750523,\"process_maxrss_bytes\":38551552,\"js_memory_limit_bytes\":67108864,\"gate\":\"host_summary\",\"outcome\":\"completed\",\"requests\":4,\"peak_concurrent\":1,\"first_byte_samples\":4}\n",
+  "stderr_bytes": 0,
+  "bundle_sha256": "a26c2ec46e6f9b00c755b59a72239acec0ba9d50d699b76e3a5c383d3a5a715e",
+  "host_sha256": "766eaef8a335122f110e3b104f3168cf286a6928fe7d311d9a8038820a771822"
+}

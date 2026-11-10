@@ -1,0 +1,1 @@
+{"name":"muses-p0-source-proof","version":"0.0.0","private":true,"type":"module","dependencies":{"youtubei.js":"18.3.0","esbuild":"0.28.0","web-streams-polyfill":"4.2.0","fast-text-encoding":"1.0.6"}}

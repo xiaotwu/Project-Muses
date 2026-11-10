@@ -1,0 +1,17 @@
+{
+  "allocation": "source",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "f1e1981947fbe16b286fc523cf38a0f95282395fbe2e0994a176e06e4cc89df1",
+  "executable": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/source-proof",
+  "pid": 67659,
+  "started_unix": 1794342728.946759,
+  "elapsed_seconds": 2.250795841217041,
+  "returncode": 1,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 1529094144,
+    "allocation": 69808128
+  },
+  "remaining_free_bytes": 572225167360
+}

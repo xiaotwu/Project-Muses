@@ -1,0 +1,1770 @@
+{
+  "schema_generation": 7,
+  "source_repository": "xiaotwu/Muses-Polyhymnia",
+  "source_commit": "7ce577588f3a8fdd4b8f31fc9c01b541291ffdd3",
+  "status": "read-only source inventory; proposed logical mapping; no user store read or migration performed",
+  "models": {
+    "Track": {
+      "table": "library_track",
+      "source": "Sources/Muses/Domain/Track.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 6
+        },
+        {
+          "source": "title",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "title",
+          "line": 7
+        },
+        {
+          "source": "artist",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "artist",
+          "line": 8
+        },
+        {
+          "source": "albumTitle",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "album_title",
+          "line": 9
+        },
+        {
+          "source": "albumArtist",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "album_artist",
+          "line": 10
+        },
+        {
+          "source": "durationMs",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "duration_ms",
+          "line": 11
+        },
+        {
+          "source": "trackNo",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "track_no",
+          "line": 12
+        },
+        {
+          "source": "discNo",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "disc_no",
+          "line": 13
+        },
+        {
+          "source": "year",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "year",
+          "line": 14
+        },
+        {
+          "source": "genre",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "genre",
+          "line": 15
+        },
+        {
+          "source": "youTubeId",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "source_item_id",
+          "line": 16
+        },
+        {
+          "source": "mediaKindRaw",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "media_kind_raw",
+          "line": 18
+        },
+        {
+          "source": "releaseCatalogID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "release_catalog_id",
+          "line": 21
+        },
+        {
+          "source": "releaseOrder",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "release_order",
+          "line": 22
+        },
+        {
+          "source": "artistCatalogID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "artist_catalog_id",
+          "line": 23
+        },
+        {
+          "source": "artworkUrl",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "artwork_url",
+          "line": 24
+        },
+        {
+          "source": "lyrics",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "lyrics",
+          "line": 25
+        },
+        {
+          "source": "lyricsOffsetMs",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "lyrics_offset_ms",
+          "line": 27
+        },
+        {
+          "source": "replayGain",
+          "swift_type": "Double?",
+          "nullable": true,
+          "target": "replay_gain",
+          "line": 28
+        },
+        {
+          "source": "sampleRate",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "sample_rate",
+          "line": 29
+        },
+        {
+          "source": "bitDepth",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "bit_depth",
+          "line": 30
+        },
+        {
+          "source": "codec",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "codec",
+          "line": 31
+        },
+        {
+          "source": "bitRate",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "bit_rate",
+          "line": 33
+        },
+        {
+          "source": "channels",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "channels",
+          "line": 35
+        },
+        {
+          "source": "isLossless",
+          "swift_type": "Bool",
+          "nullable": false,
+          "target": "is_lossless",
+          "line": 36
+        },
+        {
+          "source": "metadataStatusRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "metadata_status_raw",
+          "line": 37
+        },
+        {
+          "source": "availabilityRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "availability_raw",
+          "line": 38
+        },
+        {
+          "source": "addedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "added_at",
+          "line": 39
+        },
+        {
+          "source": "lastPlayedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "last_played_at",
+          "line": 40
+        },
+        {
+          "source": "playCount",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "play_count",
+          "line": 41
+        },
+        {
+          "source": "liked",
+          "swift_type": "Bool",
+          "nullable": false,
+          "target": "liked",
+          "line": 42
+        },
+        {
+          "source": "libraryMember",
+          "swift_type": "Bool?",
+          "nullable": true,
+          "target": "library_member",
+          "line": 44
+        },
+        {
+          "source": "youTubeImportItems",
+          "swift_type": "[YouTubeImportItem]?",
+          "nullable": true,
+          "target": "inverse: import_occurrence.track_id",
+          "line": 50
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "QueueState": {
+      "table": "queue_checkpoint",
+      "source": "Sources/Muses/Domain/QueueState.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 8
+        },
+        {
+          "source": "itemsJSON",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "items_json",
+          "line": 9
+        },
+        {
+          "source": "currentIndex",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "current_index",
+          "line": 10
+        },
+        {
+          "source": "upNextJSON",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "up_next_json",
+          "line": 11
+        },
+        {
+          "source": "historyJSON",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "history_json",
+          "line": 12
+        },
+        {
+          "source": "repeatModeRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "repeat_mode_raw",
+          "line": 13
+        },
+        {
+          "source": "shuffle",
+          "swift_type": "Bool",
+          "nullable": false,
+          "target": "shuffle",
+          "line": 14
+        },
+        {
+          "source": "savedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "saved_at",
+          "line": 15
+        },
+        {
+          "source": "currentTrackId",
+          "swift_type": "UUID?",
+          "nullable": true,
+          "target": "current_track_id",
+          "line": 17
+        },
+        {
+          "source": "lastPositionMs",
+          "swift_type": "Double?",
+          "nullable": true,
+          "target": "last_position_ms",
+          "line": 20
+        },
+        {
+          "source": "groupsJSON",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "groups_json",
+          "line": 22
+        },
+        {
+          "source": "insertedCurrentJSON",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "inserted_current_json",
+          "line": 24
+        },
+        {
+          "source": "smartShuffleJSON",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "smart_shuffle_json",
+          "line": 26
+        },
+        {
+          "source": "originalOrderIDsJSON",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "original_order_i_ds_json",
+          "line": 29
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "EQPreset": {
+      "table": "eq_preset",
+      "source": "Sources/Muses/Domain/EQPreset.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 7
+        },
+        {
+          "source": "name",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "name",
+          "line": 8
+        },
+        {
+          "source": "bandsJSON",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "bands_json",
+          "line": 9
+        },
+        {
+          "source": "createdAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "created_at",
+          "line": 10
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "YouTubeImport": {
+      "table": "playlist_import",
+      "source": "Sources/Muses/Domain/YouTubeImport.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 11
+        },
+        {
+          "source": "playlistId",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "playlist_id",
+          "line": 13
+        },
+        {
+          "source": "url",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "url",
+          "line": 15
+        },
+        {
+          "source": "title",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "title",
+          "line": 17
+        },
+        {
+          "source": "channel",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "channel",
+          "line": 19
+        },
+        {
+          "source": "artworkUrl",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "artwork_url",
+          "line": 21
+        },
+        {
+          "source": "importedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "imported_at",
+          "line": 23
+        },
+        {
+          "source": "lastSyncedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "last_synced_at",
+          "line": 25
+        },
+        {
+          "source": "accountChannelID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "account_channel_id",
+          "line": 27
+        },
+        {
+          "source": "remoteCheckedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "remote_checked_at",
+          "line": 29
+        },
+        {
+          "source": "baseRevisionID",
+          "swift_type": "UUID?",
+          "nullable": true,
+          "target": "base_revision_id",
+          "line": 31
+        },
+        {
+          "source": "remoteShadowRevisionID",
+          "swift_type": "UUID?",
+          "nullable": true,
+          "target": "remote_shadow_revision_id",
+          "line": 33
+        },
+        {
+          "source": "deletedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "deleted_at",
+          "line": 35
+        },
+        {
+          "source": "remoteWritable",
+          "swift_type": "Bool?",
+          "nullable": true,
+          "target": "remote_writable",
+          "line": 37
+        },
+        {
+          "source": "remoteWriteApprovedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "remote_write_approved_at",
+          "line": 40
+        },
+        {
+          "source": "items",
+          "swift_type": "[YouTubeImportItem]?",
+          "nullable": true,
+          "target": "inverse: import_occurrence.import_id",
+          "line": 44
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "YouTubeImportItem": {
+      "table": "import_occurrence",
+      "source": "Sources/Muses/Domain/YouTubeImportItem.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 10
+        },
+        {
+          "source": "import_",
+          "swift_type": "YouTubeImport?",
+          "nullable": true,
+          "target": "import_id",
+          "line": 12
+        },
+        {
+          "source": "youTubeId",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "source_item_id",
+          "line": 14
+        },
+        {
+          "source": "playlistItemID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "playlist_item_id",
+          "line": 17
+        },
+        {
+          "source": "title",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "title",
+          "line": 19
+        },
+        {
+          "source": "artist",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "artist",
+          "line": 21
+        },
+        {
+          "source": "durationMs",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "duration_ms",
+          "line": 23
+        },
+        {
+          "source": "order",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "order",
+          "line": 25
+        },
+        {
+          "source": "availabilityRaw",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "availability_raw",
+          "line": 27
+        },
+        {
+          "source": "track",
+          "swift_type": "Track?",
+          "nullable": true,
+          "target": "track_id",
+          "line": 32
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "Playlist": {
+      "table": "playlist",
+      "source": "Sources/Muses/Domain/Playlist.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 10
+        },
+        {
+          "source": "name",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "name",
+          "line": 11
+        },
+        {
+          "source": "createdAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "created_at",
+          "line": 12
+        },
+        {
+          "source": "pinned",
+          "swift_type": "Bool",
+          "nullable": false,
+          "target": "pinned",
+          "line": 13
+        },
+        {
+          "source": "items",
+          "swift_type": "[PlaylistItem]?",
+          "nullable": true,
+          "target": "inverse: playlist_occurrence.playlist_id",
+          "line": 15
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "PlaylistItem": {
+      "table": "playlist_occurrence",
+      "source": "Sources/Muses/Domain/PlaylistItem.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 10
+        },
+        {
+          "source": "order",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "order",
+          "line": 11
+        },
+        {
+          "source": "playlist",
+          "swift_type": "Playlist?",
+          "nullable": true,
+          "target": "playlist_id",
+          "line": 12
+        },
+        {
+          "source": "track",
+          "swift_type": "Track?",
+          "nullable": true,
+          "target": "track_id",
+          "line": 13
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "ListeningEvent": {
+      "table": "listening_event",
+      "source": "Sources/Muses/Domain/ListeningEvent.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 26
+        },
+        {
+          "source": "trackId",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "track_id",
+          "line": 27
+        },
+        {
+          "source": "trackTitle",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "track_title",
+          "line": 28
+        },
+        {
+          "source": "artist",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "artist",
+          "line": 29
+        },
+        {
+          "source": "albumTitle",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "album_title",
+          "line": 30
+        },
+        {
+          "source": "startedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "started_at",
+          "line": 31
+        },
+        {
+          "source": "endedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "ended_at",
+          "line": 32
+        },
+        {
+          "source": "listenedMs",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "listened_ms",
+          "line": 33
+        },
+        {
+          "source": "completionRatio",
+          "swift_type": "Double?",
+          "nullable": true,
+          "target": "completion_ratio",
+          "line": 34
+        },
+        {
+          "source": "outcomeRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "outcome_raw",
+          "line": 35
+        },
+        {
+          "source": "contextSummaryJSON",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "context_summary_json",
+          "line": 36
+        },
+        {
+          "source": "sessionId",
+          "swift_type": "UUID?",
+          "nullable": true,
+          "target": "session_id",
+          "line": 37
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "ListeningSession": {
+      "table": "listening_session",
+      "source": "Sources/Muses/Domain/ListeningSession.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 26
+        },
+        {
+          "source": "startedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "started_at",
+          "line": 27
+        },
+        {
+          "source": "updatedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "updated_at",
+          "line": 28
+        },
+        {
+          "source": "endedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "ended_at",
+          "line": 29
+        },
+        {
+          "source": "statusRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "status_raw",
+          "line": 30
+        },
+        {
+          "source": "queueSnapshotJSON",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "queue_snapshot_json",
+          "line": 31
+        },
+        {
+          "source": "currentTrackId",
+          "swift_type": "UUID?",
+          "nullable": true,
+          "target": "current_track_id",
+          "line": 32
+        },
+        {
+          "source": "currentPositionMs",
+          "swift_type": "Double?",
+          "nullable": true,
+          "target": "current_position_ms",
+          "line": 33
+        },
+        {
+          "source": "contextSummaryJSON",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "context_summary_json",
+          "line": 34
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "TrackNote": {
+      "table": "track_note",
+      "source": "Sources/Muses/Domain/NotesModels.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 7
+        },
+        {
+          "source": "trackId",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "track_id",
+          "line": 8
+        },
+        {
+          "source": "content",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "content",
+          "line": 9
+        },
+        {
+          "source": "createdAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "created_at",
+          "line": 10
+        },
+        {
+          "source": "updatedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "updated_at",
+          "line": 11
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "TrackBookmark": {
+      "table": "track_bookmark",
+      "source": "Sources/Muses/Domain/NotesModels.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 23
+        },
+        {
+          "source": "trackId",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "track_id",
+          "line": 24
+        },
+        {
+          "source": "timestampMs",
+          "swift_type": "Double",
+          "nullable": false,
+          "target": "position_seconds",
+          "line": 25
+        },
+        {
+          "source": "title",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "title",
+          "line": 26
+        },
+        {
+          "source": "note",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "note",
+          "line": 27
+        },
+        {
+          "source": "createdAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "created_at",
+          "line": 28
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "CatalogRelease": {
+      "table": "catalog_release_cache",
+      "source": "Sources/Muses/Domain/YouTubeCatalog.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 59
+        },
+        {
+          "source": "stableID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "stable_id",
+          "line": 60
+        },
+        {
+          "source": "title",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "title",
+          "line": 61
+        },
+        {
+          "source": "artistName",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "artist_name",
+          "line": 62
+        },
+        {
+          "source": "artistStableID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "artist_stable_id",
+          "line": 63
+        },
+        {
+          "source": "artworkURL",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "artwork_url",
+          "line": 64
+        },
+        {
+          "source": "year",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "year",
+          "line": 65
+        },
+        {
+          "source": "kindRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "kind_raw",
+          "line": 66
+        },
+        {
+          "source": "refreshedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "refreshed_at",
+          "line": 67
+        },
+        {
+          "source": "unavailable",
+          "swift_type": "Bool",
+          "nullable": false,
+          "target": "unavailable",
+          "line": 68
+        }
+      ],
+      "category": "rebuildable_cache"
+    },
+    "CatalogArtist": {
+      "table": "catalog_artist_cache",
+      "source": "Sources/Muses/Domain/YouTubeCatalog.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 95
+        },
+        {
+          "source": "stableID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "stable_id",
+          "line": 96
+        },
+        {
+          "source": "name",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "name",
+          "line": 97
+        },
+        {
+          "source": "channelID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "channel_id",
+          "line": 98
+        },
+        {
+          "source": "browseID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "browse_id",
+          "line": 99
+        },
+        {
+          "source": "artworkURL",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "artwork_url",
+          "line": 100
+        },
+        {
+          "source": "biography",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "biography",
+          "line": 101
+        },
+        {
+          "source": "refreshedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "refreshed_at",
+          "line": 102
+        },
+        {
+          "source": "unavailable",
+          "swift_type": "Bool",
+          "nullable": false,
+          "target": "unavailable",
+          "line": 103
+        }
+      ],
+      "category": "rebuildable_cache"
+    },
+    "CatalogTrackReleaseMembership": {
+      "table": "track_release_evidence",
+      "source": "Sources/Muses/Domain/CatalogReleaseMembership.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 20
+        },
+        {
+          "source": "evidenceKey",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "evidence_key",
+          "line": 21
+        },
+        {
+          "source": "trackID",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "track_id",
+          "line": 22
+        },
+        {
+          "source": "releaseStableID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "release_stable_id",
+          "line": 23
+        },
+        {
+          "source": "releaseOrder",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "release_order",
+          "line": 24
+        },
+        {
+          "source": "evidenceKindRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "evidence_kind_raw",
+          "line": 25
+        },
+        {
+          "source": "sourceImportID",
+          "swift_type": "UUID?",
+          "nullable": true,
+          "target": "source_import_id",
+          "line": 26
+        },
+        {
+          "source": "sourceItemID",
+          "swift_type": "UUID?",
+          "nullable": true,
+          "target": "source_item_id",
+          "line": 27
+        },
+        {
+          "source": "createdAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "created_at",
+          "line": 28
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "YouTubePlaylistRevision": {
+      "table": "playlist_revision",
+      "source": "Sources/Muses/Domain/YouTubePlaylistSync.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 196
+        },
+        {
+          "source": "importID",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "import_id",
+          "line": 197
+        },
+        {
+          "source": "accountChannelID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "account_channel_id",
+          "line": 198
+        },
+        {
+          "source": "kindRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "kind_raw",
+          "line": 199
+        },
+        {
+          "source": "createdAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "created_at",
+          "line": 200
+        },
+        {
+          "source": "snapshotData",
+          "swift_type": "Data",
+          "nullable": false,
+          "target": "snapshot_data",
+          "line": 201
+        },
+        {
+          "source": "fingerprint",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "fingerprint",
+          "line": 202
+        },
+        {
+          "source": "pinned",
+          "swift_type": "Bool",
+          "nullable": false,
+          "target": "pinned",
+          "line": 203
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "YouTubeSyncOperation": {
+      "table": "sync_operation",
+      "source": "Sources/Muses/Domain/YouTubePlaylistSync.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 391
+        },
+        {
+          "source": "idempotencyKey",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "idempotency_key",
+          "line": 392
+        },
+        {
+          "source": "importID",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "import_id",
+          "line": 393
+        },
+        {
+          "source": "accountChannelID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "account_channel_id",
+          "line": 394
+        },
+        {
+          "source": "batchID",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "batch_id",
+          "line": 395
+        },
+        {
+          "source": "sequence",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "sequence",
+          "line": 396
+        },
+        {
+          "source": "kindRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "kind_raw",
+          "line": 397
+        },
+        {
+          "source": "stateRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "state_raw",
+          "line": 398
+        },
+        {
+          "source": "playlistItemID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "playlist_item_id",
+          "line": 399
+        },
+        {
+          "source": "videoID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "video_id",
+          "line": 400
+        },
+        {
+          "source": "fromPosition",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "from_position",
+          "line": 401
+        },
+        {
+          "source": "toPosition",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "to_position",
+          "line": 402
+        },
+        {
+          "source": "previousPlaylistItemID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "previous_playlist_item_id",
+          "line": 403
+        },
+        {
+          "source": "nextPlaylistItemID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "next_playlist_item_id",
+          "line": 404
+        },
+        {
+          "source": "remoteResultID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "remote_result_id",
+          "line": 405
+        },
+        {
+          "source": "attempts",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "attempts",
+          "line": 406
+        },
+        {
+          "source": "lastError",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "last_error",
+          "line": 407
+        },
+        {
+          "source": "createdAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "created_at",
+          "line": 408
+        },
+        {
+          "source": "startedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "started_at",
+          "line": 409
+        },
+        {
+          "source": "remoteObservedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "remote_observed_at",
+          "line": 410
+        },
+        {
+          "source": "completedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "completed_at",
+          "line": 411
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "YouTubeSyncBatch": {
+      "table": "sync_batch",
+      "source": "Sources/Muses/Domain/YouTubePlaylistSync.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 335
+        },
+        {
+          "source": "importID",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "import_id",
+          "line": 336
+        },
+        {
+          "source": "accountChannelID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "account_channel_id",
+          "line": 337
+        },
+        {
+          "source": "playlistID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "playlist_id",
+          "line": 338
+        },
+        {
+          "source": "stateRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "state_raw",
+          "line": 339
+        },
+        {
+          "source": "baseRevisionID",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "base_revision_id",
+          "line": 340
+        },
+        {
+          "source": "localRevisionID",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "local_revision_id",
+          "line": 341
+        },
+        {
+          "source": "remoteRevisionID",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "remote_revision_id",
+          "line": 342
+        },
+        {
+          "source": "expectedRemoteFingerprint",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "expected_remote_fingerprint",
+          "line": 343
+        },
+        {
+          "source": "desiredSnapshotData",
+          "swift_type": "Data",
+          "nullable": false,
+          "target": "desired_snapshot_data",
+          "line": 344
+        },
+        {
+          "source": "preRemoteSnapshotData",
+          "swift_type": "Data",
+          "nullable": false,
+          "target": "pre_remote_snapshot_data",
+          "line": 345
+        },
+        {
+          "source": "createdAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "created_at",
+          "line": 346
+        },
+        {
+          "source": "startedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "started_at",
+          "line": 347
+        },
+        {
+          "source": "remoteObservedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "remote_observed_at",
+          "line": 348
+        },
+        {
+          "source": "completedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "completed_at",
+          "line": 349
+        },
+        {
+          "source": "invalidatedReason",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "invalidated_reason",
+          "line": 350
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "YouTubePlaylistResourceOperation": {
+      "table": "playlist_resource_operation",
+      "source": "Sources/Muses/Domain/YouTubePlaylistSync.swift",
+      "fields": [
+        {
+          "source": "id",
+          "swift_type": "UUID",
+          "nullable": false,
+          "target": "id",
+          "line": 270
+        },
+        {
+          "source": "kindRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "kind_raw",
+          "line": 271
+        },
+        {
+          "source": "stateRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "state_raw",
+          "line": 272
+        },
+        {
+          "source": "importID",
+          "swift_type": "UUID?",
+          "nullable": true,
+          "target": "import_id",
+          "line": 273
+        },
+        {
+          "source": "accountChannelID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "account_channel_id",
+          "line": 274
+        },
+        {
+          "source": "playlistID",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "playlist_id",
+          "line": 275
+        },
+        {
+          "source": "title",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "title",
+          "line": 276
+        },
+        {
+          "source": "descriptionText",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "description_text",
+          "line": 277
+        },
+        {
+          "source": "privacyRaw",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "privacy_raw",
+          "line": 278
+        },
+        {
+          "source": "expectedRemoteFingerprint",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "expected_remote_fingerprint",
+          "line": 279
+        },
+        {
+          "source": "preRemoteSnapshotData",
+          "swift_type": "Data?",
+          "nullable": true,
+          "target": "pre_remote_snapshot_data",
+          "line": 280
+        },
+        {
+          "source": "attempts",
+          "swift_type": "Int",
+          "nullable": false,
+          "target": "attempts",
+          "line": 281
+        },
+        {
+          "source": "lastError",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "last_error",
+          "line": 282
+        },
+        {
+          "source": "createdAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "created_at",
+          "line": 283
+        },
+        {
+          "source": "startedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "started_at",
+          "line": 284
+        },
+        {
+          "source": "remoteObservedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "remote_observed_at",
+          "line": 285
+        },
+        {
+          "source": "completedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "completed_at",
+          "line": 286
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "PodcastShow": {
+      "table": "podcast_follow",
+      "source": "Sources/Muses/Domain/Podcast.swift",
+      "fields": [
+        {
+          "source": "catalogID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "catalog_id",
+          "line": 9
+        },
+        {
+          "source": "title",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "title",
+          "line": 10
+        },
+        {
+          "source": "artworkURL",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "artwork_url",
+          "line": 11
+        },
+        {
+          "source": "followedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "followed_at",
+          "line": 12
+        },
+        {
+          "source": "updatedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "updated_at",
+          "line": 13
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "PodcastEpisodeState": {
+      "table": "podcast_episode_state",
+      "source": "Sources/Muses/Domain/Podcast.swift",
+      "fields": [
+        {
+          "source": "videoID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "video_id",
+          "line": 29
+        },
+        {
+          "source": "showCatalogID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "show_catalog_id",
+          "line": 30
+        },
+        {
+          "source": "title",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "title",
+          "line": 31
+        },
+        {
+          "source": "artworkURL",
+          "swift_type": "String?",
+          "nullable": true,
+          "target": "artwork_url",
+          "line": 32
+        },
+        {
+          "source": "publishedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "published_at",
+          "line": 33
+        },
+        {
+          "source": "durationMs",
+          "swift_type": "Int?",
+          "nullable": true,
+          "target": "duration_ms",
+          "line": 34
+        },
+        {
+          "source": "lastPositionMs",
+          "swift_type": "Double",
+          "nullable": false,
+          "target": "last_position_ms",
+          "line": 35
+        },
+        {
+          "source": "completed",
+          "swift_type": "Bool",
+          "nullable": false,
+          "target": "completed",
+          "line": 36
+        },
+        {
+          "source": "playedAt",
+          "swift_type": "Date?",
+          "nullable": true,
+          "target": "played_at",
+          "line": 37
+        },
+        {
+          "source": "availabilityRaw",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "availability_raw",
+          "line": 38
+        },
+        {
+          "source": "updatedAt",
+          "swift_type": "Date",
+          "nullable": false,
+          "target": "updated_at",
+          "line": 39
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    },
+    "PodcastEpisodeMembership": {
+      "table": "podcast_episode_membership",
+      "source": "Sources/Muses/Domain/Podcast.swift",
+      "fields": [
+        {
+          "source": "key",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "key",
+          "line": 70
+        },
+        {
+          "source": "showCatalogID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "show_catalog_id",
+          "line": 71
+        },
+        {
+          "source": "videoID",
+          "swift_type": "String",
+          "nullable": false,
+          "target": "video_id",
+          "line": 72
+        }
+      ],
+      "category": "preserved_user_state_or_evidence"
+    }
+  },
+  "source_sha256": {
+    "Sources/Muses/Domain/CatalogReleaseMembership.swift": "a7c5a015a83880f42aadfbdf625e554b964e1834b90e3d360c8d1cdef5d53fb6",
+    "Sources/Muses/Domain/EQPreset.swift": "86d4c411f46454e876e1a761c8922562c70069f3bc5de7ad7143329a0004870d",
+    "Sources/Muses/Domain/ListeningEvent.swift": "64cec332013ec7bad2bcce2432191580947bfe84ad55fe6cafe5921ff871fffa",
+    "Sources/Muses/Domain/ListeningSession.swift": "bfd9ddb74feb342cb9489dd2d53377850672d2da6a8359f1a6e82948757c0874",
+    "Sources/Muses/Domain/NotesModels.swift": "504319630ab202c7ee8656dc57db7bbdb44550599f781fbdb3ab4bdd268ade5c",
+    "Sources/Muses/Domain/Playlist.swift": "56b5eec99d76d36ef5d9d2559908f5aa1e24f7dca679919aed684efc2df908a3",
+    "Sources/Muses/Domain/PlaylistItem.swift": "edc2e715154d0ff290daacc6502711708f8f22dbf48d5f79be67b9f9aafc16f3",
+    "Sources/Muses/Domain/Podcast.swift": "9d81133d6b1b1a5a6f68f9ef6e52ba502bb55652fd678f67904881a4b62bec10",
+    "Sources/Muses/Domain/QueueState.swift": "75fc282a9947779e06b52ebb3a6e1a546353b54566528deb27b3591c03f5c3d6",
+    "Sources/Muses/Domain/Track.swift": "8590a5537cf90fb3a85900773c2f3cb90e2bf107f91a95b9b008d8c65aea60fb",
+    "Sources/Muses/Domain/YouTubeCatalog.swift": "d2a700171a5ce346c908b94858f9087cf87e4395acadc7a2a657f6190080f64c",
+    "Sources/Muses/Domain/YouTubeImport.swift": "72c3f95c4192bf106060b4c123ad552cf11e7dade16c00fdb2b42da4059e4097",
+    "Sources/Muses/Domain/YouTubeImportItem.swift": "b115a7f10686073249216bc286273bb08153835b46d56a8e11b37aceca18b864",
+    "Sources/Muses/Domain/YouTubePlaylistSync.swift": "0ea6e1826383291bee860a7338de9d48206f2fe421a6da73b66701687a679d47",
+    "Sources/Muses/Persistence/MusesSchema.swift": "109afb6a0ca9930457c525dedb401174ce6519e9584982271482f5628441c5d1",
+    "Sources/Muses/Persistence/StoreUpgradeSnapshot.swift": "557d0fcfd4b32a65a49fb6a58f5bbcc2afdbdf82ce7c4f6230c06154066dfeac",
+    "Sources/Muses/Domain/QueueItem.swift": "95006d00c08ce9b37323bffb5ee5484c2454ed5f65035b1d7a7685181f30d06e",
+    "Sources/Muses/Domain/QueueGroup.swift": "4aa388ea83c715ed9dfd90b9d97a9be43b8ec68dce2a3818f516fbd37fcd6d7d",
+    "Sources/Muses/Domain/SmartShuffleState.swift": "fdf0568d5d97c758561879c206930542883035c6110fc945aebde22de19b37fb",
+    "Sources/Muses/Domain/UserPreferences.swift": "6c6c54e5bc9af3a817bc4dee0115aa765eab019713728e81334ea07a9044564d",
+    "Sources/Muses/Services/Queue/QueueService.swift": "ddac4d68b4238178e1400fcd450720e3f1d741c2e02846f8c97882e0f3ae7a99",
+    "Sources/Muses/Services/Notes/NotesService.swift": "b79bc1e45f74eff61f86aa55444116670055b02518032375196cfdf8648cb856",
+    "Sources/Muses/Features/Notes/NotesSheets.swift": "bba7274da2afb3eb1d48892e1cc12d26b5fe41fc42812f61590ffa1ae684a5e5",
+    "Tests/MusesTests/NotesFeatureTests.swift": "d7b8e556a4c63b85570de92cc62ab92ec8572dba84e5b4ac3de245a75db4552e"
+  }
+}

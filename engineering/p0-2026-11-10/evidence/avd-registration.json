@@ -1,0 +1,7 @@
+{
+  "path": "/Users/xiaotwu/.android/avd/Muses_P0_BitChord_191.ini",
+  "sha256": "827a137ca6e0afb2ecaeb6a9dd4996f009ee0e9a93d9a916791c393e3e159b5d",
+  "purpose": "Android Studio discovery of task-owned AVD; data remains isolated scratch",
+  "createdAt": "2026-11-10T20:34:50.654485+00:00",
+  "cleanup": "remove exact owned registration recoverably after device shutdown"
+}

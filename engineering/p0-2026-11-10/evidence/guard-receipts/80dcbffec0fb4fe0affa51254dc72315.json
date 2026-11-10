@@ -1,0 +1,17 @@
+{
+  "allocation": "source",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "74ed5d690c30bb8e47daad751b0f7d6012be7e34bd9270ed1c924c9bf024420e",
+  "executable": "sh",
+  "pid": 68076,
+  "started_unix": 1794342896.5973692,
+  "elapsed_seconds": 2.25473690032959,
+  "returncode": 0,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 1690423296,
+    "allocation": 69824512
+  },
+  "remaining_free_bytes": 575275986944
+}

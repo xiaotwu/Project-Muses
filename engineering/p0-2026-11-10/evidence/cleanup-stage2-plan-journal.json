@@ -1,0 +1,649 @@
+{
+  "plan_sha256": "a181aead9e5f607d8788bfb0e7f8a1f5e9769cbc63416e6a9e24d8834af3751c",
+  "script_sha256": "2b8f6f7a675908bbd7e002199fcb8cefb69acfe6446289fc52c85fba87bb8bd8",
+  "started_unix": 1794346042.391634,
+  "free_before": 574721187840,
+  "actions": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/YouTubeKit-7f75a2299dc329c0b7855afb25d47663a02855cb",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--YouTubeKit-7f75a2299dc329c0b7855afb25d47663a02855cb",
+      "inventory": {
+        "entries": 64,
+        "logical_file_bytes": 689309,
+        "allocated_bytes": 827392,
+        "metadata_sha256": "aee2f236e07abcca8b7b80f423c54aa2d4a15676831e702fc98b7c62c6d93bc2"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346042.501408
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/NativeHost-shared.o",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--build--NativeHost-shared.o",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 82976,
+        "allocated_bytes": 86016,
+        "metadata_sha256": "8b41358ecc40d949996746ab0706823fc500af43d113f98e3446cb16094729d8"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346042.591539
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/cutils.o",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--build--cutils.o",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 9320,
+        "allocated_bytes": 12288,
+        "metadata_sha256": "935ec275fff7191859d19cbad30a6bd29ba33950595ad8af081ab9acd96962cf"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346042.672538
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/dtoa.o",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--build--dtoa.o",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 15288,
+        "allocated_bytes": 16384,
+        "metadata_sha256": "ab185287c06d5baae63669ae7e3b314675331c14cc7595e72f4a179547ab01f7"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346042.7530549
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/libregexp.o",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--build--libregexp.o",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 39760,
+        "allocated_bytes": 40960,
+        "metadata_sha256": "e631479e3a031859c1d5defdea72bca27807f46ad3f96fac05666910df186bb8"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346042.8345652
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/libunicode.o",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--build--libunicode.o",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 70744,
+        "allocated_bytes": 73728,
+        "metadata_sha256": "84c306532c9cde24ca412b2e3ef7f848324191eb9eeecf4a17f2d0058609a2e5"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346042.913723
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/quickjs.o",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--build--quickjs.o",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1023024,
+        "allocated_bytes": 1048576,
+        "metadata_sha256": "ba299036ea0b386637bffa4fcb99df14c67a23fe7c67001164a8e396cf920f98"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346042.994724
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/source-proof",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--build--source-proof",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1002288,
+        "allocated_bytes": 1003520,
+        "metadata_sha256": "2aa0c236ffcdb68b8c0c13f938452cbd916a4157ec801c22e06c0514d8442be5"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.075093
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/source-proof-jsc",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--build--source-proof-jsc",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1023856,
+        "allocated_bytes": 1024000,
+        "metadata_sha256": "3a72e868dee6247afeddb309a87975b046a2cba08bd109333c0fbf5a910b3821"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.155168
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/deps",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--deps",
+      "inventory": {
+        "entries": 2664,
+        "logical_file_bytes": 31344001,
+        "allocated_bytes": 39460864,
+        "metadata_sha256": "6692c73836b941cadebc81065f30de73b976d937c8a2aab0a08d2e5ca9e947be"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.2942789
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/downloads",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--downloads",
+      "inventory": {
+        "entries": 3,
+        "logical_file_bytes": 751742,
+        "allocated_bytes": 753664,
+        "metadata_sha256": "12710ef250b90487e7ea88044d633ed4398fb3bbc687665fc3f727ad06dba47f"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.375191
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/development-entitlements.plist",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--iphoneos--development-entitlements.plist",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 390,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "0a6973a1211a90aee44692277b291a1d83e31fa400377baffc5319a4b95ac41c"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.455616
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/signed-calibration-1",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--iphoneos--signed-calibration-1",
+      "inventory": {
+        "entries": 12,
+        "logical_file_bytes": 6978498,
+        "allocated_bytes": 6995968,
+        "metadata_sha256": "7623cabc5e882424eb99fe70e1ad3c37abf791180a9a2bb9fdaa4b68d6163c89"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.539894
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/signed-calibration-2",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--iphoneos--signed-calibration-2",
+      "inventory": {
+        "entries": 12,
+        "logical_file_bytes": 6978594,
+        "allocated_bytes": 6995968,
+        "metadata_sha256": "0b4ed6e6a0e456c67c36962c97a7ed6ae789cab3d22365de1d9c1842f9300e47"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.622855
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/media",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--media",
+      "inventory": {
+        "entries": 5,
+        "logical_file_bytes": 3145728,
+        "allocated_bytes": 3145728,
+        "metadata_sha256": "1c3a6bf886b4937dd196eb356c0a446df6cd143c9ff13a7458c414cc5cde10fb"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.70424
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/npm-cache",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--npm-cache",
+      "inventory": {
+        "entries": 246,
+        "logical_file_bytes": 19423239,
+        "allocated_bytes": 19644416,
+        "metadata_sha256": "b3b35a6c62b8440527377347a95ee020798533970ea3930a5919719c3e021e41"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.7951329
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/results",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--results",
+      "inventory": {
+        "entries": 30,
+        "logical_file_bytes": 32552,
+        "allocated_bytes": 118784,
+        "metadata_sha256": "540767a24e5e5f2b599d00392c1c6fb2e6a1cd725a5569788d09f90a6707f7f7"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.876064
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/tmp",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--tmp",
+      "inventory": {
+        "entries": 610,
+        "logical_file_bytes": 1401940,
+        "allocated_bytes": 2658304,
+        "metadata_sha256": "c3a23c85f6c77b7633b7ceae7fa54ae9c4333d344617b41a7caa24a67c90b46e"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346043.969745
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-build",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--youtubekit-build",
+      "inventory": {
+        "entries": 460,
+        "logical_file_bytes": 92726104,
+        "allocated_bytes": 93798400,
+        "metadata_sha256": "8f5c0bf923d6ac1444a3f757098f12647fcdcd05955c61c6298b100e715e9a25"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.062238
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-cache",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--youtubekit-cache",
+      "inventory": {
+        "entries": 5,
+        "logical_file_bytes": 94208,
+        "allocated_bytes": 94208,
+        "metadata_sha256": "5334242252d90453ca58eb9939c50a8658ca9aa7afbae755f69fb369ab004d14"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.143542
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-config",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--youtubekit-config",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "metadata_sha256": "bf67a46fc87b186a1084df9d138f9b5ae6c7908a2236590ed6829ae1342c79d2"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.224799
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-module-cache",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--youtubekit-module-cache",
+      "inventory": {
+        "entries": 13,
+        "logical_file_bytes": 674058,
+        "allocated_bytes": 696320,
+        "metadata_sha256": "99a30fcd19927c2205df9b14935a9e1c2eacaae97cd16f69cdc2f3a70752cc47"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.305815
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-probe",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--youtubekit-probe",
+      "inventory": {
+        "entries": 5,
+        "logical_file_bytes": 7691,
+        "allocated_bytes": 12288,
+        "metadata_sha256": "3bb293582827574dfc7c700a76dd4990a8cbbd4060f9cf002cc463998295493b"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.386962
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-security",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/source--youtubekit-security",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "metadata_sha256": "fbc72c81bd8575128f29798e23bb568df0fc9b8d4c84726ea76a2dca6451b3b1"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.468344
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/ffmpeg-8.0.tar.xz",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--ffmpeg-8.0.tar.xz",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 11384428,
+        "allocated_bytes": 11665408,
+        "metadata_sha256": "25d08b6153891f97049959a2a7dc8a04d1825e1d7953bf4d6824f63e6c8ca154"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.549949
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/fixtures",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--fixtures",
+      "inventory": {
+        "entries": 5,
+        "logical_file_bytes": 117810,
+        "allocated_bytes": 131072,
+        "metadata_sha256": "8550da0533bed75cace3bdd557b7e2fc7ee29b2da6516cd97b77057bab196a8a"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.6307561
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--macosx",
+      "inventory": {
+        "entries": 564,
+        "logical_file_bytes": 9131054,
+        "allocated_bytes": 10706944,
+        "metadata_sha256": "10d33fd13b6b84663eafaabec8947c6507762e0ff60c5e3572d8f1562a529db8"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.724946
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/results",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--results",
+      "inventory": {
+        "entries": 13,
+        "logical_file_bytes": 7970,
+        "allocated_bytes": 40960,
+        "metadata_sha256": "bb077c10fe2da5ecf75f5e3e08d2e2d6c265f22e6babc2429f871deff3356fc3"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346044.8057358
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--sources",
+      "inventory": {
+        "entries": 10007,
+        "logical_file_bytes": 89937652,
+        "allocated_bytes": 116862976,
+        "metadata_sha256": "5eab0794db518df88fb7bd748e9513582b8874951f7b6122a4b0e7d7959bb7ca"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.099137
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/stress",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--stress",
+      "inventory": {
+        "entries": 14,
+        "logical_file_bytes": 3907913,
+        "allocated_bytes": 3928064,
+        "metadata_sha256": "3897c25d9caef7c44219bbc2a37f904692b59ec15d8cdac4f5a7ee4d8cb78546"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.185187
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/superseded-python-bytecode",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--superseded-python-bytecode",
+      "inventory": {
+        "entries": 2,
+        "logical_file_bytes": 9978,
+        "allocated_bytes": 12288,
+        "metadata_sha256": "c03c29f2e4d0c11451ed24c87c9c6373a3d98490732935313ab8573e34c12116"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.269572
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-calibration-3-early.jsonl",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-calibration-3-early.jsonl",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 985,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "9edd6041810dadf7c13154423b3baa374dcd55685a36d8685a468f821df769fb"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.353466
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-calibration-3-mid.jsonl",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-calibration-3-mid.jsonl",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 8622,
+        "allocated_bytes": 12288,
+        "metadata_sha256": "94771e24634f9c21f75dc47de3ca7755b73134073f498a144f054dba82f83bff"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.437227
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-calibration-4-readback.jsonl",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-calibration-4-readback.jsonl",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 5419,
+        "allocated_bytes": 8192,
+        "metadata_sha256": "18cedf7db3144cca874a4f0866cb8e67eea2d34be4a0eb54024d1e1014bb063f"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.537059
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-crashes-calibration-2.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-crashes-calibration-2.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1579,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "081c102e846eeff09603795d32e183ecb30f90568c96831c0fc27c3e63507a94"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.673366
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-details.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-details.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 8040,
+        "allocated_bytes": 8192,
+        "metadata_sha256": "3223668a32dd6c2a85f3745f0e0957b0b968ae109c955800bc7cb5154e85bb98"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.756195
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-details.log",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-details.log",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 2635,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "618f8d23972e39ddfb7bf8f843b08adce15909cda5994cfc9c9f324676e73b22"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.838412
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-files-calibration-2.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-files-calibration-2.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 8375,
+        "allocated_bytes": 12288,
+        "metadata_sha256": "ac1daec4c68eb37857fd801097d48133cabbc0ad55fd48c9efd875b80651ec72"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346045.919563
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-install-calibration-1.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-install-calibration-1.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1111,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "b50e9ba6803dd5f9744abb6cd7981fd22c53e228010271808a37078d852e5a0c"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.003674
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-install-calibration-2.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-install-calibration-2.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1111,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "26578c728fbc36148a7b6eae5d2044f91babd4de0f75973c95169c415e543bd4"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.086209
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-install-calibration-3.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-install-calibration-3.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1111,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "86b852c66448aea053ceeb6d4cb1e5bb7e114b0bb88e4ae13578f1815d0f1d0a"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.170867
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-calibration-2.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-launch-calibration-2.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1382,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "50a91368629922edb03984f19e437d6aeb7b0be149afc43b251deac3b3d5e4f0"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.254147
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-calibration-3.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-launch-calibration-3.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1382,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "5bbae1a989830bd76ac9702ca9db23d543bf174801ac291852372892d2d060df"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.337455
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-calibration-4.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-launch-calibration-4.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1382,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "ab9794a49cb0c4dcdfabc82656e80aa4f6d0681fff7b69ff4c671df30eb07c5f"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.42066
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-calibration-5.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-launch-calibration-5.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1382,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "4745ea2db2fe4292a53418b0c819eca9b5b9840c46a4097ceec1df9cb80c044f"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.502623
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-launch-diagnostic-2.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-launch-diagnostic-2.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1434,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "2aad30dbbeebbe78d9d5e098e41b0fa0e40a00d0220b8a2fa1daa6a51fed0c03"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.58495
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-lock-before.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-lock-before.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 637,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "eb0a2bc448f4e6a394e83aa0fdb9c45d61488afb120fd093f1df3f92780f9678"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.667007
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-lock-during-calibration-4.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-lock-during-calibration-4.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 652,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "6240a9f1652abc48293cbe6e5950554e310035472f3336d15e9ea38f60aa408c"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.748396
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/iphone-processes-calibration-2.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/coordination--iphone-processes-calibration-2.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 92820,
+        "allocated_bytes": 94208,
+        "metadata_sha256": "736427212fd60830b23b7ef9871462fb00c4e2b54c194f6dffcafc13c57465ef"
+      },
+      "open_handles": 0,
+      "complete": true,
+      "time_unix": 1794346046.829228
+    }
+  ],
+  "failures": [],
+  "completed_unix": 1794346046.830195,
+  "free_after": 574720835584,
+  "physical_recovery_claim_bytes": 0
+}

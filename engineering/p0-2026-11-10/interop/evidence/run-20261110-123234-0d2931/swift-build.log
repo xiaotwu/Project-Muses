@@ -1,0 +1,344 @@
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:69:66: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+ 67 |     check(openCore(path, expected: 9) == 0, "second engine refused")
+ 68 |     var subscription: UInt64 = 0
+ 69 |     status(muses_subscribe(engine, 0, &subscription), "subscribe")
+    |                                                                  `- error: missing argument for parameter #3 in call
+ 70 |     command(engine, 1, 0, occurrence: 101, media: 55)
+ 71 |     command(engine, 1, 0, occurrence: 102, media: 55)
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:69:55: error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 67 |     check(openCore(path, expected: 9) == 0, "second engine refused")
+ 68 |     var subscription: UInt64 = 0
+ 69 |     status(muses_subscribe(engine, 0, &subscription), "subscribe")
+    |                                                       `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 70 |     command(engine, 1, 0, occurrence: 101, media: 55)
+ 71 |     command(engine, 1, 0, occurrence: 102, media: 55)
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:75:80: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+ 73 |     check(initial.1.queue_count == 2, "duplicate media has distinct occurrences")
+ 74 |     var entry = MusesQueueEntry()
+ 75 |     status(muses_snapshot_entry(initial.0, 1, &entry), "read second occurrence")
+    |                                                                                `- error: missing argument for parameter #3 in call
+ 76 |     check(entry.occurrence_id == 102 && entry.media_id == 55 && entry.ordinal == 1, "queue identity and order")
+ 77 |     command(engine, 1, 0, occurrence: 101, media: 99, expected: 5)
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:75:56: error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 73 |     check(initial.1.queue_count == 2, "duplicate media has distinct occurrences")
+ 74 |     var entry = MusesQueueEntry()
+ 75 |     status(muses_snapshot_entry(initial.0, 1, &entry), "read second occurrence")
+    |                                                        `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 76 |     check(entry.occurrence_id == 102 && entry.media_id == 55 && entry.ordinal == 1, "queue identity and order")
+ 77 |     command(engine, 1, 0, occurrence: 101, media: 99, expected: 5)
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:80:79: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+ 78 |     let afterDuplicate = snapshot(engine)
+ 79 |     check(afterDuplicate.1.queue_count == 2 && afterDuplicate.1.sequence == initial.1.sequence, "failed transaction has no state/event side effect")
+ 80 |     status(muses_snapshot_release(afterDuplicate.0), "release duplicate check")
+    |                                                                               `- error: missing argument for parameter #3 in call
+ 81 |     let first = command(engine, 2, 0, occurrence: 101)
+ 82 |     let frozen = snapshot(engine)
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:80:54: error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 78 |     let afterDuplicate = snapshot(engine)
+ 79 |     check(afterDuplicate.1.queue_count == 2 && afterDuplicate.1.sequence == initial.1.sequence, "failed transaction has no state/event side effect")
+ 80 |     status(muses_snapshot_release(afterDuplicate.0), "release duplicate check")
+    |                                                      `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 81 |     let first = command(engine, 2, 0, occurrence: 101)
+ 82 |     let frozen = snapshot(engine)
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:98:30: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+ 96 |         let result = muses_poll(subscription, &value)
+ 97 |         if result == 7 { break }
+ 98 |         status(result, "poll")
+    |                              `- error: missing argument for parameter #3 in call
+ 99 |         check(value.sequence == sequence + 1, "strict event ordering")
+100 |         sequence = value.sequence
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:98:24: error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 96 |         let result = muses_poll(subscription, &value)
+ 97 |         if result == 7 { break }
+ 98 |         status(result, "poll")
+    |                        `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 99 |         check(value.sequence == sequence + 1, "strict event ordering")
+100 |         sequence = value.sequence
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:108:58: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+106 |     status(muses_snapshot_read(frozen.0, &wrong), 3, "short snapshot buffer version rejected")
+107 |     status(muses_snapshot_release(engine), 1, "handle kind checked")
+108 |     status(muses_unsubscribe(subscription), "unsubscribe")
+    |                                                          `- error: missing argument for parameter #3 in call
+109 |     status(muses_poll(subscription, &value), 1, "poll after unsubscribe")
+110 |     status(muses_unsubscribe(subscription), 1, "double unsubscribe")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:108:45: error: cannot convert value of type 'String' to expected argument type 'Int32'
+106 |     status(muses_snapshot_read(frozen.0, &wrong), 3, "short snapshot buffer version rejected")
+107 |     status(muses_snapshot_release(engine), 1, "handle kind checked")
+108 |     status(muses_unsubscribe(subscription), "unsubscribe")
+    |                                             `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+109 |     status(muses_poll(subscription, &value), 1, "poll after unsubscribe")
+110 |     status(muses_unsubscribe(subscription), 1, "double unsubscribe")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:112:79: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+110 |     status(muses_unsubscribe(subscription), 1, "double unsubscribe")
+111 |     var child: UInt64 = 0
+112 |     status(muses_subscribe(engine, sequence, &child), "dependent subscription")
+    |                                                                               `- error: missing argument for parameter #3 in call
+113 |     status(muses_release(engine), "engine release")
+114 |     status(muses_poll(child, &value), 1, "engine release invalidates subscription")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:112:55: error: cannot convert value of type 'String' to expected argument type 'Int32'
+110 |     status(muses_unsubscribe(subscription), 1, "double unsubscribe")
+111 |     var child: UInt64 = 0
+112 |     status(muses_subscribe(engine, sequence, &child), "dependent subscription")
+    |                                                       `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+113 |     status(muses_release(engine), "engine release")
+114 |     status(muses_poll(child, &value), 1, "engine release invalidates subscription")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:113:51: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+111 |     var child: UInt64 = 0
+112 |     status(muses_subscribe(engine, sequence, &child), "dependent subscription")
+113 |     status(muses_release(engine), "engine release")
+    |                                                   `- error: missing argument for parameter #3 in call
+114 |     status(muses_poll(child, &value), 1, "engine release invalidates subscription")
+115 |     check(read(initial.0).queue_count == 2 && read(frozen.0).generation == first, "snapshots outlive engine")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:113:35: error: cannot convert value of type 'String' to expected argument type 'Int32'
+111 |     var child: UInt64 = 0
+112 |     status(muses_subscribe(engine, sequence, &child), "dependent subscription")
+113 |     status(muses_release(engine), "engine release")
+    |                                   `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+114 |     status(muses_poll(child, &value), 1, "engine release invalidates subscription")
+115 |     check(read(initial.0).queue_count == 2 && read(frozen.0).generation == first, "snapshots outlive engine")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:116:64: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+114 |     status(muses_poll(child, &value), 1, "engine release invalidates subscription")
+115 |     check(read(initial.0).queue_count == 2 && read(frozen.0).generation == first, "snapshots outlive engine")
+116 |     status(muses_snapshot_release(initial.0), "release initial")
+    |                                                                `- error: missing argument for parameter #3 in call
+117 |     status(muses_snapshot_release(frozen.0), "release frozen")
+118 |     status(muses_snapshot_release(frozen.0), 1, "double snapshot release")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:116:47: error: cannot convert value of type 'String' to expected argument type 'Int32'
+114 |     status(muses_poll(child, &value), 1, "engine release invalidates subscription")
+115 |     check(read(initial.0).queue_count == 2 && read(frozen.0).generation == first, "snapshots outlive engine")
+116 |     status(muses_snapshot_release(initial.0), "release initial")
+    |                                               `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+117 |     status(muses_snapshot_release(frozen.0), "release frozen")
+118 |     status(muses_snapshot_release(frozen.0), 1, "double snapshot release")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:117:62: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+115 |     check(read(initial.0).queue_count == 2 && read(frozen.0).generation == first, "snapshots outlive engine")
+116 |     status(muses_snapshot_release(initial.0), "release initial")
+117 |     status(muses_snapshot_release(frozen.0), "release frozen")
+    |                                                              `- error: missing argument for parameter #3 in call
+118 |     status(muses_snapshot_release(frozen.0), 1, "double snapshot release")
+119 |     status(muses_release(engine), 1, "double engine release")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:117:46: error: cannot convert value of type 'String' to expected argument type 'Int32'
+115 |     check(read(initial.0).queue_count == 2 && read(frozen.0).generation == first, "snapshots outlive engine")
+116 |     status(muses_snapshot_release(initial.0), "release initial")
+117 |     status(muses_snapshot_release(frozen.0), "release frozen")
+    |                                              `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+118 |     status(muses_snapshot_release(frozen.0), 1, "double snapshot release")
+119 |     status(muses_release(engine), 1, "double engine release")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:126:83: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+124 |     check(frozen.1.queue_count == 72 && frozen.1.state == 2, "C# changes persisted across process and language")
+125 |     var entry = MusesQueueEntry()
+126 |     status(muses_snapshot_entry(frozen.0, 71, &entry), "last persisted occurrence")
+    |                                                                                   `- error: missing argument for parameter #3 in call
+127 |     check(entry.occurrence_id == 1069 && entry.ordinal == 71 && entry.media_id == 55, "full order persisted")
+128 |     status(muses_release(engine), "release")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:126:56: error: cannot convert value of type 'String' to expected argument type 'Int32'
+124 |     check(frozen.1.queue_count == 72 && frozen.1.state == 2, "C# changes persisted across process and language")
+125 |     var entry = MusesQueueEntry()
+126 |     status(muses_snapshot_entry(frozen.0, 71, &entry), "last persisted occurrence")
+    |                                                        `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+127 |     check(entry.occurrence_id == 1069 && entry.ordinal == 71 && entry.media_id == 55, "full order persisted")
+128 |     status(muses_release(engine), "release")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:128:44: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+126 |     status(muses_snapshot_entry(frozen.0, 71, &entry), "last persisted occurrence")
+127 |     check(entry.occurrence_id == 1069 && entry.ordinal == 71 && entry.media_id == 55, "full order persisted")
+128 |     status(muses_release(engine), "release")
+    |                                            `- error: missing argument for parameter #3 in call
+129 |     check(read(frozen.0).queue_count == 72, "post-release snapshot read")
+130 |     status(muses_snapshot_release(frozen.0), "release snapshot")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:128:35: error: cannot convert value of type 'String' to expected argument type 'Int32'
+126 |     status(muses_snapshot_entry(frozen.0, 71, &entry), "last persisted occurrence")
+127 |     check(entry.occurrence_id == 1069 && entry.ordinal == 71 && entry.media_id == 55, "full order persisted")
+128 |     status(muses_release(engine), "release")
+    |                                   `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+129 |     check(read(frozen.0).queue_count == 72, "post-release snapshot read")
+130 |     status(muses_snapshot_release(frozen.0), "release snapshot")
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:130:64: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+128 |     status(muses_release(engine), "release")
+129 |     check(read(frozen.0).queue_count == 72, "post-release snapshot read")
+130 |     status(muses_snapshot_release(frozen.0), "release snapshot")
+    |                                                                `- error: missing argument for parameter #3 in call
+131 |     print("PASS swift verify checks=\(checks) sequence=\(frozen.1.sequence) generation=\(frozen.1.generation)")
+132 | } else if mode == "pending" {
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:130:46: error: cannot convert value of type 'String' to expected argument type 'Int32'
+128 |     status(muses_release(engine), "release")
+129 |     check(read(frozen.0).queue_count == 72, "post-release snapshot read")
+130 |     status(muses_snapshot_release(frozen.0), "release snapshot")
+    |                                              `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+131 |     print("PASS swift verify checks=\(checks) sequence=\(frozen.1.sequence) generation=\(frozen.1.generation)")
+132 | } else if mode == "pending" {
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:136:64: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+134 |     let frozen = snapshot(engine)
+135 |     let generation = command(engine, 2, frozen.1.generation, occurrence: 101)
+136 |     status(muses_snapshot_release(frozen.0), "release snapshot")
+    |                                                                `- error: missing argument for parameter #3 in call
+137 |     print("PENDING generation=\(generation) engine=\(engine)")
+138 |     fflush(stdout)
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:136:46: error: cannot convert value of type 'String' to expected argument type 'Int32'
+134 |     let frozen = snapshot(engine)
+135 |     let generation = command(engine, 2, frozen.1.generation, occurrence: 101)
+136 |     status(muses_snapshot_release(frozen.0), "release snapshot")
+    |                                              `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+137 |     print("PENDING generation=\(generation) engine=\(engine)")
+138 |     fflush(stdout)
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:21:70: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+ 19 | func snapshot(_ engine: UInt64) -> (UInt64, MusesSnapshot) {
+ 20 |     var token: UInt64 = 0
+ 21 |     status(muses_snapshot_acquire(engine, &token), "acquire snapshot")
+    |                                                                      `- error: missing argument for parameter #3 in call
+ 22 |     return (token, read(token))
+ 23 | }
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:21:52: error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 19 | func snapshot(_ engine: UInt64) -> (UInt64, MusesSnapshot) {
+ 20 |     var token: UInt64 = 0
+ 21 |     status(muses_snapshot_acquire(engine, &token), "acquire snapshot")
+    |                                                    `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 22 |     return (token, read(token))
+ 23 | }
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:28:63: error: missing argument for parameter #3 in call
+  7 |     guard condition() else { fatalError("FAIL: \(label)") }
+  8 | }
+  9 | func status(_ actual: Int32, _ expected: Int32 = 0, _ label: String) {
+    |      `- note: 'status' declared here
+ 10 |     check(actual == expected, "\(label): expected \(expected), got \(actual)")
+ 11 | }
+    :
+ 26 |     value.abi_version = 1
+ 27 |     value.struct_size = UInt32(MemoryLayout<MusesSnapshot>.size)
+ 28 |     status(muses_snapshot_read(token, &value), "read snapshot")
+    |                                                               `- error: missing argument for parameter #3 in call
+ 29 |     return value
+ 30 | }
+
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift:28:48: error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 26 |     value.abi_version = 1
+ 27 |     value.struct_size = UInt32(MemoryLayout<MusesSnapshot>.size)
+ 28 |     status(muses_snapshot_read(token, &value), "read snapshot")
+    |                                                `- error: cannot convert value of type 'String' to expected argument type 'Int32'
+ 29 |     return value
+ 30 | }

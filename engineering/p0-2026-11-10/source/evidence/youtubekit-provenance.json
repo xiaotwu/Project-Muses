@@ -1,0 +1,32 @@
+{
+  "commit": "7f75a2299dc329c0b7855afb25d47663a02855cb",
+  "patches": [
+    {
+      "path": "Sources/YouTubeKit/Cipher.swift",
+      "upstream_sha256": "12990c5ef77b5c89c961d60632d84af323a50687ac96e33371f0a7b12ea60acb",
+      "patched_sha256": "3d66c69da73e832a562d694f2330ad44e151fb23c235146e9098d4bc3543e02b",
+      "change": "rename os_log to no-op; no extraction/network behavior changes"
+    },
+    {
+      "path": "Sources/YouTubeKit/YouTube.swift",
+      "upstream_sha256": "3745901df72d46e73afab8b1455304386dd19b8e7d125939c5e4f07c3b822f5d",
+      "patched_sha256": "00cc5ca4b58773785641c8e021b263021366b20cb6574361b01281c66fa1048f",
+      "change": "rename os_log to no-op; no extraction/network behavior changes"
+    },
+    {
+      "path": "Sources/YouTubeKit/SignatureSolver.swift",
+      "upstream_sha256": "383d88b1ea459b4702ab81b1c447cd5495e9142de0ce8c5aff1405b09e2d769d",
+      "patched_sha256": "7488a02216cd60b03c133695575e63bd98ee7663045708bc088a0b74caf1b0e2",
+      "change": "rename os_log to no-op; no extraction/network behavior changes"
+    },
+    {
+      "path": "Sources/YouTubeKit/Extraction.swift",
+      "upstream_sha256": "064fbd8853cead09da219cfc1159ab573b98ebbd1e08d97d4d73af37dfb77cf9",
+      "patched_sha256": "407c6961cdec35394df73071631c4312c5ba6935d385fbe04668978efeb83140",
+      "change": "rename os_log to no-op; no extraction/network behavior changes"
+    }
+  ],
+  "license": "MIT",
+  "bundled_helper_license": "Unlicense",
+  "remote_fallback_used": false
+}

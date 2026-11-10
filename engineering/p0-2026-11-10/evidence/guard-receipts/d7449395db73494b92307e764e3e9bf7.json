@@ -1,0 +1,17 @@
+{
+  "allocation": "audio",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "c84d5b4b29dbea3aec4504a1245893c92a2e268d907b16cd3648bd665a72ed46",
+  "executable": "codesign",
+  "pid": 68768,
+  "started_unix": 1794343375.317875,
+  "elapsed_seconds": 2.3698980808258057,
+  "returncode": 0,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 1962434560,
+    "allocation": 151949312
+  },
+  "remaining_free_bytes": 574934687744
+}

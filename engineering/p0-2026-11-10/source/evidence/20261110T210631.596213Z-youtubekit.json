@@ -1,0 +1,13 @@
+{
+  "library": "YouTubeKit",
+  "commit": "7f75a2299dc329c0b7855afb25d47663a02855cb",
+  "exit_code": -15,
+  "stop_reason": "external process RSS ceiling",
+  "elapsed_seconds": 3.523594583006343,
+  "process_peak_rss_bytes": 270155776,
+  "stdout": "",
+  "stderr_bytes": 202,
+  "host_sha256": "c25a2ab9af428b08b62b26f3e47ef976f90a08cd85409593caab32740e2881e5",
+  "external_deadline_seconds": 75,
+  "rss_limit_bytes": 268435456
+}

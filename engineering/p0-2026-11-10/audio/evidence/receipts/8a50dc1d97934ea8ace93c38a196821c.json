@@ -1,0 +1,17 @@
+{
+  "allocation": "audio",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "e2c39d40bd14970c5f8cde9cb0cdddddd7d9183a82549b3ca6a3fe63b11a41f6",
+  "executable": "python3",
+  "pid": 68724,
+  "started_unix": 1794343340.789739,
+  "elapsed_seconds": 8.76519513130188,
+  "returncode": 0,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 1962430464,
+    "allocation": 151949312
+  },
+  "remaining_free_bytes": 574940635136
+}

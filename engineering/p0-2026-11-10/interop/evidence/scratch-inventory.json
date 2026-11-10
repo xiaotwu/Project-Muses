@@ -1,0 +1,74 @@
+{
+  "paths": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931",
+      "owned_by": "P0 interop agent",
+      "classification": "obsolete_build_and_fixture_scratch_after_evidence_capture",
+      "result": "failed",
+      "logical_file_bytes": 37875992,
+      "allocated_bytes": 38084608,
+      "files": 97,
+      "evidence": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/evidence/run-20261110-123234-0d2931"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123309-4ef255",
+      "owned_by": "P0 interop agent",
+      "classification": "obsolete_build_and_fixture_scratch_after_evidence_capture",
+      "result": "passed",
+      "logical_file_bytes": 38108102,
+      "allocated_bytes": 38420480,
+      "files": 141,
+      "evidence": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/evidence/run-20261110-123309-4ef255"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123529-390a85",
+      "owned_by": "P0 interop agent",
+      "classification": "obsolete_build_and_fixture_scratch_after_evidence_capture",
+      "result": "failed",
+      "logical_file_bytes": 38065350,
+      "allocated_bytes": 38359040,
+      "files": 134,
+      "evidence": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/evidence/run-20261110-123529-390a85"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5",
+      "owned_by": "P0 interop agent",
+      "classification": "obsolete_build_and_fixture_scratch_after_evidence_capture",
+      "result": "passed",
+      "logical_file_bytes": 38125412,
+      "allocated_bytes": 38449152,
+      "files": 143,
+      "evidence": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/evidence/run-20261110-123714-dcf8d5"
+    }
+  ],
+  "all_process_sessions_completed": [
+    49319,
+    8674,
+    1885,
+    18631
+  ],
+  "cleanup_action": "No removal performed; root must freeze combined cleanup plan, inspect open processes/files, and move owned obsolete paths to dedicated Trash.",
+  "current_free_bytes": 575032573952,
+  "latest_dylib": {
+    "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/cargo-target/debug/deps/libmuses_p0_core.dylib",
+    "sha256": "5b853b9aefe60cc4b114d8b01dd6399dd5d9923745a942d706558fafafa94325",
+    "swift_install_name_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/cargo-target/debug/deps/libmuses_p0_core.dylib"
+  },
+  "sqlite": {
+    "version": "3.54.0",
+    "integrity_check": "ok",
+    "foreign_key_check": [],
+    "application_id": 1297109040,
+    "user_version": 1,
+    "state": [
+      [
+        1,
+        8,
+        83,
+        101,
+        0
+      ]
+    ],
+    "rows": 72
+  }
+}

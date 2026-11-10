@@ -1,0 +1,16 @@
+{
+  "repository": "xiaotwu/Muses-Polyhymnia",
+  "commit": "7ce577588f3a8fdd4b8f31fc9c01b541291ffdd3",
+  "scope": "Read-only source audit for proposed embedded-video interaction contract; no runtime UI evidence",
+  "source_sha256": {
+    "Sources/Muses/Features/Shared/PlaybackPresentation.swift": "2be0e6cf4601f21be323e2a9d1913e7b0c7b282641a9c5e6bb630cc65e05cbce",
+    "Sources/Muses/Services/Desktop/VideoSurface.swift": "178f70646de23bfc841b82ef62f1cd51466f133c9daf48afe9f6f4b29312aa76",
+    "Sources/Muses/Services/Playback/VideoPlaybackSession.swift": "24d4e22b44c58a5e0cb3515a6ddd744a8aa3b9d949e4650121c9ea3aea9711c6",
+    "Sources/Muses/Domain/VideoPlaybackStart.swift": "1c8ae1ccf2d1df608b1bf3d1f0c505deccb80d3e82076255b1525f5d04691ff0",
+    "Sources/Muses/Features/YouTube/YouTubeVideoStage.swift": "f2f0f70bbb1292c0aa097a4d34d8ab7c163eb0b7352df5cf3d7b71c6618b20da",
+    "Sources/Muses/Services/Playback/PlaybackService.swift": "4396acd8c6e1ca2f6b8c99969a2b47e895064c4e8ba3c92b0baa731cb4cf6488",
+    "Sources/Muses/Services/System/NowPlayingManager.swift": "13eee4ec6b1b23b557bcc06f934885a4b49f09002f7d05ff67f11c05c2d68ddb",
+    "Sources/Muses/Features/PlayerBar.swift": "332895ea077f3922b06382a00e2e32d028e688450835114fd36866975785ed0e",
+    "Sources/Muses/App/RootView.swift": "8c83517c913392323f6011336196c90f5e6c34cc2dacc65824e03fcde8f2cbb1"
+  }
+}

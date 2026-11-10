@@ -1,0 +1,51 @@
+{
+  "stage": "completed-reference-and-interop",
+  "created_utc": "2026-11-10T21:07:00Z",
+  "owned_root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01",
+  "trash_root": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01",
+  "stop": {
+    "emulator_pid": 68446,
+    "emulator_name": "Muses_P0_BitChord_191",
+    "emulator_port": 5580,
+    "adb_port": 5038
+  },
+  "moves": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931",
+      "destination_name": "interop-run-20261110-123234-0d2931"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123309-4ef255",
+      "destination_name": "interop-run-20261110-123309-4ef255"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123529-390a85",
+      "destination_name": "interop-run-20261110-123529-390a85"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5",
+      "destination_name": "interop-run-20261110-123714-dcf8d5"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/android",
+      "destination_name": "android-reference"
+    },
+    {
+      "source": "/Users/xiaotwu/.android/avd/Muses_P0_BitChord_191.ini",
+      "destination_name": "Muses_P0_BitChord_191.ini",
+      "required_sha256": "827a137ca6e0afb2ecaeb6a9dd4996f009ee0e9a93d9a916791c393e3e159b5d"
+    }
+  ],
+  "preserve": [
+    "source/audio active iOS dependencies",
+    "existing Android SDK and other AVDs",
+    "shared IDE caches and settings",
+    "OS-managed Metal/Xcode/LaunchServices caches",
+    "failed receipts and bounded evidence"
+  ],
+  "ui_residues": [
+    "Temporary ui-project recent-project entry not removed; preserve exact entry for follow-up, do not edit unrelated IDE history",
+    "Android Studio onboarding Agent Mode notification was dismissed once"
+  ],
+  "deletion": "recoverable same-volume rename only; no purge"
+}
