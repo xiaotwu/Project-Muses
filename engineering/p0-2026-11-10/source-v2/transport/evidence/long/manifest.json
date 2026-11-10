@@ -1,0 +1,53 @@
+{
+  "generation_commands": [
+    [
+      "/opt/homebrew/bin/ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-f",
+      "lavfi",
+      "-i",
+      "sine=frequency=440:sample_rate=44100:duration=40",
+      "-ac",
+      "2",
+      "-c:a",
+      "aac",
+      "-b:a",
+      "96k",
+      "-movflags",
+      "+faststart",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/long-fixtures/aac-44100-40s.m4a"
+    ],
+    [
+      "/opt/homebrew/bin/ffmpeg",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-f",
+      "lavfi",
+      "-i",
+      "sine=frequency=660:sample_rate=48000:duration=40",
+      "-ac",
+      "2",
+      "-c:a",
+      "libopus",
+      "-b:a",
+      "96k",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/long-fixtures/opus-48000-40s.webm"
+    ]
+  ],
+  "fixtures": {
+    "aac-44100-40s.m4a": {
+      "bytes": 488694,
+      "sha256": "4e6484d0639472123d8932f1d07f61f242de91a58c07ad5f70adb21fb3ea360d"
+    },
+    "opus-48000-40s.webm": {
+      "bytes": 657042,
+      "sha256": "eaa92a8f8f2f21cd40072556ae641136b4ed45bec892bba22f927b50a9f5abf6"
+    }
+  },
+  "production_decoder_object_sha256": "3cf1a28644a3ff6744808014673c8c2ea144d73c283eb6761f5132d7b8d01e1d"
+}

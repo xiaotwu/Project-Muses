@@ -1,0 +1,55 @@
+{
+  "mode": "capabilities",
+  "client": "IOS",
+  "codec": "aac",
+  "exit_code": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 0.968290958,
+  "sampled_peak_rss_bytes": 32948224,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "external_deadline_seconds": 120,
+  "binary_sha256": "05ba3d3a3dbcb443364869abbb0282b1fd843f9a924ea2db814f9ab067b7edb4",
+  "bundle_sha256": "734f3fa21bce65f1a0dca28f2e32ce51dd5d19237feb13c4c892ee36148cee22",
+  "rows": [
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 114,
+      "player_loaded": false
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "IOS",
+      "video_id": "aqz-KE-bpKQ",
+      "status": "OK",
+      "audio_formats": 4,
+      "bounded_audio_formats": 4,
+      "requested_codec": "aac",
+      "requested_codec_formats": 4,
+      "direct_formats": 4,
+      "cipher_formats": 0,
+      "n_parameter_formats": 0,
+      "hls": false,
+      "sabr": true
+    },
+    {
+      "js_memory_bytes": 5118792,
+      "deadline_seconds": 90,
+      "received_bytes": 153225,
+      "process_maxrss_bytes": 33521664,
+      "js_peak_allocated_bytes": 10643256,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 2,
+      "peak_concurrent": 1,
+      "first_byte_samples": 2
+    }
+  ],
+  "unsafe_or_non_json_stdout_redacted": false,
+  "stdout_bytes": 637,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

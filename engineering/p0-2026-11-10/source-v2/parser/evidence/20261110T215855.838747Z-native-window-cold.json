@@ -1,0 +1,30 @@
+{
+  "label": "native-window-cold",
+  "exit_code": 1,
+  "guard_stop": null,
+  "elapsed_ms": 348,
+  "observed_peak_rss_bytes": 17743872,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "failure_offset": 520893,
+      "parse_window_bytes": 262144
+    },
+    {
+      "status": "unsupported",
+      "input_bytes": 2658728,
+      "output_bytes": 0,
+      "native_peak_bytes": 22648663,
+      "native_live_after_bytes": 0,
+      "declarations": 6394,
+      "selected": 0,
+      "solver_matches": 0,
+      "timestamp_matches": 0,
+      "parse_ms": 302.293,
+      "reduce_ms": 0.0,
+      "process_maxrss_bytes": 28770304
+    }
+  ],
+  "stderr_bytes": 0,
+  "binary_sha256": "fa5245dc1e637a7e7f18f251ed1a2fc6056a0cb170c83fc8075a6cd391d542ce"
+}

@@ -1,0 +1,12 @@
+{"phase":"runtime","version":"0.18.0","engine":"QuickJS-NG","core_dumps":false}
+{"phase":"before_parse","logical_js_bytes":4701634,"backing_live_bytes":5293202,"backing_peak_bytes":6424969,"process_maxrss_bytes":13008896}
+{"phase":"after_analyzer","logical_js_bytes":28422883,"backing_live_bytes":32438171,"backing_peak_bytes":32450731,"process_maxrss_bytes":42237952}
+{"phase":"after_extractor","logical_js_bytes":28831099,"backing_live_bytes":32991499,"backing_peak_bytes":33259874,"process_maxrss_bytes":42778624}
+{"phase":"released","logical_js_bytes":4697131,"backing_live_bytes":5394395,"backing_peak_bytes":33259874,"process_maxrss_bytes":42795008}
+{"phase":"solver_output","outcome":"pass","bytes":179564,"sha256":"0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198","matches_reference":true,"signature_timestamp":20760}
+{"phase":"extract_teardown","backing_live_bytes":0,"backing_live_allocations":0,"backing_peak_bytes":33259874,"allocator_denials":0}
+{"phase":"isolated_solver","outcome":"pass","n_length":12,"sig_length":60,"n_sha256":"844925a6b58c41bc57bc92247876ecbb0fb2c93a9093f8070d9e9319dfa7cc86","sig_sha256":"bbbfeb076c235ee33ee7bddd261e9f1e58bbf5570a998bc4f57f787515960ea1","heap_limit_bytes":8388608}
+{"phase":"solver_teardown","backing_live_bytes":0,"backing_live_allocations":0,"backing_peak_bytes":2448266,"allocator_denials":0}
+{"phase":"fresh_teardown","backing_live_bytes":0,"backing_live_allocations":0,"backing_peak_bytes":180800,"allocator_denials":0}
+{"phase":"fresh_runtime","outcome":"pass"}
+{"phase":"summary","outcome":"pass","elapsed_ms":297,"process_maxrss_bytes":42844160}

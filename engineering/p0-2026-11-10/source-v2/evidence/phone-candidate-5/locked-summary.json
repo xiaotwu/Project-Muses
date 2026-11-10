@@ -1,0 +1,24 @@
+{
+  "trace_sha256": "53831f1ced773530580d342a9e5bdcff18718fca921b000f8c5cb68f013d645a",
+  "trace_bytes": 68622,
+  "rows": 130,
+  "audio_elapsed_to_finish_seconds": 30.117200999993656,
+  "stop_reason": "source_failure",
+  "process_maxrss_bytes": 99057664,
+  "transitions": 0,
+  "next_consumed_frames": 0,
+  "nonzero_output_frames": 1444376,
+  "timed_stop": 0,
+  "application_states": [
+    "active",
+    "background",
+    "inactive"
+  ],
+  "scene_states": [
+    "background",
+    "foreground_active",
+    "foreground_inactive"
+  ],
+  "all_lifecycle_samples_on_main_thread": true,
+  "max_sample_lag_seconds": 0.007550583337433636
+}

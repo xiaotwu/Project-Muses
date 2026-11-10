@@ -1,0 +1,6 @@
+[opus @ 0x7c08c3c380] Error parsing Opus packet header.
+[opus @ 0x7c08c3c380] Error parsing Opus packet header.
+[opus @ 0x7c08c3c380] Error parsing Opus packet header.
+[opus @ 0x7c08c3c380] Error parsing Opus packet header.
+{"case":"native_avio","fixture":"tone-a.m4a","full_frames":192000,"seek_frames":120000,"bit_equal_to_local_decode":true,"full_requests":13,"seek_requests":13,"media_cache_high_bytes":4096,"observed_rss_high":20987904}
+{"case":"native_avio","fixture":"tone-b.webm","full_frames":192000,"seek_frames":120024,"bit_equal_to_local_decode":true,"full_requests":17,"seek_requests":25,"media_cache_high_bytes":4096,"observed_rss_high":21397504}

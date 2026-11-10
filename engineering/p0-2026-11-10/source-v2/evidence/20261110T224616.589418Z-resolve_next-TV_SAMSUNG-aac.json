@@ -1,0 +1,744 @@
+{
+  "mode": "resolve_next",
+  "client": "TV_SAMSUNG",
+  "codec": "aac",
+  "exit_code": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 20.791825416,
+  "sampled_peak_rss_bytes": 82247680,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "external_deadline_seconds": 180,
+  "binary_sha256": "b3da77358a9b636f13388c0a9074feba8becd54a3a70badf4e5b17dd5f21fff8",
+  "bundle_sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f",
+  "rows": [
+    {
+      "native_peak_bytes": 7384931,
+      "category": "ok",
+      "parse_ms": 1685.741,
+      "timestamp_matches": 2,
+      "player_sha256": "dffc617520e77f921ec91cb79d975454f96f97f9620e48c99f4c7a623b948251",
+      "input_bytes": 2661557,
+      "output_bytes": 190486,
+      "solver_matches": 1,
+      "gate": "native_player_reduce",
+      "native_live_after_bytes": 0,
+      "reduce_ms": 1859.335,
+      "outcome": "pass",
+      "reduced_sha256": "dd66d5e1273585738c19f27e95ec598ee1f6bc1c61c3be7817bf1a23cde2a29b"
+    },
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 2727,
+      "player_loaded": true
+    },
+    {
+      "gate": "source_availability_shape",
+      "outcome": "observed",
+      "diagnostics": [
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 101266
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 273300
+        },
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 273300
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 435166
+        },
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 435166
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 593700
+        },
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 593700
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 744133
+        },
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 744133
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 2,
+          "numericValue": -1
+        }
+      ]
+    },
+    {
+      "gate": "source_profile",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "client_version": "5.20260707",
+      "reason": "public_metadata_only",
+      "status": "OK",
+      "format_count": 34,
+      "rejected_formats": 0
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "TV_SAMSUNG",
+      "video_id": "eRsGyueVLvQ",
+      "status": "OK",
+      "audio_formats": 9,
+      "bounded_audio_formats": 9,
+      "requested_codec": "aac",
+      "requested_codec_formats": 3,
+      "direct_formats": 9,
+      "cipher_formats": 0,
+      "n_parameter_formats": 9,
+      "hls": false,
+      "sabr": false
+    },
+    {
+      "gate": "source_availability",
+      "outcome": "pass",
+      "state": "known",
+      "availableAtUnixMs": 1794350764453,
+      "waitMs": 5000,
+      "reason": "advertised_preroll",
+      "prerollCount": 1
+    },
+    {
+      "gate": "source_descriptor",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "video_id": "eRsGyueVLvQ",
+      "codec": "aac",
+      "itag": 140,
+      "content_length": 14373564,
+      "elapsed_ms": 3045,
+      "expires_known": true,
+      "n_present": true,
+      "n_changed": true,
+      "signature_timestamp_known": true,
+      "solver_required": true
+    },
+    {
+      "js_memory_bytes": 26920274,
+      "deadline_seconds": 90,
+      "received_bytes": 2874879,
+      "process_maxrss_bytes": 80363520,
+      "js_peak_allocated_bytes": 33695540,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 5,
+      "peak_concurrent": 1,
+      "first_byte_samples": 5
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 262144,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 1,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 524288,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 2,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 786432,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 3,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 1048576,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 4,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 1310720,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 5,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 1572864,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 6,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 1835008,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 7,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 2097152,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 8,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 2359296,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 9,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 2621440,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 10,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 2883584,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 11,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 3145728,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 12,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 3407872,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 13,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 3670016,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 14,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 3932160,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 15,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 4194304,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 16,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 4456448,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 17,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 4718592,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 18,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 4980736,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 19,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 5242880,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 20,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 5505024,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 21,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 5767168,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 22,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 6029312,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 23,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 6291456,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 24,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 6553600,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 25,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 6815744,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 26,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 7077888,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 27,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 7340032,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 28,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 7602176,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 29,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 7864320,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 30,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 8126464,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 31,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 8388608,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 32,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 8650752,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 33,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 8912896,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 34,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 9175040,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 35,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 9437184,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 36,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 9699328,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 37,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 9961472,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 38,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 10223616,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 39,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 10485760,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 40,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 10747904,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 41,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 11010048,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 42,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 11272192,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 43,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 11534336,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 44,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 11796480,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 45,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 12058624,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 46,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 12320768,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 47,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 12582912,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 48,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 12845056,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 49,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 13107200,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 50,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 13369344,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 51,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 13631488,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 52,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 13893632,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 53,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 14155776,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 54,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 14373564,
+      "total_bytes": 14373564,
+      "gate": "native_media_progress",
+      "requests": 55,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "sha256": "323ec3fd9e95b68ff96d295d81323ffb760103eeacbd117faacd3adac90721c3",
+      "category": "ok",
+      "validated_bytes": 14373564,
+      "complete_file": 1,
+      "network_bytes": 14373564,
+      "requests": 55,
+      "expected_bytes": 14373564,
+      "buffer_high_bytes": 262144,
+      "gate": "native_media_complete",
+      "elapsed_ms": 2871.0129166720435,
+      "process_maxrss_bytes": 80363520,
+      "owned_media_filename": "TV_SAMSUNG-eRsGyueVLvQ-0F65CF6D-105A-46E3-BB8C-1238906A54D3.m4a",
+      "outcome": "pass",
+      "http_status": 206
+    },
+    {
+      "outcome": "pass",
+      "http_status": 206,
+      "local_error": 0,
+      "elapsed_ms": 5683.992375008529,
+      "gate": "native_decode_full",
+      "pcm_sha256": "0e5bf2e64f748b007c575c131bbbdcf45b7b1f9e7a5ab714a5ae23da3b8e4368",
+      "local_frames": 42628493,
+      "transport_category": "eof",
+      "nonzero_samples": 85249859,
+      "requests": 55,
+      "source_channels": 2,
+      "buffer_high_bytes": 262144,
+      "native_frames": 42628493,
+      "error": 0,
+      "first_output_seconds": 0,
+      "native_error": 0,
+      "source_sample_rate": 44100,
+      "network_bytes": 14373564,
+      "equal_pcm": 1,
+      "process_maxrss_bytes": 82067456,
+      "rms": 0.08993847351588136
+    },
+    {
+      "outcome": "pass",
+      "http_status": 206,
+      "local_error": 0,
+      "elapsed_ms": 3524.344833334908,
+      "gate": "native_decode_seek_30s",
+      "pcm_sha256": "9f3f3b61e485f1676f076299125bfe80ce4822169bd2c1a2f511c392155a32e8",
+      "local_frames": 41188493,
+      "transport_category": "eof",
+      "nonzero_samples": 82372257,
+      "requests": 55,
+      "source_channels": 2,
+      "buffer_high_bytes": 262144,
+      "native_frames": 41188493,
+      "error": 0,
+      "first_output_seconds": 30.000006094104307,
+      "native_error": 0,
+      "source_sample_rate": 44100,
+      "network_bytes": 14310238,
+      "equal_pcm": 1,
+      "process_maxrss_bytes": 82264064,
+      "rms": 0.09046995121009851
+    },
+    {
+      "code": 0,
+      "outcome": "pass",
+      "observed_peak_rss_bytes": 82247680,
+      "reason": "none",
+      "gate": "source_operation"
+    }
+  ],
+  "unsafe_or_non_json_stdout_redacted": false,
+  "stdout_bytes": 13122,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

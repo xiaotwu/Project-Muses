@@ -1,0 +1,90 @@
+{
+  "mode": "resolve_next",
+  "client": "TV_SAMSUNG",
+  "codec": "aac",
+  "exit_code": 2,
+  "stop_reason": null,
+  "elapsed_seconds": 3.372835459,
+  "sampled_peak_rss_bytes": 74711040,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "external_deadline_seconds": 180,
+  "binary_sha256": "3d8365b3c4f099e4ff5d116e7fb343e3aa325a5dfae99271bdc8abbeb5d6ec5e",
+  "bundle_sha256": "13c10df9b696f26a89fa12f3625cc3d9c3af01abe39671c20d81b27125e5640d",
+  "rows": [
+    {
+      "category": "ok",
+      "input_bytes": 2658728,
+      "native_live_after_bytes": 0,
+      "reduce_ms": 1882.696,
+      "parse_ms": 1705.764,
+      "timestamp_matches": 2,
+      "gate": "native_player_reduce",
+      "outcome": "pass",
+      "output_bytes": 189450,
+      "native_peak_bytes": 7401998,
+      "solver_matches": 1
+    },
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 2426,
+      "player_loaded": true
+    },
+    {
+      "gate": "source_profile",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "client_version": "5.20260707",
+      "reason": "public_metadata_only",
+      "status": "OK",
+      "format_count": 34,
+      "rejected_formats": 0
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "TV_SAMSUNG",
+      "video_id": "eRsGyueVLvQ",
+      "status": "OK",
+      "audio_formats": 9,
+      "bounded_audio_formats": 9,
+      "requested_codec": "aac",
+      "requested_codec_formats": 3,
+      "direct_formats": 9,
+      "cipher_formats": 0,
+      "n_parameter_formats": 9,
+      "hls": false,
+      "sabr": false
+    },
+    {
+      "gate": "source_availability",
+      "outcome": "unsupported",
+      "reason": "unknown_placement_kind"
+    },
+    {
+      "js_memory_bytes": 26736004,
+      "deadline_seconds": 90,
+      "received_bytes": 2871145,
+      "process_maxrss_bytes": 76709888,
+      "js_peak_allocated_bytes": 33515047,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 5,
+      "peak_concurrent": 1,
+      "first_byte_samples": 5
+    },
+    {
+      "code": 2,
+      "outcome": "fail",
+      "observed_peak_rss_bytes": 74711040,
+      "reason": "none",
+      "gate": "source_operation"
+    }
+  ],
+  "unsafe_or_non_json_stdout_redacted": false,
+  "stdout_bytes": 1288,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

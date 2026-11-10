@@ -1,0 +1,4 @@
+{"phase":"runtime","version":"0.18.0","engine":"QuickJS-NG","core_dumps":false}
+{"phase":"offline_fetch_shim","outcome":"pass","jobs":14,"network_requests":0}
+{"phase":"smoke_teardown","backing_live_bytes":0,"backing_live_allocations":0,"backing_peak_bytes":1129230,"allocator_denials":0}
+{"phase":"summary","outcome":"pass","elapsed_ms":4,"process_maxrss_bytes":4554752}

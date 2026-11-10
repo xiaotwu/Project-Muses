@@ -1,0 +1,54 @@
+{
+  "mode": "capabilities",
+  "client": "TV",
+  "codec": "aac",
+  "exit_code": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 0.90581425,
+  "sampled_peak_rss_bytes": 33030144,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "external_deadline_seconds": 120,
+  "binary_sha256": "05ba3d3a3dbcb443364869abbb0282b1fd843f9a924ea2db814f9ab067b7edb4",
+  "bundle_sha256": "c83edb440728211476cba9609b9abe47327963e3bce5ba9d23283ff50e42ee3d",
+  "rows": [
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 115,
+      "player_loaded": false
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "TV",
+      "video_id": "aqz-KE-bpKQ",
+      "status": "LOGIN_REQUIRED",
+      "audio_formats": 0,
+      "bounded_audio_formats": 0,
+      "requested_codec": "aac",
+      "requested_codec_formats": 0,
+      "direct_formats": 0,
+      "cipher_formats": 0,
+      "hls": false,
+      "sabr": false
+    },
+    {
+      "js_memory_bytes": 4669777,
+      "deadline_seconds": 90,
+      "received_bytes": 2080,
+      "process_maxrss_bytes": 33062912,
+      "js_peak_allocated_bytes": 10584674,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 2,
+      "peak_concurrent": 1,
+      "first_byte_samples": 2
+    }
+  ],
+  "unsafe_or_non_json_stdout_redacted": false,
+  "stdout_bytes": 623,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

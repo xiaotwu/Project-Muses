@@ -1,0 +1,43 @@
+{
+  "label": "quickjs-corrected-full-parse",
+  "command": [
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/quickjs-phase",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/extract.corrected.bundle.js",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/player.js",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/baseline-full-solver.js",
+    "parse_only"
+  ],
+  "exit_code": 1,
+  "guard_stop": null,
+  "elapsed_ms": 626,
+  "observed_peak_rss_bytes": 77234176,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "phase": "before_parse",
+      "js_live_bytes": 7530622,
+      "js_peak_bytes": 8665876,
+      "process_maxrss_bytes": 17481728
+    },
+    {
+      "phase": "main",
+      "outcome": "fail",
+      "error_name": "unknown",
+      "error_category": "redacted"
+    },
+    {
+      "phase": "summary",
+      "main_js_peak_bytes": 67105131,
+      "main_heap_limit_bytes": 67108864,
+      "process_maxrss_bytes": 82280448
+    }
+  ],
+  "stdout_sha256": "2e0e75844642822bbdda208cf0a766497f48feabd07cf4af52c33c36ad13443a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_bytes": 0,
+  "binary_sha256": "60a60f1910a9ffd1b855a6e4a38aa8de5167f79c5fab59b00ce23cecce14e7cd",
+  "corrected_bundle_sha256": "17a300a3ef421c50922459a2f5bc086a121c2156ceedd50a8b3c8cc8c003b7dd",
+  "runner_sha256": "ee58e63dd770b8ad7540bd810c53e1f997d7cbba87180102870550c245f379be",
+  "core_dumps": false,
+  "scratch_allocated_bytes": 8646656
+}

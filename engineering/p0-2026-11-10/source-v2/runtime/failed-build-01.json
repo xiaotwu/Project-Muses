@@ -1,0 +1,12 @@
+{
+  "guard_receipt": "048f8269583241bd9b48a2ae5e703d4a",
+  "outcome": "compile_rejected_incompatible_interrupt_callback",
+  "embedding_sha256": "1be0416819d3c3c60dfbd3451628d7fccbbdecc49868c71c9177d58170576022",
+  "build_script_sha256": "47e376cdf2f4de26fff9f94fe183267b3fddb88c095f3afc12be6e2b88f03df1",
+  "line": 57,
+  "actual_callback": "int (JSRuntime *, void *)",
+  "required_callback": "int (JSContext *, void *)",
+  "minimal_correction": "Change the first callback parameter type and its unused name; preserve interrupt logic and all budgets.",
+  "native_probe_executed": false,
+  "guard_stop": null
+}

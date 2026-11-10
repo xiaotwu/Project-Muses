@@ -1,0 +1,102 @@
+{
+  "mode": "resolve_next",
+  "client": "TV_SAMSUNG",
+  "codec": "aac",
+  "exit_code": 2,
+  "stop_reason": null,
+  "elapsed_seconds": 3.2995214589999997,
+  "sampled_peak_rss_bytes": 75710464,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "external_deadline_seconds": 180,
+  "binary_sha256": "3d8365b3c4f099e4ff5d116e7fb343e3aa325a5dfae99271bdc8abbeb5d6ec5e",
+  "bundle_sha256": "71a7ec6ce635bce5bd5c5e6bf68a9e8956f41f71c57caefff7d7e5c0faa386e8",
+  "rows": [
+    {
+      "category": "ok",
+      "input_bytes": 2661557,
+      "native_live_after_bytes": 0,
+      "reduce_ms": 1757.773,
+      "parse_ms": 1595.504,
+      "timestamp_matches": 2,
+      "gate": "native_player_reduce",
+      "outcome": "pass",
+      "output_bytes": 190486,
+      "native_peak_bytes": 7384931,
+      "solver_matches": 1
+    },
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 2422,
+      "player_loaded": true
+    },
+    {
+      "gate": "source_availability_shape",
+      "outcome": "observed",
+      "diagnostics": [
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        }
+      ]
+    },
+    {
+      "gate": "source_profile",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "client_version": "5.20260707",
+      "reason": "public_metadata_only",
+      "status": "OK",
+      "format_count": 34,
+      "rejected_formats": 0
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "TV_SAMSUNG",
+      "video_id": "eRsGyueVLvQ",
+      "status": "OK",
+      "audio_formats": 9,
+      "bounded_audio_formats": 9,
+      "requested_codec": "aac",
+      "requested_codec_formats": 3,
+      "direct_formats": 9,
+      "cipher_formats": 0,
+      "n_parameter_formats": 9,
+      "hls": false,
+      "sabr": false
+    },
+    {
+      "gate": "source_availability",
+      "outcome": "unsupported",
+      "reason": "unknown_placement_kind"
+    },
+    {
+      "js_memory_bytes": 26880305,
+      "deadline_seconds": 90,
+      "received_bytes": 2876761,
+      "process_maxrss_bytes": 77725696,
+      "js_peak_allocated_bytes": 33735142,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 5,
+      "peak_concurrent": 1,
+      "first_byte_samples": 5
+    },
+    {
+      "code": 2,
+      "outcome": "fail",
+      "observed_peak_rss_bytes": 75579392,
+      "reason": "none",
+      "gate": "source_operation"
+    }
+  ],
+  "unsafe_or_non_json_stdout_redacted": false,
+  "stdout_bytes": 1476,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

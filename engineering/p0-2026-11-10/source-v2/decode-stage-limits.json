@@ -1,0 +1,15 @@
+{
+  "purpose": "Compare complete real media with independent native full and 30-second seek decoding",
+  "parent_stage_budget_sha256": "11328d623982202fe8b57fd54532cd2c378cd222a6688c8578be8bcdf6478a44",
+  "same_descriptor_per_probe": true,
+  "native_handles_per_probe": 3,
+  "media_bytes_per_handle": 16777216,
+  "network_bytes_per_handle": 16777216,
+  "network_bytes_per_probe_maximum": 50331648,
+  "maximum_retained_media_file_bytes": 16777216,
+  "process_rss_observation_limit_bytes": 268435456,
+  "decoder_output_storage": "incremental PCM hash/count/RMS with 65536-byte conversion buffer; no PCM files",
+  "decode_deadline_seconds_per_pass": 60,
+  "whole_probe_deadline_seconds": 180,
+  "media_cache": "none; owned complete file retained only until evidence checkpoint cleanup"
+}

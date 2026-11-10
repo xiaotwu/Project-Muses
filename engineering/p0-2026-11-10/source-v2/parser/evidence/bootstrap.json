@@ -1,0 +1,25 @@
+{
+  "dependencies": [
+    {
+      "repository": "https://github.com/tree-sitter/tree-sitter",
+      "tag": "v0.25.10",
+      "license": "MIT",
+      "archive_sha256": "ad5040537537012b16ef6e1210a572b927c7cdc2b99d1ee88d44a7dcdc3ff44c",
+      "archive_bytes": 864648
+    },
+    {
+      "repository": "https://github.com/tree-sitter/tree-sitter-javascript",
+      "tag": "v0.25.0",
+      "license": "MIT",
+      "archive_sha256": "9712fc283d3dc01d996d20b6392143445d05867a7aad76fdd723824468428b86",
+      "archive_bytes": 309805
+    }
+  ],
+  "public_player": {
+    "sha256": "5f2035b38e20c1e57ad8e51ada9ea82d1eaac59f2a4603ebd851f421e3a3f5dd",
+    "bytes": 2658728,
+    "source": "YouTube public iframe_api -> player_es6 base.js",
+    "cookies": false,
+    "cache": false
+  }
+}

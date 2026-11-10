@@ -1,0 +1,19 @@
+{
+  "label": "native-final-lifecycle",
+  "exit_code": 0,
+  "guard_stop": null,
+  "elapsed_ms": 1868,
+  "observed_peak_rss_bytes": 14614528,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "native_lifecycle_checks": 136,
+      "outcome": "pass",
+      "cap_then_valid_repetitions": 12,
+      "malformed_then_valid_cases": 5,
+      "concurrent_rejection_test": true
+    }
+  ],
+  "stderr_bytes": 0,
+  "binary_sha256": "c7e4b02da9f75a901d6bb5b5ee62dc891c891a96db948643e8400967f60f20b0"
+}

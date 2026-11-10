@@ -1,0 +1,6 @@
+{"phase":"runtime","version":"0.18.0","engine":"QuickJS-NG","core_dumps":false}
+{"phase":"before_parse","logical_js_bytes":7170920,"backing_live_bytes":7762480,"backing_peak_bytes":8894247,"process_maxrss_bytes":18399232}
+{"phase":"extract_exception","uncatchable":false,"allocator_denials":2,"cancel_requested":false,"deadline_hit":false}
+{"phase":"extraction_result","outcome":"fail","classification":"unexpected_exception"}
+{"phase":"extract_teardown","backing_live_bytes":0,"backing_live_allocations":0,"backing_peak_bytes":67108133,"allocator_denials":2}
+{"phase":"summary","outcome":"fail","elapsed_ms":271,"process_maxrss_bytes":82427904}

@@ -1,0 +1,16 @@
+{
+  "attempt": 2,
+  "launch_outcome": "failed",
+  "console_attached": false,
+  "debugger_attached": false,
+  "failure_category": "device_locked_launch_denied",
+  "observation-window": {
+    "launch_outcome": "failed",
+    "utc_observed": "2026-11-10T22:53:03.739159+00:00",
+    "do_not_read_device_until_unix": 1794351333.739258,
+    "console_attached": false,
+    "debugger_attached": false,
+    "signed_binary_sha256": "c4575e213217ca5ea3cee5e487640a9c5aceeda9dcbbb1efe3ec7bc6be0fde1a",
+    "retry_requested_by_user": true
+  }
+}

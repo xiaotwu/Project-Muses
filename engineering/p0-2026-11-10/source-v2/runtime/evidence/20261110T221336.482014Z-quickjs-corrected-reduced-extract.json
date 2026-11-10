@@ -1,0 +1,69 @@
+{
+  "label": "quickjs-corrected-reduced-extract",
+  "command": [
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/quickjs-phase",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/extract.corrected.bundle.js",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/reduced.js",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/baseline-reduced-solver.js",
+    "extract"
+  ],
+  "exit_code": 0,
+  "guard_stop": null,
+  "elapsed_ms": 622,
+  "observed_peak_rss_bytes": 40206336,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "phase": "before_parse",
+      "js_live_bytes": 5061344,
+      "js_peak_bytes": 6196598,
+      "process_maxrss_bytes": 12353536
+    },
+    {
+      "phase": "after_analyzer",
+      "js_live_bytes": 30150353,
+      "js_peak_bytes": 30156801,
+      "process_maxrss_bytes": 39649280
+    },
+    {
+      "phase": "after_extractor",
+      "js_live_bytes": 30650971,
+      "js_peak_bytes": 30919314,
+      "process_maxrss_bytes": 40091648
+    },
+    {
+      "phase": "released",
+      "js_live_bytes": 5169157,
+      "js_peak_bytes": 30919314,
+      "process_maxrss_bytes": 40108032
+    },
+    {
+      "phase": "solver_output",
+      "bytes": 179564,
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198",
+      "signature_timestamp": 20760
+    },
+    {
+      "phase": "isolated_solver",
+      "outcome": "pass",
+      "n_length": 12,
+      "sig_length": 60,
+      "js_peak_bytes": 2300509,
+      "heap_limit_bytes": 8388608
+    },
+    {
+      "phase": "summary",
+      "main_js_peak_bytes": 30919314,
+      "main_heap_limit_bytes": 67108864,
+      "process_maxrss_bytes": 40288256
+    }
+  ],
+  "stdout_sha256": "3dcf5cf9cd6a3b9fc7e49a8562952bd678cb8120222979eec852da1fe1f18d92",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_bytes": 0,
+  "binary_sha256": "60a60f1910a9ffd1b855a6e4a38aa8de5167f79c5fab59b00ce23cecce14e7cd",
+  "corrected_bundle_sha256": "17a300a3ef421c50922459a2f5bc086a121c2156ceedd50a8b3c8cc8c003b7dd",
+  "runner_sha256": "ee58e63dd770b8ad7540bd810c53e1f997d7cbba87180102870550c245f379be",
+  "core_dumps": false,
+  "scratch_allocated_bytes": 8835072
+}

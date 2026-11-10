@@ -1,0 +1,56 @@
+{
+  "label": "quickjs-reduced-final",
+  "exit_code": 0,
+  "guard_stop": null,
+  "elapsed_ms": 634,
+  "observed_peak_rss_bytes": 40124416,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "phase": "before_parse",
+      "js_live_bytes": 5061344,
+      "js_peak_bytes": 6196598,
+      "process_maxrss_bytes": 12369920
+    },
+    {
+      "phase": "after_analyzer",
+      "js_live_bytes": 30150353,
+      "js_peak_bytes": 30156801,
+      "process_maxrss_bytes": 39682048
+    },
+    {
+      "phase": "after_extractor",
+      "js_live_bytes": 30650971,
+      "js_peak_bytes": 30919314,
+      "process_maxrss_bytes": 40124416
+    },
+    {
+      "phase": "released",
+      "js_live_bytes": 5169157,
+      "js_peak_bytes": 30919314,
+      "process_maxrss_bytes": 40140800
+    },
+    {
+      "phase": "solver_output",
+      "bytes": 179564,
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198",
+      "signature_timestamp": 20760
+    },
+    {
+      "phase": "isolated_solver",
+      "outcome": "pass",
+      "n_length": 12,
+      "sig_length": 60,
+      "js_peak_bytes": 2300509,
+      "heap_limit_bytes": 8388608
+    },
+    {
+      "phase": "summary",
+      "main_js_peak_bytes": 30919314,
+      "main_heap_limit_bytes": 67108864,
+      "process_maxrss_bytes": 40321024
+    }
+  ],
+  "stderr_bytes": 0,
+  "binary_sha256": "60a60f1910a9ffd1b855a6e4a38aa8de5167f79c5fab59b00ce23cecce14e7cd"
+}

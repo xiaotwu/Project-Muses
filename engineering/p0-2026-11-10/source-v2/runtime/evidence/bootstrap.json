@@ -1,0 +1,35 @@
+{
+  "version": "v0.18.0",
+  "source_url": "https://github.com/quickjs-ng/quickjs/releases/download/v0.18.0/quickjs-amalgam.zip",
+  "archive_bytes": 571908,
+  "archive_sha256": "6c05066a6b62b483e2ba0f83d7a16688c6958182b214bfd693529434cef84a9e",
+  "inputs": {
+    "player.js": {
+      "original": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/fixtures/player.js",
+      "bytes": 2658728,
+      "sha256": "5f2035b38e20c1e57ad8e51ada9ea82d1eaac59f2a4603ebd851f421e3a3f5dd"
+    },
+    "reduced.js": {
+      "original": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/fixtures/reduced.js",
+      "bytes": 189450,
+      "sha256": "be8ae511cec64bb48b61ccb280f30151ef5bb61dec2466457eb471b2a5b171a9"
+    },
+    "reference-solver.js": {
+      "original": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/fixtures/solver.js",
+      "bytes": 179564,
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198"
+    },
+    "extract.bundle.js": {
+      "original": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/extract.bundle.js",
+      "bytes": 942145,
+      "sha256": "c693175852d533c240a56fcbeae087b4f784787c79d03318c8761e493ff046c8"
+    }
+  },
+  "upstream_files": {
+    "quickjs-amalgam.c": "c58c7ee45ac100e89add606aa5a35ddd7648d8252835c5389b9439c9c9fcfc24",
+    "quickjs-libc.h": "55c6b4504124941903fc09c35aecedddb88fa45c27d5e62c65962bb670ae17d1",
+    "quickjs.h": "6d3879c856551653a1c64fabe52d6d07dc84e97bac3df45848df626702fc30de"
+  },
+  "scratch_limit_bytes": 52428800,
+  "allocated_bytes": 7688192
+}

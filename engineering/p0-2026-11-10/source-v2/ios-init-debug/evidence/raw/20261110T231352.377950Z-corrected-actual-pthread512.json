@@ -1,0 +1,218 @@
+{
+  "label": "actual-pthread512",
+  "exit_code": 0,
+  "guard_stop": null,
+  "elapsed_ms": 3950,
+  "sampled_peak_rss_bytes": 30162944,
+  "events": [
+    {
+      "outcome": "pass",
+      "bytes": 1654732,
+      "gate": "source_bundle_read",
+      "sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f"
+    },
+    {
+      "js_memory_bytes": 4748733,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 29261824,
+      "js_peak_allocated_bytes": 10773717,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 1,
+      "placement": "pthread512",
+      "iteration": 0,
+      "fixture": false,
+      "gate": "corrected_host_case",
+      "outcome": "pass",
+      "exception_category": "none",
+      "code": 0,
+      "elapsed_ms": 702.2889583313372,
+      "js_peak_allocated_bytes": 10773717
+    },
+    {
+      "outcome": "pass",
+      "bytes": 1654732,
+      "gate": "source_bundle_read",
+      "sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f"
+    },
+    {
+      "js_memory_bytes": 4748733,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 29655040,
+      "js_peak_allocated_bytes": 10773717,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 1,
+      "placement": "pthread512",
+      "iteration": 1,
+      "fixture": false,
+      "gate": "corrected_host_case",
+      "outcome": "pass",
+      "exception_category": "none",
+      "code": 0,
+      "elapsed_ms": 648.0273333145306,
+      "js_peak_allocated_bytes": 10773717
+    },
+    {
+      "outcome": "pass",
+      "bytes": 1654732,
+      "gate": "source_bundle_read",
+      "sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f"
+    },
+    {
+      "js_memory_bytes": 4748733,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 29982720,
+      "js_peak_allocated_bytes": 10773717,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 1,
+      "placement": "pthread512",
+      "iteration": 2,
+      "fixture": false,
+      "gate": "corrected_host_case",
+      "outcome": "pass",
+      "exception_category": "none",
+      "code": 0,
+      "elapsed_ms": 651.0632499994244,
+      "js_peak_allocated_bytes": 10773717
+    },
+    {
+      "outcome": "pass",
+      "bytes": 1654732,
+      "gate": "source_bundle_read",
+      "sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f"
+    },
+    {
+      "js_memory_bytes": 4748733,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 30048256,
+      "js_peak_allocated_bytes": 10773717,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 1,
+      "placement": "pthread512",
+      "iteration": 3,
+      "fixture": false,
+      "gate": "corrected_host_case",
+      "outcome": "pass",
+      "exception_category": "none",
+      "code": 0,
+      "elapsed_ms": 644.4744583277497,
+      "js_peak_allocated_bytes": 10773717
+    },
+    {
+      "outcome": "pass",
+      "bytes": 1654732,
+      "gate": "source_bundle_read",
+      "sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f"
+    },
+    {
+      "js_memory_bytes": 4748733,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 30113792,
+      "js_peak_allocated_bytes": 10773717,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 1,
+      "placement": "pthread512",
+      "iteration": 4,
+      "fixture": false,
+      "gate": "corrected_host_case",
+      "outcome": "pass",
+      "exception_category": "none",
+      "code": 0,
+      "elapsed_ms": 644.29954168736,
+      "js_peak_allocated_bytes": 10773717
+    },
+    {
+      "outcome": "pass",
+      "bytes": 1654732,
+      "gate": "source_bundle_read",
+      "sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f"
+    },
+    {
+      "js_memory_bytes": 4748733,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 30179328,
+      "js_peak_allocated_bytes": 10773717,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 1,
+      "placement": "pthread512",
+      "iteration": 5,
+      "fixture": false,
+      "gate": "corrected_host_case",
+      "outcome": "pass",
+      "exception_category": "none",
+      "code": 0,
+      "elapsed_ms": 648.9992083224934,
+      "js_peak_allocated_bytes": 10773717
+    },
+    {
+      "checks": 6,
+      "network_requests": 0,
+      "blocked_request_calls": 6,
+      "observed_eval_heap_bytes": 6533407,
+      "process_maxrss_bytes": 30195712,
+      "gate": "corrected_input_summary",
+      "outcome": "pass",
+      "failures": 0,
+      "main_eval_calls": 6,
+      "isolated_eval_calls": 0,
+      "terminator_failures": 0
+    }
+  ],
+  "stderr_bytes": 0,
+  "stdout_sha256": "53ef5fa9699bfab549c2b4db603641583a68ee22db73bb835335c31b3efddb93",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "binary_sha256": "da2dacf158b0b1d50fb6b2fe1ae0f2d1750954f96b6c068aae6ef6f9cdcda0a5"
+}

@@ -1,0 +1,6 @@
+{
+  "outcome": "stopped_before_inventory_or_moves",
+  "reason": "Incorrect path to required source-hashes.json; corrected to ios-init-debug/source-hashes.json after checking file inventory.",
+  "cleanup_mutations": 0,
+  "script_created": true
+}

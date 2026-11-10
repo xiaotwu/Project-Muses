@@ -1,0 +1,63 @@
+{
+  "label": "ng-corrected-full-parse",
+  "command": [
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/embedding-ng",
+    "full-parse",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/extract.corrected.bundle.js",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/player.js",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/reference-solver.js"
+  ],
+  "exit_code": 1,
+  "guard_stop": null,
+  "elapsed_ms": 288,
+  "observed_peak_rss_bytes": 81641472,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "phase": "runtime",
+      "version": "0.18.0",
+      "engine": "QuickJS-NG",
+      "core_dumps": false
+    },
+    {
+      "phase": "before_parse",
+      "logical_js_bytes": 7170920,
+      "backing_live_bytes": 7762480,
+      "backing_peak_bytes": 8894247,
+      "process_maxrss_bytes": 18399232
+    },
+    {
+      "phase": "extract_exception",
+      "uncatchable": false,
+      "allocator_denials": 2,
+      "cancel_requested": false,
+      "deadline_hit": false
+    },
+    {
+      "phase": "extraction_result",
+      "outcome": "fail",
+      "classification": "unexpected_exception"
+    },
+    {
+      "phase": "extract_teardown",
+      "backing_live_bytes": 0,
+      "backing_live_allocations": 0,
+      "backing_peak_bytes": 67108133,
+      "allocator_denials": 2
+    },
+    {
+      "phase": "summary",
+      "outcome": "fail",
+      "elapsed_ms": 271,
+      "process_maxrss_bytes": 82427904
+    }
+  ],
+  "stdout_sha256": "17573b69994f28e36aed394a9540563cb2f1ce388ab35e06ea6ec37420a83536",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_bytes": 0,
+  "binary_sha256": "c7b5893953109ca9b7d2c7d5335ea0664b57fcfff38f7eb147347069b3566cd2",
+  "corrected_bundle_sha256": "17a300a3ef421c50922459a2f5bc086a121c2156ceedd50a8b3c8cc8c003b7dd",
+  "runner_sha256": "ee58e63dd770b8ad7540bd810c53e1f997d7cbba87180102870550c245f379be",
+  "core_dumps": false,
+  "scratch_allocated_bytes": 14401536
+}

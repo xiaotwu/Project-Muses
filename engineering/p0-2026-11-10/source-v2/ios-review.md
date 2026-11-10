@@ -1,0 +1,13 @@
+# Read-only review and resulting iOS adapter
+
+Reviewed the original `source/iOSMain.m`, `source/NativeHost.m`, current `source-v2/NativeHooks.inc`, and actual `audio/p0_audio.h` / `audio/probe.cpp`. `source/AudioBridge.*` is absent from the worktree and source scratch; the original iOS build links the FFmpeg/miniaudio C ABI directly.
+
+The original controller already captures application/scene state on main. Its 30-second schedule is from audio start, but it neither requires background at that time nor blocks an earlier remote Next. Its snapshot/stop timers share the source worker, so blocking source work delays them. Its native watchdog stops audio, not JS/downloads. Its old store path passes media through JS and caps each file without an app-wide cumulative cache policy. Calibration is explicitly synthetic and is not source playback evidence.
+
+At review time, the v2 desktop hook returns a small native descriptor after JS disposal, transfers with native URLSession, and then performs full/30-second-seek AVIO comparisons. Its hard-coded desktop destination and diagnostic repeats must not become the phone playback path. The minimal new wrapper is `P0V2RunSource`: resolve, release JS, transfer one complete native file in the caller's directory, then call the existing media handler. Preserve the original evidence and keep the diagnostic binary separately reproducible.
+
+The coordinator subsequently requested implementation, not only a plan. New controller code lives solely under `source-v2/ios/`, with the run/queue/budget contracts and offline checks in its README. Per the coordinator's explicit timing decision, it triggers at **audio start +30 seconds while both native states are background**, not background-entry +30 seconds. It never labels that state alone as physical-lock proof.
+
+The actual audio bridge requires complete local files. FFmpeg is already present and performs sample-rate/channel conversion; six-channel AAC and stereo Opus from the completed public transfer now pass a muted real-time ABI transition test using that unchanged bridge. The separate AVIO probe's PCM equality does not by itself prove the real-time sink, which is why that additional ABI check was necessary. Streaming AVIO directly into the sink is still unimplemented.
+
+Phone readiness requires the coordinator's 45-second cancelable source wrapper, class-C partial-file creation, final linking/signing and frozen receipts, followed by an explicit user-coordinated unlocked launch and lock action. The controller's 256 MiB monitor is observational, and serial audio teardown may wait for the existing bounded preparation call. All previous source failures, synthetic calibration limitations and unmeasured baseline/endurance gates remain in force.

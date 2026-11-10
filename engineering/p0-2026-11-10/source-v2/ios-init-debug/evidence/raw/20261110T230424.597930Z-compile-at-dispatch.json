@@ -1,0 +1,161 @@
+{
+  "label": "compile-at-dispatch",
+  "exit_code": 0,
+  "guard_stop": null,
+  "elapsed_ms": 108,
+  "sampled_peak_rss_bytes": 25935872,
+  "events": [
+    {
+      "outcome": "fail",
+      "stop_reason": "none",
+      "gate": "bundle_load",
+      "category": "runtime_exception"
+    },
+    {
+      "js_memory_bytes": 191865,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 25559040,
+      "js_peak_allocated_bytes": 10772221,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "phase": "case",
+      "iteration": 0,
+      "tail": "at",
+      "placement": "dispatch",
+      "mode": "compile",
+      "input_bytes": 1654732,
+      "result": 1,
+      "exception_category": "syntax_error",
+      "js_peak_bytes": 10772221,
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 0,
+      "elapsed_ms": 28.309,
+      "shape_ok": true,
+      "expected": true
+    },
+    {
+      "outcome": "fail",
+      "stop_reason": "none",
+      "gate": "bundle_load",
+      "category": "runtime_exception"
+    },
+    {
+      "js_memory_bytes": 191865,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 25837568,
+      "js_peak_allocated_bytes": 10772221,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "phase": "case",
+      "iteration": 0,
+      "tail": "at",
+      "placement": "dispatch",
+      "mode": "compile",
+      "input_bytes": 1654732,
+      "result": 1,
+      "exception_category": "syntax_error",
+      "js_peak_bytes": 10772221,
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 0,
+      "elapsed_ms": 22.491,
+      "shape_ok": true,
+      "expected": true
+    },
+    {
+      "outcome": "fail",
+      "stop_reason": "none",
+      "gate": "bundle_load",
+      "category": "runtime_exception"
+    },
+    {
+      "js_memory_bytes": 191865,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 25853952,
+      "js_peak_allocated_bytes": 10772221,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "phase": "case",
+      "iteration": 0,
+      "tail": "at",
+      "placement": "dispatch",
+      "mode": "compile",
+      "input_bytes": 1654732,
+      "result": 1,
+      "exception_category": "syntax_error",
+      "js_peak_bytes": 10772221,
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 0,
+      "elapsed_ms": 22.617,
+      "shape_ok": true,
+      "expected": true
+    },
+    {
+      "outcome": "fail",
+      "stop_reason": "none",
+      "gate": "bundle_load",
+      "category": "runtime_exception"
+    },
+    {
+      "js_memory_bytes": 191865,
+      "deadline_seconds": 90,
+      "received_bytes": 0,
+      "process_maxrss_bytes": 25935872,
+      "js_peak_allocated_bytes": 10772221,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 0,
+      "peak_concurrent": 0,
+      "first_byte_samples": 0
+    },
+    {
+      "phase": "case",
+      "iteration": 0,
+      "tail": "at",
+      "placement": "dispatch",
+      "mode": "compile",
+      "input_bytes": 1654732,
+      "result": 1,
+      "exception_category": "syntax_error",
+      "js_peak_bytes": 10772221,
+      "native_stack_bytes": 536576,
+      "blocked_request_calls": 0,
+      "elapsed_ms": 22.43,
+      "shape_ok": true,
+      "expected": true
+    },
+    {
+      "phase": "summary",
+      "outcome": "pass",
+      "evaluations": 4,
+      "observed_exceptions": 4,
+      "network_requests": 0,
+      "process_maxrss_bytes": 25985024
+    }
+  ],
+  "stderr_bytes": 0,
+  "stdout_sha256": "6f5ed8bb149d38d643e7db48ae981160ec7ea1cfc412e10e510c393fc140246d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "binary_sha256": "0bf2cd50a0cb1b716febb90defe22ec02af445a23b37692624065ee9db85146d"
+}

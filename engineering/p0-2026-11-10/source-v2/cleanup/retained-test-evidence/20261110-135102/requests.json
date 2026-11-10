@@ -1,0 +1,11 @@
+{
+  "/range": 10,
+  "/ignore": 1,
+  "/forbidden": 1,
+  "/wrong-range": 1,
+  "/short": 1,
+  "/changed": 2,
+  "/oversize": 1,
+  "/late-forbidden": 2,
+  "/slow": 1
+}

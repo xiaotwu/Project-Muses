@@ -1,0 +1,17 @@
+{
+  "created_unix": 1794350839.110828,
+  "moved_paths": 14,
+  "failed_actions": [],
+  "logical_moved_bytes": 42522806,
+  "allocated_moved_bytes": 45973504,
+  "free_before": 574371094528,
+  "free_after": 574369918976,
+  "free_delta_not_attributed_to_task": -1175552,
+  "physical_recovery_claim_bytes": 0,
+  "trash_total_logical_file_bytes": 2117534670,
+  "trash_total_allocated_path_sum_bytes": 2119135232,
+  "trash_total_allocated_unique_inode_bytes": 2119118848,
+  "trash_hardlink_path_difference_bytes": 16384,
+  "permission_blockers": [],
+  "preserved": "active parser, desktop decoder inputs, integration build, unsigned/signed phone candidate, live media, initial phone dependencies and all receipts"
+}

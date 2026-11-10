@@ -1,0 +1,69 @@
+{
+  "raw_report_copied": false,
+  "private_identifiers_copied": false,
+  "crashes": [
+    {
+      "program": "parser-proof",
+      "exception_type": "EXC_BAD_ACCESS",
+      "signal": "SIGSEGV",
+      "top_symbols": [
+        {
+          "symbol": "ts_node_child_by_field_name",
+          "offset": 40
+        },
+        {
+          "symbol": "p0_player_reduce",
+          "offset": 800
+        },
+        {
+          "symbol": "main",
+          "offset": 360
+        },
+        {
+          "symbol": "start",
+          "offset": 6652
+        }
+      ]
+    },
+    {
+      "program": "quickjs-phase",
+      "exception_type": "EXC_BAD_ACCESS",
+      "signal": "SIGSEGV",
+      "top_symbols": [
+        {
+          "symbol": "JS_DefineProperty",
+          "offset": 208
+        },
+        {
+          "symbol": "build_backtrace",
+          "offset": 1156
+        },
+        {
+          "symbol": "JS_CallInternal",
+          "offset": 36332
+        },
+        {
+          "symbol": "JS_CallInternal",
+          "offset": 4492
+        },
+        {
+          "symbol": "JS_CallInternal",
+          "offset": 4056
+        },
+        {
+          "symbol": "JS_CallInternal",
+          "offset": 4056
+        },
+        {
+          "symbol": "JS_CallInternal",
+          "offset": 4056
+        },
+        {
+          "symbol": "JS_CallInternal",
+          "offset": 4056
+        }
+      ]
+    }
+  ],
+  "quickjs_diagnostic_note": "Full-parse diagnostic predates scoped structuredClone completion; runtime cause requires corrected-host reproduction. Original native window null-field fault was fixed and repeated malformed recovery now passes."
+}

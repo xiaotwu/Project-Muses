@@ -1,0 +1,18 @@
+{
+  "fixture_sha256": "d30eb241f95e7c37c033251a78eae1610ac9b02dc99625442158180d35818c1b",
+  "complete_sha256": "d30eb241f95e7c37c033251a78eae1610ac9b02dc99625442158180d35818c1b",
+  "fixture_bytes": 262144,
+  "scratch_cap_bytes": 209715200,
+  "initial_allocated_bytes": 15446016,
+  "final_allocated_bytes": 15908864,
+  "free_bytes": 574587039744,
+  "source_hashes": {
+    "muses_transport.h": "9a9db595c3b513aed51fde14e4f4ce3506a7d9e18549350a783afe9e0c233806",
+    "narrow_headers.py": "2c9e6cc9fb23c8dce42183fdd1e99f67c62bda3b4f75710ef40fe108d684a672",
+    "NativeTransport.m": "f39ae57107a16b03ff1b39d9917f9db33d9870c26eb620652150f9e9ea80d58b",
+    "LocalTests.m": "a6f72bdc4a4b7370aaaddee1ba6a17f788739c1df11e23aa341835e142d2c50b",
+    "build_objects.py": "27ea2eed64ed923a655f2af84df344cc48a9410700c7b2fcdc024a53257bedb8",
+    "run_local.py": "7901be17df62fd63f577fad570180cb4720d7c166b6213b976c3206c1541865c",
+    "restore_decoder_inputs.py": "e4ef2a1fc6b8ca1a00cdba41cedee45eb23f24701f3e30715b8fe26dcdce2556"
+  }
+}

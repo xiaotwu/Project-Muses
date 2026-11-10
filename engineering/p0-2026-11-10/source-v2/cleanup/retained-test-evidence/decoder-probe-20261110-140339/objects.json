@@ -1,0 +1,10 @@
+{
+  "macosx": {
+    "sha256": "234145a0b1deb469e49ec57d9ce276c9c1117d953934bfb18a3cc8e7ee25106f",
+    "bytes": 13200
+  },
+  "iphoneos": {
+    "sha256": "c5ab790cac87bb1a1a9c2978ec4fbcaa7f89b1601cd529ca73b2d3f058a45150",
+    "bytes": 13384
+  }
+}

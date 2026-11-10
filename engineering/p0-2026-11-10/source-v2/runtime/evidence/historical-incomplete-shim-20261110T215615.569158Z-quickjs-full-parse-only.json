@@ -1,0 +1,18 @@
+{
+  "label": "quickjs-full-parse-only",
+  "exit_code": -11,
+  "guard_stop": null,
+  "elapsed_ms": 645,
+  "observed_peak_rss_bytes": 81215488,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "phase": "before_parse",
+      "js_live_bytes": 7523118,
+      "js_peak_bytes": 8657841,
+      "process_maxrss_bytes": 17547264
+    }
+  ],
+  "stderr_bytes": 0,
+  "binary_sha256": "60a60f1910a9ffd1b855a6e4a38aa8de5167f79c5fab59b00ce23cecce14e7cd"
+}

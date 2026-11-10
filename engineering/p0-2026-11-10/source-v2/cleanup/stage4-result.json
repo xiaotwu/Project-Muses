@@ -1,0 +1,23 @@
+{
+  "completed_unix": 1794352773.786668,
+  "moved_paths": 7,
+  "logical_moved_bytes": 65256888,
+  "allocated_moved_bytes": 67006464,
+  "free_before": 574332813312,
+  "free_after": 574332731392,
+  "physical_recovery_claim_bytes": 0,
+  "permission_blockers": [],
+  "trash": {
+    "entries": 16551,
+    "logical_file_bytes": 2182791536,
+    "allocated_path_sum_bytes": 2173050880,
+    "allocated_unique_inode_bytes": 2173034496
+  },
+  "active_scratch": {
+    "entries": 3955,
+    "logical_file_bytes": 121284688,
+    "allocated_path_sum_bytes": 134905856,
+    "allocated_unique_inode_bytes": 134905856
+  },
+  "retained": "Current candidate 6, desktop source chain+dependencies and three distinct media for unfinished macOS checks; phone unchanged; all bounded source evidence and failures."
+}

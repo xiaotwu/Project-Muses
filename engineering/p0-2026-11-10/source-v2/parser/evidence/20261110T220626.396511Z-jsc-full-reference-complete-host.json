@@ -1,0 +1,35 @@
+{
+  "label": "jsc-full-reference-complete-host",
+  "exit_code": 0,
+  "guard_stop": null,
+  "elapsed_ms": 1426,
+  "observed_peak_rss_bytes": 194609152,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "phase": "before_parse",
+      "process_maxrss_bytes": 29605888
+    },
+    {
+      "phase": "after_analyzer",
+      "process_maxrss_bytes": 194609152
+    },
+    {
+      "phase": "after_extractor",
+      "process_maxrss_bytes": 194854912
+    },
+    {
+      "phase": "released",
+      "process_maxrss_bytes": 194871296
+    },
+    {
+      "phase": "full_source_reference",
+      "bytes": 179564,
+      "signature_timestamp": 20760,
+      "runtime": "system JavaScriptCore; diagnostic only",
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198"
+    }
+  ],
+  "stderr_bytes": 0,
+  "binary_sha256": "79327e1daf2a5d9ed97a50f327d289537967263c7e2e8833e81045c8177d2b58"
+}
