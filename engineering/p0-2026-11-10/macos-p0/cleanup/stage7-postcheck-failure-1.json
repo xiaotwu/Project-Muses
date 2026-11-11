@@ -1,0 +1,35 @@
+{
+  "recorded_unix": 1794358725.3339891,
+  "failure": "postcheck expectation of zero .app-named directories failed; classification required",
+  "cleanup_journal_complete": true,
+  "cleanup_actions": 15,
+  "cleanup_failures": [],
+  "active_task_executables": [],
+  "retired_app_named_directories": [
+    {
+      "path": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/13-baseline-runtime-tests/20261111T003418Z/test_mock_external_helper_prevents_success/fixture.app",
+      "info_plist_exists": false,
+      "files": [
+        "main",
+        "helper"
+      ]
+    },
+    {
+      "path": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/13-baseline-runtime-tests/20261111T003418Z/test_mock_complete_stops_verified_only/fixture.app",
+      "info_plist_exists": false,
+      "files": [
+        "main",
+        "helper"
+      ]
+    },
+    {
+      "path": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/13-baseline-runtime-tests/20261111T003418Z/test_mock_budget_failure_retains_state/fixture.app",
+      "info_plist_exists": false,
+      "files": [
+        "main",
+        "helper"
+      ]
+    }
+  ],
+  "additional_mutations": false
+}

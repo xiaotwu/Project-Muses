@@ -1,0 +1,17 @@
+[
+  {
+    "source": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming/Streaming.cpp",
+    "destination": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming-v2/Streaming.cpp",
+    "base_sha256": "f0fd570dc068fd14e124b22518be6169a5e70cd484ef7e4fcb95ecc7654e2b5e"
+  },
+  {
+    "source": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming/SourceAdapter.inc",
+    "destination": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming-v2/SourceAdapter.inc",
+    "base_sha256": "67004d0705f352cc9461c7011d1cd929555f87860025444239bccdef7042eae5"
+  },
+  {
+    "source": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming/stream_source.h",
+    "destination": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming-v2/stream_source.h",
+    "base_sha256": "962c4a6e437fce01a6c510ae39079482586f00ffbd15bb1e72990966184527f2"
+  }
+]

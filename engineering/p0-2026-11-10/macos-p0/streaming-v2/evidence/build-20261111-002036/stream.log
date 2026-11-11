@@ -1,0 +1,4 @@
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming-v2/Streaming.cpp:187:84: error: use of undeclared identifier 'av_fmt_ctx_get_duration_estimation_method'
+  187 |         const double endPTS=track->start_time==0&&track->duration!=AV_NOPTS_VALUE&&av_fmt_ctx_get_duration_estimation_method(format)!=AVFMT_DURATION_FROM_BITRATE?track->duration*timebase:INFINITY;
+      |                                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.

@@ -1,0 +1,17 @@
+{
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "scratch": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/baseline-runtime-tests",
+  "logical_bytes_per_path": 2101311,
+  "allocated_bytes_unique_inode": 45056,
+  "scratch_limit_bytes": 8388608,
+  "actual_app_launched": false,
+  "actual_signals_sent": false,
+  "network_used": false,
+  "audio_played_or_recorded": false,
+  "script_sha256": "8e1f7c0860b8e3068afcbfe95e179b563ef4a9d74769ef34db92d71c3603f483",
+  "test_sha256": "c8c3170c36fd119bfa9fb3481ee9e9cb73666a19ac6f41c7065f3aa4e51dd724",
+  "budget_sha256": "4a5981dcd9b0e00684026cfb730ae0df99b5e69bd79df2749377195804727e97"
+}

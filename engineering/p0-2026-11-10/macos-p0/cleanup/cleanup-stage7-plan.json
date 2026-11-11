@@ -1,0 +1,223 @@
+{
+  "stage": 7,
+  "owned_root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01",
+  "trash_root": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7",
+  "script_sha256": "e66d34559080ccd611ad2ceb0b4ea1cbfcefb0055a85cd00889d91e738bdafac",
+  "required_manifests": [
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/cleanup/cleanup-stage7-inventory.json",
+      "sha256": "eb16b956bfcf41ab910c3130b22cf0254e7a888cfd61427b56a69c3dfffc3ff7"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming-v2/evidence/manifest.json",
+      "sha256": "a32944347fb0111aa055f33f1c49cddca3d3c42625465865cae65357ddf43346"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/baseline-runtime/evidence/source-hashes.json",
+      "sha256": "461b8a110e281a540902787e67d4cf89d42e8fa1aa49b50288b2881cf74005a5"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming/evidence/manifest.json",
+      "sha256": "14e5f496a9349f93bb61b3b4d42f1a7839eb6e3e3c8cbc252a4d5a175edd6084"
+    }
+  ],
+  "moves": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-002036",
+      "destination_name": "01-build-20261111-002036",
+      "required_inventory": {
+        "entries": 22,
+        "logical_file_bytes": 141436,
+        "allocated_bytes": 155648,
+        "allocated_unique_inode_bytes": 155648,
+        "uid": 501,
+        "tree_sha256": "4139373f6d849875891b6e88ec839f3c3edc874f0c649815222d37b8f09c63e9"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-002414",
+      "destination_name": "02-build-20261111-002414",
+      "required_inventory": {
+        "entries": 21,
+        "logical_file_bytes": 9426128,
+        "allocated_bytes": 9449472,
+        "allocated_unique_inode_bytes": 9449472,
+        "uid": 501,
+        "tree_sha256": "71a3c895b4ea95db4c3ef7351473a3da68f2e9b3e2d0d3ebf86670289132780f"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-002533",
+      "destination_name": "03-build-20261111-002533",
+      "required_inventory": {
+        "entries": 23,
+        "logical_file_bytes": 9486620,
+        "allocated_bytes": 9515008,
+        "allocated_unique_inode_bytes": 9515008,
+        "uid": 501,
+        "tree_sha256": "998b422a10ec13cad399fd1d5ff344acf5649581b991d3575245cdb58654a581"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049",
+      "destination_name": "04-build-20261111-003049",
+      "required_inventory": {
+        "entries": 23,
+        "logical_file_bytes": 9520369,
+        "allocated_bytes": 9547776,
+        "allocated_unique_inode_bytes": 9547776,
+        "uid": 501,
+        "tree_sha256": "9de0ae3c1763f332dd1304482aad5d44f77f5428d848398be7c68b2c80e191da"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003710",
+      "destination_name": "05-build-20261111-003710",
+      "required_inventory": {
+        "entries": 23,
+        "logical_file_bytes": 9524208,
+        "allocated_bytes": 9551872,
+        "allocated_unique_inode_bytes": 9551872,
+        "uid": 501,
+        "tree_sha256": "a26bf90fee988a199e5b0633e63db90e94c215943d55d738d149e509b7483cdb"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-002552",
+      "destination_name": "06-local-20261111-002552",
+      "required_inventory": {
+        "entries": 44,
+        "logical_file_bytes": 87744,
+        "allocated_bytes": 143360,
+        "allocated_unique_inode_bytes": 143360,
+        "uid": 501,
+        "tree_sha256": "811a2fc29c197ce6b47c5fc05b32f028f78e55ab951f74534ca7d436be251411"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-003128",
+      "destination_name": "07-local-20261111-003128",
+      "required_inventory": {
+        "entries": 28,
+        "logical_file_bytes": 43979,
+        "allocated_bytes": 86016,
+        "allocated_unique_inode_bytes": 86016,
+        "uid": 501,
+        "tree_sha256": "3b3a0f4cb2aba4aa3f1a6fdfc976489a085cb526defeea434b8c9f2c31135edd"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-003720",
+      "destination_name": "08-local-20261111-003720",
+      "required_inventory": {
+        "entries": 8,
+        "logical_file_bytes": 10162,
+        "allocated_bytes": 24576,
+        "allocated_unique_inode_bytes": 24576,
+        "uid": 501,
+        "tree_sha256": "9af8b39aa6f65596fd2271791b26b8883879d3373c0a5a994c4a80e4abccc4e4"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-003726",
+      "destination_name": "09-local-20261111-003726",
+      "required_inventory": {
+        "entries": 32,
+        "logical_file_bytes": 52690,
+        "allocated_bytes": 98304,
+        "allocated_unique_inode_bytes": 98304,
+        "uid": 501,
+        "tree_sha256": "8163bf1a6f4cd5e9fe26543db396e47a9ab13da4613af420113a7b3118ada5af"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-004309",
+      "destination_name": "10-local-20261111-004309",
+      "required_inventory": {
+        "entries": 60,
+        "logical_file_bytes": 132135,
+        "allocated_bytes": 204800,
+        "allocated_unique_inode_bytes": 204800,
+        "uid": 501,
+        "tree_sha256": "5a0a57afea4dfc803913144a78007ce12e6c7dc0fbc00cc9529af6b231041f08"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/public-20261111-004412",
+      "destination_name": "11-public-20261111-004412",
+      "required_inventory": {
+        "entries": 3,
+        "logical_file_bytes": 9015,
+        "allocated_bytes": 16384,
+        "allocated_unique_inode_bytes": 16384,
+        "uid": 501,
+        "tree_sha256": "ed55533d0a57651ed45c8dcc73ebd25abb0666a3b3ef4b0b28f882b70ad70fec"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/timeline-diagnostic",
+      "destination_name": "12-timeline-diagnostic",
+      "required_inventory": {
+        "entries": 5,
+        "logical_file_bytes": 1740873,
+        "allocated_bytes": 1744896,
+        "allocated_unique_inode_bytes": 1744896,
+        "uid": 501,
+        "tree_sha256": "6c4fae9952bf4d8ab5f7aa330c88dee5ba42e69cf43e2ebe02b8fa33b5701f07"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/baseline-runtime-tests",
+      "destination_name": "13-baseline-runtime-tests",
+      "required_inventory": {
+        "entries": 46,
+        "logical_file_bytes": 2101968,
+        "allocated_bytes": 53248,
+        "allocated_unique_inode_bytes": 49152,
+        "uid": 501,
+        "tree_sha256": "8f847789bbfa4c4fbeccf6143a0fd984ac015a6fa6e8bf08c786915a2c49f0c7"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/build-20261110-234930",
+      "destination_name": "14-build-20261110-234930",
+      "required_inventory": {
+        "entries": 192,
+        "logical_file_bytes": 21275312,
+        "allocated_bytes": 21618688,
+        "allocated_unique_inode_bytes": 21618688,
+        "uid": 501,
+        "tree_sha256": "76e317c2750213173d0f6b70a9c657746fc06546f9508af7442159f30f5d5b37"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/current-build.txt",
+      "destination_name": "15-current-build.txt",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 85,
+        "allocated_bytes": 4096,
+        "allocated_unique_inode_bytes": 4096,
+        "uid": 501,
+        "tree_sha256": "2e4a348876240ad81cdc9907e6daa6e46f90a90a3cd1319eff735686443cb25a"
+      },
+      "reason": "superseded build, copied run/diagnostic or completed offline test fixture; bounded text evidence verified"
+    }
+  ],
+  "retained": "v2 minimum kit/build/fixtures/pointer; baseline app and supervisor; source-v2 and iOS candidate6; paused acoustic app; relink kit",
+  "irreversible_disposal": false
+}

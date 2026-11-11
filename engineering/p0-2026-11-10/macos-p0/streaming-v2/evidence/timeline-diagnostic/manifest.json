@@ -1,0 +1,21 @@
+{
+  "source_sha256": "00c27d7a77cae62b9da49814c69b02d879e3472c9a0b1cbd17c498519de6f336",
+  "command": [
+    "clang++",
+    "-target",
+    "arm64-apple-macos26.0",
+    "-isysroot",
+    "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+    "-std=c++17",
+    "-O2",
+    "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/include",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming-v2/Inspect.cpp",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/lib/libavcodec.a",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/lib/libavformat.a",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/lib/libavutil.a",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/lib/libswresample.a",
+    "-o",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/timeline-diagnostic/inspect"
+  ],
+  "binary_sha256": "ba54a699607988a5c3550caa59f50fc13562d2ef677e004afa96b75bad6d1976"
+}

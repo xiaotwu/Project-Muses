@@ -1,0 +1,58 @@
+[
+  {
+    "fixture": "aac-short",
+    "mode": "normal",
+    "start": 0,
+    "end": 22912,
+    "length": 22913,
+    "monotonic_ns": 59696250
+  },
+  {
+    "fixture": "aac-unknown",
+    "mode": "normal",
+    "start": 0,
+    "end": 22857,
+    "length": 22858,
+    "monotonic_ns": 1799218666
+  },
+  {
+    "fixture": "aac-tiny",
+    "mode": "normal",
+    "start": 0,
+    "end": 2612,
+    "length": 2613,
+    "monotonic_ns": 3525557041
+  },
+  {
+    "fixture": "opus-short",
+    "mode": "normal",
+    "start": 0,
+    "end": 27203,
+    "length": 27204,
+    "monotonic_ns": 4045384041
+  },
+  {
+    "fixture": "offset",
+    "mode": "normal",
+    "start": 0,
+    "end": 22924,
+    "length": 22925,
+    "monotonic_ns": 5664841416
+  },
+  {
+    "fixture": "offset",
+    "mode": "normal",
+    "start": 0,
+    "end": 22924,
+    "length": 22925,
+    "monotonic_ns": 7422369333
+  },
+  {
+    "fixture": "offset-mka",
+    "mode": "normal",
+    "start": 0,
+    "end": 22859,
+    "length": 22860,
+    "monotonic_ns": 8246981291
+  }
+]

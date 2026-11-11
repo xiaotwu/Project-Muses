@@ -1,0 +1,130 @@
+{
+  "observed_unix": 1794357515.0239549,
+  "repository": "/Users/xiaotwu/Code/Muses-Polyhymnia",
+  "release_commit": "12260f050a374ee949053e8f63b039fe20f15148",
+  "checkout_head": "7ce577588f3a8fdd4b8f31fc9c01b541291ffdd3",
+  "source_diff_against_release": [],
+  "release_document": "docs/engineering/release-0.6.3.md",
+  "release_document_sha256": "40944ee789c81e516cd90e437e043ea654824dc4b9e401b119576642ebcfe9c2",
+  "source_files": [
+    {
+      "path": "Sources/Muses/App/MusesApp.swift",
+      "sha256": "f105a964c03ad5dd616312356dccefe0210c24b55c49c19f5b6bd9d752d373b4",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/MusesDataPaths.swift",
+      "sha256": "5a5c5474f53e72734cd4cb6cd19afe931bb441dbaada9df7c0d081252a9e0b88",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Persistence/MusesModelContainer.swift",
+      "sha256": "134667fe144e35d56908a9bdd0c0f488fffe6dea981cf75f582dffd4ce441d54",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/MediaCacheBudget.swift",
+      "sha256": "97230e4aa5dad2c86f745ab5c2f533a102531f6bc03c420e1e9d7d9f5d2e6a0d",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/SharedStreamResource.swift",
+      "sha256": "735ae75f304e5cceae1340787ae83423b98c11d6ea59eda3df5af03ca59fa938",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/MediaFileCache.swift",
+      "sha256": "1d18298de9daa14d9326b4d5229512e29656cce9aec5312c1efff85cab703efe",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/RebuildableJSONCache.swift",
+      "sha256": "53b44248f0660871d63095faa3e715f186680f1fbcbf2cb0bc30f04c9f4cce19",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/YTDlpSearchCache.swift",
+      "sha256": "e6542a9dbc17bb1b8f79a6b4bb41373f5780815612ac26bcfcfc744673047aff",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/HomeFeedCache.swift",
+      "sha256": "9df496efc1975c544b45907d66fa67733db4092af4d46b056cf7b85883446740",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Services/Discovery/CachedMusicCatalogProvider.swift",
+      "sha256": "c8505e23e6fe1aea16e1674c4a23e65df6dd11465c6d773e93c65755fb74a356",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/ArtworkCache.swift",
+      "sha256": "8de69d2e0edae59964d1b430a3a24e4585c724b88639f75dad9ef172d17f269a",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/WaveformCache.swift",
+      "sha256": "327d88a2a619ec6ad0ed882c571eb44563a266a35a632a6066110a5da3d5f34c",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Services/Lyrics/LyricsDocumentCache.swift",
+      "sha256": "4ce24eb1fb79a8ba834736895f3381ebe4162a6d6d1e8acfa9045495b50581f2",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/StreamURLCache.swift",
+      "sha256": "845fc634e406a22df20988fdea28311e69501e3536a923af2053d858751704ee",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/YTDlpBridge.swift",
+      "sha256": "38b2d1e1b83b763f494fc9c1b102c014685bcd5db11154037421e931be24e419",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Infrastructure/YTDlpRunner.swift",
+      "sha256": "0eebff38644bf3eb314157352b541691463760c7905b760dd24f260aa5216e90",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Services/YouTube/KeychainStore.swift",
+      "sha256": "8a27a22d7afec81b71244cae4764555d0250dca73759be40e7ddcabbc604dae2",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Services/YouTube/GoogleOAuthSession.swift",
+      "sha256": "6b665efecb1a23dd5f4e2172aa6e258cda776a7ab266782ba630030815f5767f",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Services/Update/UpdateService.swift",
+      "sha256": "13a9dbda366d4186e04f92c9da344ebf5577d3647ffd52688a775dcf2bd2aaef",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Services/Update/SparkleUpdateEngine.swift",
+      "sha256": "af0278fa93db247954086e3cee466e6981bf0a5d31f3518c732e4972b3694527",
+      "matches_release_commit": true
+    },
+    {
+      "path": "Sources/Muses/Services/Update/UpdateTransactionStore.swift",
+      "sha256": "d568daa3fdd855d11ad4778ccf5658041f5ab1a2d9bc289ea4f7805b59df933b",
+      "matches_release_commit": true
+    }
+  ],
+  "runtime_values_or_credentials_read": false,
+  "api_evidence": {
+    "proc_pidinfo_flavor": 3,
+    "bsd_info_size_bytes": 136,
+    "fields_used": [
+      "pid",
+      "ppid",
+      "uid",
+      "start_sec",
+      "start_usec",
+      "proc_pidpath"
+    ],
+    "open_environment_contract": "local open(1): opened applications inherit launcher environment"
+  }
+}

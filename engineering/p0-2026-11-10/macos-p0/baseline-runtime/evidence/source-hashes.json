@@ -1,0 +1,93 @@
+{
+  "frozen_unix": 1794357515.246293,
+  "scope": "completed offline runtime audit and preparation; no live app test",
+  "plan_sha256": "2453e166a266c9d74bd5b3c77d397f245b2a0ab3a24d1773b7b21d590b109b9a",
+  "script_sha256": "8e1f7c0860b8e3068afcbfe95e179b563ef4a9d74769ef34db92d71c3603f483",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 12669,
+      "sha256": "bafd5050302f7672f35e467d4157eeca36333d092522c44a05fcf85efc564873"
+    },
+    {
+      "path": "budget.json",
+      "bytes": 617,
+      "sha256": "4a5981dcd9b0e00684026cfb730ae0df99b5e69bd79df2749377195804727e97"
+    },
+    {
+      "path": "evidence/20261111T003440Z-1794357280348245000-plan.json",
+      "bytes": 915,
+      "sha256": "1315db17b1b47934d18cbef569881774bbf5190a43936aaa85a810646c64ce03"
+    },
+    {
+      "path": "evidence/20261111T003451Z-1794357291340261000-preflight.json",
+      "bytes": 925,
+      "sha256": "74e16d1aa6299390e8e6e6ed14b89eb5d7cccd2d0d9a93c92d1c26aab2655ecb"
+    },
+    {
+      "path": "evidence/cleanup-inventory.json",
+      "bytes": 14676,
+      "sha256": "b361c14db1a14f4aeee920cb64cb11ad2392e16b762a91a4ac9b70300e5bd48f"
+    },
+    {
+      "path": "evidence/plan-guard.json",
+      "bytes": 582,
+      "sha256": "41bb2810b3826796e9018ba1317d253204490e9c59bf2a9bbc02464e5c48de5d"
+    },
+    {
+      "path": "evidence/plan-receipt.json",
+      "bytes": 915,
+      "sha256": "1315db17b1b47934d18cbef569881774bbf5190a43936aaa85a810646c64ce03"
+    },
+    {
+      "path": "evidence/preflight-guard.json",
+      "bytes": 579,
+      "sha256": "d0b8378015649d8db81077e0815400a70c2891650722290bb7f4f2e359e37930"
+    },
+    {
+      "path": "evidence/preflight-receipt.json",
+      "bytes": 925,
+      "sha256": "74e16d1aa6299390e8e6e6ed14b89eb5d7cccd2d0d9a93c92d1c26aab2655ecb"
+    },
+    {
+      "path": "evidence/source-audit.json",
+      "bytes": 5059,
+      "sha256": "3b60084133d9bb42f88a5686602592d2d508899dbd01a827bb7cefef048d45e3"
+    },
+    {
+      "path": "evidence/test-guard.json",
+      "bytes": 582,
+      "sha256": "cc06b584d14101acf66cfc085466fe406ff26dcfce310199c1b2f024d4527878"
+    },
+    {
+      "path": "evidence/test-receipt.json",
+      "bytes": 657,
+      "sha256": "caa4d5737f2225cacf97e9239a487ce46876809dd04080eeb79f805e7dd9fe44"
+    },
+    {
+      "path": "evidence/tests.log",
+      "bytes": 1423,
+      "sha256": "aff0382e7e6e520088bd1785bc4784f4156c4eef72c01c8d3e1b6c64cc6f54c0"
+    },
+    {
+      "path": "freeze_evidence.py",
+      "bytes": 8308,
+      "sha256": "0f7a349d620e3ba7b3a164ae8bbc07cb2821813db289bc20c441a5583d37c0f6"
+    },
+    {
+      "path": "launch-plan.json",
+      "bytes": 2697,
+      "sha256": "2453e166a266c9d74bd5b3c77d397f245b2a0ab3a24d1773b7b21d590b109b9a"
+    },
+    {
+      "path": "runtime_guard.py",
+      "bytes": 22805,
+      "sha256": "8e1f7c0860b8e3068afcbfe95e179b563ef4a9d74769ef34db92d71c3603f483"
+    },
+    {
+      "path": "test_runtime_guard.py",
+      "bytes": 12178,
+      "sha256": "c8c3170c36fd119bfa9fb3481ee9e9cb73666a19ac6f41c7065f3aa4e51dd724"
+    }
+  ]
+}
