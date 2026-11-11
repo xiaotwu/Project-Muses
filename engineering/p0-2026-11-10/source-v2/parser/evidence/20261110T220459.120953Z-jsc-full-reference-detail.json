@@ -1,0 +1,22 @@
+{
+  "label": "jsc-full-reference-detail",
+  "exit_code": 1,
+  "guard_stop": null,
+  "elapsed_ms": 630,
+  "observed_peak_rss_bytes": 133201920,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "phase": "before_parse",
+      "process_maxrss_bytes": 29409280
+    },
+    {
+      "phase": "jsc_exception",
+      "outcome": "fail",
+      "detail": "Can't find variable: structuredClone",
+      "name": "ReferenceError"
+    }
+  ],
+  "stderr_bytes": 0,
+  "binary_sha256": "79327e1daf2a5d9ed97a50f327d289537967263c7e2e8833e81045c8177d2b58"
+}

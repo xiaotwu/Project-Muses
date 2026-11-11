@@ -1,0 +1,9 @@
+{
+  "bundle": "org.muses.p0.sourceprobe",
+  "unsigned_binary_sha256": "bf92cf2e1d49c97b77e830cc4f034ebbec70d10d76f2c084e69907d9f5a88b3a",
+  "signed_binary_sha256": "d50209ad92e13a0d0f3c5ac05a54470a30633030cb88aa740f0a864d6cedbd26",
+  "entitlements_sha256": "09730335ab8549f207242bf6447498dad5a38325b9f90d346dc308914183ef12",
+  "existing_profile": true,
+  "new_portal_registration": false,
+  "signature_verify": "passed"
+}

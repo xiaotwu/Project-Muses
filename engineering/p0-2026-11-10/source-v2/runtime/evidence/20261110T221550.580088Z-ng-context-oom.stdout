@@ -1,0 +1,6 @@
+{"phase":"runtime","version":"0.18.0","engine":"QuickJS-NG","core_dumps":false}
+{"phase":"context_oom","outcome":"pass","fault_injection_logical_limit":1}
+{"phase":"context_teardown","backing_live_bytes":0,"backing_live_allocations":0,"backing_peak_bytes":43088,"allocator_denials":0}
+{"phase":"fresh_teardown","backing_live_bytes":0,"backing_live_allocations":0,"backing_peak_bytes":180800,"allocator_denials":0}
+{"phase":"fresh_runtime","outcome":"pass"}
+{"phase":"summary","outcome":"pass","elapsed_ms":0,"process_maxrss_bytes":2670592}

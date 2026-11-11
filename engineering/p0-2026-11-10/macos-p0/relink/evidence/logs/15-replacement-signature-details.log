@@ -1,0 +1,26 @@
+Executable=/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/replacement/audio-probe
+Identifier=audio-probe-55554944483d4ff55edc384ba97d985696e8dabc
+Format=Mach-O thin (arm64)
+CodeDirectory v=20500 size=4245 flags=0x10002(adhoc,runtime) hashes=126+2 location=embedded
+VersionPlatform=1
+VersionMin=1703936
+VersionSDK=1769984
+Hash type=sha256 size=32
+CandidateCDHash sha256=9034be717e7564bef949d85f4af2812269b4d392
+CandidateCDHashFull sha256=9034be717e7564bef949d85f4af2812269b4d3922ac092e605c92e6a9fa96918
+Hash choices=sha256
+CMSDigest=9034be717e7564bef949d85f4af2812269b4d3922ac092e605c92e6a9fa96918
+CMSDigestType=2
+Executable Segment base=0
+Executable Segment limit=1605632
+Executable Segment flags=0x1
+Page size=16384
+CDHash=9034be717e7564bef949d85f4af2812269b4d392
+Signature=adhoc
+Info.plist=not bound
+TeamIdentifier=not set
+Runtime Version=27.2.0
+Sealed Resources=none
+Internal requirements count=0 size=12
+Total signatures=1
+Chosen signature=1

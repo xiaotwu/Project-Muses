@@ -1,0 +1,51 @@
+{
+  "before_free_bytes": 574443040768,
+  "before_owned_allocated_bytes": 24576000,
+  "owned_cap_bytes": 209715200,
+  "copies": [
+    {
+      "source": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--sources/miniaudio.h",
+      "destination": "miniaudio.h",
+      "bytes": 4161918,
+      "sha256": "6b376c7fbb1352ba1e0e432ab66069b335ea9405e45cb6c30b97ef0f3c9c3e0e"
+    },
+    {
+      "source": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--macosx/miniaudio-backend.o",
+      "destination": "miniaudio-backend.o",
+      "bytes": 364616,
+      "sha256": "cd2a842f4ca3bcdf58c60c4545883cd72b7413382e8133e063f4ff8340ceea80"
+    }
+  ],
+  "readonly_inputs": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs/lib/libavformat.a",
+      "sha256": "8fbc4f843b26e9776002cee1a159bd75b2a8372e7fc949e88b2af8377cbd1936",
+      "bytes": 752048
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs/lib/libavcodec.a",
+      "sha256": "cdbf9ded338aa5d48a755c3d8c19b6d5692d392ef3f7b96818bb84cf0cea1e72",
+      "bytes": 912032
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs/lib/libswresample.a",
+      "sha256": "c61c832836c6c6d053c270ad52dc850c8deafdeec1d03444afc219349b47b39c",
+      "bytes": 134808
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs/lib/libavutil.a",
+      "sha256": "98ad0cbf1520bc1e9b015f16eb830f688f9d77852ecfd6d7163f77e3ad5a83d3",
+      "bytes": 1015784
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/media/TV_SAMSUNG-aqz-KE-bpKQ-277F8A82-7284-4160-865A-C0D66402825F.m4a",
+      "sha256": "f9bf28dcef3bd5b8cad072301303d5e22fdb15252c08520786fb730932828f03",
+      "bytes": 15479228
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/media/TV_SAMSUNG-aqz-KE-bpKQ-0B4A9DD0-6C69-43E2-96F4-80272707AA88.webm",
+      "sha256": "08dd9fc36d077d0dd39b51f039dc35135e678aa16bb405175d85d34af12605f6",
+      "bytes": 10258925
+    }
+  ]
+}

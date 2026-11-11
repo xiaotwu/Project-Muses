@@ -1,0 +1,22 @@
+{
+  "attempt": 3,
+  "launch_outcome": "success",
+  "console_attached": false,
+  "debugger_attached": false,
+  "user-feedback": {
+    "recorded_unix": 1794351364.2403111,
+    "feedback": "全程锁屏，持续有声，但是我不确定是否换曲了，最后确实自动停止，但是不保证是正常停止还是因为错误中断了。",
+    "audibility": "continuous_while_locked",
+    "transition_recognition": "uncertain",
+    "stop_cause": "uncertain"
+  },
+  "observation-window": {
+    "launch_outcome": "success",
+    "utc_observed": "2026-11-10T22:53:58.205698+00:00",
+    "do_not_read_device_until_unix": 1794351388.205796,
+    "console_attached": false,
+    "debugger_attached": false,
+    "signed_binary_sha256": "c4575e213217ca5ea3cee5e487640a9c5aceeda9dcbbb1efe3ec7bc6be0fde1a",
+    "retry_requested_by_user": true
+  }
+}

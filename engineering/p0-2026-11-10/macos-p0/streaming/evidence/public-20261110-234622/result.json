@@ -1,0 +1,435 @@
+{
+  "exit_code": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 16.191197709,
+  "sampled_peak_rss_bytes": 97599488,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "binary_sha256": "490a9b882cc98fe55d98164703a9272fac3d5148aa1b83f8d615fdd5337fa44c",
+  "bundle_sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f",
+  "build_manifest_sha256": "a3ff8114b06a5f3d00b6da88e32bfdd71b78c4e8a9bd7474b1ea2dae182dede8",
+  "events": [
+    {
+      "outcome": "pass",
+      "bytes": 1654732,
+      "gate": "source_bundle_read",
+      "sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f"
+    },
+    {
+      "native_peak_bytes": 7384931,
+      "category": "ok",
+      "parse_ms": 1682.711,
+      "timestamp_matches": 2,
+      "player_sha256": "dffc617520e77f921ec91cb79d975454f96f97f9620e48c99f4c7a623b948251",
+      "input_bytes": 2661557,
+      "output_bytes": 190486,
+      "solver_matches": 1,
+      "gate": "native_player_reduce",
+      "native_live_after_bytes": 0,
+      "reduce_ms": 1853.384,
+      "outcome": "pass",
+      "reduced_sha256": "dd66d5e1273585738c19f27e95ec598ee1f6bc1c61c3be7817bf1a23cde2a29b"
+    },
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 2422,
+      "player_loaded": true
+    },
+    {
+      "gate": "source_profile",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "client_version": "5.20260707",
+      "reason": "public_metadata_only",
+      "status": "OK",
+      "format_count": 42,
+      "rejected_formats": 0
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "TV_SAMSUNG",
+      "video_id": "aqz-KE-bpKQ",
+      "status": "OK",
+      "audio_formats": 17,
+      "bounded_audio_formats": 13,
+      "requested_codec": "aac",
+      "requested_codec_formats": 4,
+      "direct_formats": 17,
+      "cipher_formats": 0,
+      "n_parameter_formats": 17,
+      "hls": false,
+      "sabr": false
+    },
+    {
+      "gate": "source_availability",
+      "outcome": "pass",
+      "state": "known",
+      "availableAtUnixMs": 1794354386183,
+      "waitMs": 0,
+      "reason": "no_advertised_preroll",
+      "prerollCount": 0
+    },
+    {
+      "gate": "source_descriptor",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "video_id": "aqz-KE-bpKQ",
+      "codec": "aac",
+      "itag": 256,
+      "content_length": 15479228,
+      "elapsed_ms": 2566,
+      "expires_known": true,
+      "n_present": true,
+      "n_changed": true,
+      "signature_timestamp_known": true,
+      "solver_required": true
+    },
+    {
+      "js_memory_bytes": 26721981,
+      "deadline_seconds": 90,
+      "received_bytes": 2745049,
+      "process_maxrss_bytes": 81149952,
+      "js_peak_allocated_bytes": 33316464,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 5,
+      "peak_concurrent": 1,
+      "first_byte_samples": 5
+    },
+    {
+      "media_bytes_in_js": 0,
+      "total_bytes": 15479228,
+      "next": 0,
+      "codec": "aac",
+      "gate": "stream_descriptor_handoff",
+      "outcome": "pass",
+      "code": 0
+    },
+    {
+      "outcome": "pass",
+      "bytes": 1654732,
+      "gate": "source_bundle_read",
+      "sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f"
+    },
+    {
+      "native_peak_bytes": 7401998,
+      "category": "ok",
+      "parse_ms": 1799.099,
+      "timestamp_matches": 2,
+      "player_sha256": "5f2035b38e20c1e57ad8e51ada9ea82d1eaac59f2a4603ebd851f421e3a3f5dd",
+      "input_bytes": 2658728,
+      "output_bytes": 189450,
+      "solver_matches": 1,
+      "gate": "native_player_reduce",
+      "native_live_after_bytes": 0,
+      "reduce_ms": 1979.733,
+      "outcome": "pass",
+      "reduced_sha256": "be8ae511cec64bb48b61ccb280f30151ef5bb61dec2466457eb471b2a5b171a9"
+    },
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 2522,
+      "player_loaded": true
+    },
+    {
+      "gate": "source_availability_shape",
+      "outcome": "observed",
+      "diagnostics": [
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 101266
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 273300
+        },
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 273300
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 435166
+        },
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 435166
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 593700
+        },
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 593700
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 744133
+        },
+        {
+          "field": "tv.placement_kind",
+          "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+          "valueType": "string",
+          "stringLength": 30
+        },
+        {
+          "field": "tv.ad_time_offset",
+          "present": true,
+          "valueType": "object"
+        },
+        {
+          "field": "tv.ad_time_offset.start_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 6,
+          "numericValue": 744133
+        },
+        {
+          "field": "tv.ad_time_offset.end_ms",
+          "present": true,
+          "valueType": "string",
+          "stringLength": 2,
+          "numericValue": -1
+        }
+      ]
+    },
+    {
+      "gate": "source_profile",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "client_version": "5.20260707",
+      "reason": "public_metadata_only",
+      "status": "OK",
+      "format_count": 34,
+      "rejected_formats": 0
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "TV_SAMSUNG",
+      "video_id": "eRsGyueVLvQ",
+      "status": "OK",
+      "audio_formats": 9,
+      "bounded_audio_formats": 9,
+      "requested_codec": "aac",
+      "requested_codec_formats": 3,
+      "direct_formats": 9,
+      "cipher_formats": 0,
+      "n_parameter_formats": 9,
+      "hls": false,
+      "sabr": false
+    },
+    {
+      "gate": "source_availability",
+      "outcome": "pass",
+      "state": "known",
+      "availableAtUnixMs": 1794354397213,
+      "waitMs": 5000,
+      "reason": "advertised_preroll",
+      "prerollCount": 1
+    },
+    {
+      "gate": "source_descriptor",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "video_id": "eRsGyueVLvQ",
+      "codec": "aac",
+      "itag": 140,
+      "content_length": 14373564,
+      "elapsed_ms": 2760,
+      "expires_known": true,
+      "n_present": true,
+      "n_changed": true,
+      "signature_timestamp_known": true,
+      "solver_required": true
+    },
+    {
+      "js_memory_bytes": 26786066,
+      "deadline_seconds": 90,
+      "received_bytes": 2873569,
+      "process_maxrss_bytes": 97648640,
+      "js_peak_allocated_bytes": 33576443,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 5,
+      "peak_concurrent": 1,
+      "first_byte_samples": 5
+    },
+    {
+      "media_bytes_in_js": 0,
+      "total_bytes": 14373564,
+      "next": 1,
+      "codec": "aac",
+      "gate": "stream_descriptor_handoff",
+      "outcome": "pass",
+      "code": 0
+    },
+    {
+      "gate": "stream_session",
+      "case": "public",
+      "action_ns": 845618074628000,
+      "first_output_callback_ns": 845621887360000,
+      "clock_frames": 588800,
+      "callbacks": 2300,
+      "underflow_frames": 0,
+      "transitions": 1,
+      "pcm_pool_bytes": 524288,
+      "network_total_bytes": 786432,
+      "rss_peak_bytes": 96567296,
+      "reason": 0,
+      "audible": false,
+      "submitted_nonzero_frames": 0,
+      "speaker_first_sound_measured": false
+    },
+    {
+      "gate": "stream_input",
+      "slot": 0,
+      "descriptor_ns": 845621313044000,
+      "first_validated_bytes_ns": 845621494193000,
+      "first_decoded_pcm_ns": 845621496270000,
+      "first_callback_consumption_ns": 845621887360000,
+      "first_pcm_network_bytes": 262144,
+      "first_callback_network_upper_bytes": 262144,
+      "total_bytes": 15479228,
+      "network_bytes": 524288,
+      "unique_bytes": 524288,
+      "requests": 2,
+      "buffer_high_bytes": 262144,
+      "pcm_high_frames": 32768,
+      "decoded_frames": 577984,
+      "consumed_frames": 545216,
+      "rendered_nonzero_content_frames": 545108,
+      "sample_rate": 48000,
+      "channels": 6,
+      "seek_generation": 0,
+      "seek_first_pts": 0.0,
+      "discarded_seek_pcm_frames": 0,
+      "decoder_error": 0,
+      "transport_status": 0
+    },
+    {
+      "gate": "stream_input",
+      "slot": 1,
+      "descriptor_ns": 845627354343000,
+      "first_validated_bytes_ns": 845632734682000,
+      "first_decoded_pcm_ns": 845632735447000,
+      "first_callback_consumption_ns": 845632986036000,
+      "first_pcm_network_bytes": 262144,
+      "first_callback_network_upper_bytes": 262144,
+      "total_bytes": 14373564,
+      "network_bytes": 262144,
+      "unique_bytes": 262144,
+      "requests": 1,
+      "buffer_high_bytes": 262144,
+      "pcm_high_frames": 32768,
+      "decoded_frames": 88352,
+      "consumed_frames": 55584,
+      "rendered_nonzero_content_frames": 54452,
+      "sample_rate": 44100,
+      "channels": 2,
+      "seek_generation": 0,
+      "seek_first_pts": 0.0,
+      "discarded_seek_pcm_frames": 0,
+      "decoder_error": 0,
+      "transport_status": 0
+    },
+    {
+      "gate": "streaming_proof",
+      "outcome": "pass",
+      "media_file_written": false,
+      "human_audibility": false
+    },
+    {
+      "gate": "stream_cleanup",
+      "handles_destroyed": 2,
+      "decoder_threads_joined_here": 2,
+      "output_starts": 1,
+      "output_stops": 1,
+      "premute_nonzero_mix_frames": 588692,
+      "clipped_samples": 0,
+      "network_total_bytes": 786432,
+      "outcome": "pass"
+    }
+  ],
+  "non_json_stdout_redacted": 0,
+  "stdout_sha256": "04b4281ab146958877a8867c11285b16a1018c6fd0c901a93b8bf4473d32dbbb",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 7969,
+  "stderr_bytes": 0,
+  "audio_muted": true,
+  "speaker_first_sound_measured": false
+}

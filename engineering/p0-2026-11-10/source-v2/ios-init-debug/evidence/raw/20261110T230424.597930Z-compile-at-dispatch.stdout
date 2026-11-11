@@ -1,0 +1,13 @@
+{"outcome":"fail","stop_reason":"none","gate":"bundle_load","category":"runtime_exception"}
+{"js_memory_bytes":191865,"deadline_seconds":90,"received_bytes":0,"process_maxrss_bytes":25559040,"js_peak_allocated_bytes":10772221,"js_memory_limit_bytes":67108864,"gate":"host_summary","outcome":"completed","requests":0,"peak_concurrent":0,"first_byte_samples":0}
+{"phase":"case","iteration":0,"tail":"at","placement":"dispatch","mode":"compile","input_bytes":1654732,"result":1,"exception_category":"syntax_error","js_peak_bytes":10772221,"native_stack_bytes":536576,"blocked_request_calls":0,"elapsed_ms":28.309,"shape_ok":true,"expected":true}
+{"outcome":"fail","stop_reason":"none","gate":"bundle_load","category":"runtime_exception"}
+{"js_memory_bytes":191865,"deadline_seconds":90,"received_bytes":0,"process_maxrss_bytes":25837568,"js_peak_allocated_bytes":10772221,"js_memory_limit_bytes":67108864,"gate":"host_summary","outcome":"completed","requests":0,"peak_concurrent":0,"first_byte_samples":0}
+{"phase":"case","iteration":0,"tail":"at","placement":"dispatch","mode":"compile","input_bytes":1654732,"result":1,"exception_category":"syntax_error","js_peak_bytes":10772221,"native_stack_bytes":536576,"blocked_request_calls":0,"elapsed_ms":22.491,"shape_ok":true,"expected":true}
+{"outcome":"fail","stop_reason":"none","gate":"bundle_load","category":"runtime_exception"}
+{"js_memory_bytes":191865,"deadline_seconds":90,"received_bytes":0,"process_maxrss_bytes":25853952,"js_peak_allocated_bytes":10772221,"js_memory_limit_bytes":67108864,"gate":"host_summary","outcome":"completed","requests":0,"peak_concurrent":0,"first_byte_samples":0}
+{"phase":"case","iteration":0,"tail":"at","placement":"dispatch","mode":"compile","input_bytes":1654732,"result":1,"exception_category":"syntax_error","js_peak_bytes":10772221,"native_stack_bytes":536576,"blocked_request_calls":0,"elapsed_ms":22.617,"shape_ok":true,"expected":true}
+{"outcome":"fail","stop_reason":"none","gate":"bundle_load","category":"runtime_exception"}
+{"js_memory_bytes":191865,"deadline_seconds":90,"received_bytes":0,"process_maxrss_bytes":25935872,"js_peak_allocated_bytes":10772221,"js_memory_limit_bytes":67108864,"gate":"host_summary","outcome":"completed","requests":0,"peak_concurrent":0,"first_byte_samples":0}
+{"phase":"case","iteration":0,"tail":"at","placement":"dispatch","mode":"compile","input_bytes":1654732,"result":1,"exception_category":"syntax_error","js_peak_bytes":10772221,"native_stack_bytes":536576,"blocked_request_calls":0,"elapsed_ms":22.430,"shape_ok":true,"expected":true}
+{"phase":"summary","outcome":"pass","evaluations":4,"observed_exceptions":4,"network_requests":0,"process_maxrss_bytes":25985024}

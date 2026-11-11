@@ -1,0 +1,17 @@
+{
+  "allocation": "android",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "cbe71ab4b94c07e48f8c381c415bb06dd8793c052ce0880b5cca177e3424b817",
+  "executable": "/usr/bin/curl",
+  "pid": 62780,
+  "started_unix": 1794342621.880063,
+  "elapsed_seconds": 4.2470479011535645,
+  "returncode": 0,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 1082527744,
+    "allocation": 875802624
+  },
+  "remaining_free_bytes": 572677513216
+}

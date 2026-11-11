@@ -1,0 +1,58 @@
+{
+  "outcome": "prepared_not_launched",
+  "source_version": "0.6.3",
+  "source_build": "20261105.1",
+  "source_archive_sha256": "192b4297c6dac82c5115afb1ba7168bae4e88985959a5852f85344df8b9b5a44",
+  "source_main_sha256": "efb7398d007155d23367f7f87e4c4c9b78748b3d95110d5ef91c2fca6ade7c39",
+  "derived_main_sha256": "366d203977db620402f0b77f997874787f22c198b9fb5f0cf7dcc4f74e23b0ae",
+  "compiled_sections_unchanged": 37,
+  "compiled_sections_sha256": "1246e11183f6cbd15d56f35e99a27fed51a49c68a50cb6a8ae596d4a92a037c3",
+  "changed_nodes": [
+    "Contents/Info.plist",
+    "Contents/MacOS/Muses"
+  ],
+  "strict_signature": "passed",
+  "same_signing_team": true,
+  "bundle": "com.muses.acceptance.p0-baseline-20261110",
+  "nested_bundle_identities": [
+    {
+      "relative_info": "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/Info.plist",
+      "bundle": "org.sparkle-project.Sparkle"
+    },
+    {
+      "relative_info": "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/Info.plist",
+      "bundle": "org.sparkle-project.Sparkle.Updater"
+    },
+    {
+      "relative_info": "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/Info.plist",
+      "bundle": "org.sparkle-project.DownloaderService"
+    },
+    {
+      "relative_info": "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/Info.plist",
+      "bundle": "org.sparkle-project.InstallerLauncher"
+    },
+    {
+      "relative_info": "Contents/Resources/Muses_Muses.bundle/Contents/Info.plist",
+      "bundle": "source.Muses.resources"
+    },
+    {
+      "relative_info": "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/Info.plist",
+      "bundle": "com.muses.app"
+    },
+    {
+      "relative_info": "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Versions/3.14/Resources/Info.plist",
+      "bundle": "org.python.python"
+    },
+    {
+      "relative_info": "Contents/Resources/_internal/Python.framework/Versions/3.14/Resources/Info.plist",
+      "bundle": "org.python.python"
+    }
+  ],
+  "source_tree_unchanged": true,
+  "plan_sha256": "09136f9658308021ff57edc55e594087b0689dc35188b0f102519277b6721e82",
+  "script_sha256": "79aa6195393907ca11d5194e1018a7d657aad317aaf2f2b3cb1d2504b72fe872",
+  "derivative_tree_sha256": "520b119dc353a248476c3cfdc745e0126cef32762339128a6c21b0c8a6b2e5aa",
+  "data_seeded": false,
+  "launch_performed": false,
+  "free_after_bytes": 573976952832
+}

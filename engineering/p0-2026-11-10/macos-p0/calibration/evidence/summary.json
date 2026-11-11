@@ -1,0 +1,99 @@
+{
+  "status": "offline_preparation_complete_physical_validation_pending",
+  "current_app": {
+    "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/MusesAcousticCalibration.app",
+    "binary_sha256": "7184357322ede54435e316fc246e4fa84a527be45d6503c9f06ae9db439d5dfa",
+    "info_sha256": "73f53675da52417846bc22b5d5b4737fed9606d7e404d5a2ec31f0d31c826290",
+    "signing": "ad hoc, hardened runtime, audio-input entitlement; not notarized",
+    "launched": false
+  },
+  "current_build_manifest": "attempts/20261110T235039.849228Z/manifest.json",
+  "source_set_sha256": "bb473bc1f912fd6c1f7d099b5c49d5a23930cbe2592759a7b2db7ecd1278b034",
+  "offline_summary": {
+    "summary": "pass",
+    "checks": 46,
+    "failures": 0,
+    "maxrss_bytes": 7913472,
+    "device_api_linked": false,
+    "recorded": false,
+    "audible_output": false
+  },
+  "positive_cases": 11,
+  "maximum_synthetic_reference_error_us": 50.0,
+  "minimum_positive_correlation": 0.886482,
+  "maximum_resolution_component_ms": 2.229167,
+  "guards": {
+    "initial_compile_failure": "3a10eb13c421445f91d91d082d02f1e0",
+    "predecessor_42_checks": "42c85b008fa8446783a8de45231759b8",
+    "pre_fix_44_checks": "2ee49145f97243de9ad10ae1012f66b7",
+    "pre_fix_source_snapshot": "582c917e779e4795953f72be9508fb69",
+    "final_46_checks": "546b225a89264e40af2f55722c075aeb"
+  },
+  "attempts": [
+    {
+      "id": "20261110T234146.285115Z",
+      "manifest": "attempts/20261110T234146.285115Z/manifest.json",
+      "app_binary_sha256": null,
+      "test": null,
+      "status": "superseded_or_failed_preserved"
+    },
+    {
+      "id": "20261110T234210.958411Z",
+      "manifest": "attempts/20261110T234210.958411Z/manifest.json",
+      "app_binary_sha256": "30d52a73ead8e8cd14144442e74c0ae1dc1f46cdb933887dfdf28036f6997489",
+      "test": {
+        "exit": 0,
+        "stop": null,
+        "elapsed_ms": 1368,
+        "sampled_peak_rss_bytes": 7864320,
+        "binary_sha256": "b45277579eb5114bf0c61aece1f783b4cf9c3b5cf20b3c2617f1fab07d1d4928",
+        "stdout_sha256": "41519c189c34ddaf62c86a0e3381150e736fef579721742bd85644b16653a10b",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "status": "superseded_or_failed_preserved"
+    },
+    {
+      "id": "20261110T234608.097656Z",
+      "manifest": "attempts/20261110T234608.097656Z/manifest.json",
+      "app_binary_sha256": "ac994b1b838fb5a67741b2e6b19d68ddc09788692e1e48e5172124510b3a7bff",
+      "test": {
+        "exit": 0,
+        "stop": null,
+        "elapsed_ms": 1427,
+        "sampled_peak_rss_bytes": 8781824,
+        "binary_sha256": "02d65dfe566a498fdb42425b9172e992c3c188d191e5c4a2a7962e77c85909d0",
+        "stdout_sha256": "23d4fb38f30f13b0d2776b6ff41bf05a851e4f8481f3903a980bd15e7f6f1590",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "status": "superseded_or_failed_preserved"
+    },
+    {
+      "id": "20261110T235039.849228Z",
+      "manifest": "attempts/20261110T235039.849228Z/manifest.json",
+      "app_binary_sha256": "7184357322ede54435e316fc246e4fa84a527be45d6503c9f06ae9db439d5dfa",
+      "test": {
+        "exit": 0,
+        "stop": null,
+        "elapsed_ms": 1334,
+        "sampled_peak_rss_bytes": 7913472,
+        "binary_sha256": "952cbcd44c4589c44fd433d0435e6c6e9a10e741ddb9de29e8a01f48c017b69d",
+        "stdout_sha256": "5f59b888637a18be183b4896131cc49bd79b6aa65b14530c051dc2de3ceb5818",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "status": "current_unlaunched_candidate"
+    }
+  ],
+  "physical_actions": {
+    "app_launch": false,
+    "permission_request": false,
+    "microphone_capture": false,
+    "audible_output": false
+  },
+  "physical_total_error_bound_ms": null,
+  "campaign_metric_generated": false,
+  "review": {
+    "reviewer": "independent source agent",
+    "cancel_finish_race": "fixed and reviewed at source ad20e33663e0f8163163ffd4218537e901fa172dc9c0bf5a7812f8fce19cf87b",
+    "final_review_findings": "no other concrete safety blocker found; framework RSS, shutdown latency and fixed physical timestamp bias remain unmeasured"
+  }
+}

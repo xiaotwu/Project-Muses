@@ -1,0 +1,17 @@
+{
+  "allocation": "source",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "c21127bdf62301dd2fcd7cc87becf82b1400a687b5f4e658e4f9e83991680bf9",
+  "executable": "/opt/homebrew/bin/ffmpeg",
+  "pid": 69708,
+  "started_unix": 1794344002.1406562,
+  "elapsed_seconds": 2.335235834121704,
+  "returncode": 0,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 1985982464,
+    "allocation": 82444288
+  },
+  "remaining_free_bytes": 574777073664
+}

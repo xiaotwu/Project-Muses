@@ -1,0 +1,17 @@
+{
+  "allocation": "audio",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "0fe0769e48416b357bc99ad72a2d3fce3a6da93bf69d77ccaf474de3d5903356",
+  "executable": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe",
+  "pid": 67655,
+  "started_unix": 1794342727.1809149,
+  "elapsed_seconds": 2.3287651538848877,
+  "returncode": 1,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 1529090048,
+    "allocation": 147152896
+  },
+  "remaining_free_bytes": 572225200128
+}

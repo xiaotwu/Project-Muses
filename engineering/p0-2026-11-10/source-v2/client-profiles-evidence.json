@@ -1,0 +1,50 @@
+{
+  "scope": "Synthetic request/metadata checks only; no native request or complete-transfer claim",
+  "observed_stdout": "{\"gate\":\"client_profile_fixtures\",\"outcome\":\"pass\",\"cases\":30,\"profile\":\"TV_SAMSUNG\",\"network\":false}",
+  "source_sha256": {
+    "client-profiles.mjs": "ee4b4eacc21145c854fe0ec82155d697c878ed1ff05690ac9ec2b4bda5ed2803",
+    "client-profiles.test.mjs": "d465edb92a889aa49d5191500f3bcdfdb092f237f24f10d8f976fc31eb155915",
+    "client-profiles.md": "f005390008eadbbdf3fbf461d1443bd23b9e6542812a338c2baac9cc350cdd05"
+  },
+  "profile": {
+    "id": "TV_SAMSUNG",
+    "source_library": "YouTubeKit",
+    "source_commit": "7f75a2299dc329c0b7855afb25d47663a02855cb",
+    "client_name": "TVHTML5",
+    "client_version": "5.20260707",
+    "auth_or_attestation_added": false,
+    "remote_fallback": false,
+    "youtubejs_constants_modified": false,
+    "url_cver_rewritten": false
+  },
+  "command": [
+    "python3",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/run_guarded.py",
+    "--allocation", "source", "--timeout", "30", "--",
+    "/usr/bin/env", "NODE_DISABLE_COMPILE_CACHE=1",
+    "TMPDIR=/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/client-profiles/tmp",
+    "/opt/homebrew/opt/node@24/bin/node",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/client-profiles.test.mjs"
+  ],
+  "guard_receipt_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/receipts/0b7246813fad48aa82fd7e1f6c32ecff.json",
+  "guard_receipt": {
+    "allocation": "source",
+    "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+    "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+    "command_sha256": "826e012bb8e731210c5c2f11e383637e5702477ed89784609df1fde2e6de7214",
+    "executable": "/usr/bin/env",
+    "pid": 74946,
+    "started_unix": 1794348086.625953,
+    "elapsed_seconds": 2.1482250690460205,
+    "returncode": 0,
+    "stop_reason": null,
+    "high_water_allocated_bytes": { "total": 107393024, "allocation": 98050048 },
+    "remaining_free_bytes": 574541692928
+  },
+  "owned_scratch": {
+    "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/client-profiles",
+    "allocated_bytes_after_test": 0,
+    "contents": ["empty tmp directory"],
+    "cleanup": "No failed builds or cache; empty owned directory may join root's recoverable cleanup manifest"
+  }
+}

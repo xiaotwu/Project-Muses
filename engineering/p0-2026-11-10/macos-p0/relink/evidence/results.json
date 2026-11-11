@@ -1,0 +1,116 @@
+{
+  "stock": [
+    {
+      "kind": "dependency",
+      "ffmpeg": "8.0",
+      "license": "LGPL version 2.1 or later",
+      "miniaudio": "0.11.26",
+      "runtime_linking": false
+    },
+    {
+      "kind": "decode_seek",
+      "codec": "aac",
+      "frames": 192000,
+      "rms": 0.0623384,
+      "seek_first_pts": 1.5,
+      "seek_frames": 120000,
+      "seek_alignment_frames": 0,
+      "seek_rms_error": 6.9e-06,
+      "ring_high_frames": 32768
+    },
+    {
+      "kind": "decode_seek",
+      "codec": "opus",
+      "frames": 192000,
+      "rms": 0.0625412,
+      "seek_first_pts": 1.5,
+      "seek_frames": 120024,
+      "seek_alignment_frames": -24,
+      "seek_rms_error": 5.46e-05,
+      "ring_high_frames": 32768
+    },
+    {
+      "kind": "equal_power_crossfade",
+      "clock_frames": 336000,
+      "underflows": 0,
+      "clipped": 0,
+      "minimum_10ms_rms": 0.058588,
+      "pcm_pool_bytes": 524288
+    },
+    {
+      "kind": "gapless",
+      "clock_frames": 384000,
+      "underflows": 0,
+      "clipped": 0,
+      "minimum_10ms_rms": 0.0596416,
+      "pcm_pool_bytes": 524288
+    }
+  ],
+  "replacement": [
+    {
+      "kind": "dependency",
+      "ffmpeg": "8.0+muses-p0-relink-1",
+      "license": "LGPL version 2.1 or later",
+      "miniaudio": "0.11.26",
+      "runtime_linking": false
+    },
+    {
+      "kind": "decode_seek",
+      "codec": "aac",
+      "frames": 192000,
+      "rms": 0.0623384,
+      "seek_first_pts": 1.5,
+      "seek_frames": 120000,
+      "seek_alignment_frames": 0,
+      "seek_rms_error": 6.9e-06,
+      "ring_high_frames": 32768
+    },
+    {
+      "kind": "decode_seek",
+      "codec": "opus",
+      "frames": 192000,
+      "rms": 0.0625412,
+      "seek_first_pts": 1.5,
+      "seek_frames": 120024,
+      "seek_alignment_frames": -24,
+      "seek_rms_error": 5.46e-05,
+      "ring_high_frames": 32768
+    },
+    {
+      "kind": "equal_power_crossfade",
+      "clock_frames": 336000,
+      "underflows": 0,
+      "clipped": 0,
+      "minimum_10ms_rms": 0.058588,
+      "pcm_pool_bytes": 524288
+    },
+    {
+      "kind": "gapless",
+      "clock_frames": 384000,
+      "underflows": 0,
+      "clipped": 0,
+      "minimum_10ms_rms": 0.0596416,
+      "pcm_pool_bytes": 524288
+    }
+  ],
+  "replacement_native": [
+    {
+      "kind": "dependency",
+      "ffmpeg": "8.0+muses-p0-relink-1",
+      "license": "LGPL version 2.1 or later",
+      "miniaudio": "0.11.26",
+      "runtime_linking": false
+    },
+    {
+      "kind": "late_next_native_session",
+      "muted": true,
+      "initial_next_decoded_frames": 0,
+      "clock_frames": 81664,
+      "transition_start_frame": 38336,
+      "transition_end_frame": 62336,
+      "transitions": 1,
+      "underflows": 0,
+      "callbacks": 319
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "label": "native-window-cold",
+  "exit_code": -11,
+  "guard_stop": null,
+  "elapsed_ms": 29,
+  "observed_peak_rss_bytes": 3063808,
+  "rss_limit_bytes": 268435456,
+  "events": [],
+  "stderr_bytes": 0,
+  "binary_sha256": "79b5223fc8c320322eee34dd88028b502cbfed0d42a53659a7e796f0913a4665"
+}

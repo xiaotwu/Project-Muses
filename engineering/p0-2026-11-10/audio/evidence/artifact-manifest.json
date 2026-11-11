@@ -1,0 +1,62 @@
+{
+  "macosx/miniaudio-backend.o": {
+    "sha256": "cd2a842f4ca3bcdf58c60c4545883cd72b7413382e8133e063f4ff8340ceea80",
+    "logical_bytes": 364616,
+    "allocated_bytes": 393216
+  },
+  "macosx/libavformat/libavformat.a": {
+    "sha256": "8fbc4f843b26e9776002cee1a159bd75b2a8372e7fc949e88b2af8377cbd1936",
+    "logical_bytes": 752048,
+    "allocated_bytes": 753664
+  },
+  "macosx/libavcodec/libavcodec.a": {
+    "sha256": "cdbf9ded338aa5d48a755c3d8c19b6d5692d392ef3f7b96818bb84cf0cea1e72",
+    "logical_bytes": 912032,
+    "allocated_bytes": 913408
+  },
+  "macosx/libswresample/libswresample.a": {
+    "sha256": "c61c832836c6c6d053c270ad52dc850c8deafdeec1d03444afc219349b47b39c",
+    "logical_bytes": 134808,
+    "allocated_bytes": 135168
+  },
+  "macosx/libavutil/libavutil.a": {
+    "sha256": "98ad0cbf1520bc1e9b015f16eb830f688f9d77852ecfd6d7163f77e3ad5a83d3",
+    "logical_bytes": 1015784,
+    "allocated_bytes": 1015808
+  },
+  "macosx/audio-probe": {
+    "sha256": "3c15b6b5ef597fb23b41829dbc45a81991258bc056f12fdc805c58ef2cc5fddc",
+    "logical_bytes": 2052352,
+    "allocated_bytes": 2056192
+  },
+  "iphoneos/miniaudio-backend.o": {
+    "sha256": "6e346b04baf3b7519e3d4e56a87679e8742b24404698417ac629c9fc3c4ac285",
+    "logical_bytes": 350448,
+    "allocated_bytes": 393216
+  },
+  "iphoneos/libavformat/libavformat.a": {
+    "sha256": "07dd3b42099a1593d32646540c3c5cade2857edef4fe38e3e9163779b6eef7a3",
+    "logical_bytes": 747208,
+    "allocated_bytes": 749568
+  },
+  "iphoneos/libavcodec/libavcodec.a": {
+    "sha256": "faf37857e820be4575e1691e984f08e150e5f3d57d7e8ad974f978c513fb0bcc",
+    "logical_bytes": 899048,
+    "allocated_bytes": 901120
+  },
+  "iphoneos/libswresample/libswresample.a": {
+    "sha256": "e5b6b0b51e0660a72c0bf6b10220cad74db9259ed2185e11005be61c91e93738",
+    "logical_bytes": 131560,
+    "allocated_bytes": 135168
+  },
+  "iphoneos/libavutil/libavutil.a": {
+    "sha256": "0c4e3b17f828eadf35a6038213d1c63655db17fa13a6efd71170afd262e510f3",
+    "logical_bytes": 1010608,
+    "allocated_bytes": 1011712
+  },
+  "iphoneos/audio-probe.o": {
+    "sha256": "324b4b09fc763d3bc5733b334670522d5d0a8160706cf580a7898221ee872c12",
+    "logical_bytes": 33296,
+    "allocated_bytes": 36864
+  }
+}

@@ -1,0 +1,15 @@
+{"case":"read_seek_cached","status":"ok","retry":0,"total":262144,"network":131072,"unique":66536,"delivered":67536,"requests":2,"buffer_high":65536,"rss_high":12992512,"complete":0,"sha256":""}
+{"case":"complete_backpressure","status":"ok","retry":0,"total":262144,"network":262144,"unique":262144,"delivered":262144,"requests":4,"buffer_high":65536,"rss_high":13631488,"complete":1,"sha256":"d30eb241f95e7c37c033251a78eae1610ac9b02dc99625442158180d35818c1b"}
+{"case":"ignore","status":"range_unsupported","retry":3,"total":0,"network":0,"unique":0,"delivered":0,"requests":1,"buffer_high":0,"rss_high":0,"complete":0,"sha256":""}
+{"case":"forbidden","status":"http_forbidden","retry":0,"total":0,"network":0,"unique":0,"delivered":0,"requests":1,"buffer_high":0,"rss_high":0,"complete":0,"sha256":""}
+{"case":"wrong-range","status":"range_invalid","retry":0,"total":0,"network":0,"unique":0,"delivered":0,"requests":1,"buffer_high":0,"rss_high":0,"complete":0,"sha256":""}
+{"case":"short","status":"network_error","retry":2,"total":262144,"network":1000,"unique":0,"delivered":0,"requests":1,"buffer_high":1000,"rss_high":14336000,"complete":0,"sha256":""}
+{"case":"changed","status":"content_changed","retry":0,"total":262144,"network":65536,"unique":65536,"delivered":65536,"requests":2,"buffer_high":65536,"rss_high":14483456,"complete":0,"sha256":""}
+{"case":"oversize","status":"resource_limit","retry":0,"total":0,"network":0,"unique":0,"delivered":0,"requests":1,"buffer_high":0,"rss_high":0,"complete":0,"sha256":""}
+{"case":"late403_partial","status":"http_forbidden","retry":0,"total":262144,"network":65536,"unique":65536,"delivered":65536,"requests":2,"buffer_high":65536,"rss_high":14614528,"complete":0,"sha256":""}
+{"case":"cancel_latency","ms":0.198}
+{"case":"cancel","status":"cancelled","retry":0,"total":0,"network":0,"unique":0,"delivered":0,"requests":1,"buffer_high":0,"rss_high":0,"complete":0,"sha256":""}
+{"case":"network_cap","status":"resource_limit","retry":0,"total":262144,"network":70000,"unique":70000,"delivered":70000,"requests":2,"buffer_high":65536,"rss_high":14811136,"complete":0,"sha256":""}
+{"case":"request_cap","status":"resource_limit","retry":0,"total":262144,"network":65536,"unique":65536,"delivered":65536,"requests":1,"buffer_high":65536,"rss_high":14909440,"complete":0,"sha256":""}
+{"case":"known_expiry","status":"url_expired","retry":1,"total":0,"network":0,"unique":0,"delivered":0,"requests":0,"buffer_high":0,"rss_high":0,"complete":0,"sha256":""}
+{"case":"capability_boundary","hls":"unsupported","sabr":"unsupported"}

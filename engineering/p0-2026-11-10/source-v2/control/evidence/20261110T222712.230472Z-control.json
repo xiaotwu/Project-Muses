@@ -1,0 +1,82 @@
+{
+  "commands": [
+    [
+      "cc",
+      "-std=gnu11",
+      "-O2",
+      "-g0",
+      "-fobjc-arc",
+      "-framework",
+      "Foundation",
+      "-pthread",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/control/control_tests.m",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/control/build/control_tests"
+    ],
+    [
+      "cc",
+      "-std=gnu11",
+      "-O2",
+      "-g0",
+      "-fobjc-arc",
+      "-framework",
+      "Foundation",
+      "-pthread",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/control/production_smoke.m",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/control/build/production_smoke"
+    ],
+    [
+      "xcrun",
+      "--sdk",
+      "iphoneos",
+      "clang",
+      "-target",
+      "arm64-apple-ios17.0",
+      "-isysroot",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk",
+      "-std=gnu11",
+      "-O2",
+      "-g0",
+      "-fobjc-arc",
+      "-c",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/control/production_smoke.m",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/control/build/control-ios.o"
+    ]
+  ],
+  "runs": [
+    {
+      "name": "control_tests",
+      "exit_code": 0,
+      "elapsed_ms": 4,
+      "stdout": "{\"outcome\":\"pass\",\"checks\":122,\"network_requests\":0,\"core_dumps\":false}\n",
+      "stderr": "",
+      "binary_sha256": "54e85c563df41913b309fc29accb181a4ba9a30facdff6a996ef5315153af430"
+    },
+    {
+      "name": "production_smoke",
+      "exit_code": 0,
+      "elapsed_ms": 210,
+      "stdout": "{\"outcome\":\"pass\",\"real_clock_and_mach_rss\":true,\"network_requests\":0}\n",
+      "stderr": "",
+      "binary_sha256": "874f224f85c342d5b1079dbb083d48b592633f1f1540745b9aae8db0e9613aa9"
+    }
+  ],
+  "source_hashes": {
+    "NativeControl.inc": "0876bc263d605cd68eb0c8b9b308da39dfc90d437784517722a70f325604091e",
+    "control/control_tests.m": "528b3ebf282d727e781913edc7f0604821ed0f73402b6d981ede4c9ea29686be",
+    "control/production_smoke.m": "31ad1c3f0cdfdd5b09a08ed6c7d5028fa821d4f06d4d5802bd2abb5bcc3c9205",
+    "control/run.py": "5515a3b61b37ab0733556adbed0eba23b41d6f39fe9ed375d212374f4eb7feb8"
+  },
+  "output_hashes": {
+    "control_tests": "54e85c563df41913b309fc29accb181a4ba9a30facdff6a996ef5315153af430",
+    "control-ios.o": "ba8c6496c570265f993ee15e8ed795df1f7bb0121004df41455aedb0c0fa0c6a",
+    "production_smoke": "874f224f85c342d5b1079dbb083d48b592633f1f1540745b9aae8db0e9613aa9"
+  },
+  "scratch_limit_bytes": 10485760,
+  "scratch_allocated_bytes": 131072,
+  "actual_free_bytes": 574429671424,
+  "network_requests": 0,
+  "status": 0
+}

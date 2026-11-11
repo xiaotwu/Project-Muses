@@ -1,0 +1,402 @@
+{
+  "created_utc": "2026-11-10T22:19:34.177662+00:00",
+  "scope": "parser-only cold extraction; media/device gates not claimed",
+  "source_files": [
+    {
+      "path": "README.md",
+      "bytes": 11950,
+      "sha256": "ec47cd7908e564fdc97d04bd16f67cd0595ad4ae3159b319cca2a353a42e1225"
+    },
+    {
+      "path": "bootstrap.py",
+      "bytes": 2970,
+      "sha256": "8de475746d7d24bebf3cf1e1994c782aa70945988c1d8a864e600e3feae2182e"
+    },
+    {
+      "path": "build.sh",
+      "bytes": 1273,
+      "sha256": "22c4e302dfc0855f11761bec3a840d1dfc0fc6d3b632183f5ed9ce466fbcaa1e"
+    },
+    {
+      "path": "build_ios.sh",
+      "bytes": 1038,
+      "sha256": "51c1284ea356257c16f2393cd7d5bb490246fc970016a8995efddcf2271ecafe"
+    },
+    {
+      "path": "build_quickjs.sh",
+      "bytes": 1133,
+      "sha256": "3d902b6e477c794f0483b8766abf1a9bdc5331197e03d7a18dd595a10186c2ce"
+    },
+    {
+      "path": "build_reference.sh",
+      "bytes": 353,
+      "sha256": "e0519de84180f2b73b437379be5c89580b8e398e2a3be8da4b92329b3a65318e"
+    },
+    {
+      "path": "collect_crash_summary.py",
+      "bytes": 2148,
+      "sha256": "3d4b8453716e631cc3d63986308431280de91f03f44f15515c3c38f5c8ee4cb0"
+    },
+    {
+      "path": "evidence/20261110T214632.064734Z-native-cold.json",
+      "bytes": 649,
+      "sha256": "2f6931216eefda80a39ba391906493ea83a5d36a3765dbe3a48f0f815acf6520"
+    },
+    {
+      "path": "evidence/20261110T214745.573194Z-native-cold-96.json",
+      "bytes": 655,
+      "sha256": "7ebbc6abb2f9cea78dc84ac05295bd7b9d180cc9fa4cf98829755dc21b6f3eaa"
+    },
+    {
+      "path": "evidence/20261110T215226.552945Z-native-window-cold.json",
+      "bytes": 654,
+      "sha256": "96238127a71e49c3cc2c080f7ac890781b5294ddfd67a553260dd4ac7ce8840a"
+    },
+    {
+      "path": "evidence/20261110T215437.067279Z-native-window-cold.json",
+      "bytes": 292,
+      "sha256": "e40f199f66e8da7c7e4757adc9682946b7f15d3f2d10da81802d620fe36af658"
+    },
+    {
+      "path": "evidence/20261110T215540.195532Z-native-window-cold.json",
+      "bytes": 659,
+      "sha256": "95fbc80c4043ffc84ab3a37562b68181cce6725f713d135c405e8d037e165365"
+    },
+    {
+      "path": "evidence/20261110T215615.061771Z-native-window-cold.json",
+      "bytes": 742,
+      "sha256": "382b7ec1782423fbb677e6f425fa55e46e511819db470a3b88e2a3249d0ee352"
+    },
+    {
+      "path": "evidence/20261110T215615.569158Z-quickjs-full-parse-only.json",
+      "bytes": 448,
+      "sha256": "3d535fd20a57d8702248c0c9f2fbd903c93c9660f63292653bee873efb3ff582"
+    },
+    {
+      "path": "evidence/20261110T215855.838747Z-native-window-cold.json",
+      "bytes": 742,
+      "sha256": "119b5fa97136d0da8fc74b755f9bb7051f39be47e89057bce85906a8b4d00747"
+    },
+    {
+      "path": "evidence/20261110T220023.540510Z-native-window-cold.json",
+      "bytes": 668,
+      "sha256": "e46fb6659cf4098c51e0ce8e8830331664212622c35c3d9c70a4965009937f6c"
+    },
+    {
+      "path": "evidence/20261110T220140.446866Z-quickjs-reduced-extract.json",
+      "bytes": 1421,
+      "sha256": "60f279e09bcf8d617578299139236e1899bdda0ed8498525a2e89dea915683a8"
+    },
+    {
+      "path": "evidence/20261110T220205.324648Z-native-lifecycle.json",
+      "bytes": 488,
+      "sha256": "f8c5159568a51a311df482750f17e0c3abac8bd2df7eadb4e8264f17101a229e"
+    },
+    {
+      "path": "evidence/20261110T220321.610042Z-jsc-full-reference.json",
+      "bytes": 479,
+      "sha256": "d92b684a31e77db66fc7e1c83b3da2e7984b916008629c83524539aed40a2d72"
+    },
+    {
+      "path": "evidence/20261110T220322.914052Z-native-final-cold.json",
+      "bytes": 667,
+      "sha256": "1a0ad6fe7bb900e562a38ba4494e92a8cc61de7ab7c9ddc173d93718c7fd2665"
+    },
+    {
+      "path": "evidence/20261110T220459.120953Z-jsc-full-reference-detail.json",
+      "bytes": 542,
+      "sha256": "c5ef8255c5171803a260a6251439677dbbf5af7cdf19fa0550e3dbd67e65226e"
+    },
+    {
+      "path": "evidence/20261110T220625.604554Z-quickjs-reduced-final.json",
+      "bytes": 1419,
+      "sha256": "8fbd198c86f028d5520492cbfe1e2c804c42c1aa894ecc3c01e17af1ba7effb2"
+    },
+    {
+      "path": "evidence/20261110T220626.396511Z-jsc-full-reference-complete-host.json",
+      "bytes": 900,
+      "sha256": "dba356468220a2ee1fa460be37cddbe003cdca0924a8f88fae91366df1f95b64"
+    },
+    {
+      "path": "evidence/20261110T220954.453048Z-native-final-lifecycle.json",
+      "bytes": 494,
+      "sha256": "4f706d61433714e6904ef9d53b17ae7680eb6db96bf16bb5b7e62f5ceb830900"
+    },
+    {
+      "path": "evidence/20261110T221738.107946Z-native-reviewed-lifecycle.json",
+      "bytes": 497,
+      "sha256": "879e42611a83ec62eb6d15cf2ab6ca75ec6ef77b46c086e70bbe504adab5d87b"
+    },
+    {
+      "path": "evidence/20261110T221834.373100Z-native-reviewed-cold.json",
+      "bytes": 670,
+      "sha256": "dd52952c276b97745ca5a5769755dd884ba5ac27eb871e1a606b6a016ab74bd3"
+    },
+    {
+      "path": "evidence/bootstrap.json",
+      "bytes": 773,
+      "sha256": "9a704d3f71a80dbd7ead71913aa7e7647c3fa1b3a16c61cf5944c6ece2285a99"
+    },
+    {
+      "path": "evidence/reproducer-pre-clone.js",
+      "bytes": 1679,
+      "sha256": "dc6de6da9776ca5945fe5d697bec3f03c2a0b29aeff9080d2d2dbea2458e7c41"
+    },
+    {
+      "path": "evidence/sanitized-crash-summary.json",
+      "bytes": 1636,
+      "sha256": "62a1b542e1c08c20d6fe5cd953d80b70069e5b81d3c5a0fe4091a6d34ccb766c"
+    },
+    {
+      "path": "extract.js",
+      "bytes": 1987,
+      "sha256": "b78590cad367c6ea3154b810d5f55970d3c8d9107e02edf28296b3226108dead"
+    },
+    {
+      "path": "finalize.py",
+      "bytes": 3810,
+      "sha256": "93de56e42fc3dba9cde759407c5bc7fb0576e77f7b3dd5a61f932c964fb52d96"
+    },
+    {
+      "path": "jsc_reference.m",
+      "bytes": 2249,
+      "sha256": "1f02c9ff00a97e18adc2a72b6d4670e955cce871f29371444340ab1d957b52a7"
+    },
+    {
+      "path": "notices/meriyah-ISC.txt",
+      "bytes": 760,
+      "sha256": "e9a5df5a6ae5cd51ca430715f4c62fb5424946e8da07b7caa058a1ba0582a848"
+    },
+    {
+      "path": "notices/quickjs-MIT.txt",
+      "bytes": 1130,
+      "sha256": "598fd7fc928e4350abce36e337ba5a1346923c5c692f5be92c3d8e29ddd7c18d"
+    },
+    {
+      "path": "notices/tree-sitter-MIT.txt",
+      "bytes": 1085,
+      "sha256": "5f9cf9fb6acb1972b35ae29119ce563bb60ec097656bc4b69b9bac2d04c7a147"
+    },
+    {
+      "path": "notices/tree-sitter-javascript-MIT.txt",
+      "bytes": 1080,
+      "sha256": "2e0110e07abef7c2548b26ec9d6969775617ca539a0dc8dbeeb14d6452c711d1"
+    },
+    {
+      "path": "notices/youtubei-MIT.txt",
+      "bytes": 1062,
+      "sha256": "bf82e28381c6256138322a79da2082db5ddb040b4b7009b520f08a419d722c69"
+    },
+    {
+      "path": "p0_parser.c",
+      "bytes": 23592,
+      "sha256": "4a133e7407916d8c8f76332724eb07ca6c7b36338d8138bb7dbcb6a2c0d93e42"
+    },
+    {
+      "path": "p0_parser.h",
+      "bytes": 1884,
+      "sha256": "4eb97a141bc327f5b1cb162b193786e04fa215f3f9d323bfefd41a9d2ee3e86e"
+    },
+    {
+      "path": "parser_cli.c",
+      "bytes": 1707,
+      "sha256": "bfc270ca202f4df0d71aa206d869e4dcfa967fe265384fbba7ee26ad05bcb631"
+    },
+    {
+      "path": "parser_tests.c",
+      "bytes": 5811,
+      "sha256": "7d3637b4346293fd7e8e4b110241e8e12e619df75a4baed808f9b16a521c784f"
+    },
+    {
+      "path": "quickjs_phase.c",
+      "bytes": 6498,
+      "sha256": "4ecbcbfadfd27dd268c6132f0583b3649933109f56571b80cfd854cb3b12bce7"
+    },
+    {
+      "path": "run_bounded.py",
+      "bytes": 2121,
+      "sha256": "ac91b7b3240eb255489394ddf10d021296c7e2cfa35560cae8b062c5cd15e1ae"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/fixtures/player.js",
+      "bytes": 2658728,
+      "sha256": "5f2035b38e20c1e57ad8e51ada9ea82d1eaac59f2a4603ebd851f421e3a3f5dd"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/fixtures/reduced.js",
+      "bytes": 189450,
+      "sha256": "be8ae511cec64bb48b61ccb280f30151ef5bb61dec2466457eb471b2a5b171a9"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/fixtures/reduced-reviewed.js",
+      "bytes": 189450,
+      "sha256": "be8ae511cec64bb48b61ccb280f30151ef5bb61dec2466457eb471b2a5b171a9"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/fixtures/solver.js",
+      "bytes": 179564,
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/fixtures/reference-solver.js",
+      "bytes": 179564,
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/extract.bundle.js",
+      "bytes": 949580,
+      "sha256": "17a300a3ef421c50922459a2f5bc086a121c2156ceedd50a8b3c8cc8c003b7dd"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/parser-proof",
+      "bytes": 668720,
+      "sha256": "6f1be5bb96c30fd5ef408c0c0bca8f5245fd7df92e2b922a1d4a04482da4401d"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/parser-tests",
+      "bytes": 669104,
+      "sha256": "8f1940684d255f1e9af06b1a6b136dfa997294d521c09cfc0ed3c00e828bc9d8"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/p0_parser.o",
+      "bytes": 32800,
+      "sha256": "3cde2c276c4279ea0d5bc8b37ffedf0675ccc4ce3561fb5471f11bb6cca1624a"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/tree-sitter.o",
+      "bytes": 251192,
+      "sha256": "ef2758543faf40d54381d77bdc842dacc3c61bfc5874a831d1a41155184e4f2f"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/javascript.o",
+      "bytes": 423024,
+      "sha256": "ba5985c5313519a6cbbefdb3dc13246d01f93b034ad91c23374f0ac88a9f1f06"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/scanner.o",
+      "bytes": 4344,
+      "sha256": "9f699a11ac7121b15fa38a4e0a1ec2939a84f77b5be8dfd3a731003b8b5cd40a"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/iphoneos/libp0parser.a",
+      "bytes": 719944,
+      "sha256": "a2a112b997e569bca8a6fffe85f48f1170b503cbc7b9996a9b076022d3cd6459"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/quickjs-phase",
+      "bytes": 984352,
+      "sha256": "60a60f1910a9ffd1b855a6e4a38aa8de5167f79c5fab59b00ce23cecce14e7cd"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build/jsc-reference",
+      "bytes": 54080,
+      "sha256": "79327e1daf2a5d9ed97a50f327d289537967263c7e2e8833e81045c8177d2b58"
+    }
+  ],
+  "upstream_sources": [
+    {
+      "path": "youtubei.js/dist/src/core/Player.js",
+      "sha256": "2aeffdf0aa7499a0b7c8d3eca756a1998d4a012dcd15a50983b6f70410e57377"
+    },
+    {
+      "path": "youtubei.js/dist/src/utils/javascript/JsAnalyzer.js",
+      "sha256": "04dc1eaab8944b1d04ab3cf056c9f200b58f0475903f27a60679a721fea4daf5"
+    },
+    {
+      "path": "youtubei.js/dist/src/utils/javascript/JsExtractor.js",
+      "sha256": "852aaf259959ceeb21e901c2b7b4afd13a7804326a6d47cec503221d94754696"
+    },
+    {
+      "path": "youtubei.js/dist/src/utils/javascript/matchers.js",
+      "sha256": "2e23849f8d3c46276f1170c5f25ccc900036bf2a2756c88e490a378ba58fce25"
+    },
+    {
+      "path": "meriyah/dist/meriyah.mjs",
+      "sha256": "ca629ab36c74ef55d3019566561529b02c3fd35f66cd8bb5420c5a0a503e08ec"
+    }
+  ],
+  "bootstrap": {
+    "dependencies": [
+      {
+        "repository": "https://github.com/tree-sitter/tree-sitter",
+        "tag": "v0.25.10",
+        "license": "MIT",
+        "archive_sha256": "ad5040537537012b16ef6e1210a572b927c7cdc2b99d1ee88d44a7dcdc3ff44c",
+        "archive_bytes": 864648
+      },
+      {
+        "repository": "https://github.com/tree-sitter/tree-sitter-javascript",
+        "tag": "v0.25.0",
+        "license": "MIT",
+        "archive_sha256": "9712fc283d3dc01d996d20b6392143445d05867a7aad76fdd723824468428b86",
+        "archive_bytes": 309805
+      }
+    ],
+    "public_player": {
+      "sha256": "5f2035b38e20c1e57ad8e51ada9ea82d1eaac59f2a4603ebd851f421e3a3f5dd",
+      "bytes": 2658728,
+      "source": "YouTube public iframe_api -> player_es6 base.js",
+      "cookies": false,
+      "cache": false
+    }
+  },
+  "scratch": {
+    "root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser",
+    "subbudget_bytes": 419430400,
+    "allocated_bytes": 15245312,
+    "logical_file_bytes": 14652253,
+    "free_bytes": 574468145152,
+    "inventory": [
+      {
+        "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/build",
+        "allocated_bytes": 6791168,
+        "logical_file_bytes": 6679036,
+        "ownership": "p0_source parser subtask",
+        "retention": "active integration/reproduction; root coordinates recoverable cleanup"
+      },
+      {
+        "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/fixtures",
+        "allocated_bytes": 3530752,
+        "logical_file_bytes": 3396756,
+        "ownership": "p0_source parser subtask",
+        "retention": "active integration/reproduction; root coordinates recoverable cleanup"
+      },
+      {
+        "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/results",
+        "allocated_bytes": 86016,
+        "logical_file_bytes": 15495,
+        "ownership": "p0_source parser subtask",
+        "retention": "active integration/reproduction; root coordinates recoverable cleanup"
+      },
+      {
+        "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/tmp",
+        "allocated_bytes": 0,
+        "logical_file_bytes": 0,
+        "ownership": "p0_source parser subtask",
+        "retention": "active integration/reproduction; root coordinates recoverable cleanup"
+      },
+      {
+        "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/tree-sitter",
+        "allocated_bytes": 1695744,
+        "logical_file_bytes": 1435316,
+        "ownership": "p0_source parser subtask",
+        "retention": "active integration/reproduction; root coordinates recoverable cleanup"
+      },
+      {
+        "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-parser/tree-sitter-javascript",
+        "allocated_bytes": 3141632,
+        "logical_file_bytes": 3125650,
+        "ownership": "p0_source parser subtask",
+        "retention": "active integration/reproduction; root coordinates recoverable cleanup"
+      }
+    ],
+    "open_file_lines": 0,
+    "lsof_exit_code": 1,
+    "cleanup_performed": false,
+    "bytes_recovered": 0
+  },
+  "solver_reference_identical": true,
+  "no_signed_urls_headers_cookies_media_or_private_crash_logs_copied": true
+}

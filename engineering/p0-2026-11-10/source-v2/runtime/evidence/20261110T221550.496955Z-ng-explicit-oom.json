@@ -1,0 +1,52 @@
+{
+  "label": "ng-explicit-oom",
+  "command": [
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/embedding-ng",
+    "oom"
+  ],
+  "exit_code": 1,
+  "guard_stop": null,
+  "elapsed_ms": 29,
+  "observed_peak_rss_bytes": 0,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "phase": "runtime",
+      "version": "0.18.0",
+      "engine": "QuickJS-NG",
+      "core_dumps": false
+    },
+    {
+      "phase": "oom_exception",
+      "uncatchable": true,
+      "allocator_denials": 0,
+      "cancel_requested": false,
+      "deadline_hit": false
+    },
+    {
+      "phase": "resource_teardown",
+      "backing_live_bytes": 0,
+      "backing_live_allocations": 0,
+      "backing_peak_bytes": 7524456,
+      "allocator_denials": 0
+    },
+    {
+      "phase": "explicit_oom",
+      "outcome": "fail"
+    },
+    {
+      "phase": "summary",
+      "outcome": "fail",
+      "elapsed_ms": 1,
+      "process_maxrss_bytes": 10141696
+    }
+  ],
+  "stdout_sha256": "e02a086ed5af04bdddee18f1cd5d12f54557dfd674c0a8f460fd0865e617ecd2",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_bytes": 0,
+  "binary_sha256": "c7b5893953109ca9b7d2c7d5335ea0664b57fcfff38f7eb147347069b3566cd2",
+  "corrected_bundle_sha256": "17a300a3ef421c50922459a2f5bc086a121c2156ceedd50a8b3c8cc8c003b7dd",
+  "runner_sha256": "ee58e63dd770b8ad7540bd810c53e1f997d7cbba87180102870550c245f379be",
+  "core_dumps": false,
+  "scratch_allocated_bytes": 14417920
+}

@@ -1,0 +1,70 @@
+{
+  "build_success_sha256": "c973bd6515b51ec334be481a47ece0abf208cdd3c3acc93de0e6079150884e38",
+  "runner_sha256": "26d994beeeaaab7114f452d15df48c1f80db8b99c677f3005e510c24d07bc1ef",
+  "fixtures": {
+    "aac": {
+      "sha256": "4e6484d0639472123d8932f1d07f61f242de91a58c07ad5f70adb21fb3ea360d",
+      "bytes": 488694
+    },
+    "opus": {
+      "sha256": "eaa92a8f8f2f21cd40072556ae641136b4ed45bec892bba22f927b50a9f5abf6",
+      "bytes": 657042
+    },
+    "aac-short": {
+      "sha256": "266e3b69e84e2ced0fe353b8007aa5e1164179a818405563767b36e3c84be450",
+      "bytes": 22913
+    },
+    "aac-tiny": {
+      "sha256": "915c7c2010a7bede2db247b5daf9b35af4ad336323f3f90f7b95362f11241ad6",
+      "bytes": 2613
+    },
+    "opus-short": {
+      "sha256": "68b30b020ee015c8ab5882387de496bf8c28350df196efefda0c609e42668361",
+      "bytes": 27204
+    },
+    "offset": {
+      "sha256": "b78605b326dfed0b5837ffa3d9bb5148f0f1ef3e3ad5a7290a360c36f48ab699",
+      "bytes": 22925
+    },
+    "aac-unknown": {
+      "sha256": "dcc5352416eded6d92961908680c75eebcef1508a469ba1acb9c88331936206b",
+      "bytes": 22858
+    },
+    "offset-mka": {
+      "sha256": "c1359ddf85f17887c87d97887573a8d62d1c13725b3bbf247d2e23dabcf851dc",
+      "bytes": 22860
+    },
+    "normalized-mp4": {
+      "sha256": "51b25839f51737b107069f1f05aa65046d0740208d96e065e3f3e8c16dd69a97",
+      "bytes": 22913
+    }
+  },
+  "files": {
+    "positive-mp4-seek-reference.stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "results.json": {
+      "sha256": "7ca9d0fae65efe7c8e445090a152793edf5bf29399ac69c4ad337cf37384d17e",
+      "bytes": 4671
+    },
+    "positive-mp4-seek.stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "positive-mp4-seek-reference.stdout.jsonl": {
+      "sha256": "3ae5f19e903ba96d31a0820f4311360eb8c69f68e1e74a32b4b0d8af5a672cc5",
+      "bytes": 223
+    },
+    "requests.json": {
+      "sha256": "13c90ee0a4d2fe1ba1c37a3a2434196dcfd812e7b7170dc9f39d36e7f3d9030a",
+      "bytes": 143
+    },
+    "positive-mp4-seek.stdout.jsonl": {
+      "sha256": "a3bb02dc84e4e8f0b79779768b02e7f59d644f1c7a26ef31028207936ede2a5d",
+      "bytes": 2802
+    }
+  },
+  "audible": false,
+  "external_network": false
+}

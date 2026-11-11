@@ -1,0 +1,190 @@
+clang++: error: no such file or directory: '/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp'
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavformat/libavformat.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavcodec/libavcodec.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libswresample/libswresample.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavutil/libavutil.a", "-framework", "CoreFoundation", "-framework", "CoreAudio", "-framework", "AudioToolbox"]
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:12:
+In file included from /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/miniaudio.h:11574:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/math.h:369:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__math/hypot.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/limits:118:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:12:
+In file included from /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/miniaudio.h:11574:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/math.h:369:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__math/hypot.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/limits:524:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/type_traits:568:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:1845:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__algorithm/binary_search.h:14:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:14:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:17:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__iterator/distance.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__ranges/concepts.h:36:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/initializer_list:50:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:1845:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__algorithm/binary_search.h:14:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:14:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:17:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__iterator/distance.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__ranges/concepts.h:36:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/initializer_list:109:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/cstddef:40:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:1915:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__algorithm/shuffle.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h:20:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/iosfwd:121:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2041:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2057:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/atomic:605:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__atomic/aliases.h:12:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__atomic/atomic.h:12:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__chrono/duration.h:23:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/ratio:91:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2057:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/atomic:619:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2057:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/atomic:635:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/compare:164:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2058:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/bit:87:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2062:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/iterator:732:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2062:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/iterator:755:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/variant:274:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2062:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/iterator:755:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/variant:1648:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/exception:84:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/__exception/exception_ptr.h:23:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/typeinfo:69:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2062:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/iterator:755:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/variant:1648:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/exception:88:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2062:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/iterator:755:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/variant:1648:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/exception:96:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/new:112:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2062:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/iterator:755:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/variant:1649:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/tuple:274:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2062:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/iterator:755:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/variant:1649:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/tuple:1470:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/utility:298:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2063:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/memory:981:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+In file included from /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:18:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/algorithm:2064:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk/usr/include/c++/v1/optional:321:
+/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0/version:1:1: error: expected unqualified-id
+    1 | 8.0
+      | ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavformat/libavformat.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavcodec/libavcodec.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libswresample/libswresample.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavutil/libavutil.a", "-framework", "CoreFoundation", "-framework", "CoreAudio", "-framework", "AudioToolbox"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavformat/libavformat.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavcodec/libavcodec.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libswresample/libswresample.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavutil/libavutil.a", "-framework", "CoreFoundation", "-framework", "CoreAudio", "-framework", "AudioToolbox"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavformat/libavformat.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavcodec/libavcodec.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libswresample/libswresample.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavutil/libavutil.a", "-framework", "CoreFoundation", "-framework", "CoreAudio", "-framework", "AudioToolbox"]
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:336:5: error: unknown type name 'cc'
+  336 |     cc.coreaudio.sessionCategory = ma_ios_session_category_none;
+      |     ^
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp:336:7: error: cannot use dot operator on a type
+  336 |     cc.coreaudio.sessionCategory = ma_ios_session_category_none;
+      |       ^
+2 errors generated.
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavformat/libavformat.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavcodec/libavcodec.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libswresample/libswresample.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavutil/libavutil.a", "-framework", "CoreFoundation", "-framework", "CoreAudio", "-framework", "AudioToolbox"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavformat/libavformat.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavcodec/libavcodec.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libswresample/libswresample.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavutil/libavutil.a", "-framework", "CoreFoundation", "-framework", "CoreAudio", "-framework", "AudioToolbox"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavformat/libavformat.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavcodec/libavcodec.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libswresample/libswresample.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavutil/libavutil.a", "-framework", "CoreFoundation", "-framework", "CoreAudio", "-framework", "AudioToolbox"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavformat/libavformat.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavcodec/libavcodec.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libswresample/libswresample.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavutil/libavutil.a", "-framework", "CoreFoundation", "-framework", "CoreAudio", "-framework", "AudioToolbox"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "-c", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o"]
+
+COMMAND ["clang++", "-std=c++17", "-O2", "-pthread", "-target", "arm64-apple-macos26.0", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk", "-idirafter", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources/ffmpeg-8.0", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx", "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/sources", "-Wno-deprecated-declarations", "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/miniaudio-backend.o", "-o", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavformat/libavformat.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavcodec/libavcodec.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libswresample/libswresample.a", "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/libavutil/libavutil.a", "-framework", "CoreFoundation", "-framework", "CoreAudio", "-framework", "AudioToolbox"]

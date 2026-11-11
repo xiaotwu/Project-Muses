@@ -1,0 +1,162 @@
+[
+  {
+    "file": "aac-unknown-duration.mka",
+    "events": [
+      {
+        "gate": "timeline_header",
+        "stream_start_ticks": -23,
+        "timebase_num": 1,
+        "timebase_den": 1000,
+        "stream_duration_ticks": -9223372036854775808,
+        "format_start_microseconds": -23000,
+        "initial_padding": 1024,
+        "seek_preroll": 0,
+        "trailing_padding": 0
+      },
+      {
+        "gate": "packet",
+        "pts": -23,
+        "duration": 23,
+        "skip_samples": 0,
+        "discard_samples": 0
+      },
+      {
+        "gate": "frame",
+        "pts": -23,
+        "samples": 1024
+      },
+      {
+        "gate": "packet",
+        "pts": 0,
+        "duration": 23,
+        "skip_samples": 0,
+        "discard_samples": 0
+      },
+      {
+        "gate": "frame",
+        "pts": 0,
+        "samples": 1024
+      }
+    ]
+  },
+  {
+    "file": "aac-positive.mka",
+    "events": [
+      {
+        "gate": "timeline_header",
+        "stream_start_ticks": 977,
+        "timebase_num": 1,
+        "timebase_den": 1000,
+        "stream_duration_ticks": -9223372036854775808,
+        "format_start_microseconds": 977000,
+        "initial_padding": 1024,
+        "seek_preroll": 0,
+        "trailing_padding": 0
+      },
+      {
+        "gate": "packet",
+        "pts": 977,
+        "duration": 23,
+        "skip_samples": 0,
+        "discard_samples": 0
+      },
+      {
+        "gate": "frame",
+        "pts": 977,
+        "samples": 1024
+      },
+      {
+        "gate": "packet",
+        "pts": 1000,
+        "duration": 23,
+        "skip_samples": 0,
+        "discard_samples": 0
+      },
+      {
+        "gate": "frame",
+        "pts": 1000,
+        "samples": 1024
+      }
+    ]
+  },
+  {
+    "file": "aac-positive-offset.m4a",
+    "events": [
+      {
+        "gate": "timeline_header",
+        "stream_start_ticks": 43076,
+        "timebase_num": 1,
+        "timebase_den": 44100,
+        "stream_duration_ticks": 60281,
+        "format_start_microseconds": 976780,
+        "initial_padding": 0,
+        "seek_preroll": 0,
+        "trailing_padding": 0
+      },
+      {
+        "gate": "packet",
+        "pts": 43076,
+        "duration": 1024,
+        "skip_samples": 0,
+        "discard_samples": 0
+      },
+      {
+        "gate": "frame",
+        "pts": 43076,
+        "samples": 1024
+      },
+      {
+        "gate": "packet",
+        "pts": 44100,
+        "duration": 1024,
+        "skip_samples": 0,
+        "discard_samples": 0
+      },
+      {
+        "gate": "frame",
+        "pts": 44100,
+        "samples": 1024
+      }
+    ]
+  },
+  {
+    "file": "aac-normalized.m4a",
+    "events": [
+      {
+        "gate": "timeline_header",
+        "stream_start_ticks": 0,
+        "timebase_num": 1,
+        "timebase_den": 44100,
+        "stream_duration_ticks": 60281,
+        "format_start_microseconds": 0,
+        "initial_padding": 0,
+        "seek_preroll": 0,
+        "trailing_padding": 0
+      },
+      {
+        "gate": "packet",
+        "pts": 0,
+        "duration": 1024,
+        "skip_samples": 0,
+        "discard_samples": 0
+      },
+      {
+        "gate": "frame",
+        "pts": 0,
+        "samples": 1024
+      },
+      {
+        "gate": "packet",
+        "pts": 1024,
+        "duration": 1024,
+        "skip_samples": 0,
+        "discard_samples": 0
+      },
+      {
+        "gate": "frame",
+        "pts": 1024,
+        "samples": 1024
+      }
+    ]
+  }
+]

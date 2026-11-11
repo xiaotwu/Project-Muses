@@ -1,0 +1,140 @@
+{
+  "candidate": "signed-calibration-2",
+  "exception": "EXC_BREAKPOINT",
+  "signal": "SIGTRAP",
+  "faulting_thread": 0,
+  "frames": [
+    {
+      "image": "UIKitCore",
+      "symbol": "___UIApplicationEvaluateRuntimeIssueForNoSceneLifecycleAdoption_block_invoke",
+      "symbol_offset": 700
+    },
+    {
+      "image": "libdispatch.dylib",
+      "symbol": "_dispatch_client_callout",
+      "symbol_offset": 16
+    },
+    {
+      "image": "libdispatch.dylib",
+      "symbol": "_dispatch_once_callout",
+      "symbol_offset": 32
+    },
+    {
+      "image": "UIKitCore",
+      "symbol": "-[UIApplication workspace:didCreateScene:withTransitionContext:completion:]",
+      "symbol_offset": 324
+    },
+    {
+      "image": "UIKitCore",
+      "symbol": "-[UIApplicationSceneClientAgent scene:didInitializeWithEvent:completion:]",
+      "symbol_offset": 288
+    },
+    {
+      "image": "FrontBoardServices",
+      "symbol": "__95-[FBSScene _callOutQueue_didCreateWithTransitionContext:alternativeCreationCallout:completion:]_block_invoke",
+      "symbol_offset": 364
+    },
+    {
+      "image": "FrontBoardServices",
+      "symbol": "-[FBSScene _callOutQueue_maybeCoalesceClientSettingsUpdates:]",
+      "symbol_offset": 128
+    },
+    {
+      "image": "FrontBoardServices",
+      "symbol": "-[FBSScene _callOutQueue_didCreateWithTransitionContext:alternativeCreationCallout:completion:]",
+      "symbol_offset": 420
+    },
+    {
+      "image": "FrontBoardServices",
+      "symbol": "__93-[FBSWorkspaceScenesClient _callOutQueue_sendDidCreateForScene:transitionContext:completion:]_block_invoke.349",
+      "symbol_offset": 252
+    },
+    {
+      "image": "FrontBoardServices",
+      "symbol": "-[FBSWorkspace _calloutQueue_executeCalloutFromSource:withBlock:]",
+      "symbol_offset": 168
+    },
+    {
+      "image": "FrontBoardServices",
+      "symbol": "-[FBSWorkspaceScenesClient _callOutQueue_sendDidCreateForScene:transitionContext:completion:]",
+      "symbol_offset": 480
+    },
+    {
+      "image": "FrontBoardServices",
+      "symbol": "__92-[FBSWorkspaceScenesClient createSceneWithIdentity:parameters:transitionContext:completion:]_block_invoke_2",
+      "symbol_offset": 268
+    },
+    {
+      "image": "FrontBoardServices",
+      "symbol": "-[FBSWorkspace _calloutQueue_executeCalloutFromSource:withBlock:]",
+      "symbol_offset": 168
+    },
+    {
+      "image": "libdispatch.dylib",
+      "symbol": "_dispatch_client_callout",
+      "symbol_offset": 16
+    },
+    {
+      "image": "libdispatch.dylib",
+      "symbol": "_dispatch_block_invoke_direct",
+      "symbol_offset": 224
+    },
+    {
+      "image": "BoardServices",
+      "symbol": "__BSSERVICEMAINRUNLOOPQUEUE_IS_CALLING_OUT_TO_A_BLOCK__",
+      "symbol_offset": 52
+    },
+    {
+      "image": "BoardServices",
+      "symbol": "BSServiceMainRunLoopSourceHandler",
+      "symbol_offset": 232
+    },
+    {
+      "image": "CoreFoundation",
+      "symbol": "__CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__",
+      "symbol_offset": 28
+    },
+    {
+      "image": "CoreFoundation",
+      "symbol": "__CFRunLoopDoSource0",
+      "symbol_offset": 192
+    },
+    {
+      "image": "CoreFoundation",
+      "symbol": "__CFRunLoopDoSources0",
+      "symbol_offset": 316
+    },
+    {
+      "image": "CoreFoundation",
+      "symbol": "__CFRunLoopRun",
+      "symbol_offset": 416
+    },
+    {
+      "image": "CoreFoundation",
+      "symbol": "_CFRunLoopRunSpecificWithOptions",
+      "symbol_offset": 344
+    },
+    {
+      "image": "GraphicsServices",
+      "symbol": "GSEventRunModal",
+      "symbol_offset": 120
+    },
+    {
+      "image": "UIKitCore",
+      "symbol": "UIApplicationMain",
+      "symbol_offset": 336
+    },
+    {
+      "image": "MusesP0Source",
+      "symbol": "main",
+      "symbol_offset": 76
+    },
+    {
+      "image": "dyld",
+      "symbol": "start",
+      "symbol_offset": 6488
+    }
+  ],
+  "original_sha256": "be16c86999d173ed3e44a7d1ba4d1b1c73a1689b0f458e4b25daed0d957bd201",
+  "redaction": "device/user/vendor identifiers, addresses, installation paths, process IDs and unrelated system state omitted"
+}

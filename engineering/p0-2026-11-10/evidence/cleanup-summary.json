@@ -1,0 +1,87 @@
+{
+  "created_utc": "2026-11-10T21:28:07.348604+00:00",
+  "stage1_journal": "cleanup-stage1-journal.json",
+  "stage2_plan_sha256": "a181aead9e5f607d8788bfb0e7f8a1f5e9769cbc63416e6a9e24d8834af3751c",
+  "stage2_script_sha256": "2b8f6f7a675908bbd7e002199fcb8cefb69acfe6446289fc52c85fba87bb8bd8",
+  "stage2_journal": "cleanup-stage2-plan-journal.json",
+  "stage2_moved_paths": 49,
+  "stage2_allocated_bytes_moved": 322048000,
+  "stage2_free_before": 574721187840,
+  "stage2_free_after": 574720835584,
+  "trash_path": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01",
+  "trash_measured": {
+    "allocated_bytes": 2073239552,
+    "logical_file_bytes": 2074995458,
+    "entries": 15474
+  },
+  "retained_scratch": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio",
+      "allocated_bytes": 8626176,
+      "logical_file_bytes": 7030932,
+      "entries": 565
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/budget.json",
+      "allocated_bytes": 4096,
+      "logical_file_bytes": 603,
+      "entries": 1
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination",
+      "allocated_bytes": 544768,
+      "logical_file_bytes": 132571,
+      "entries": 121
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop",
+      "allocated_bytes": 0,
+      "logical_file_bytes": 0,
+      "entries": 1
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source",
+      "allocated_bytes": 22892544,
+      "logical_file_bytes": 22657833,
+      "entries": 98
+    }
+  ],
+  "retained_scratch_total": {
+    "allocated_bytes": 32067584,
+    "logical_file_bytes": 29821939,
+    "entries": 787
+  },
+  "actual_free_bytes": 574718361600,
+  "attributable_physical_recovery_bytes": 0,
+  "permanent_deletion": false,
+  "permission_blockers": [],
+  "known_residues": [
+    "Android Studio recent-project entry for the task ui-project",
+    "Android Studio Agent Mode onboarding dismissal preference",
+    "Muses P0 Source installed on the paired iPhone; native audio stopped at watchdog; retained for unfinished gate"
+  ],
+  "retention_reasons": {
+    "audio/iphoneos": "small native static libraries, bridge objects and headers for unfinished device validation",
+    "source": "unsigned telemetry-fixed candidate 4, tested signed candidate 3, bounded calibration fixtures/native objects, pinned QuickJS source and JS bundle",
+    "coordination": "bounded successful/failed guard receipts, final private device traces and original small crash diagnostic; not published",
+    "budget.json": "frozen resource budget"
+  },
+  "measurement_method": "trash_measured and retained_scratch sizes count unique (st_dev, st_ino) with lstat, without following symlinks; journal inventories count each path independently; neither measurement is attributable APFS physical recovery",
+  "trash_per_path_totals": {
+    "allocated_bytes": 2073255936,
+    "logical_file_bytes": 2075011842,
+    "entries": 15475
+  },
+  "trash_duplicate_inode_groups": [
+    {
+      "paths": [
+        "interop-run-20261110-123714-dcf8d5/fixture.sqlite3",
+        "interop-run-20261110-123714-dcf8d5/fixture-hardlink.sqlite3"
+      ],
+      "hardlink_count": 2,
+      "allocated_bytes_per_path": 16384,
+      "logical_bytes_per_path": 16384,
+      "reason": "intentional hardlink alias rejection fixture; one inode is counted once by the final size measurement"
+    }
+  ]
+}

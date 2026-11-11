@@ -1,0 +1,32 @@
+{
+  "action": "preflight",
+  "unix": 1794357291.064254,
+  "script_sha256": "8e1f7c0860b8e3068afcbfe95e179b563ef4a9d74769ef34db92d71c3603f483",
+  "launch_performed": false,
+  "preflight": {
+    "shared_parents": [
+      {
+        "path": "/Users/xiaotwu/.muses",
+        "uid": 501,
+        "mode": "0700",
+        "dev": 16777231,
+        "ino": 63965954
+      },
+      {
+        "path": "/Users/xiaotwu/.muses/acceptance",
+        "uid": 501,
+        "mode": "0700",
+        "dev": 16777231,
+        "ino": 63978365
+      }
+    ],
+    "app_logical_bytes": 357143080,
+    "interop_allocated_bytes": 358256640,
+    "free_bytes": 573376823296,
+    "absent_root_count": 10,
+    "byhost_matches": 0,
+    "baseline_tree_sha256": "520b119dc353a248476c3cfdc745e0126cef32762339128a6c21b0c8a6b2e5aa"
+  },
+  "outcome": "preflight_passed_no_launch",
+  "plan_sha256": "2453e166a266c9d74bd5b3c77d397f245b2a0ab3a24d1773b7b21d590b109b9a"
+}

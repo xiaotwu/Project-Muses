@@ -1,0 +1,20 @@
+{
+  "kind": "before_any_launch",
+  "owned_runtime_paths": [
+    {
+      "path": "/Users/xiaotwu/.muses/acceptance/com.muses.acceptance.p0-baseline-20261110",
+      "exists": false
+    },
+    {
+      "path": "/Users/xiaotwu/Library/Preferences/com.muses.acceptance.p0-baseline-20261110.plist",
+      "exists": false
+    },
+    {
+      "path": "/Users/xiaotwu/Library/HTTPStorages/com.muses.acceptance.p0-baseline-20261110",
+      "exists": false
+    }
+  ],
+  "app_launched": false,
+  "account_or_personal_library_seeded": false,
+  "notes": "No runtime path created; root preparation copies only the official application bundle and isolated Info.plist."
+}

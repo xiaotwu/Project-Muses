@@ -1,0 +1,30 @@
+{
+  "method": "inverse exact recorded edits; every recovered source SHA must match its original receipt",
+  "files": {
+    "Streaming-19355d1d.cpp": {
+      "sha256": "19355d1df02198a01e06cb7bca2d541c25a9acda9bf9a3e4fed1e5a054ae5ad7",
+      "bytes": 36680
+    },
+    "Streaming-6211062a.cpp": {
+      "sha256": "6211062ab620c0513a966468cfa66938d934486dbf8aa17be439300fb174ddb3",
+      "bytes": 33336
+    },
+    "build-b80073ae.py": {
+      "sha256": "b80073ae2f4a1d499786be8d416e02698b589995a6f60ca0994fc4c9f55e97fc",
+      "bytes": 11672
+    },
+    "run_local-f36912b1.py": {
+      "sha256": "f36912b1486aff762d109e7b29b7457598250ae8d1bfc29cab86ec0e469b8bbe",
+      "bytes": 7505
+    },
+    "Streaming-3c3e4dcc.cpp": {
+      "sha256": "3c3e4dcc6a036e6569bdac551f63757066014996db76bdc8287408f667505fa8",
+      "bytes": 32499
+    },
+    "Streaming-2539398d.cpp": {
+      "sha256": "2539398d91a482de404a06ddea1c61616a046481392d9337c768bbc1558a9afb",
+      "bytes": 32514
+    }
+  },
+  "final_source_sha256": "b1adba3d2375676d270a144dcd8b3e92463173ea0d671c951e7e7a58b2b19b28"
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "cancel",
+  "timestamp": "20261110T204857.893400Z",
+  "exit_code": 0,
+  "elapsed_seconds": 0.8220880410226528,
+  "stdout": "{\"gate\":\"host_capabilities\",\"outcome\":\"pass\",\"runtime\":\"QuickJS 2026-06-04\",\"library\":\"youtubei.js 18.3.0\",\"native_network\":\"URLSession\",\"webview\":false,\"node_runtime\":false}\n{\"gate\":\"native_cancellation\",\"outcome\":\"pass\",\"elapsed_ms\":1,\"error_name\":\"AbortError\",\"error_category\":\"redacted\"}\n{\"js_memory_bytes\":4643986,\"deadline_seconds\":90,\"received_bytes\":0,\"process_maxrss_bytes\":27754496,\"js_peak_allocated_bytes\":10596918,\"js_memory_limit_bytes\":67108864,\"gate\":\"host_summary\",\"outcome\":\"completed\",\"requests\":1,\"peak_concurrent\":1,\"first_byte_samples\":0}\n",
+  "stderr_bytes": 0,
+  "bundle_sha256": "e7b7e06bcbdfd94185a12f8508a821d7d3556b90c483319283053723964e7598",
+  "host_sha256": "1a4f99b90a5faac92b3599e64559310db3b200d4e29887199ef9f2c4fffa3d5a"
+}

@@ -1,0 +1,91 @@
+{
+  "recorded_unix": 1794358774.309535,
+  "journal_complete": true,
+  "retired_paths_absent": true,
+  "dedicated_trash": {
+    "logical_path_sum_bytes": 2360692619,
+    "allocated_path_sum_bytes": 2369253376,
+    "allocated_unique_inode_bytes": 2369232896,
+    "files": 26990
+  },
+  "active_scratch": {
+    "logical_path_sum_bytes": 533962322,
+    "allocated_path_sum_bytes": 549634048,
+    "allocated_unique_inode_bytes": 549634048,
+    "files": 4680
+  },
+  "retained_streaming_v2": {
+    "logical_path_sum_bytes": 31059109,
+    "allocated_path_sum_bytes": 31780864,
+    "allocated_unique_inode_bytes": 31780864,
+    "files": 333
+  },
+  "actual_free_bytes": 573301141504,
+  "active_task_executable_processes": [],
+  "retired_mock_app_directories": [
+    {
+      "path": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/13-baseline-runtime-tests/20261111T003418Z/test_mock_external_helper_prevents_success/fixture.app",
+      "valid_app_bundle": false,
+      "classification": "unlaunched plain-text mock used by supervisor unit tests",
+      "files": [
+        {
+          "name": "helper",
+          "bytes": 31,
+          "sha256": "ef641e66fa700adb18985155737e06934016e65a6de023b7a6b2108aac9ebe88",
+          "plain_utf8_fixture": true
+        },
+        {
+          "name": "main",
+          "bytes": 31,
+          "sha256": "ef641e66fa700adb18985155737e06934016e65a6de023b7a6b2108aac9ebe88",
+          "plain_utf8_fixture": true
+        }
+      ],
+      "launch_services_path_matches": 0
+    },
+    {
+      "path": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/13-baseline-runtime-tests/20261111T003418Z/test_mock_complete_stops_verified_only/fixture.app",
+      "valid_app_bundle": false,
+      "classification": "unlaunched plain-text mock used by supervisor unit tests",
+      "files": [
+        {
+          "name": "helper",
+          "bytes": 31,
+          "sha256": "ef641e66fa700adb18985155737e06934016e65a6de023b7a6b2108aac9ebe88",
+          "plain_utf8_fixture": true
+        },
+        {
+          "name": "main",
+          "bytes": 31,
+          "sha256": "ef641e66fa700adb18985155737e06934016e65a6de023b7a6b2108aac9ebe88",
+          "plain_utf8_fixture": true
+        }
+      ],
+      "launch_services_path_matches": 0
+    },
+    {
+      "path": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/13-baseline-runtime-tests/20261111T003418Z/test_mock_budget_failure_retains_state/fixture.app",
+      "valid_app_bundle": false,
+      "classification": "unlaunched plain-text mock used by supervisor unit tests",
+      "files": [
+        {
+          "name": "helper",
+          "bytes": 31,
+          "sha256": "ef641e66fa700adb18985155737e06934016e65a6de023b7a6b2108aac9ebe88",
+          "plain_utf8_fixture": true
+        },
+        {
+          "name": "main",
+          "bytes": 31,
+          "sha256": "ef641e66fa700adb18985155737e06934016e65a6de023b7a6b2108aac9ebe88",
+          "plain_utf8_fixture": true
+        }
+      ],
+      "launch_services_path_matches": 0
+    }
+  ],
+  "physical_recovery_claim_bytes": 0,
+  "permission_blockers": [],
+  "retained_system_state": "paused calibration permission/registration, unlaunched baseline dependencies and deferred phone probe preserved; no foreground system-settings cleanup claimed",
+  "first_postcheck": "failure-1 receipt retained; mock .app classification corrected without repeating any move"
+}

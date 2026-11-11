@@ -1,0 +1,13 @@
+{
+  "scope": "Offline baseline-runtime guard preparation; no GUI launch in this stage",
+  "test_scratch": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/baseline-runtime-tests",
+  "test_scratch_limit_bytes": 8388608,
+  "runtime_ceiling_bytes": 134217728,
+  "runtime_stop_threshold_bytes": 100663296,
+  "runtime_receipts_reserve_bytes": 1048576,
+  "baseline_app_subbudget_bytes": 805306368,
+  "interop_allocation_bytes": 2147483648,
+  "free_floor_bytes": 42949672960,
+  "poll_seconds": 0.1,
+  "note": "Observed stop threshold with 32 MiB headroom, not a filesystem quota; no library/cache deletion by the guard."
+}

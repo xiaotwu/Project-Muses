@@ -1,0 +1,15 @@
+{
+  "library": "YouTubeKit",
+  "commit": "7f75a2299dc329c0b7855afb25d47663a02855cb",
+  "exit_code": 1,
+  "stop_reason": null,
+  "elapsed_seconds": 5.441829708986916,
+  "process_peak_rss_bytes": 524419072,
+  "stdout": "{\"browser_cookies\":false,\"commit\":\"7f75a2299dc329c0b7855afb25d47663a02855cb\",\"gate\":\"alternate_runtime\",\"library\":\"YouTubeKit\",\"method\":\"local_only\",\"native_network\":\"URLSession\",\"oauth\":false,\"outcome\":\"started\",\"remote_fallback\":false,\"runtime\":\"Swift + JavaScriptCore\"}\n{\"aac_count\":6,\"elapsed_ms\":5417,\"gate\":\"alternate_extract\",\"native_requests\":5,\"outcome\":\"pass\",\"stream_count\":34}\n{\"gate\":\"alternate_availability\",\"outcome\":\"pending\",\"required_wait_ms\":0}\n{\"gate\":\"alternate_length\",\"limit_bytes\":16777216,\"outcome\":\"bounded_stop\"}\n",
+  "stderr_bytes": 202,
+  "host_sha256": "87a8e1215f2fc09c96b1a01d8f5055ebc198231f64536070693ddbb0cf2169c5",
+  "external_deadline_seconds": 60,
+  "rss_limit_bytes": 536870912,
+  "explicit_diagnostic_exception": true,
+  "production_budget_changed": false
+}

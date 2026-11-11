@@ -1,0 +1,120 @@
+{
+  "stage": 4,
+  "created_unix": 1794352756.759088,
+  "owned_root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01",
+  "trash_root": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage4",
+  "script_sha256": "8b3954bbdff64d69fbb054bb9b9e7b8792cf3c45e60951f6f1e76ccee6d22312",
+  "required_manifests": [
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source/manifest.json",
+      "sha256": "e69accf57ea7fce311a5bd6f235ef42fa5f3561cae50c0bd37712bc357a814f4"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios-init-debug/source-hashes.json",
+      "sha256": "cbd0007816a5f13de853dcc91a6abced0889deea049f8ecbbb380abc7fe7b1c2"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/evidence/ios-candidate-6-build.json",
+      "sha256": "b7fd0a7996ecf153c377d5c66cee3aa1355557e8b18a709841f1124b74b4949e"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/evidence/ios-candidate-6-signing.json",
+      "sha256": "df13e3c1696ee50a8eacc4c7daec4b2458d75c2cec27c0f463aa1ed91330db49"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/evidence/phone-candidate-5/locked-summary.json",
+      "sha256": "a9e3f5c682743f88d6881faa42ece2ea825157439f8ff483efb36a1c0c82b50b"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/cleanup-stage4-inventory.json",
+      "sha256": "00f33366e1d2a2967fc13f3851e0423c1597411e8863717726e36be14e7bc7f1"
+    }
+  ],
+  "moves": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build",
+      "destination_name": "01-build",
+      "required_inventory": {
+        "entries": 2,
+        "logical_file_bytes": 1617073,
+        "allocated_bytes": 1617920,
+        "allocated_unique_inode_bytes": 1617920,
+        "uid": 501,
+        "tree_sha256": "c12eba1a42e9210db81ffcd168eb509a117b776f636cf46b86a05211abdec5fe"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos",
+      "destination_name": "02-iphoneos",
+      "required_inventory": {
+        "entries": 28,
+        "logical_file_bytes": 17574330,
+        "allocated_bytes": 17661952,
+        "allocated_unique_inode_bytes": 17661952,
+        "uid": 501,
+        "tree_sha256": "a95583fe74bfb577c180b2c7bcb6ffcbbafb970bd2bdf36c06a04aed964f89fd"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/candidate-5-signed",
+      "destination_name": "03-candidate-5-signed",
+      "required_inventory": {
+        "entries": 10,
+        "logical_file_bytes": 5353705,
+        "allocated_bytes": 5369856,
+        "allocated_unique_inode_bytes": 5369856,
+        "uid": 501,
+        "tree_sha256": "16cd58d4cc91283326f65e4a052919a59abd084819b9a0897819dc4c5a2deec4"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/ios-init-debug",
+      "destination_name": "04-ios-init-debug",
+      "required_inventory": {
+        "entries": 72,
+        "logical_file_bytes": 8704748,
+        "allocated_bytes": 8802304,
+        "allocated_unique_inode_bytes": 8802304,
+        "uid": 501,
+        "tree_sha256": "ba0500696b847406e7f4e7b1e7e57562f43d37204abb5b6612e6f22601d0c431"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/media/IOS-aqz-KE-bpKQ-749288DA-745E-46D7-9991-78708464E5A3.m4a.partial",
+      "destination_name": "05-IOS-aqz-KE-bpKQ-749288DA-745E-46D7-9991-78708464E5A3.m4a.partial",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1048576,
+        "allocated_bytes": 1048576,
+        "allocated_unique_inode_bytes": 1048576,
+        "uid": 501,
+        "tree_sha256": "652e94f2e028cdaff0b6b5bb442da5c3b480150f6324e1d059210acbdf10c7a0"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/media/TV_SAMSUNG-aqz-KE-bpKQ-24E5D74B-1649-42C4-B19A-25F5DACB6B4C.m4a",
+      "destination_name": "06-TV_SAMSUNG-aqz-KE-bpKQ-24E5D74B-1649-42C4-B19A-25F5DACB6B4C.m4a",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 15479228,
+        "allocated_bytes": 16515072,
+        "allocated_unique_inode_bytes": 16515072,
+        "uid": 501,
+        "tree_sha256": "aac516aa674b2867f0dd6d026bf963594d6d3f56e03fed85355c808b7a3010dd"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/media/TV_SAMSUNG-aqz-KE-bpKQ-277F8A82-7284-4160-865A-C0D66402825F.m4a",
+      "destination_name": "07-TV_SAMSUNG-aqz-KE-bpKQ-277F8A82-7284-4160-865A-C0D66402825F.m4a",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 15479228,
+        "allocated_bytes": 15990784,
+        "allocated_unique_inode_bytes": 15990784,
+        "uid": 501,
+        "tree_sha256": "2871b06eb3b872c34e529c02f3398aea80b05781ba98ba8bc365582f080a6313"
+      }
+    }
+  ],
+  "retained": "Candidate 6 signed+unsigned, current desktop build and pinned deps, latest AAC/Opus/Sintel for pending macOS audio checks, sanitized failures and all receipts; no phone mutation."
+}

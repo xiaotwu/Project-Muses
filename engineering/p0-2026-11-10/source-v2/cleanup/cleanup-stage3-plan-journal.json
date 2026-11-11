@@ -1,0 +1,222 @@
+{
+  "plan_sha256": "497031deacfa2fd8b0ef649a8c5974281b06a3720c8c960a2cd561c3e8735b67",
+  "script_sha256": "edcaea66f8a1cf5b8612c1aa658f3740959cf356c177b3a87c278bada40f32d4",
+  "started_unix": 1794350711.0588381,
+  "free_before": 574371094528,
+  "actions": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-integration--runtime",
+      "inventory": {
+        "entries": 68,
+        "logical_file_bytes": 12814652,
+        "allocated_bytes": 14508032,
+        "allocated_unique_inode_bytes": 14508032,
+        "uid": 501,
+        "tree_sha256": "6fa7d46b93e6eca65e4a0c6677346c4e25b75a1419907f851769ffb067d7c760"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350712.686489
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/control",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-integration--control",
+      "inventory": {
+        "entries": 25,
+        "logical_file_bytes": 6234494,
+        "allocated_bytes": 6266880,
+        "allocated_unique_inode_bytes": 6266880,
+        "uid": 501,
+        "tree_sha256": "29e3ebb53c281c1fe6b6640677cc0dbf1e4bd09c6e7a3d28594b58be2ab037c6"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350712.831848
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223013",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--ios-controller-20261110-223013",
+      "inventory": {
+        "entries": 18,
+        "logical_file_bytes": 94686,
+        "allocated_bytes": 118784,
+        "allocated_unique_inode_bytes": 118784,
+        "uid": 501,
+        "tree_sha256": "1481b4c6d3c8cce2979f88dd10acd2b6be0d66b62e129d6835634035c19c4f58"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350712.969882
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223259",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--ios-controller-20261110-223259",
+      "inventory": {
+        "entries": 18,
+        "logical_file_bytes": 94686,
+        "allocated_bytes": 118784,
+        "allocated_unique_inode_bytes": 118784,
+        "uid": 501,
+        "tree_sha256": "43860f503c04e3879ade6b22c3125b46756004f445f23e774b8adca867ce10f8"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350713.0997398
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223423",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--ios-controller-20261110-223423",
+      "inventory": {
+        "entries": 18,
+        "logical_file_bytes": 94686,
+        "allocated_bytes": 118784,
+        "allocated_unique_inode_bytes": 118784,
+        "uid": 501,
+        "tree_sha256": "33d847701c9742e44139e1e4d386e9d35a71c72b93d006a91e55eff5eafb7d3c"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350713.231311
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/real-audio-abi-20261110-223118",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--real-audio-abi-20261110-223118",
+      "inventory": {
+        "entries": 9,
+        "logical_file_bytes": 6579397,
+        "allocated_bytes": 6594560,
+        "allocated_unique_inode_bytes": 6594560,
+        "uid": 501,
+        "tree_sha256": "ffb5da503c28bd7e064bc4f7c0185ca3e6638f8abd9e9007d51554643c21f922"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350713.366624
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-134551",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--20261110-134551",
+      "inventory": {
+        "entries": 17,
+        "logical_file_bytes": 444154,
+        "allocated_bytes": 466944,
+        "allocated_unique_inode_bytes": 466944,
+        "uid": 501,
+        "tree_sha256": "879e9d6459e9521fa3e7a3b0474f1d58e9b03e588643f1f866c79b68b425a1a2"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350713.496907
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-135102",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--20261110-135102",
+      "inventory": {
+        "entries": 17,
+        "logical_file_bytes": 445284,
+        "allocated_bytes": 466944,
+        "allocated_unique_inode_bytes": 466944,
+        "uid": 501,
+        "tree_sha256": "b8805869e9aa0db92b24fc51e4d2147143f561275b395655058f5778f27bd59b"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350713.625825
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-135409",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--20261110-135409",
+      "inventory": {
+        "entries": 17,
+        "logical_file_bytes": 445939,
+        "allocated_bytes": 466944,
+        "allocated_unique_inode_bytes": 466944,
+        "uid": 501,
+        "tree_sha256": "90192690821dd62873cdedb77ab3d54f2ef5d072e9622e2934c20758b9337c04"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350713.753788
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/avio-20261110-135540",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--avio-20261110-135540",
+      "inventory": {
+        "entries": 7,
+        "logical_file_bytes": 1828505,
+        "allocated_bytes": 1839104,
+        "allocated_unique_inode_bytes": 1839104,
+        "uid": 501,
+        "tree_sha256": "d60398e14ee9b339885c113f0d5d360ca6cff4b50fc6bd7e18c8e0a9cbf82341"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350713.8820941
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-probe-20261110-140339",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--decoder-probe-20261110-140339",
+      "inventory": {
+        "entries": 9,
+        "logical_file_bytes": 1830295,
+        "allocated_bytes": 1839104,
+        "allocated_unique_inode_bytes": 1839104,
+        "uid": 501,
+        "tree_sha256": "44786a351a6e33c4da206e0a12f2637d867478030e734f4fb51d85ebb7d3f2c7"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350714.011887
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-probe-20261110-140447",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--decoder-probe-20261110-140447",
+      "inventory": {
+        "entries": 9,
+        "logical_file_bytes": 1830327,
+        "allocated_bytes": 1839104,
+        "allocated_unique_inode_bytes": 1839104,
+        "uid": 501,
+        "tree_sha256": "e5f649129356c16d7321a57b77ef0604f9d574c8cbfd70b514c611413f3b7308"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350714.140203
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/long-20261110-141148",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--long-20261110-141148",
+      "inventory": {
+        "entries": 10,
+        "logical_file_bytes": 1832100,
+        "allocated_bytes": 1843200,
+        "allocated_unique_inode_bytes": 1843200,
+        "uid": 501,
+        "tree_sha256": "624e9c84cdf4329d882d3372a4e64cefefb1ee92a03b35a840b2def320cc38b7"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350714.2792058
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/Trash/unused-private-headers",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3/v2-transport--Trash--unused-private-headers",
+      "inventory": {
+        "entries": 717,
+        "logical_file_bytes": 7953601,
+        "allocated_bytes": 9486336,
+        "allocated_unique_inode_bytes": 9486336,
+        "uid": 501,
+        "tree_sha256": "4f3c9f364185568a70bf91a63ce41ab199973a6419eccf1254c45970591c7451"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794350714.446531
+    }
+  ],
+  "failures": [],
+  "completed_unix": 1794350714.4719832,
+  "free_after": 574369918976,
+  "physical_recovery_claim_bytes": 0
+}

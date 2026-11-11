@@ -1,0 +1,21 @@
+{
+  "input_sha256": "45b3cd58b1ec13c4a416ec804360605a291bafe97724b848f0fb34a86efa6591",
+  "generator_sha256": "7f6028378534aa10a2dfa07d807ddcc0d18c869bf5c2f64c89efcc18ee88c4ee",
+  "command": [
+    "/opt/homebrew/Cellar/ffmpeg/9.0.2_1/bin/ffmpeg",
+    "-nostdin",
+    "-v",
+    "error",
+    "-i",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/fixtures/aac-short.wav",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "128k",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/extra-fixtures/aac-unknown-duration.mka"
+  ],
+  "returncode": 0,
+  "output_sha256": "dcc5352416eded6d92961908680c75eebcef1508a469ba1acb9c88331936206b",
+  "output_bytes": 22858,
+  "development_generator_only": true
+}

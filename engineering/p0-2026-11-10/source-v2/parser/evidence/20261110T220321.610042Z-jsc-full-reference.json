@@ -1,0 +1,21 @@
+{
+  "label": "jsc-full-reference",
+  "exit_code": 1,
+  "guard_stop": null,
+  "elapsed_ms": 651,
+  "observed_peak_rss_bytes": 132792320,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "phase": "before_parse",
+      "process_maxrss_bytes": 29687808
+    },
+    {
+      "phase": "jsc_exception",
+      "outcome": "fail",
+      "name": "ReferenceError"
+    }
+  ],
+  "stderr_bytes": 0,
+  "binary_sha256": "5847a4e9c72a0358e27e3be4b94fdde0b3e70cc3d5b000d49b3761ed4d063688"
+}

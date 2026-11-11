@@ -1,0 +1,10 @@
+An issue was encountered verifying workloads. For more information, run "dotnet workload update".
+  Determining projects to restore...
+  Restored /Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/csharp/Interop.csproj (in 23 ms).
+  Interop -> /Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/net-bin/Interop.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43

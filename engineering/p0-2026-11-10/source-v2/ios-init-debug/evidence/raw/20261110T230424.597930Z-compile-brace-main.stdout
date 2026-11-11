@@ -1,0 +1,10 @@
+{"outcome":"fail","stop_reason":"none","gate":"bundle_load","category":"runtime_exception"}
+{"js_memory_bytes":191865,"deadline_seconds":90,"received_bytes":0,"process_maxrss_bytes":25493504,"js_peak_allocated_bytes":10772221,"js_memory_limit_bytes":67108864,"gate":"host_summary","outcome":"completed","requests":0,"peak_concurrent":0,"first_byte_samples":0}
+{"phase":"case","iteration":0,"tail":"brace","placement":"main","mode":"compile","input_bytes":1654732,"result":1,"exception_category":"syntax_error","js_peak_bytes":10772221,"native_stack_bytes":8372224,"blocked_request_calls":0,"elapsed_ms":27.998,"shape_ok":true,"expected":true}
+{"outcome":"fail","stop_reason":"none","gate":"bundle_load","category":"runtime_exception"}
+{"js_memory_bytes":191865,"deadline_seconds":90,"received_bytes":0,"process_maxrss_bytes":25788416,"js_peak_allocated_bytes":10772221,"js_memory_limit_bytes":67108864,"gate":"host_summary","outcome":"completed","requests":0,"peak_concurrent":0,"first_byte_samples":0}
+{"phase":"case","iteration":1,"tail":"brace","placement":"main","mode":"compile","input_bytes":1654732,"result":1,"exception_category":"syntax_error","js_peak_bytes":10772221,"native_stack_bytes":8372224,"blocked_request_calls":0,"elapsed_ms":23.644,"shape_ok":true,"expected":true}
+{"outcome":"fail","stop_reason":"none","gate":"bundle_load","category":"runtime_exception"}
+{"js_memory_bytes":191865,"deadline_seconds":90,"received_bytes":0,"process_maxrss_bytes":25837568,"js_peak_allocated_bytes":10772221,"js_memory_limit_bytes":67108864,"gate":"host_summary","outcome":"completed","requests":0,"peak_concurrent":0,"first_byte_samples":0}
+{"phase":"case","iteration":2,"tail":"brace","placement":"main","mode":"compile","input_bytes":1654732,"result":1,"exception_category":"syntax_error","js_peak_bytes":10772221,"native_stack_bytes":8372224,"blocked_request_calls":0,"elapsed_ms":24.365,"shape_ok":true,"expected":true}
+{"phase":"summary","outcome":"pass","evaluations":3,"observed_exceptions":3,"network_requests":0,"process_maxrss_bytes":25853952}

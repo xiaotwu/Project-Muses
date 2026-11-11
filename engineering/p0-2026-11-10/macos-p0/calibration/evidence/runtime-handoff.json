@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-11-10T23:56:35.362675+00:00",
+  "root_confirmed_launch_and_idle_UI_check": true,
+  "root_reported_explicit_user_consent_for_one_short_capture": true,
+  "physical_result_owner": "root; not part of offline preparation test results",
+  "current_app_retained": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/MusesAcousticCalibration.app",
+  "active_app_processes": [
+    {
+      "pid": 93220,
+      "executable": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/MusesAcousticCalibration.app/Contents/MacOS/MusesAcousticCalibration"
+    }
+  ],
+  "lsof_returncode": 1,
+  "lsof_stdout": "COMMAND     PID    USER   FD   TYPE DEVICE SIZE/OFF     NODE NAME\nMusesAcou 93220 xiaotwu  txt    REG   1,15   105440 70577825 /Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/MusesAcousticCalibration.app/Contents/MacOS/MusesAcousticCalibration\nThemeWidg 93238 xiaotwu    4r   REG   1,15   105440 70577825 /Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/MusesAcousticCalibration.app/Contents/MacOS/MusesAcousticCalibration\n",
+  "failed_zero_handle_freeze": "freeze-attempts/4f62ce047274406184ffb00e893be740/guard.json",
+  "cleanup_executed": false
+}

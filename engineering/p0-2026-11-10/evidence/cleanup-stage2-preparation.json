@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "result": "stopped before any scratch move",
+      "reason": "three preliminary audio logs did not have exact retained copies",
+      "files": [
+        "http-requests.json",
+        "stream.jsonl",
+        "local.jsonl"
+      ],
+      "recovery": "preserve exact bounded logs, then freeze a new cleanup plan"
+    }
+  ]
+}

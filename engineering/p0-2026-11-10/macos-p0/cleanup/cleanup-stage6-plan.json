@@ -1,0 +1,349 @@
+{
+  "stage": 6,
+  "owned_root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01",
+  "trash_root": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6",
+  "script_sha256": "f7a96ee046476f2b203d2a510eb09e794d0e1647d60eb66876fa01e8a9921366",
+  "required_manifests": [
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/cleanup/cleanup-stage6-inventory.json",
+      "sha256": "3e9caff05158e640f9388450dda64e0ad9e30e527f266ddb771643ef3e26ff86"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/streaming/evidence/manifest.json",
+      "sha256": "14e5f496a9349f93bb61b3b4d42f1a7839eb6e3e3c8cbc252a4d5a175edd6084"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/calibration/source-hashes.json",
+      "sha256": "8d1c6829743b731c073e084db13adea7e9fba94934ce6a0a0801996ab71c3764"
+    }
+  ],
+  "moves": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/build-20261110-234236",
+      "destination_name": "01-build-20261110-234236",
+      "required_inventory": {
+        "entries": 192,
+        "logical_file_bytes": 21274598,
+        "allocated_bytes": 21618688,
+        "allocated_unique_inode_bytes": 21618688,
+        "uid": 501,
+        "tree_sha256": "bfbeab2acd6b93c451e909b9422fe1221fc76f5d2dbd32a9168ecafc88fafdc5"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/local-20261110-234358",
+      "destination_name": "02-local-20261110-234358",
+      "required_inventory": {
+        "entries": 20,
+        "logical_file_bytes": 32202,
+        "allocated_bytes": 61440,
+        "allocated_unique_inode_bytes": 61440,
+        "uid": 501,
+        "tree_sha256": "98de2c22e306bdb6867ad8934d95b73d728af534926c2a95c923e218ef9a73bf"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/local-20261110-235204",
+      "destination_name": "03-local-20261110-235204",
+      "required_inventory": {
+        "entries": 20,
+        "logical_file_bytes": 32298,
+        "allocated_bytes": 61440,
+        "allocated_unique_inode_bytes": 61440,
+        "uid": 501,
+        "tree_sha256": "d9448420c65645cf941557f5734a54112777b51a605e53267fb6682fd402664a"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/public-20261110-234622",
+      "destination_name": "04-public-20261110-234622",
+      "required_inventory": {
+        "entries": 3,
+        "logical_file_bytes": 12943,
+        "allocated_bytes": 20480,
+        "allocated_unique_inode_bytes": 20480,
+        "uid": 501,
+        "tree_sha256": "ba8b061aa5ba83423c8b47c093cdca8c8430b69041b3d5260d02ccc9b66a918d"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/public-20261110-235239",
+      "destination_name": "05-public-20261110-235239",
+      "required_inventory": {
+        "entries": 3,
+        "logical_file_bytes": 12942,
+        "allocated_bytes": 20480,
+        "allocated_unique_inode_bytes": 20480,
+        "uid": 501,
+        "tree_sha256": "b7dd29a0a5b61f25a49bc3eb904988f494c94fc10644000353e34bb2f63463fa"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234146.285115Z",
+      "destination_name": "06-20261110T234146.285115Z",
+      "required_inventory": {
+        "entries": 4,
+        "logical_file_bytes": 2006,
+        "allocated_bytes": 8192,
+        "allocated_unique_inode_bytes": 8192,
+        "uid": 501,
+        "tree_sha256": "c507519815217468a38796adae685d4fdb27a775862d576eb2e2cc8f7ce92da2"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234210.958411Z",
+      "destination_name": "07-20261110T234210.958411Z",
+      "required_inventory": {
+        "entries": 26,
+        "logical_file_bytes": 164583,
+        "allocated_bytes": 188416,
+        "allocated_unique_inode_bytes": 188416,
+        "uid": 501,
+        "tree_sha256": "44855e349714c101cab354133868dca5f2047c187d33ed2c78bb1a19b2b8d00d"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z",
+      "destination_name": "08-20261110T234608.097656Z",
+      "required_inventory": {
+        "entries": 33,
+        "logical_file_bytes": 231402,
+        "allocated_bytes": 266240,
+        "allocated_unique_inode_bytes": 266240,
+        "uid": 501,
+        "tree_sha256": "82bab77d035d38217c74e23c2fc704f4cf5810e5bd9df820016a85e890c9016a"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/calibration.o",
+      "destination_name": "09-calibration.o",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 9848,
+        "allocated_bytes": 12288,
+        "allocated_unique_inode_bytes": 12288,
+        "uid": 501,
+        "tree_sha256": "0219510019c8e1a598d4edb2a5672bbe0cf62811d7236b044386d0f1572bd687"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-app.stderr",
+      "destination_name": "10-compile-app.stderr",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "53dea29b7eab14c0dd9bc3425ab6c13ae3052aac9183c046fa4344678218d8fa"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-app.stdout",
+      "destination_name": "11-compile-app.stdout",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "8e3a85167196245e9f40f048fdb430742d5496322ad33218c48706f9487b1e39"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-core.stderr",
+      "destination_name": "12-compile-core.stderr",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "d175438aa4a07ffa577ee41bf08f7c364317f21453eb01ab125717c794d2ea40"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-core.stdout",
+      "destination_name": "13-compile-core.stdout",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "8eaec3f50ec85ade78236b7878e6514b6e61c93d9982f8c4f31ff078f749b20e"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-tests.stderr",
+      "destination_name": "14-compile-tests.stderr",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "4f2f1a0c01ff3e83813936f8c665a41c19767764125661e269bb534115502858"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-tests.stdout",
+      "destination_name": "15-compile-tests.stdout",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "290886f9fe84e990be0973df032bce3606d3e293c34ce20e6b551ea81df73b8c"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/manifest.json",
+      "destination_name": "16-manifest.json",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 6800,
+        "allocated_bytes": 8192,
+        "allocated_unique_inode_bytes": 8192,
+        "uid": 501,
+        "tree_sha256": "0bf2917a2496a7c3e7f7089bb1cd14d977f5785431144a0478f99f790344d7e8"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/offline-tests",
+      "destination_name": "17-offline-tests",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 51360,
+        "allocated_bytes": 53248,
+        "allocated_unique_inode_bytes": 53248,
+        "uid": 501,
+        "tree_sha256": "de8078269d787be0e3fb8e5ed81e71650ad311761ca95cd0e4fbb12728b372c1"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/sign-app.stderr",
+      "destination_name": "18-sign-app.stderr",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 159,
+        "allocated_bytes": 4096,
+        "allocated_unique_inode_bytes": 4096,
+        "uid": 501,
+        "tree_sha256": "7541d2f734a2dd71d0d2f14e464a33eb38043e789b8005bc4ddb5fe106793ef6"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/sign-app.stdout",
+      "destination_name": "19-sign-app.stdout",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "a0cb2995b82448c4f9599ff8d2715a29d19bf072343a57eb83866bbdeb5ab00a"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/test-dependencies.stderr",
+      "destination_name": "20-test-dependencies.stderr",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "0f7127d2150ba7cda9217054904fc8757bf716ee3e2baecbf73e98e9678bd471"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/test-dependencies.stdout",
+      "destination_name": "21-test-dependencies.stdout",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 200,
+        "allocated_bytes": 4096,
+        "allocated_unique_inode_bytes": 4096,
+        "uid": 501,
+        "tree_sha256": "6f033bc69f8d4cf74c701575fa728ca78e3caafde03ed03cfc298521fd7147f4"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/tests.stderr",
+      "destination_name": "22-tests.stderr",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "52c80f8c4d874d9453847e2e60ac8bf5e2fd467632a4e777a5ca4a1c9e74488f"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/tests.stdout",
+      "destination_name": "23-tests.stdout",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 5989,
+        "allocated_bytes": 8192,
+        "allocated_unique_inode_bytes": 8192,
+        "uid": 501,
+        "tree_sha256": "c55c7abca996952d08e8b47dc2294923cf9c5659a78f35710285e2cc5c34684a"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/verify-signature.stderr",
+      "destination_name": "24-verify-signature.stderr",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "4582559ed4cc02929773d982e77a9455adfe5920b6562bec037a3806743c8801"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/verify-signature.stdout",
+      "destination_name": "25-verify-signature.stdout",
+      "required_inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "6ab5834a2f30e919f158fc2d4d72ef8d0bdecf219bfead8b2cb8ff533c8956c7"
+      },
+      "reason": "owned superseded build or completed helper; bounded evidence retained"
+    }
+  ],
+  "retained": "current streaming build, final calibration app and physical receipts, isolated baseline, source-v2, relink kit; no TCC/preferences/HTTP state mutation",
+  "irreversible_disposal": false
+}

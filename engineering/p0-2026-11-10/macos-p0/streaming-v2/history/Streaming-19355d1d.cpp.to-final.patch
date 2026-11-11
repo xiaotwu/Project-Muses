@@ -1,0 +1,71 @@
+--- Streaming-19355d1d.cpp
++++ Streaming.cpp
+@@ -13,6 +13,8 @@
+ extern "C" {
+ #include <libavcodec/avcodec.h>
+ #include <libavformat/avformat.h>
++#include <libavutil/intreadwrite.h>
++#include <libavutil/mathematics.h>
+ #include <libswresample/swresample.h>
+ }
+ #include <mach/mach.h>
+@@ -68,6 +70,7 @@
+     std::atomic<int> firstNonCancelTransportFailure{0};
+     std::atomic<bool> holdFailureReturn{false},failureReturnHeld{false},releaseFailureReturn{false};
+     std::mutex control;std::atomic<int> phase{Opening};std::atomic<double> presentationOrigin{0};Digest producedDigest,consumedDigest,seekProducedDigest,seekConsumedDigest;
++    std::atomic<bool> mappedAACPadding{false},unsupportedTimeline{false};std::atomic<double> paddingQuantizationSeconds{0};
+     std::atomic<uint64_t> sealedWrite{UINT64_MAX};
+     std::atomic<uint64_t> codecDrainFrames{0},swrDrainFrames{0},codecDrainNS{0},swrDrainNS{0},producerEndNS{0},ringDrainNS{0};
+     std::atomic<uint64_t> produced{0},consumed{0},network{0},unique{0},requests{0},bufferHigh{0},firstBytes{0},firstPCM{0},pcmNetwork{0},firstCallback{0},callbackNetworkUpper{0},contentFrames{0},readEpoch{0};
+@@ -171,6 +174,7 @@
+         for(auto *d:{&first,&next})if(d->handle)std::printf("{\"gate\":\"stream_drain\",\"slot\":%d,\"phase\":\"%s\",\"codec\":\"%s\",\"presentation_origin_seconds\":%.8f,\"sealed_write_frames\":%llu,\"ring_read_frames\":%llu,\"ring_remaining_frames\":%llu,\"codec_drain_ns\":%llu,\"swr_drain_ns\":%llu,\"producer_end_ns\":%llu,\"ring_drain_ns\":%llu,\"codec_drain_frames\":%llu,\"swr_drain_frames\":%llu,\"produced_frames\":%llu,\"consumed_frames\":%llu,\"produced_pcm_sha256\":\"%s\",\"consumed_pcm_sha256\":\"%s\",\"produced_tail_sha256\":\"%s\",\"consumed_tail_sha256\":\"%s\"}\n",d==&first?0:1,phaseName(d->phase),avcodec_get_name(AVCodecID(d->codecID.load())),d->presentationOrigin.load(),d->sealedWrite.load(),d->ring.read.load(),d->ring.size(),d->codecDrainNS.load(),d->swrDrainNS.load(),d->producerEndNS.load(),d->ringDrainNS.load(),d->codecDrainFrames.load(),d->swrDrainFrames.load(),d->producedDigest.frames,d->consumedDigest.frames,d->producedDigest.full().c_str(),d->consumedDigest.full().c_str(),d->producedDigest.last().c_str(),d->consumedDigest.last().c_str());
+         if(first.seekRequest)std::printf("{\"gate\":\"seek_pcm\",\"request_generation\":%llu,\"quiesced_generation\":%llu,\"ack_generation\":%llu,\"ready_generation\":%llu,\"produced_frames\":%llu,\"consumed_frames\":%llu,\"produced_pcm_sha256\":\"%s\",\"consumed_pcm_sha256\":\"%s\"}\n",first.seekRequest.load(),first.seekQuiesced.load(),first.seekAck.load(),first.seekDone.load(),first.seekProducedDigest.frames,first.seekConsumedDigest.frames,first.seekProducedDigest.full().c_str(),first.seekConsumedDigest.full().c_str());
+         std::printf("{\"gate\":\"failure_latch\",\"first_transport_failure\":%d,\"next_transport_failure\":%d}\n",first.firstNonCancelTransportFailure.load(),next.firstNonCancelTransportFailure.load());
++        std::printf("{\"gate\":\"timeline_policy\",\"aac_declared_padding_mapped\":%s,\"padding_timebase_quantization_seconds\":%.10f,\"unsupported_timeline\":%s}\n",first.mappedAACPadding?"true":"false",first.paddingQuantizationSeconds.load(),first.unsupportedTimeline?"true":"false");
+         if(first.seekRequest)std::printf("{\"gate\":\"seek_work\",\"decoder_context_recreations\":%llu,\"requested_preroll_seconds\":0.12,\"first_packet_relative_pts\":%.8f,\"converted_frames_trimmed_before_target\":%llu}\n",first.seekCodecResets.load(),first.seekFirstPacketPTS.load(),first.seekTrimmedFrames.load());
+     }
+     ~Session(){finish(1);unsigned destroyed=0;for(auto *d:{&first,&next})if(d->handle){MTStats stats{};mt_snapshot(d->handle,&stats);d->network=stats.network_bytes;mt_destroy(d->handle);d->handle=nullptr;destroyed++;}
+@@ -194,18 +198,28 @@
+         codec->pkt_timebase=track->time_base;codec->thread_count=1;ok(avcodec_open2(codec,codec->codec,nullptr));
+         require(codec->sample_rate>=8000&&codec->sample_rate<=192000&&codec->ch_layout.nb_channels>=1&&codec->ch_layout.nb_channels<=8,"format bounds");
+         sourceRate=codec->sample_rate;sourceChannels=codec->ch_layout.nb_channels;
+-        // Positive presentation origins are relative to the first advertised
+-        // presentation timestamp. Negative codec preroll remains before zero.
+-        const double origin=track->start_time!=AV_NOPTS_VALUE?std::max(0.0,track->start_time*av_q2d(track->time_base)):0;
++        const double timebase=av_q2d(track->time_base);
++        if(track->start_time!=AV_NOPTS_VALUE)require(std::abs(track->start_time*timebase)<=1000000,"raw timestamp bound");
++        int64_t originTicks=track->start_time==AV_NOPTS_VALUE?0:track->start_time;
++        // The tested AAC/Matroska header declares CodecDelay in initial_padding.
++        // Its start_time includes that preroll. Map the declaration through the
++        // container timebase, recording its quantization instead of hardcoding
++        // a PCM crop. Do not duplicate Opus's decoder pre-skip/discard-padding.
++        if(parameters->codec_id==AV_CODEC_ID_AAC&&(parameters->initial_padding>0||parameters->trailing_padding>0)){
++            if(!std::strstr(format->iformat->name,"matroska")||track->start_time==AV_NOPTS_VALUE||track->duration!=AV_NOPTS_VALUE||parameters->trailing_padding>0||parameters->initial_padding>codec->sample_rate){unsupportedTimeline=true;throw AVERROR_PATCHWELCOME;}
++            int64_t paddingTicks=av_rescale_q(parameters->initial_padding,AVRational{1,codec->sample_rate},track->time_base);
++            originTicks+=paddingTicks;mappedAACPadding=true;paddingQuantizationSeconds=double(parameters->initial_padding)/codec->sample_rate-paddingTicks*timebase;
++        }
++        originTicks=std::max(int64_t(0),originTicks);const double origin=originTicks*timebase;
+         require(std::isfinite(origin)&&origin<=1000000,"presentation origin bound");
+         presentationOrigin=origin;
+         AVChannelLayout stereo=AV_CHANNEL_LAYOUT_STEREO;ok(swr_alloc_set_opts2(&swr,&stereo,AV_SAMPLE_FMT_FLT,rate,&codec->ch_layout,codec->sample_fmt,codec->sample_rate,0,nullptr));ok(swr_init(swr));
+-        const double timebase=av_q2d(track->time_base);double target=initialSeek,nextPTS=0;
++        double target=initialSeek,nextPTS=0;
+         // Never use a bitrate estimate as a hard presentation endpoint. For
+         // negative/unknown origins let decoder pre-skip/discard-padding stand.
+         const double endPTS=track->start_time!=AV_NOPTS_VALUE&&track->start_time>=0&&track->duration!=AV_NOPTS_VALUE&&format->duration_estimation_method!=AVFMT_DURATION_FROM_BITRATE?track->duration*timebase:INFINITY;
+         uint64_t currentSeek=0;std::array<float,8192*2> pcm{};phase=Decoding;
+-        auto performSeek=[&](double seconds){auto at=(origin>0?track->start_time:0)+int64_t(std::max(0.0,seconds-.12)/timebase);ok(avformat_seek_file(format,stream,INT64_MIN,at,at,AVSEEK_FLAG_BACKWARD));
++        auto performSeek=[&](double seconds){auto at=originTicks+int64_t(std::max(0.0,seconds-.12)/timebase);ok(avformat_seek_file(format,stream,INT64_MIN,at,at,AVSEEK_FLAG_BACKWARD));
+             // A new context makes each seek generation independent of decoded
+             // prefix history. This is a bounded reset, not decoding from zero.
+             avcodec_free_context(&codec);codec=avcodec_alloc_context3(avcodec_find_decoder(parameters->codec_id));require(codec,"seek codec allocation");
+@@ -258,7 +272,8 @@
+                 sealedWrite=ring.write.load();producerEndNS=sp_now_ns();phase.store(Ended,std::memory_order_release);break;
+             }
+             ok(code);
+-            if(packet->stream_index==stream){if(currentSeek&&seekFirstPacketPTS<0&&packet->pts!=AV_NOPTS_VALUE)seekFirstPacketPTS=packet->pts*timebase-origin;
++            if(packet->stream_index==stream){if(mappedAACPadding){size_t size=0;auto *skip=av_packet_get_side_data(packet,AV_PKT_DATA_SKIP_SAMPLES,&size);if(skip&&size>=10&&(AV_RL32(skip)||AV_RL32(skip+4))){unsupportedTimeline=true;throw AVERROR_PATCHWELCOME;}}
++                if(currentSeek&&seekFirstPacketPTS<0&&packet->pts!=AV_NOPTS_VALUE)seekFirstPacketPTS=packet->pts*timebase-origin;
+                 code=avcodec_send_packet(codec,packet);if(code==AVERROR(EAGAIN)){receive(Decoding);code=avcodec_send_packet(codec,packet);}ok(code);receive(Decoding);}
+             av_packet_unref(packet);
+         }

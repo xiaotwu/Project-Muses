@@ -1,0 +1,9 @@
+{"exception_category":"internal_error","case":"nil_rejected","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"empty_valid","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"non_nul_at","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"non_nul_brace","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"utf8_bytes","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"syntax_error","case":"invalid_script_preserved","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"exact_4mib","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"range_error","case":"above_4mib_rejected","outcome":"pass","gate":"input_contract_case"}
+{"checks":8,"network_requests":0,"blocked_request_calls":0,"observed_eval_heap_bytes":154880,"process_maxrss_bytes":19546112,"gate":"corrected_input_summary","outcome":"pass","failures":0,"main_eval_calls":0,"isolated_eval_calls":0,"terminator_failures":0}

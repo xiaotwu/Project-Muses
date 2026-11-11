@@ -1,0 +1,5 @@
+{"phase":"runtime","version":"0.18.0","engine":"QuickJS-NG","core_dumps":false}
+{"phase":"oom_exception","uncatchable":true,"allocator_denials":0,"cancel_requested":false,"deadline_hit":false}
+{"phase":"resource_teardown","backing_live_bytes":0,"backing_live_allocations":0,"backing_peak_bytes":7524456,"allocator_denials":0}
+{"phase":"explicit_oom","outcome":"fail"}
+{"phase":"summary","outcome":"fail","elapsed_ms":1,"process_maxrss_bytes":10141696}

@@ -1,0 +1,436 @@
+{
+  "stage": "completed-source-v2-runtime-control-and-transport-helpers",
+  "created_utc": "2026-11-10T22:42:42.590247+00:00",
+  "owned_root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01",
+  "trash_root": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage3",
+  "source_inventory_sha256": "8ec4ad8373666378a187edb8221e1726217381622e44ea41ec5867b9cb770fe6",
+  "script_sha256": "edcaea66f8a1cf5b8612c1aa658f3740959cf356c177b3a87c278bada40f32d4",
+  "parent_retire_script_sha256": "2b8f6f7a675908bbd7e002199fcb8cefb69acfe6446289fc52c85fba87bb8bd8",
+  "moves": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime",
+      "destination_name": "v2-integration--runtime",
+      "owner": "p0_interop",
+      "uid": 501,
+      "reason": "completed offline QuickJS-NG candidate comparison",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/runtime/manifest.json",
+      "evidence_manifest_sha256": "ee248d7706efeb144661175216d488e5e97575aafd9be9b2326944577944e76d",
+      "required_inventory": {
+        "entries": 68,
+        "logical_file_bytes": 12814652,
+        "allocated_bytes": 14508032,
+        "allocated_unique_inode_bytes": 14508032,
+        "uid": 501,
+        "tree_sha256": "6fa7d46b93e6eca65e4a0c6677346c4e25b75a1419907f851769ffb067d7c760"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/control",
+      "destination_name": "v2-integration--control",
+      "owner": "p0_interop",
+      "uid": 501,
+      "reason": "completed control/module/generated-host offline checks",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/control/manifest.json",
+      "evidence_manifest_sha256": "914e3ec9bb687084a33484f62bb71e50279af085cf90b83a7d84ee7c0a2f3294",
+      "required_inventory": {
+        "entries": 25,
+        "logical_file_bytes": 6234494,
+        "allocated_bytes": 6266880,
+        "allocated_unique_inode_bytes": 6266880,
+        "uid": 501,
+        "tree_sha256": "29e3ebb53c281c1fe6b6640677cc0dbf1e4bd09c6e7a3d28594b58be2ab037c6"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223013",
+      "destination_name": "v2-transport--ios-controller-20261110-223013",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed iOS syntax/policy or real-file muted ABI helper",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/evidence/manifest.json",
+      "evidence_manifest_sha256": "a972b278f1bd7d152cc210a1f35ee70de0bc666f706d531df11cbeb9ec3edb4b",
+      "required_inventory": {
+        "entries": 18,
+        "logical_file_bytes": 94686,
+        "allocated_bytes": 118784,
+        "allocated_unique_inode_bytes": 118784,
+        "uid": 501,
+        "tree_sha256": "1481b4c6d3c8cce2979f88dd10acd2b6be0d66b62e129d6835634035c19c4f58"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223259",
+      "destination_name": "v2-transport--ios-controller-20261110-223259",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed iOS syntax/policy or real-file muted ABI helper",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/evidence/manifest.json",
+      "evidence_manifest_sha256": "a972b278f1bd7d152cc210a1f35ee70de0bc666f706d531df11cbeb9ec3edb4b",
+      "required_inventory": {
+        "entries": 18,
+        "logical_file_bytes": 94686,
+        "allocated_bytes": 118784,
+        "allocated_unique_inode_bytes": 118784,
+        "uid": 501,
+        "tree_sha256": "43860f503c04e3879ade6b22c3125b46756004f445f23e774b8adca867ce10f8"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223423",
+      "destination_name": "v2-transport--ios-controller-20261110-223423",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed iOS syntax/policy or real-file muted ABI helper",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/evidence/manifest.json",
+      "evidence_manifest_sha256": "a972b278f1bd7d152cc210a1f35ee70de0bc666f706d531df11cbeb9ec3edb4b",
+      "required_inventory": {
+        "entries": 18,
+        "logical_file_bytes": 94686,
+        "allocated_bytes": 118784,
+        "allocated_unique_inode_bytes": 118784,
+        "uid": 501,
+        "tree_sha256": "33d847701c9742e44139e1e4d386e9d35a71c72b93d006a91e55eff5eafb7d3c"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/real-audio-abi-20261110-223118",
+      "destination_name": "v2-transport--real-audio-abi-20261110-223118",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed iOS syntax/policy or real-file muted ABI helper",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/evidence/manifest.json",
+      "evidence_manifest_sha256": "a972b278f1bd7d152cc210a1f35ee70de0bc666f706d531df11cbeb9ec3edb4b",
+      "required_inventory": {
+        "entries": 9,
+        "logical_file_bytes": 6579397,
+        "allocated_bytes": 6594560,
+        "allocated_unique_inode_bytes": 6594560,
+        "uid": 501,
+        "tree_sha256": "ffb5da503c28bd7e064bc4f7c0185ca3e6638f8abd9e9007d51554643c21f922"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-134551",
+      "destination_name": "v2-transport--20261110-134551",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed local transport/decoder tests; small failed/successful receipts retained",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/manifest.json",
+      "evidence_manifest_sha256": "13f9c164d092c15251859c90d322c841ebc700d386b376cffe2909958a76fb72",
+      "required_inventory": {
+        "entries": 17,
+        "logical_file_bytes": 444154,
+        "allocated_bytes": 466944,
+        "allocated_unique_inode_bytes": 466944,
+        "uid": 501,
+        "tree_sha256": "879e9d6459e9521fa3e7a3b0474f1d58e9b03e588643f1f866c79b68b425a1a2"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-135102",
+      "destination_name": "v2-transport--20261110-135102",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed local transport/decoder tests; small failed/successful receipts retained",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/manifest.json",
+      "evidence_manifest_sha256": "13f9c164d092c15251859c90d322c841ebc700d386b376cffe2909958a76fb72",
+      "required_inventory": {
+        "entries": 17,
+        "logical_file_bytes": 445284,
+        "allocated_bytes": 466944,
+        "allocated_unique_inode_bytes": 466944,
+        "uid": 501,
+        "tree_sha256": "b8805869e9aa0db92b24fc51e4d2147143f561275b395655058f5778f27bd59b"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-135409",
+      "destination_name": "v2-transport--20261110-135409",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed local transport/decoder tests; small failed/successful receipts retained",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/manifest.json",
+      "evidence_manifest_sha256": "13f9c164d092c15251859c90d322c841ebc700d386b376cffe2909958a76fb72",
+      "required_inventory": {
+        "entries": 17,
+        "logical_file_bytes": 445939,
+        "allocated_bytes": 466944,
+        "allocated_unique_inode_bytes": 466944,
+        "uid": 501,
+        "tree_sha256": "90192690821dd62873cdedb77ab3d54f2ef5d072e9622e2934c20758b9337c04"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/avio-20261110-135540",
+      "destination_name": "v2-transport--avio-20261110-135540",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed local transport/decoder tests; small failed/successful receipts retained",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/manifest.json",
+      "evidence_manifest_sha256": "13f9c164d092c15251859c90d322c841ebc700d386b376cffe2909958a76fb72",
+      "required_inventory": {
+        "entries": 7,
+        "logical_file_bytes": 1828505,
+        "allocated_bytes": 1839104,
+        "allocated_unique_inode_bytes": 1839104,
+        "uid": 501,
+        "tree_sha256": "d60398e14ee9b339885c113f0d5d360ca6cff4b50fc6bd7e18c8e0a9cbf82341"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-probe-20261110-140339",
+      "destination_name": "v2-transport--decoder-probe-20261110-140339",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed local transport/decoder tests; small failed/successful receipts retained",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/manifest.json",
+      "evidence_manifest_sha256": "13f9c164d092c15251859c90d322c841ebc700d386b376cffe2909958a76fb72",
+      "required_inventory": {
+        "entries": 9,
+        "logical_file_bytes": 1830295,
+        "allocated_bytes": 1839104,
+        "allocated_unique_inode_bytes": 1839104,
+        "uid": 501,
+        "tree_sha256": "44786a351a6e33c4da206e0a12f2637d867478030e734f4fb51d85ebb7d3f2c7"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-probe-20261110-140447",
+      "destination_name": "v2-transport--decoder-probe-20261110-140447",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed local transport/decoder tests; small failed/successful receipts retained",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/manifest.json",
+      "evidence_manifest_sha256": "13f9c164d092c15251859c90d322c841ebc700d386b376cffe2909958a76fb72",
+      "required_inventory": {
+        "entries": 9,
+        "logical_file_bytes": 1830327,
+        "allocated_bytes": 1839104,
+        "allocated_unique_inode_bytes": 1839104,
+        "uid": 501,
+        "tree_sha256": "e5f649129356c16d7321a57b77ef0604f9d574c8cbfd70b514c611413f3b7308"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/long-20261110-141148",
+      "destination_name": "v2-transport--long-20261110-141148",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "completed local transport/decoder tests; small failed/successful receipts retained",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/long/manifest.json",
+      "evidence_manifest_sha256": "237f16e496a99335d21a042b99396f678daf87521669d42bfcfbf7fba3fb9be1",
+      "required_inventory": {
+        "entries": 10,
+        "logical_file_bytes": 1832100,
+        "allocated_bytes": 1843200,
+        "allocated_unique_inode_bytes": 1843200,
+        "uid": 501,
+        "tree_sha256": "624e9c84cdf4329d882d3372a4e64cefefb1ee92a03b35a840b2def320cc38b7"
+      }
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/Trash/unused-private-headers",
+      "destination_name": "v2-transport--Trash--unused-private-headers",
+      "owner": "p0_audio",
+      "uid": 501,
+      "reason": "previously retired unused dependency headers; keep existing recovery plan/journal unchanged",
+      "evidence_manifest": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/manifest.json",
+      "evidence_manifest_sha256": "13f9c164d092c15251859c90d322c841ebc700d386b376cffe2909958a76fb72",
+      "required_inventory": {
+        "entries": 717,
+        "logical_file_bytes": 7953601,
+        "allocated_bytes": 9486336,
+        "allocated_unique_inode_bytes": 9486336,
+        "uid": 501,
+        "tree_sha256": "4f3c9f364185568a70bf91a63ce41ab199973a6419eccf1254c45970591c7451"
+      }
+    }
+  ],
+  "required_manifests": [
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/runtime/manifest.json",
+      "sha256": "ee248d7706efeb144661175216d488e5e97575aafd9be9b2326944577944e76d"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/control/manifest.json",
+      "sha256": "914e3ec9bb687084a33484f62bb71e50279af085cf90b83a7d84ee7c0a2f3294"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/evidence/manifest.json",
+      "sha256": "a972b278f1bd7d152cc210a1f35ee70de0bc666f706d531df11cbeb9ec3edb4b"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/manifest.json",
+      "sha256": "13f9c164d092c15251859c90d322c841ebc700d386b376cffe2909958a76fb72"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/transport/evidence/long/manifest.json",
+      "sha256": "237f16e496a99335d21a042b99396f678daf87521669d42bfcfbf7fba3fb9be1"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/stage3-inventory.json",
+      "sha256": "8ec4ad8373666378a187edb8221e1726217381622e44ea41ec5867b9cb770fe6"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-134551/build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-134551/receipt.json",
+      "sha256": "4f1b0f68b3d57e2723dc651130921997911355c022c4d26949d6505b6aa9bdbc"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-134551/requests.json",
+      "sha256": "81a428c2ee2c0bfedd3ea20848b652f90a56e75b4009594d5128972f1e4deab9"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-134551/tests.jsonl",
+      "sha256": "f801d542d1a7f5481c4e6110bd6fb618ea421c6727b65088dcfebc032f58cab4"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-135102/build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-135102/receipt.json",
+      "sha256": "fea9466e952478fbc9e449901be5dddbbfba946697c837868c81e82a243f3113"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-135102/requests.json",
+      "sha256": "5d9cef3577eb27c983398d1cc47a76cec524a27fdd100ffa5c843c5daf2bbc7c"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-135102/tests.jsonl",
+      "sha256": "6968dfc2a0b9aae5e9f09ba0295c75f3b085b7b28f3c5ebfcd8c649669a0f820"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-135409/build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-135409/receipt.json",
+      "sha256": "22e63393462fd6cb68be35ab10e158ed195484fba8dc33feae741d20b1667b08"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-135409/requests.json",
+      "sha256": "cf1b4b6149ecf3ad32deb8522948a1501ff1a25643cfc08f7ee6e03b56473572"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/20261110-135409/tests.jsonl",
+      "sha256": "c20f6f414a96e859bc5af0d6b9fb55e82ad788412ddab1ed8c4f9787d95bbd1c"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/avio-20261110-135540/avio-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/avio-20261110-135540/native-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/avio-20261110-135540/receipt.json",
+      "sha256": "c0bab611eafab281623b44540fc9cb28d700fc6ebe40bf29794aadae7b5b6ed7"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/avio-20261110-135540/results.jsonl",
+      "sha256": "b41b22416ec9f990e7b2cfcc7e484efcab4d839234bfe02c1f7551600a6b1b81"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140339/iphoneos-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140339/macosx-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140339/native-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140339/objects.json",
+      "sha256": "ea094b06e6d73d8efb79e1a51531d06572390ec8f5c76ce441ad88247864219f"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140339/results.jsonl",
+      "sha256": "c28eebfbd9c46ccc9dd84863d3eed8812211174538a29f2456c4db5a1b1dde9f"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140339/test-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140447/iphoneos-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140447/macosx-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140447/native-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140447/objects.json",
+      "sha256": "972123d6d7919ce47b510b6fa7427d953c92bda7dd8f59375f23d03c47f8bae5"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140447/results.jsonl",
+      "sha256": "201e92508a05bb0329ae5485ad6b08b59be6867f3ce6d922e5406648ed6879dc"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/decoder-probe-20261110-140447/test-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/long-20261110-141148/aac-44100-40s.m4a-generation.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/long-20261110-141148/build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/long-20261110-141148/development-generator.txt",
+      "sha256": "47c46eab3fa1ee4a3373b813fa318d762740e144b95e8df599bb49c9e7776d29"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/long-20261110-141148/manifest.json",
+      "sha256": "237f16e496a99335d21a042b99396f678daf87521669d42bfcfbf7fba3fb9be1"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/long-20261110-141148/native-build.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/long-20261110-141148/opus-48000-40s.webm-generation.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/cleanup/retained-test-evidence/long-20261110-141148/results.jsonl",
+      "sha256": "60ff9b057823a6da3b14161e64e9a7a337c6110df3599ebe06d79214936791b7"
+    }
+  ],
+  "preflight": {
+    "uid": 501,
+    "active_probe_processes": [],
+    "lsof_all_paths_zero": true,
+    "actual_free_bytes": 574385537024,
+    "logical_file_bytes": 42522806,
+    "allocated_path_sum_bytes": 45973504,
+    "allocated_unique_inode_bytes": 45973504
+  },
+  "retain": [
+    "source/v2-parser (further source validation)",
+    "source/v2-transport/decoder-inputs (desktop decode dependencies)",
+    "source/v2-transport/macosx and iphoneos dependency objects",
+    "source/v2-transport/long-fixtures (outside this exact stage3 move set)",
+    "source/v2-integration/build and iphoneos (current candidate)",
+    "all v2-integration/media live source files and other media directories",
+    "original source/audio unfinished phone artifacts",
+    "all prior cleanup plans/journals, recovery journal, and bounded evidence"
+  ],
+  "deletion": "recoverable same-volume rename only; no purge; not executed by preparation",
+  "stage3_has_been_executed": false
+}

@@ -1,0 +1,15 @@
+{
+  "condition": "expected_zero_open_files assertion rejected active final app",
+  "observed_processes": [
+    {
+      "name": "MusesAcou",
+      "pid": 93220
+    },
+    {
+      "name": "ThemeWidg",
+      "pid": 93238
+    }
+  ],
+  "root_confirmed_authorized_UI_check": true,
+  "action": "did not terminate app; retain failed freeze receipt and continue with explicit active-app handoff inventory"
+}

@@ -1,0 +1,17 @@
+{
+  "allocation": "source",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "dca7cc5ace44ec30db4de6e26bdc6ba238c66b0a6198b3d3152f7ba5fd35515c",
+  "executable": "python3",
+  "pid": 73344,
+  "started_unix": 1794347344.300055,
+  "elapsed_seconds": 2.174678087234497,
+  "returncode": 1,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 98738176,
+    "allocation": 89522176
+  },
+  "remaining_free_bytes": 574611005440
+}

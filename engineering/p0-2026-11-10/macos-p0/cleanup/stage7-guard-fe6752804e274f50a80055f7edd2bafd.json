@@ -1,0 +1,17 @@
+{
+  "allocation": "coordination",
+  "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "command_sha256": "0b541baf8ee6f88505d3d0e119579d2f7f677c4fa8f4848600b3f8faad3eabc8",
+  "executable": "python3",
+  "pid": 99559,
+  "started_unix": 1794358617.093334,
+  "elapsed_seconds": 2.1321191787719727,
+  "returncode": 0,
+  "stop_reason": null,
+  "high_water_allocated_bytes": {
+    "total": 611835904,
+    "allocation": 1323008
+  },
+  "remaining_free_bytes": 573210488832
+}

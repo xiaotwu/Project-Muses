@@ -1,0 +1,30 @@
+{
+  "bundle": {
+    "bytes": 1654732,
+    "sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f",
+    "origin": "exact candidate-5 app bundle copy; no network acquisition in this diagnostic"
+  },
+  "quickjs": {
+    "version": "2026-06-04",
+    "header_sha256": "2165f47772af9faee1798999a599fa9de850d1bf0259502dade1c25d4a588316",
+    "implementation_sha256": "a00762d2eee42316cecbc9c15efc4549b715ec500461845cd91b2a6c38190d08",
+    "api_contract": "quickjs.h:835",
+    "parser_eof": "quickjs.c:22727-22735",
+    "parser_bounds": "quickjs.c:37013-37021",
+    "new_runtime_stack_top": "quickjs.c:2116"
+  },
+  "host_snapshots": {
+    "candidate5.NativeHost.v2.m": "90e9952071fee1f3eb193538399ba85d43b9390fc9a156e64c656b9a74ddb5ce",
+    "corrected.NativeHost.v2.m": "f37159192477d9ddc8316d96f7884185d59b27e301e1152124bb684e99dd5fa8",
+    "NativeInput.inc": "aa93db0a62f144dd8faf512a1a083c4ee17a45dfa7ad8d17720ef74adbfa7963",
+    "isolated-fixture.js": "9837b6acf7e597662c7c1c5e00aa48f49f88f68cf1bb747dcb67fc35a1f7bc1f"
+  },
+  "old_build_manifest": "raw/20261110T230424.597930Z-manifest.json",
+  "corrected_build_manifest": "raw/20261110T231352.377950Z-corrected-manifest.json",
+  "test_sources": {
+    "driver.m": "05a60efba5cbfa7ef5ea5f0f93635e56e57cb251ee8cb2446f1c5be13014b76f",
+    "run.py": "ee1d441b2182aa33c4667083dc921557ca2893bc51a4fa64b0d4a8ae04a9144a",
+    "corrected-driver.m": "bf28918309a1410914ccb02e5594cce98121b6f6d97fa26c4336f7437b36824e",
+    "run-corrected.py": "39f998461ce84ace3c7dc80b0f1b20044f3ad4e2c33c4e5ca2a92a3c601625bf"
+  }
+}

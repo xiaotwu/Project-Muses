@@ -1,0 +1,3 @@
+{"phase":"before_parse","js_live_bytes":7530622,"js_peak_bytes":8665876,"process_maxrss_bytes":17481728}
+{"phase":"main","outcome":"fail","error_name":"unknown","error_category":"redacted"}
+{"phase":"summary","main_js_peak_bytes":67105131,"main_heap_limit_bytes":67108864,"process_maxrss_bytes":82280448}

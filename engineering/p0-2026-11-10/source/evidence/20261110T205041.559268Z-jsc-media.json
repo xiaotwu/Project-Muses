@@ -1,0 +1,12 @@
+{
+  "runtime": "JavaScriptCore CLI experiment",
+  "mode": "media",
+  "exit_code": 1,
+  "stop_reason": null,
+  "process_peak_rss_bytes": 225329152,
+  "elapsed_seconds": 2.1129197079862934,
+  "stdout": "{\"gate\":\"host_capabilities\",\"outcome\":\"pass\",\"runtime\":\"JavaScriptCore (system, public APIs)\",\"library\":\"youtubei.js 18.3.0\",\"native_network\":\"URLSession\",\"webview\":false,\"node_runtime\":false}\n{\"gate\":\"session\",\"outcome\":\"pass\",\"elapsed_ms\":1878,\"player_loaded\":true}\n{\"gate\":\"media_metadata\",\"outcome\":\"pass\",\"elapsed_ms\":137,\"status\":\"OK\",\"format_count\":40,\"audio_format_count\":16}\n{\"gate\":\"media_resolution\",\"outcome\":\"fail\",\"elapsed_ms\":1,\"error_name\":\"Error\",\"error_category\":\"redacted\"}\n{\"external_process_rss_limit_bytes\":268435456,\"received_bytes\":2704169,\"process_maxrss_bytes\":225918976,\"gate\":\"host_summary\",\"outcome\":\"completed\",\"requests\":4,\"hard_js_heap_limit\":false}\n",
+  "stderr_bytes": 0,
+  "bundle_sha256": "f403a06d9778df1a042cbeb76ef86feee1437bff63533b9c161e58c410f46c7a",
+  "host_sha256": "d73880ecfe79afcfc31109ad2bedd7b1977432ea03795be5a7b98fa336531940"
+}

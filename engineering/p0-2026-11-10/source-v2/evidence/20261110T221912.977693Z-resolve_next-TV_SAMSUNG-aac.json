@@ -1,0 +1,83 @@
+{
+  "mode": "resolve_next",
+  "client": "TV_SAMSUNG",
+  "codec": "aac",
+  "exit_code": 2,
+  "stop_reason": null,
+  "elapsed_seconds": 3.533973584,
+  "sampled_peak_rss_bytes": 78872576,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "external_deadline_seconds": 180,
+  "binary_sha256": "fe3cfd2b0a2f86991286b97a7434b1ae5f1c2b21d9deb696014db617ca83a1b5",
+  "bundle_sha256": "4ff0833f5f795358b915ecfea0a6d0073ff9306d89c7b9631599cb2fb7327a23",
+  "rows": [
+    {
+      "category": "ok",
+      "input_bytes": 2658728,
+      "native_live_after_bytes": 0,
+      "reduce_ms": 1885.184,
+      "parse_ms": 1710.948,
+      "timestamp_matches": 2,
+      "gate": "native_player_reduce",
+      "outcome": "pass",
+      "output_bytes": 189450,
+      "native_peak_bytes": 7401998,
+      "solver_matches": 1
+    },
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 2630,
+      "player_loaded": true
+    },
+    {
+      "gate": "source_profile",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "client_version": "5.20260707",
+      "reason": "public_metadata_only",
+      "status": "OK",
+      "format_count": 34,
+      "rejected_formats": 0
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "TV_SAMSUNG",
+      "video_id": "eRsGyueVLvQ",
+      "status": "OK",
+      "audio_formats": 9,
+      "bounded_audio_formats": 9,
+      "requested_codec": "aac",
+      "requested_codec_formats": 3,
+      "direct_formats": 9,
+      "cipher_formats": 0,
+      "n_parameter_formats": 9,
+      "hls": false,
+      "sabr": false
+    },
+    {
+      "gate": "source_availability",
+      "outcome": "unsupported",
+      "reason": "invalid_string"
+    },
+    {
+      "js_memory_bytes": 26734189,
+      "deadline_seconds": 90,
+      "received_bytes": 2874065,
+      "process_maxrss_bytes": 78872576,
+      "js_peak_allocated_bytes": 33551981,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 5,
+      "peak_concurrent": 1,
+      "first_byte_samples": 5
+    }
+  ],
+  "unsafe_or_non_json_stdout_redacted": false,
+  "stdout_bytes": 1165,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

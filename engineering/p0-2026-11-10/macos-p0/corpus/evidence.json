@@ -1,0 +1,640 @@
+{
+  "status": "tooling_verified_only_corpus_and_campaign_draft",
+  "source_license": "MIT; independent implementation; no copied BitChord code/tests",
+  "stage_budget_sha256": "de134250d8992c886855224b22710e284187b56ee044bb90a58f12cb60d90c4e",
+  "guard_runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "files": {
+    "README.md": {
+      "sha256": "622382b11d80d1a663aed61ffde9d796420e11451cedb5d12cbe3e865f7e4373",
+      "bytes": 14622
+    },
+    "campaign.draft.json": {
+      "sha256": "30ea684b4ac4932e1b3bed82b0793421cf5df3b2c746218639072d4721dc9fd3",
+      "bytes": 36730
+    },
+    "campaign.py": {
+      "sha256": "4494891de82fb6395ee9f0909875f31a50eb93d5e09fb37da0fdcd3e0f08e59b",
+      "bytes": 44007
+    },
+    "corpus.draft.json": {
+      "sha256": "f5d7a9e34ef22ad6d084ecc12739091c61d6f202aad58e085a3bdef5e679f027",
+      "bytes": 77028
+    },
+    "seed_draft.py": {
+      "sha256": "052dc9ebbe38905f21c2a25f9d16f48c3e4ad3dca79e804e8e9747e39ba88512",
+      "bytes": 15870
+    },
+    "test_campaign.py": {
+      "sha256": "3330068cf75851a572325ea347d084cc8afba381fddf6820602c5e9be7cdedda",
+      "bytes": 22361
+    }
+  },
+  "superseded_unfrozen_draft_byte_sha256": {
+    "corpus.draft.json": "b0d922aa34cddd60bc415ebccb80034bf808e71fd3ba5272185a12a931023ecd",
+    "campaign.draft.json": "77f61608a34b6e97a512ea5563e45a784b5a144e1f38b312a054d37f7d6d1d7d"
+  },
+  "canonical_sha256": {
+    "corpus": "45692d6f07b302014ad633cc37054c7746afa1afafeee0c5b0c41a1eee12ec58",
+    "campaign": "77545cd6ed5242e5e5c7e907076c5c890a041bad0d6ec3c1d931940122a13ae1"
+  },
+  "test_result": {
+    "synthetic_cases": 34,
+    "passed": 34,
+    "failed": 0,
+    "guard_receipt_id": "da94cff8c9b64012bceaa11c35f64dc5",
+    "test_wall_seconds": 3.016,
+    "implementation_sha256": "4494891de82fb6395ee9f0909875f31a50eb93d5e09fb37da0fdcd3e0f08e59b",
+    "tests_sha256": "3330068cf75851a572325ea347d084cc8afba381fddf6820602c5e9be7cdedda"
+  },
+  "validation": {
+    "corpus": {
+      "valid": true,
+      "freeze_ready": false,
+      "errors": [],
+      "freeze_gaps": [
+        {
+          "path": "corpus.cases[0]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[1]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[2]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[3]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[4]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[5]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[6]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[7]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[8]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[9]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[10]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[11]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[12]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[13]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[14]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[15]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[16]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[17]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[18]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[19]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[20]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[21]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[22]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[23]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[24]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[25]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[26]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[27]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[28]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[29]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[30]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[31]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases[32]",
+          "code": "identity_not_verified_for_positive_group"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "need_30_verified_positive_identities"
+        },
+        {
+          "path": "corpus.relationships",
+          "code": "missing_same_title_coverage"
+        },
+        {
+          "path": "corpus.relationships",
+          "code": "missing_version_family_coverage"
+        },
+        {
+          "path": "corpus.relationships",
+          "code": "missing_mv_audio_coverage"
+        },
+        {
+          "path": "corpus.relationships",
+          "code": "missing_version_variants"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "missing_zh_coverage"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "missing_ja_coverage"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "missing_latin_coverage"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "missing_mixed_script"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "missing_unicode_punctuation"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "missing_short_content"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "missing_long_content"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "missing_chaptered_podcast"
+        },
+        {
+          "path": "corpus.cases",
+          "code": "missing_observed_media_diversity"
+        },
+        {
+          "path": "corpus.negative_cases",
+          "code": "unverified_removed_or_nonexistent"
+        },
+        {
+          "path": "corpus.negative_cases",
+          "code": "unverified_authorization_required"
+        },
+        {
+          "path": "corpus.negative_cases",
+          "code": "unverified_region_or_account_restricted"
+        },
+        {
+          "path": "corpus.negative_cases",
+          "code": "unverified_expired_resolution"
+        },
+        {
+          "path": "corpus.negative_cases",
+          "code": "unverified_invalid_cache"
+        },
+        {
+          "path": "corpus.queue_context",
+          "code": "queue_context_unverified"
+        }
+      ],
+      "summary": {
+        "distinct_candidate_identities": 33,
+        "metadata_verified_identities": 0,
+        "media_transport_observed_identities": 0,
+        "complete_transport_identities": 0,
+        "media_decoded_identities": 0,
+        "complete_decode_identities": 0,
+        "native_output_submitted_identities": 0,
+        "audibly_confirmed_identities": 0,
+        "recording_identity_confirmed_identities": 0,
+        "freeze_eligible_positives": 0,
+        "reviewed_coverage_groups": {}
+      }
+    },
+    "campaign": {
+      "valid": true,
+      "freeze_ready": false,
+      "errors": [],
+      "freeze_gaps": [
+        {
+          "path": "campaign.corpus_sha256",
+          "code": "corpus_not_frozen"
+        },
+        {
+          "path": "campaign.builds.baseline063.dependencies_sha256",
+          "code": "build_not_frozen"
+        },
+        {
+          "path": "campaign.builds.baseline063.measurement_patch_sha256",
+          "code": "build_not_frozen"
+        },
+        {
+          "path": "campaign.builds.baseline063",
+          "code": "build_provenance_incomplete"
+        },
+        {
+          "path": "campaign.builds.candidate.artifact_sha256",
+          "code": "build_not_frozen"
+        },
+        {
+          "path": "campaign.builds.candidate.executable_sha256",
+          "code": "build_not_frozen"
+        },
+        {
+          "path": "campaign.builds.candidate.dependencies_sha256",
+          "code": "build_not_frozen"
+        },
+        {
+          "path": "campaign.builds.candidate.measurement_patch_sha256",
+          "code": "build_not_frozen"
+        },
+        {
+          "path": "campaign.builds.candidate",
+          "code": "build_provenance_incomplete"
+        },
+        {
+          "path": "campaign.measurement.capture_point",
+          "code": "not_actual_output_measurement"
+        },
+        {
+          "path": "campaign.measurement.calibration",
+          "code": "missing_calibration"
+        },
+        {
+          "path": "campaign.measurement.tool_sha256",
+          "code": "measurement_not_frozen"
+        },
+        {
+          "path": "campaign.measurement.detector_sha256",
+          "code": "measurement_not_frozen"
+        },
+        {
+          "path": "campaign.measurement.clock_mapping_sha256",
+          "code": "measurement_not_frozen"
+        },
+        {
+          "path": "campaign.measurement.noise_threshold_sha256",
+          "code": "measurement_not_frozen"
+        },
+        {
+          "path": "campaign.measurement.evidence_window_policy_sha256",
+          "code": "measurement_not_frozen"
+        },
+        {
+          "path": "campaign.measurement.cleanup_plan_sha256",
+          "code": "measurement_not_frozen"
+        },
+        {
+          "path": "campaign.measurement.max_clock_error_ms",
+          "code": "measurement_error_unbounded"
+        },
+        {
+          "path": "campaign.measurement.max_capture_error_ms",
+          "code": "measurement_error_unbounded"
+        },
+        {
+          "path": "campaign.environment.hardware_alias",
+          "code": "environment_not_frozen"
+        },
+        {
+          "path": "campaign.environment.os_version",
+          "code": "environment_not_frozen"
+        },
+        {
+          "path": "campaign.environment.os_build",
+          "code": "environment_not_frozen"
+        },
+        {
+          "path": "campaign.environment.sdk",
+          "code": "environment_not_frozen"
+        },
+        {
+          "path": "campaign.environment.compiler",
+          "code": "environment_not_frozen"
+        },
+        {
+          "path": "campaign.environment.route_alias",
+          "code": "environment_not_frozen"
+        },
+        {
+          "path": "campaign.environment.capture_chain",
+          "code": "environment_not_frozen"
+        },
+        {
+          "path": "campaign.environment.network_observation",
+          "code": "environment_not_frozen"
+        },
+        {
+          "path": "campaign.environment.isolation_policy",
+          "code": "environment_not_frozen"
+        },
+        {
+          "path": "campaign.attempt_plan",
+          "code": "main_cold_onset_not_qualified"
+        },
+        {
+          "path": "campaign.attempt_plan",
+          "code": "main_cold_onset_not_qualified"
+        }
+      ],
+      "summary": {
+        "planned_attempts": 200,
+        "pairs": 100,
+        "builds": [
+          "baseline063",
+          "candidate"
+        ],
+        "strata": [
+          "main_cold"
+        ]
+      }
+    }
+  },
+  "cli_checks": [
+    {
+      "command": "validate-corpus",
+      "require_frozen": false,
+      "exit": 0,
+      "valid": true,
+      "freeze_ready": false
+    },
+    {
+      "command": "validate-campaign",
+      "require_frozen": false,
+      "exit": 0,
+      "valid": true,
+      "freeze_ready": false
+    },
+    {
+      "command": "validate-corpus",
+      "require_frozen": true,
+      "exit": 2,
+      "valid": true,
+      "freeze_ready": false
+    },
+    {
+      "command": "validate-campaign",
+      "require_frozen": true,
+      "exit": 2,
+      "valid": true,
+      "freeze_ready": false
+    }
+  ],
+  "reproducible_seed_bytes": true,
+  "seed_refuses_existing_destination": true,
+  "empty_journal": {
+    "planned": 200,
+    "started": 0,
+    "journal_events": 0,
+    "performance_conclusion_allowed": false,
+    "comparison": null
+  },
+  "real_observations": {
+    "candidate_identities": 33,
+    "metadata_verified": 0,
+    "media_transport": 0,
+    "media_decoded": 0,
+    "native_output_submitted": 0,
+    "audibility_confirmed": 0,
+    "content_identity_confirmed": 0,
+    "performance_attempts": 0,
+    "media_downloaded_in_this_stage": false,
+    "production_app_launched": false
+  },
+  "prior_receipts": [
+    {
+      "receipt_id": "477e16dec5914ffe90d9a79b918aaed8",
+      "sha256": "dafe5ba2e05dfa1efa03b3c9f7e215102df4db80b61fbb1e068e880f3996ef18",
+      "note": "26 tests: seven failures; ten-character mistyped candidate ID correctly rejected. Two bounded tempfile tests fell back to OS temp because owned TMPDIR did not yet exist; context cleanup removed them. Test preflight now rejects missing/wrong temp root.",
+      "receipt": {
+        "allocation": "source",
+        "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+        "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+        "command_sha256": "73b82d67c4fe29d02e430692125bd0f2e6f1c8393328c2b7f85effa38b512278",
+        "executable": "/usr/bin/env",
+        "pid": 90852,
+        "started_unix": 1794353365.475282,
+        "elapsed_seconds": 2.268731117248535,
+        "returncode": 1,
+        "stop_reason": null,
+        "high_water_allocated_bytes": {
+          "total": 638468096,
+          "allocation": 125202432
+        },
+        "remaining_free_bytes": 573756346368
+      }
+    },
+    {
+      "receipt_id": "b989086f92bc48bc88f1d2a4b11ea3fa",
+      "sha256": "f8a9dd94d43a56db78b542634c683d29be52615d4a06f7e4b71581d7ab39d6b4",
+      "note": "Wrapper preparation failed to add module directory to sys.path; ModuleNotFoundError before fixture execution. Owned scratch created. Direct script invocation fixed it.",
+      "receipt": {
+        "allocation": "source",
+        "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+        "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+        "command_sha256": "a7cd339e9bd859407df80d7dd2eaf7875d8651b6629ef9bb290a03edf4bb8257",
+        "executable": "/usr/bin/env",
+        "pid": 90871,
+        "started_unix": 1794353388.7916238,
+        "elapsed_seconds": 2.2962732315063477,
+        "returncode": 1,
+        "stop_reason": null,
+        "high_water_allocated_bytes": {
+          "total": 638472192,
+          "allocation": 125202432
+        },
+        "remaining_free_bytes": 573755113472
+      }
+    },
+    {
+      "receipt_id": "664f2ff0ce03404cbc7d8557bdb69fa0",
+      "sha256": "ba7106b665fe7f8f90836e6032585b431a12529d54dd6a4900fbf355d0ca4cf3",
+      "note": "26 synthetic contract tests passed after corrected ID; actual media untested.",
+      "receipt": {
+        "allocation": "source",
+        "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+        "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+        "command_sha256": "73b82d67c4fe29d02e430692125bd0f2e6f1c8393328c2b7f85effa38b512278",
+        "executable": "/usr/bin/env",
+        "pid": 90874,
+        "started_unix": 1794353397.3639,
+        "elapsed_seconds": 2.2665209770202637,
+        "returncode": 0,
+        "stop_reason": null,
+        "high_water_allocated_bytes": {
+          "total": 638476288,
+          "allocation": 125202432
+        },
+        "remaining_free_bytes": 573754224640
+      }
+    },
+    {
+      "receipt_id": "bbb424647ee84541bf6378f520246dff",
+      "sha256": "4c3b92b253115aa8a31b9ee51d7af4d60e616e763590712534a56f761deb4af2",
+      "note": "28 synthetic contract tests passed after seeded schedule/calibration/end-condition checks.",
+      "receipt": {
+        "allocation": "source",
+        "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+        "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+        "command_sha256": "73b82d67c4fe29d02e430692125bd0f2e6f1c8393328c2b7f85effa38b512278",
+        "executable": "/usr/bin/env",
+        "pid": 90939,
+        "started_unix": 1794353481.632,
+        "elapsed_seconds": 2.2522270679473877,
+        "returncode": 0,
+        "stop_reason": null,
+        "high_water_allocated_bytes": {
+          "total": 638480384,
+          "allocation": 125202432
+        },
+        "remaining_free_bytes": 573749657600
+      }
+    },
+    {
+      "receipt_id": "6d38302138e040c89a9be2a2fcaad25a",
+      "sha256": "2c922f2ce1def2a3c6a65bd5bb8e1a293a5ff6f6a513bdd0fbe69d46c4bef19d",
+      "note": "Initial mutable drafts generated; superseded only by explicit evidence-stage schema refinement.",
+      "receipt": {
+        "allocation": "source",
+        "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+        "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+        "command_sha256": "3126d83714268c8c08c96454495a5a44097cb4d49cf7609e93c3390e4886ec19",
+        "executable": "/usr/bin/env",
+        "pid": 91094,
+        "started_unix": 1794353573.9047601,
+        "elapsed_seconds": 2.149772882461548,
+        "returncode": 0,
+        "stop_reason": null,
+        "high_water_allocated_bytes": {
+          "total": 517513216,
+          "allocation": 125202432
+        },
+        "remaining_free_bytes": 573724581888
+      }
+    },
+    {
+      "receipt_id": "da94cff8c9b64012bceaa11c35f64dc5",
+      "sha256": "75f9f1c3f68c62cf265ccecccbc3f49cb26565bc89f6ab00ff868c63d7c7275c",
+      "note": "34 synthetic tests passed, including explicit evidence stages, reordered/overlapping starts, missing finish and premature replacement. No real performance observations.",
+      "receipt": {
+        "allocation": "source",
+        "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+        "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+        "command_sha256": "73b82d67c4fe29d02e430692125bd0f2e6f1c8393328c2b7f85effa38b512278",
+        "executable": "/usr/bin/env",
+        "pid": 91744,
+        "started_unix": 1794353984.637053,
+        "elapsed_seconds": 4.2160279750823975,
+        "returncode": 0,
+        "stop_reason": null,
+        "high_water_allocated_bytes": {
+          "total": 517517312,
+          "allocation": 125202432
+        },
+        "remaining_free_bytes": 573707292672
+      }
+    }
+  ],
+  "scratch": {
+    "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/macos-corpus",
+    "cap_bytes": 134217728,
+    "retained_files": [],
+    "logical_file_bytes": 0,
+    "allocated_file_bytes": 0,
+    "free_at_inventory_bytes": 573716590592,
+    "obsolete_paths": [],
+    "active_child_processes": 0,
+    "cleanup": "Bounded TemporaryDirectory fixtures removed on exit. No compiler/download cache or media created. No Trash move or irreversible disposal in this stage; parent owns overall Trash accounting.",
+    "permission_blockers": [],
+    "open_files_inventory": "lsof +D owned scratch: no entries, exit 1, empty stderr"
+  },
+  "package_validation_receipt": {
+    "receipt_id": "b253e0fea00e402593ebafaf00273a6a",
+    "sha256": "c269b2c151a7260fc08194f4f5898b98104e59a32c06bf005c6ef811f56ae775",
+    "receipt": {
+      "allocation": "source",
+      "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+      "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+      "command_sha256": "a7cd339e9bd859407df80d7dd2eaf7875d8651b6629ef9bb290a03edf4bb8257",
+      "executable": "/usr/bin/env",
+      "pid": 91947,
+      "started_unix": 1794354109.068141,
+      "elapsed_seconds": 2.168912887573242,
+      "returncode": 0,
+      "stop_reason": null,
+      "high_water_allocated_bytes": {
+        "total": 517533696,
+        "allocation": 125202432
+      },
+      "remaining_free_bytes": 573716553728
+    }
+  }
+}

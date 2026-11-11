@@ -1,0 +1,158 @@
+{
+  "source_hashes": {
+    "calibration.h": "a04447823877d9fdbe2968422deb35522ceb3328b41e01ffe947987ebd14ed57",
+    "calibration.c": "630b7648edfba1a3d805758d113037c1253bdb337137b3651c1ed22cacd738c6",
+    "CalibrationApp.m": "9ca48f96690ff77e214d0fc04522ba52fa31409dc80313a34edab74056a0169d",
+    "offline-tests.c": "96ff84c6a2e0e99df4d449c731a7e40fd6190a37ead126a5ad2d33147ab880f4",
+    "entitlements.plist": "9140d2a5939149f3e1c510fbfcdc05317d5c57d8c3cae0c13d57c4f6e87f4993",
+    "build_offline.py": "aba52dbb37d9dd41f25a0ec49cafd569d34dff56816f3e214dabeefaeaa53b85"
+  },
+  "budget_sha256": "c5febd8b5b649d0848edc2ceef083dd8c0de616933ac321abbc676ea4dadf871",
+  "free_before_bytes": 573752868864,
+  "scratch_limit_bytes": 67108864,
+  "commands": [
+    {
+      "label": "compile-core",
+      "args": [
+        "clang",
+        "-std=gnu11",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-mmacosx-version-min=26.0",
+        "-I/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/calibration",
+        "-c",
+        "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/calibration/calibration.c",
+        "-o",
+        "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z/calibration.o"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "compile-tests",
+      "args": [
+        "clang",
+        "-std=gnu11",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-mmacosx-version-min=26.0",
+        "-I/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/calibration",
+        "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z/calibration.o",
+        "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/calibration/offline-tests.c",
+        "-o",
+        "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z/offline-tests"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "compile-app",
+      "args": [
+        "clang",
+        "-std=gnu11",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-mmacosx-version-min=26.0",
+        "-I/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/calibration",
+        "-fobjc-arc",
+        "-Wno-deprecated-declarations",
+        "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z/calibration.o",
+        "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/calibration/CalibrationApp.m",
+        "-framework",
+        "AppKit",
+        "-framework",
+        "Foundation",
+        "-framework",
+        "AVFoundation",
+        "-framework",
+        "AVFAudio",
+        "-framework",
+        "CoreAudio",
+        "-o",
+        "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z/MusesAcousticCalibration.app/Contents/MacOS/MusesAcousticCalibration"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "sign-app",
+      "args": [
+        "codesign",
+        "--force",
+        "--sign",
+        "-",
+        "--timestamp=none",
+        "--options",
+        "runtime",
+        "--entitlements",
+        "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/calibration/entitlements.plist",
+        "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z/MusesAcousticCalibration.app"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "c311580af533f3fa1b3a4591cc1ee8ac8e445915401d47ab6da5e21c30c2da94"
+    },
+    {
+      "label": "verify-signature",
+      "args": [
+        "codesign",
+        "--verify",
+        "--deep",
+        "--strict",
+        "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z/MusesAcousticCalibration.app"
+      ],
+      "exit": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "test-dependencies",
+      "args": [
+        "otool",
+        "-L",
+        "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z/offline-tests"
+      ],
+      "exit": 0,
+      "stdout_sha256": "8e8a4924da4606a8c8b3cbde7fb843d57248e8b6e51bbc09d342a9efeccec223",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "app_launched": false,
+  "microphone_permission_requested": false,
+  "physical_audio_run": false,
+  "offline_test": {
+    "exit": 0,
+    "stop": null,
+    "elapsed_ms": 1427,
+    "sampled_peak_rss_bytes": 8781824,
+    "binary_sha256": "02d65dfe566a498fdb42425b9172e992c3c188d191e5c4a2a7962e77c85909d0",
+    "stdout_sha256": "23d4fb38f30f13b0d2776b6ff41bf05a851e4f8481f3903a980bd15e7f6f1590",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "app": {
+    "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z/MusesAcousticCalibration.app",
+    "binary_sha256": "ac994b1b838fb5a67741b2e6b19d68ddc09788692e1e48e5172124510b3a7bff",
+    "info_sha256": "2b9afdef02c87d9aede9b85cdf2542e780aa6ef97876f1e09b0a1e4b8aa0a3ea",
+    "signing": "ad hoc, hardened runtime, audio-input entitlement; not notarized",
+    "launched": false
+  },
+  "source_hashes_after": {
+    "calibration.h": "a04447823877d9fdbe2968422deb35522ceb3328b41e01ffe947987ebd14ed57",
+    "calibration.c": "630b7648edfba1a3d805758d113037c1253bdb337137b3651c1ed22cacd738c6",
+    "CalibrationApp.m": "9ca48f96690ff77e214d0fc04522ba52fa31409dc80313a34edab74056a0169d",
+    "offline-tests.c": "96ff84c6a2e0e99df4d449c731a7e40fd6190a37ead126a5ad2d33147ab880f4",
+    "entitlements.plist": "9140d2a5939149f3e1c510fbfcdc05317d5c57d8c3cae0c13d57c4f6e87f4993",
+    "build_offline.py": "aba52dbb37d9dd41f25a0ec49cafd569d34dff56816f3e214dabeefaeaa53b85"
+  },
+  "scratch_allocated_bytes": 401408,
+  "free_after_bytes": 573752147968
+}

@@ -1,0 +1,76 @@
+{
+  "source_sha256": {
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/run_real_abi.py": "43c796694a45640fe26563659dbdd138613357317c814d8e79f6f1c2077dd524",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/RealMediaABITests.cpp": "bfd48248129dfd5f9c2f92a88fa7203bef621cc2113215f5b091ec6379691f43",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp": "1137d748dbb1648bd8722c540206cce03378ea4cdd0967079e4997c15c1c1885",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/p0_audio.h": "34cdd7493488e7db6c68d7b6fa4e68fa3e8a57d18b69ff83868d846b5df13097"
+  },
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "-pthread",
+    "-target",
+    "arm64-apple-macos26.0",
+    "-isysroot",
+    "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+    "-DP0_LIBRARY_ONLY",
+    "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs/include",
+    "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/real-audio-abi-20261110-223118",
+    "-Wno-deprecated-declarations",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/RealMediaABITests.cpp",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/real-audio-abi-20261110-223118/miniaudio-backend.o",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs/lib/libavformat.a",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs/lib/libavcodec.a",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs/lib/libswresample.a",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs/lib/libavutil.a",
+    "-framework",
+    "CoreFoundation",
+    "-framework",
+    "CoreAudio",
+    "-framework",
+    "AudioToolbox",
+    "-o",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/real-audio-abi-20261110-223118/real-media-audio-abi"
+  ],
+  "exit_code": 0,
+  "stop_reason": null,
+  "sampled_peak_rss_bytes": 23642112,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "network": false,
+  "phone": false,
+  "audible": false,
+  "human_audibility": "not_tested",
+  "files": {
+    "miniaudio.h": {
+      "sha256": "6b376c7fbb1352ba1e0e432ab66069b335ea9405e45cb6c30b97ef0f3c9c3e0e",
+      "bytes": 4161918
+    },
+    "stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "real-media-audio-abi": {
+      "sha256": "70e5d647cddb8fa91aaeffadfd290a314114b2750dd80b78b0126a96fa104eed",
+      "bytes": 2047032
+    },
+    "provenance.json": {
+      "sha256": "4a2cbf917b67199e6577589a425495ec054e6a08ece8651372a9c481055cd479",
+      "bytes": 2128
+    },
+    "miniaudio-backend.o": {
+      "sha256": "cd2a842f4ca3bcdf58c60c4545883cd72b7413382e8133e063f4ff8340ceea80",
+      "bytes": 364616
+    },
+    "results.jsonl": {
+      "sha256": "59eb12b0e943c7bbc25a8c563c915c2c734e0dbc8db9187da01d5ef59bebbba8",
+      "bytes": 347
+    },
+    "build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  }
+}

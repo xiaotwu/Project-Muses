@@ -1,0 +1,265 @@
+{
+  "run": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "steps": [
+    {
+      "name": "rust-version",
+      "exit": 0,
+      "seconds": 0.106,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/rust-version.log",
+      "log_sha256": "13c251159309829475c0022f90c5f2090461c55ea85e5ffb4717f6f8d839f788"
+    },
+    {
+      "name": "cargo-version",
+      "exit": 0,
+      "seconds": 0.022,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/cargo-version.log",
+      "log_sha256": "32361150dc530c7b355695af5921ed8e649594591bc8bae5f4807fcb5dc0c23c"
+    },
+    {
+      "name": "swift-version",
+      "exit": 0,
+      "seconds": 0.102,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-version.log",
+      "log_sha256": "2c51121364fd2418268b8d4b91d1269963f6a2a14e2c0d997cc3e65c01ca7935"
+    },
+    {
+      "name": "dotnet-version",
+      "exit": 0,
+      "seconds": 0.126,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/dotnet-version.log",
+      "log_sha256": "38c8354f0a1a3a4e913e03fe6396aa12c2ef1d427921d44b19123e42dcb74e92"
+    },
+    {
+      "name": "rust-build",
+      "exit": 0,
+      "seconds": 0.471,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/rust-build.log",
+      "log_sha256": "6af1cf412eeb473522377adafcedea5f897b262a1c2910c9fd5223aa4275be7e"
+    },
+    {
+      "name": "rust-tests",
+      "exit": 0,
+      "seconds": 0.2,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/rust-tests.log",
+      "log_sha256": "f6f798aa0ddea3bad5cdc59ea3cc6f711a5469a7d3290b0dc9bee37c4b28454a"
+    },
+    {
+      "name": "swift-build",
+      "exit": 0,
+      "seconds": 1.31,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-build.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "swift-linkage",
+      "exit": 0,
+      "seconds": 0.01,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-linkage.log",
+      "log_sha256": "9a4c0b24ec22985ca62368633316ea2615e072ca18d716cb9441f70fce619b7c"
+    },
+    {
+      "name": "csharp-build",
+      "exit": 0,
+      "seconds": 1.832,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/csharp-build.log",
+      "log_sha256": "ec43d0050b2e400a62e010be1e933665543c5f77a8e3173ece549de272fd32d4"
+    },
+    {
+      "name": "csharp-foreign-schema",
+      "exit": 0,
+      "seconds": 0.028,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/csharp-foreign-schema.log",
+      "log_sha256": "b315eb344393cab6d761cd658505a947571efe2fed6ef7b8d095f7211a8c864f"
+    },
+    {
+      "name": "swift-seed",
+      "exit": 0,
+      "seconds": 0.016,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-seed.log",
+      "log_sha256": "27fcf9dc48690e34941f56935d0f68e1e8f2ac6f57ff59c4a798b23c31ca9a50"
+    },
+    {
+      "name": "csharp-resume",
+      "exit": 0,
+      "seconds": 0.048,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/csharp-resume.log",
+      "log_sha256": "747e985bd114e0c2dfc149df83ca8549e6f5f0733fc9c2c1ff7fddf14ebe8cdc"
+    },
+    {
+      "name": "swift-verify",
+      "exit": 0,
+      "seconds": 0.007,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-verify.log",
+      "log_sha256": "6a1057709292853d18cfeb8204d2636e17e3d14a4a7fc6b829b3f79f51378753"
+    },
+    {
+      "name": "csharp-owner-lock",
+      "exit": 0,
+      "seconds": 0.024,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/csharp-owner-lock.log",
+      "log_sha256": "01997e96a265f81af8f9134824edca6fff08277db677cfc8a3ca008b3c070d86"
+    },
+    {
+      "name": "csharp-crash-recovery",
+      "exit": 0,
+      "seconds": 0.03,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/csharp-crash-recovery.log",
+      "log_sha256": "089f15ae5eabfda9cc87254ca7d6ad6e2835c4ebcc8e26ee14d1efd9c426d823"
+    },
+    {
+      "name": "csharp-hardlink-rejection",
+      "exit": 0,
+      "seconds": 0.025,
+      "log": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/csharp-hardlink-rejection.log",
+      "log_sha256": "adf5a281affbf5641fe0ccfc44d2bb7b454826e57975fa067bcbac8dba57e38f"
+    }
+  ],
+  "commands": [
+    [
+      "rustc",
+      "--version"
+    ],
+    [
+      "cargo",
+      "--version"
+    ],
+    [
+      "swiftc",
+      "--version"
+    ],
+    [
+      "dotnet",
+      "--version"
+    ],
+    [
+      "cargo",
+      "build",
+      "--offline",
+      "--manifest-path",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/Cargo.toml"
+    ],
+    [
+      "cargo",
+      "test",
+      "--offline",
+      "--manifest-path",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/Cargo.toml"
+    ],
+    [
+      "swiftc",
+      "-module-cache-path",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-module-cache",
+      "-I",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/include",
+      "-L",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/cargo-target/debug/deps",
+      "-lmuses_p0_core",
+      "-Xlinker",
+      "-rpath",
+      "-Xlinker",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/cargo-target/debug/deps",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/swift/main.swift",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-proof"
+    ],
+    [
+      "otool",
+      "-L",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-proof"
+    ],
+    [
+      "dotnet",
+      "build",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/csharp/Interop.csproj",
+      "--disable-build-servers",
+      "--configfile",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/interop/csharp/NuGet.Config",
+      "-p:BaseIntermediateOutputPath=/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/net-obj/",
+      "-p:MSBuildProjectExtensionsPath=/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/net-obj/",
+      "-p:OutputPath=/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/net-bin/"
+    ],
+    [
+      "dotnet",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/net-bin/Interop.dll",
+      "foreign",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/foreign-fixture.sqlite3"
+    ],
+    [
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-proof",
+      "seed",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/fixture.sqlite3"
+    ],
+    [
+      "dotnet",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/net-bin/Interop.dll",
+      "resume",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/fixture.sqlite3"
+    ],
+    [
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/swift-proof",
+      "verify",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/fixture.sqlite3"
+    ],
+    [
+      "dotnet",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/net-bin/Interop.dll",
+      "busy",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/fixture.sqlite3"
+    ],
+    [
+      "dotnet",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/net-bin/Interop.dll",
+      "recover",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/fixture.sqlite3"
+    ],
+    [
+      "dotnet",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/net-bin/Interop.dll",
+      "alias",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/fixture-hardlink.sqlite3"
+    ]
+  ],
+  "result": "passed",
+  "dylib": {
+    "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/cargo-target/debug/deps/libmuses_p0_core.dylib",
+    "sha256": "5b853b9aefe60cc4b114d8b01dd6399dd5d9923745a942d706558fafafa94325",
+    "swift_install_name_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5/cargo-target/debug/deps/libmuses_p0_core.dylib"
+  },
+  "foreign_schema_unchanged_sha256": "94e53232de92a35d94eba13067a2d1b43ce20f79949ff6fc34dce80e6e56028c",
+  "crash_child": {
+    "pid": 68410,
+    "marker": "PENDING generation=7 engine=1",
+    "returncode": -9
+  },
+  "sqlite": {
+    "version": "3.54.0",
+    "integrity_check": "ok",
+    "foreign_key_check": [],
+    "application_id": 1297109040,
+    "user_version": 1,
+    "state": [
+      [
+        1,
+        8,
+        83,
+        101,
+        0
+      ]
+    ],
+    "rows": 72
+  },
+  "sources": {
+    "Cargo.lock": "5b32762e2d390300d62cbb4bc00b0c09487035af45f83b8e831a412589648d41",
+    "Cargo.toml": "1342c1b7f2c9fbbbc2eb817ab037837d39fb181361a55e86ea376b59f443b8fa",
+    "audit_schema.py": "14c2b45eac05e05e308950d5157785e698e39a000b5a3e5348f720a7dd86c8c0",
+    "build_and_verify.py": "300a1032e9908970127e4cacc3d7a25dd938a6bcba578e2862b51d1df65789bd",
+    "csharp/Interop.csproj": "a3c922547f29ce8679e2900e6aa5e8919e9534ce1a45b9a04e929ebf56a619fe",
+    "csharp/NuGet.Config": "2142cfb2dfa2c7feefbe40fabcc68b0dfecadafa99a1db9b70239d977cf2a7ef",
+    "csharp/Program.cs": "6a5e880ee9c504e7d4085914c7370dd28cec0eb0bde2910a5f7c3898e03268df",
+    "include/module.modulemap": "e533074cdfa6f139f2ce30d9c207ddefe43ed35fb2754c039a84cba478c64069",
+    "include/muses_p0.h": "01f5fb7f3dd6952a02ee1e707974f89b6c3ff329b63ec8e51334090c7de9065a",
+    "src/lib.rs": "d46cb5e85e22b2e710e837459663b93352ec648f6fa638d0bff10ff3ad2c2e3e",
+    "swift/main.swift": "2b816d9f61d270a61d924a5b017fb6a1bd1cc19efbe93cf641faee50b5f97811"
+  }
+}

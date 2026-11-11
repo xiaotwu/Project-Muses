@@ -1,0 +1,15 @@
+{
+  "fixture_sha256": "d30eb241f95e7c37c033251a78eae1610ac9b02dc99625442158180d35818c1b",
+  "complete_sha256": "d30eb241f95e7c37c033251a78eae1610ac9b02dc99625442158180d35818c1b",
+  "fixture_bytes": 262144,
+  "scratch_cap_bytes": 209715200,
+  "initial_allocated_bytes": 0,
+  "final_allocated_bytes": 462848,
+  "free_bytes": 574636425216,
+  "source_hashes": {
+    "muses_transport.h": "f9d06b9ec3b6b453ca9a0b607bd15e852c670d78e5f1fc7d0f5c3aabcae23b80",
+    "NativeTransport.m": "573c958c335c2211398b9bbca41c75dd3be3cf0766643d296f7909bc09333a98",
+    "LocalTests.m": "ac230bf225dcaffca26c2979047ccb9b8e978f02b90d778c21de42d532d1e6d9",
+    "run_local.py": "6ca24bc40df2c22d876529ffe7f495dfdc601f9442c43951b40c2da1ddc0fd77"
+  }
+}

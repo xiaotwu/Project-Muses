@@ -1,0 +1,144 @@
+{
+  "commands": [
+    [
+      "cc",
+      "-std=gnu11",
+      "-O2",
+      "-g0",
+      "-fwrapv",
+      "-DQUICKJS_NG_BUILD",
+      "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/upstream",
+      "-c",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/upstream/quickjs-amalgam.c",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/quickjs-ng-macos.o"
+    ],
+    [
+      "cc",
+      "-std=gnu11",
+      "-O2",
+      "-g0",
+      "-fwrapv",
+      "-DQUICKJS_NG_BUILD",
+      "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/upstream",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/runtime/embedding.c",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/quickjs-ng-macos.o",
+      "-lm",
+      "-lpthread",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/embedding-ng"
+    ],
+    [
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/deps/node_modules/@esbuild/darwin-arm64/bin/esbuild",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/runtime/fetch-smoke.mjs",
+      "--bundle",
+      "--format=iife",
+      "--platform=neutral",
+      "--target=es2022",
+      "--alias:web-streams-polyfill=/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/deps/node_modules/web-streams-polyfill/dist/ponyfill.mjs",
+      "--outfile=/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/fetch-smoke.bundle.js"
+    ],
+    [
+      "xcrun",
+      "--sdk",
+      "iphoneos",
+      "clang",
+      "-target",
+      "arm64-apple-ios17.0",
+      "-isysroot",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk",
+      "-std=gnu11",
+      "-O2",
+      "-g0",
+      "-fwrapv",
+      "-DQUICKJS_NG_BUILD",
+      "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/upstream",
+      "-c",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/upstream/quickjs-amalgam.c",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/quickjs-ng-ios.o"
+    ],
+    [
+      "xcrun",
+      "--sdk",
+      "iphoneos",
+      "clang",
+      "-target",
+      "arm64-apple-ios17.0",
+      "-isysroot",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk",
+      "-std=gnu11",
+      "-O2",
+      "-g0",
+      "-fwrapv",
+      "-DQUICKJS_NG_BUILD",
+      "-I/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/upstream",
+      "-c",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/runtime/embedding.c",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/embedding-ios.o"
+    ]
+  ],
+  "inputs": {
+    "extract.bundle.js": {
+      "sha256": "c693175852d533c240a56fcbeae087b4f784787c79d03318c8761e493ff046c8",
+      "bytes": 942145
+    },
+    "extract.corrected.bundle.js": {
+      "sha256": "17a300a3ef421c50922459a2f5bc086a121c2156ceedd50a8b3c8cc8c003b7dd",
+      "bytes": 949580
+    },
+    "reduced.js": {
+      "sha256": "be8ae511cec64bb48b61ccb280f30151ef5bb61dec2466457eb471b2a5b171a9",
+      "bytes": 189450
+    },
+    "player.js": {
+      "sha256": "5f2035b38e20c1e57ad8e51ada9ea82d1eaac59f2a4603ebd851f421e3a3f5dd",
+      "bytes": 2658728
+    },
+    "reference-solver.js": {
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198",
+      "bytes": 179564
+    }
+  },
+  "source_hashes": {
+    "bootstrap.py": "966eb292a2c9c6dc57169abf7c60a4fc692ef4bc83568802ef6aaeff40542af7",
+    "build.py": "47e376cdf2f4de26fff9f94fe183267b3fddb88c095f3afc12be6e2b88f03df1",
+    "run_tests.py": "ee58e63dd770b8ad7540bd810c53e1f997d7cbba87180102870550c245f379be",
+    "failed-build-01.json": "e424fa4ffd95f1e8872d7ad690e024b85833df67e26a3b31e916f8d8e74766b7",
+    "embedding.c": "793ccc05a48e2bd251eecbb5389c21d24fac535e586dfa74199d23ffe52549fc",
+    "runtime-budget.json": "2b16b9514c052087ff107883faab0c69501619fa881ce6a4f8c853d098fe71ee",
+    "fetch-smoke.mjs": "2aca862ff8f3a06674ba1b91d051f04a4c7440f7accb06ce7af32e7ffcde5bf6"
+  },
+  "outputs": {
+    "quickjs-ng-macos.o": {
+      "sha256": "549e3288153047c2e4f4b4006740763b6b93848a203d6a47d27cf524337103e3",
+      "bytes": 1380480
+    },
+    "fetch-smoke.bundle.js": {
+      "sha256": "143832d9e9c5fab755da2b97934b0a670434a45e94876cef3f4c4f50f80ad891",
+      "bytes": 97599
+    },
+    "embedding-ng": {
+      "sha256": "c7b5893953109ca9b7d2c7d5335ea0664b57fcfff38f7eb147347069b3566cd2",
+      "bytes": 1104560
+    },
+    "embedding-ios.o": {
+      "sha256": "a3dc50e1234053f644d70bb7db574b667a5fa09815bae9803774247f2b832f43",
+      "bytes": 20176
+    },
+    "quickjs-ng-ios.o": {
+      "sha256": "c1fa0e4b65d53e533115ed60d9d590e0efe83e7f8a73a7dbadae284d60c6d449",
+      "bytes": 1362816
+    },
+    "baseline-reduced-solver.js": {
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198",
+      "bytes": 179564
+    }
+  },
+  "macos_compiler": "Apple clang version 21.0.0 (clang-2100.4.1.1)",
+  "ios_sdk": "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk",
+  "scratch_allocated_bytes": 14389248,
+  "actual_free_bytes": 574481137664,
+  "corrected_bundle_note": "Same scoped structuredClone as the frozen P0 host and disabled upstream log output; earlier copied bundle is preserved."
+}

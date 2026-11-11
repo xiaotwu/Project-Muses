@@ -1,0 +1,215 @@
+{
+  "old": {
+    "cases": 70,
+    "expected_syntax_failures": 13,
+    "successful_initializations": 57,
+    "maxrss_bytes": 29884416,
+    "runs": [
+      {
+        "receipt": "raw/20261110T230424.597930Z-compile-at-dispatch.json",
+        "label": "compile-at-dispatch",
+        "cases": 4,
+        "exception_cases": 4,
+        "js_peak_values": [
+          10772221
+        ],
+        "maxrss_bytes": 25985024
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-compile-at-main.json",
+        "label": "compile-at-main",
+        "cases": 6,
+        "exception_cases": 6,
+        "js_peak_values": [
+          10772221
+        ],
+        "maxrss_bytes": 25968640
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-compile-brace-main.json",
+        "label": "compile-brace-main",
+        "cases": 3,
+        "exception_cases": 3,
+        "js_peak_values": [
+          10772221
+        ],
+        "maxrss_bytes": 25853952
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-compile-ndata-main.json",
+        "label": "compile-ndata-main",
+        "cases": 6,
+        "exception_cases": 0,
+        "js_peak_values": [
+          10773717
+        ],
+        "maxrss_bytes": 26263552
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-compile-nul-dispatch.json",
+        "label": "compile-nul-dispatch",
+        "cases": 10,
+        "exception_cases": 0,
+        "js_peak_values": [
+          10773717
+        ],
+        "maxrss_bytes": 28344320
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-compile-nul-main.json",
+        "label": "compile-nul-main",
+        "cases": 6,
+        "exception_cases": 0,
+        "js_peak_values": [
+          10773717
+        ],
+        "maxrss_bytes": 29851648
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-compile-nul-pthread2m.json",
+        "label": "compile-nul-pthread2m",
+        "cases": 6,
+        "exception_cases": 0,
+        "js_peak_values": [
+          10773717
+        ],
+        "maxrss_bytes": 28311552
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-compile-nul-pthread512.json",
+        "label": "compile-nul-pthread512",
+        "cases": 6,
+        "exception_cases": 0,
+        "js_peak_values": [
+          10773717
+        ],
+        "maxrss_bytes": 28213248
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-compile-space-main.json",
+        "label": "compile-space-main",
+        "cases": 3,
+        "exception_cases": 0,
+        "js_peak_values": [
+          10773717
+        ],
+        "maxrss_bytes": 28131328
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-execute-blocked-ndata-dispatch.json",
+        "label": "execute-blocked-ndata-dispatch",
+        "cases": 10,
+        "exception_cases": 0,
+        "js_peak_values": [
+          10773717
+        ],
+        "maxrss_bytes": 28180480
+      },
+      {
+        "receipt": "raw/20261110T230424.597930Z-execute-blocked-nul-dispatch.json",
+        "label": "execute-blocked-nul-dispatch",
+        "cases": 10,
+        "exception_cases": 0,
+        "js_peak_values": [
+          10773717
+        ],
+        "maxrss_bytes": 29884416
+      }
+    ]
+  },
+  "corrected": {
+    "checks": 56,
+    "eval_inputs_verified_terminated": 66,
+    "actual_bundle_executions": 22,
+    "network_requests": 0,
+    "maxrss_bytes": 30195712,
+    "runs": [
+      {
+        "receipt": "raw/20261110T231352.377950Z-corrected-actual-dispatch.json",
+        "label": "actual-dispatch",
+        "checks": 10,
+        "network_requests": 0,
+        "blocked_request_calls": 10,
+        "observed_eval_heap_bytes": 6533407,
+        "process_maxrss_bytes": 30195712,
+        "outcome": "pass",
+        "failures": 0,
+        "main_eval_calls": 10,
+        "isolated_eval_calls": 0,
+        "terminator_failures": 0
+      },
+      {
+        "receipt": "raw/20261110T231352.377950Z-corrected-actual-main.json",
+        "label": "actual-main",
+        "checks": 6,
+        "network_requests": 0,
+        "blocked_request_calls": 6,
+        "observed_eval_heap_bytes": 6533407,
+        "process_maxrss_bytes": 29949952,
+        "outcome": "pass",
+        "failures": 0,
+        "main_eval_calls": 6,
+        "isolated_eval_calls": 0,
+        "terminator_failures": 0
+      },
+      {
+        "receipt": "raw/20261110T231352.377950Z-corrected-actual-pthread512.json",
+        "label": "actual-pthread512",
+        "checks": 6,
+        "network_requests": 0,
+        "blocked_request_calls": 6,
+        "observed_eval_heap_bytes": 6533407,
+        "process_maxrss_bytes": 30195712,
+        "outcome": "pass",
+        "failures": 0,
+        "main_eval_calls": 6,
+        "isolated_eval_calls": 0,
+        "terminator_failures": 0
+      },
+      {
+        "receipt": "raw/20261110T231352.377950Z-corrected-fixture-dispatch.json",
+        "label": "fixture-dispatch",
+        "checks": 12,
+        "network_requests": 0,
+        "blocked_request_calls": 0,
+        "observed_eval_heap_bytes": 156824,
+        "process_maxrss_bytes": 11386880,
+        "outcome": "pass",
+        "failures": 0,
+        "main_eval_calls": 12,
+        "isolated_eval_calls": 12,
+        "terminator_failures": 0
+      },
+      {
+        "receipt": "raw/20261110T231352.377950Z-corrected-helpers-main.json",
+        "label": "helpers-main",
+        "checks": 8,
+        "network_requests": 0,
+        "blocked_request_calls": 0,
+        "observed_eval_heap_bytes": 154880,
+        "process_maxrss_bytes": 19546112,
+        "outcome": "pass",
+        "failures": 0,
+        "main_eval_calls": 0,
+        "isolated_eval_calls": 0,
+        "terminator_failures": 0
+      },
+      {
+        "receipt": "raw/20261110T231352.377950Z-corrected-isolated-main.json",
+        "label": "isolated-main",
+        "checks": 14,
+        "network_requests": 0,
+        "blocked_request_calls": 0,
+        "observed_eval_heap_bytes": 154880,
+        "process_maxrss_bytes": 6995968,
+        "outcome": "pass",
+        "failures": 0,
+        "main_eval_calls": 0,
+        "isolated_eval_calls": 14,
+        "terminator_failures": 0
+      }
+    ]
+  },
+  "phone_causation": "matching deterministic failure signature; original phone exception type and trailer bytes were not retained",
+  "phone_retest": "deferred by user; no new phone action"
+}

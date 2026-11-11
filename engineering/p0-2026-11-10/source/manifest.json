@@ -1,0 +1,378 @@
+{
+  "created_utc": "2026-11-10T21:22:42.911110+00:00",
+  "source_files": [
+    {
+      "path": "NativeHost.m",
+      "bytes": 20987,
+      "sha256": "bd1fc0329bc8008f12bde2f5753661555c66d782addb1bcf66644bd6874ce7fc"
+    },
+    {
+      "path": "NativeJSCHost.m",
+      "bytes": 8736,
+      "sha256": "c648d730050d7a2c7d3c60ccbf2a8da175d98d3065067e47e4923a629f27dcfe"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19274,
+      "sha256": "87e821d997d83faf006624f3d8377e83922d1d06b8d706eea6b1e17764f695dd"
+    },
+    {
+      "path": "YouTubeKitProbe.swift",
+      "bytes": 7328,
+      "sha256": "bb80de73547929f4bcdcff60fc61f5daa254d1cc54fcd396f431d75ced8a55f3"
+    },
+    {
+      "path": "bootstrap.sh",
+      "bytes": 1314,
+      "sha256": "26039fbfbe3fbb5ec40589a4ca839e6ffaf364d0f91e3c24244b86c04680f944"
+    },
+    {
+      "path": "build.sh",
+      "bytes": 1076,
+      "sha256": "fb3be6666d0a8e1a6daaac199ae031af59c022219ec7072c3538bc8ec4930bda"
+    },
+    {
+      "path": "build_ios_objects.sh",
+      "bytes": 2095,
+      "sha256": "87e2914b19e40f98830b58e703d54913a2dbeeb10756be91a3efe737b3600d1e"
+    },
+    {
+      "path": "build_jsc.sh",
+      "bytes": 782,
+      "sha256": "03c36c1fc218419fc4fdf53c1da499cb683c988f8e1270d361a2b50015fa5688"
+    },
+    {
+      "path": "build_youtubekit.sh",
+      "bytes": 1933,
+      "sha256": "99c63dadbbb5604a4214ab34dc6ec0c65492fb73fb958a2de20445670d2b2f27"
+    },
+    {
+      "path": "cleanup-inventory.json",
+      "bytes": 15488,
+      "sha256": "7da01c7aec7ae8402269e0e468b27a6e58580786f7ca641d4ee043a29b35a40f"
+    },
+    {
+      "path": "collect_evidence.py",
+      "bytes": 2896,
+      "sha256": "b9a0c5d157873b12a311a7e6a72e632efd757935867cebde17f4d973a20af654"
+    },
+    {
+      "path": "evidence/20261110T203243.780620Z-media.json",
+      "bytes": 931,
+      "sha256": "efedc199a281148b03891cebc0cbd8f9dc1f78b71cc1a04cb24b9d06cbbb3742"
+    },
+    {
+      "path": "evidence/20261110T203244.600074Z-catalog.json",
+      "bytes": 1200,
+      "sha256": "00627eb3d26b280bfbc37d2bba2a687a717baae37f9ac2634f649ade001d88c9"
+    },
+    {
+      "path": "evidence/20261110T203413.375473Z-media.json",
+      "bytes": 968,
+      "sha256": "09f0be008f5d9f629746435ccb73f4f109da4d08ddd703b9e1fadcd86e1dfa1e"
+    },
+    {
+      "path": "evidence/20261110T203413.688793Z-media.json",
+      "bytes": 970,
+      "sha256": "842901b3187cdeb699a316635e0c7336c703cebbed386a862c0fff578d363803"
+    },
+    {
+      "path": "evidence/20261110T203514.725564Z-media_direct.json",
+      "bytes": 1283,
+      "sha256": "cfdd77bf5cf5b2891f9b341b77f7cddda9d78a8182dc68431a7cfc402bcb360f"
+    },
+    {
+      "path": "evidence/20261110T203829.347807Z-background_next.json",
+      "bytes": 1070,
+      "sha256": "1dacec7194640c30859913a50068d538da61fc1b52941d55f8ee6f6afe465b91"
+    },
+    {
+      "path": "evidence/20261110T203829.469401Z-background_first.json",
+      "bytes": 1288,
+      "sha256": "59d71018f2c0ecdd531da6a2797531bef4091ece13df7beac92ba3c95d756938"
+    },
+    {
+      "path": "evidence/20261110T203908.072442Z-background_first.json",
+      "bytes": 1288,
+      "sha256": "d5c1d6f2a58656f53337d41a64a7029082a3b010ca1d0c914a31ed38b053fdd3"
+    },
+    {
+      "path": "evidence/20261110T203908.091194Z-background_next.json",
+      "bytes": 1287,
+      "sha256": "17157a40afac7c455ad4ca4f1812f317ed55499e20f89a9e7c74bdd2e3e78c70"
+    },
+    {
+      "path": "evidence/20261110T204156.793993Z-range_probe.json",
+      "bytes": 1752,
+      "sha256": "c4150ee3559c9e0773fea636b7cb8d3abff480c4d3f512815f1464ce86609fcb"
+    },
+    {
+      "path": "evidence/20261110T204335.804361Z-background_first.json",
+      "bytes": 1283,
+      "sha256": "91e2f067bbb23c273eaa2ae554cc806bf34ace2d5a09eb56ababa9a58f732ee0"
+    },
+    {
+      "path": "evidence/20261110T204335.877579Z-background_next.json",
+      "bytes": 1282,
+      "sha256": "51345e7b890ef4188454474559b9c67da66d7b2f6d73be0670717a946c1157d0"
+    },
+    {
+      "path": "evidence/20261110T204550.217214Z-background_next.json",
+      "bytes": 1282,
+      "sha256": "4cc7f5a3250f2f27529e3db4419f3280d2ac41bfb8d1a6564e0481cc377ab1f5"
+    },
+    {
+      "path": "evidence/20261110T204550.302296Z-background_first.json",
+      "bytes": 1282,
+      "sha256": "6bbf70ff308f19400ff6dbc8ad30d08c47df0844e4020db19c2504ff3b005a4d"
+    },
+    {
+      "path": "evidence/20261110T204834.455217Z-jsc-player_first.json",
+      "bytes": 1268,
+      "sha256": "110cc620801e2ec51ca2dd64a8af697bc9479fd22616792cacebb17791226baa"
+    },
+    {
+      "path": "evidence/20261110T204857.893400Z-cancel.json",
+      "bytes": 965,
+      "sha256": "42f9afe80a7b9b7a3cbb49842315b20adbbecbe6bd32aff1ae37eb7c26cc0a65"
+    },
+    {
+      "path": "evidence/20261110T204857.909024Z-memory.json",
+      "bytes": 949,
+      "sha256": "03302dfe9435e55e96fe1a64c32d6faef7a2440c35dfeeb79c454a02d0edce47"
+    },
+    {
+      "path": "evidence/20261110T204858.893046Z-sandbox.json",
+      "bytes": 954,
+      "sha256": "76e43af39b87e3f853356ba3adfe18cf53373d7b3d39075a48122f014538669a"
+    },
+    {
+      "path": "evidence/20261110T204859.085744Z-interrupt.json",
+      "bytes": 884,
+      "sha256": "c0d4aa9697cfc6fca815ee8f118cbb966ae3ea2008900cf5d19c83177424f26d"
+    },
+    {
+      "path": "evidence/20261110T205040.430266Z-hls_probe.json",
+      "bytes": 1137,
+      "sha256": "6bed2b2b5fff9397e47a6a3fc1214a528d517d3491c77293763e23d77c65e684"
+    },
+    {
+      "path": "evidence/20261110T205041.559268Z-jsc-media.json",
+      "bytes": 1175,
+      "sha256": "24881f5269db3639dcedc316bde9817d61212ab2b57dd5c942706ba0ff614a14"
+    },
+    {
+      "path": "evidence/20261110T205332.129817Z-jsc-media.json",
+      "bytes": 1275,
+      "sha256": "110cf5e9fa8f7a71b8a1ff82a4915320d56bf8c5ff8f52f2fe11e2e3a0f30640"
+    },
+    {
+      "path": "evidence/20261110T205717.049231Z-catalog.json",
+      "bytes": 1237,
+      "sha256": "ba60216ee4b3bdbd4ded79dfbee49622d90af2c789e17a671dd429ed8ed6ead0"
+    },
+    {
+      "path": "evidence/20261110T210631.596213Z-youtubekit.json",
+      "bytes": 425,
+      "sha256": "240e0b9cf1bf0d609c57ab147ed3a9cd9a7ef8ef60202a96595f9d06813aca81"
+    },
+    {
+      "path": "evidence/20261110T211035.235456Z-youtubekit-512.json",
+      "bytes": 1090,
+      "sha256": "adb8298a16a43976a7c4209182c1357da0a3edb9000b5689603d13b4446b6fb6"
+    },
+    {
+      "path": "evidence/20261110T211312.576787Z-youtubekit-512.json",
+      "bytes": 1090,
+      "sha256": "f703c333b543902cdcef25a83555754e73785b5da4fd0798d18801ab3b2f9fe8"
+    },
+    {
+      "path": "evidence/20261110T211428.401645Z-youtubekit-512.json",
+      "bytes": 1262,
+      "sha256": "cbc2f9483cc5926815cfda29ce5a014725b3d9fffba87bdf00adc7d617a046e6"
+    },
+    {
+      "path": "evidence/youtubekit-build-success.json",
+      "bytes": 177,
+      "sha256": "832513aa20cab1aafa4c023b9fdf69a2ae870ec97696eb40c077f6ccf85a4985"
+    },
+    {
+      "path": "evidence/youtubekit-provenance.json",
+      "bytes": 1498,
+      "sha256": "d755861c13b0304efed52eb0f5e9c1d98e3db35ce8c731011627942567e04143"
+    },
+    {
+      "path": "iOS-Info.plist",
+      "bytes": 1393,
+      "sha256": "b2431a68370bd0b514d58835720e6b18df7796ecb7433f64a2fdf1db0e94efd3"
+    },
+    {
+      "path": "iOSMain.m",
+      "bytes": 18269,
+      "sha256": "9d43d9b844a47dc5e73a9ea5396e7b5877f20c4177b6b7a52ba0fa5c5fc040cd"
+    },
+    {
+      "path": "inventory_source.py",
+      "bytes": 3288,
+      "sha256": "7eb1ceee83b7c6f76a3d7692157f724535ea5562949eac3fef33c12e243ac631"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 16331,
+      "sha256": "d41018b7f1f0cbad8010fa86853f84f7167cf03bda7e7ef185df461f61676c03"
+    },
+    {
+      "path": "package.json",
+      "bytes": 201,
+      "sha256": "2c63da365592f17b76fa8ee1964074e8b74203498bd53122825d4c9191cfff43"
+    },
+    {
+      "path": "prepare_youtubekit.py",
+      "bytes": 1628,
+      "sha256": "3ad0a2567b5249b8bf308f78187c448813ff972a2a115da9fe9d1475b225443d"
+    },
+    {
+      "path": "probe.js",
+      "bytes": 8548,
+      "sha256": "5a081535a8a279e3e9bc304f725a44c22d10e72914768b79a9f2feedbeb04868"
+    },
+    {
+      "path": "run_jsc.py",
+      "bytes": 1818,
+      "sha256": "6b88a578f43b0c4ce9db3b51725531c921db53c808471927a5ba2439a982804f"
+    },
+    {
+      "path": "run_probe.py",
+      "bytes": 1612,
+      "sha256": "cfba2f40612943323944eedb3704342c5b168bd03c0944154b0945aacc9ef1b0"
+    },
+    {
+      "path": "run_youtubekit.py",
+      "bytes": 2294,
+      "sha256": "a07a2d7012d81662426d52af2132cebf93ee1fe0c0b5cda913670dd28027475d"
+    },
+    {
+      "path": "shims.js",
+      "bytes": 7148,
+      "sha256": "b5434dc34da72e1efe45a2d36d9ac515e42c26e76ad66e3bdf469b3998954869"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "@bufbuild/protobuf",
+      "version": "2.17.0",
+      "license": "(Apache-2.0 AND BSD-3-Clause)",
+      "integrity": "sha512-hcPkSz6D7MiTU/5VBBhK+kxaYDoOdQ6yJRFJ3kS8Nydp+VZXfg1vrpABKPNod8bXMufsVCmiUJVIKFzCzta4uw=="
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.28.0",
+      "license": "MIT",
+      "integrity": "sha512-0T+A9WZm+bZ84nZBtk1ckYsOvyA3x7e2Acj1KdVfV4/2tdG4fzUp91YHx+GArWLtwqp77pBXVCPn2We7Letr0Q=="
+    },
+    {
+      "name": "esbuild",
+      "version": "0.28.0",
+      "license": "MIT",
+      "integrity": "sha512-sNR9MHpXSUV/XB4zmsFKN+QgVG82Cc7+/aaxJ8Adi8hyOac+EXptIp45QBPaVyX3N70664wRbTcLTOemCAnyqw=="
+    },
+    {
+      "name": "fast-text-encoding",
+      "version": "1.0.6",
+      "license": "Apache-2.0",
+      "integrity": "sha512-VhXlQgj9ioXCqGstD37E/HBeqEGV/qOD/kmbVG8h5xKBYvM1L3lR1Zn4555cQ8GkYbJa8aJSipLPndE1k6zK2w=="
+    },
+    {
+      "name": "fflate",
+      "version": "0.8.3",
+      "license": "MIT",
+      "integrity": "sha512-tbZNuJrLwGUp3zshBtdy4W+ORxZuIh8a5ilyIEQDC5rY1f3U20JMry0Ll3WBzU58EZKsEuJFXhb5gwv8CsPvgA=="
+    },
+    {
+      "name": "meriyah",
+      "version": "7.4.2",
+      "license": "ISC",
+      "integrity": "sha512-plTw1nWGJiZ+sjVDFUWm46S/2Jbu61DrBmFPOOeFET+WIKGet/XnLsQnW97czlM/wpALVzj3U861Mr+0b+Adpg=="
+    },
+    {
+      "name": "web-streams-polyfill",
+      "version": "4.2.0",
+      "license": "MIT",
+      "integrity": "sha512-0rYDzGOh9EZpig92umN5g5D/9A1Kff7k0/mzPSSCY8jEQeYkgRMoY7LhbXtUCWzLCMX0TUE9aoHkjFNB7D9pfA=="
+    },
+    {
+      "name": "youtubei.js",
+      "version": "18.3.0",
+      "license": "MIT",
+      "integrity": "sha512-6Cwn/U8a+OjpZp5XgqOjwy7Lk0RrGavm3I5zO7qZWO+fes20vhWMZnlUs0h/97SwjS0AsxAZrZ5bJ85XBJVWTw=="
+    }
+  ],
+  "quickjs": {
+    "version": "2026-06-04",
+    "license": "MIT",
+    "archive_sha256": "b376e839b322978313d929fd20663b11ba58b75df5a46c126dd19ea2fa70ad2a"
+  },
+  "youtubekit": {
+    "commit": "7f75a2299dc329c0b7855afb25d47663a02855cb",
+    "license": "MIT",
+    "helper_license": "Unlicense",
+    "archive_sha256": "8272e8acb6f8db7b01f1e3fbb4e0bbee11af0200aa0768091407282a6644e92a",
+    "runtime_result": "256MiB aborted; explicit512MiB diagnostic returned streams then exceeded RSS ceiling before complete chunk; no continuity verdict",
+    "production_budget_changed": false
+  },
+  "scratch": {
+    "root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source",
+    "allocated_bytes": 201404416,
+    "logical_file_bytes": 190173165,
+    "free_bytes": 574696243200,
+    "allocation_limit_bytes": 1073741824,
+    "cleanup_performed": false
+  },
+  "artifacts": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/MusesP0Source.app/MusesP0Source",
+      "bytes": 2995576,
+      "sha256": "cb62c7d1a67b9aeadbe9b3264dd659a400b5704149ce52f46524e72d7d29922a"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/MusesP0Source.app/probe.bundle.js",
+      "bytes": 1617073,
+      "sha256": "c8734f93b2d3f7b4acb5689a9798ff76abcaed482b073e5cac46fe6133d5dd69"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/MusesP0Source.app/Info.plist",
+      "bytes": 1393,
+      "sha256": "b2431a68370bd0b514d58835720e6b18df7796ecb7433f64a2fdf1db0e94efd3"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/MusesP0Source.app/calibration-first.m4a",
+      "bytes": 1162583,
+      "sha256": "6be992306a703c3f081b3e9b499481f4f5ec8a43ac4d14a7ef0ca547aa62a4e0"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/MusesP0Source.app/calibration-next.m4a",
+      "bytes": 1162231,
+      "sha256": "eb09ed379c49df24a97db7019a15840b934918365cf11f9a3934381d52d61cce"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/probe.bundle.js",
+      "bytes": 1617073,
+      "sha256": "c8734f93b2d3f7b4acb5689a9798ff76abcaed482b073e5cac46fe6133d5dd69"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/source-proof",
+      "bytes": 1002288,
+      "sha256": "1a4f99b90a5faac92b3599e64559310db3b200d4e29887199ef9f2c4fffa3d5a"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/source-proof-jsc",
+      "bytes": 1023856,
+      "sha256": "d73880ecfe79afcfc31109ad2bedd7b1977432ea03795be5a7b98fa336531940"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-build/out/Products/Debug/Probe",
+      "bytes": 2626576,
+      "sha256": "7d4156cc9a946ef278dd3580a28e7f9caf246065c2e4357cf17c561049da4c74"
+    }
+  ]
+}

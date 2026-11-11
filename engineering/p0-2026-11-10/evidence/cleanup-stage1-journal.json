@@ -1,0 +1,168 @@
+{
+  "plan_sha256": "1bfb1b7c0790f26e489e3e79a3b3870827157be2b9bc8fa8eb3e18d8bd256958",
+  "script_sha256": "93f8aeec03139405f6f9bbd269ac4410b06549af8c4bb4235534cf47cb67478f",
+  "started_unix": 1794345035.836844,
+  "free_before": 574712123392,
+  "actions": [
+    {
+      "key": "stop-emulator",
+      "complete": true,
+      "time_unix": 1794345038.4617758,
+      "already_stopped": false
+    },
+    {
+      "key": "stop-dedicated-adb",
+      "complete": true,
+      "time_unix": 1794345038.494899
+    },
+    {
+      "key": "preflight:/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931",
+      "complete": true,
+      "time_unix": 1794345038.715939,
+      "inventory": {
+        "entries": 119,
+        "logical_file_bytes": 37875992,
+        "allocated_bytes": 38084608,
+        "metadata_sha256": "a9565668d576ca84a54593e215da2d2552a1c4290f6734aca262942f415f7585"
+      },
+      "open_handles": 0
+    },
+    {
+      "key": "move:/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123234-0d2931",
+      "complete": true,
+      "time_unix": 1794345038.7162392,
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/interop-run-20261110-123234-0d2931",
+      "inventory": {
+        "entries": 119,
+        "logical_file_bytes": 37875992,
+        "allocated_bytes": 38084608,
+        "metadata_sha256": "a9565668d576ca84a54593e215da2d2552a1c4290f6734aca262942f415f7585"
+      }
+    },
+    {
+      "key": "preflight:/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123309-4ef255",
+      "complete": true,
+      "time_unix": 1794345038.804926,
+      "inventory": {
+        "entries": 178,
+        "logical_file_bytes": 38108102,
+        "allocated_bytes": 38420480,
+        "metadata_sha256": "49a230d22567130ded6ee0a7d983c5e2641e33a3b9621912b731a4617aee76ef"
+      },
+      "open_handles": 0
+    },
+    {
+      "key": "move:/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123309-4ef255",
+      "complete": true,
+      "time_unix": 1794345038.8052669,
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/interop-run-20261110-123309-4ef255",
+      "inventory": {
+        "entries": 178,
+        "logical_file_bytes": 38108102,
+        "allocated_bytes": 38420480,
+        "metadata_sha256": "49a230d22567130ded6ee0a7d983c5e2641e33a3b9621912b731a4617aee76ef"
+      }
+    },
+    {
+      "key": "preflight:/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123529-390a85",
+      "complete": true,
+      "time_unix": 1794345038.893506,
+      "inventory": {
+        "entries": 171,
+        "logical_file_bytes": 38065350,
+        "allocated_bytes": 38359040,
+        "metadata_sha256": "17f25c6dbfed6f1d9c69078d94d51ec84d7793556da65de2dddb784d66f85715"
+      },
+      "open_handles": 0
+    },
+    {
+      "key": "move:/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123529-390a85",
+      "complete": true,
+      "time_unix": 1794345038.893895,
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/interop-run-20261110-123529-390a85",
+      "inventory": {
+        "entries": 171,
+        "logical_file_bytes": 38065350,
+        "allocated_bytes": 38359040,
+        "metadata_sha256": "17f25c6dbfed6f1d9c69078d94d51ec84d7793556da65de2dddb784d66f85715"
+      }
+    },
+    {
+      "key": "preflight:/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5",
+      "complete": true,
+      "time_unix": 1794345038.981484,
+      "inventory": {
+        "entries": 181,
+        "logical_file_bytes": 38141796,
+        "allocated_bytes": 38465536,
+        "metadata_sha256": "85da9644804c87ae3a043aeeba75adf1e42eb55cc3fe98cff8db2239f1eaac08"
+      },
+      "open_handles": 0
+    },
+    {
+      "key": "move:/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/run-20261110-123714-dcf8d5",
+      "complete": true,
+      "time_unix": 1794345038.981823,
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/interop-run-20261110-123714-dcf8d5",
+      "inventory": {
+        "entries": 181,
+        "logical_file_bytes": 38141796,
+        "allocated_bytes": 38465536,
+        "metadata_sha256": "85da9644804c87ae3a043aeeba75adf1e42eb55cc3fe98cff8db2239f1eaac08"
+      }
+    },
+    {
+      "key": "preflight:/Users/xiaotwu/.muses/tmp/p0-20261110-01/android",
+      "complete": true,
+      "time_unix": 1794345039.068854,
+      "inventory": {
+        "entries": 60,
+        "logical_file_bytes": 1640668303,
+        "allocated_bytes": 1597874176,
+        "metadata_sha256": "6198df5f5b89aaefc827eba176b0bd84ea4bd9a41d89a884933e875fa6128e25"
+      },
+      "open_handles": 0
+    },
+    {
+      "key": "move:/Users/xiaotwu/.muses/tmp/p0-20261110-01/android",
+      "complete": true,
+      "time_unix": 1794345039.0692852,
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/android-reference",
+      "inventory": {
+        "entries": 60,
+        "logical_file_bytes": 1640668303,
+        "allocated_bytes": 1597874176,
+        "metadata_sha256": "6198df5f5b89aaefc827eba176b0bd84ea4bd9a41d89a884933e875fa6128e25"
+      }
+    },
+    {
+      "key": "preflight:/Users/xiaotwu/.android/avd/Muses_P0_BitChord_191.ini",
+      "complete": true,
+      "time_unix": 1794345039.1529589,
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 125,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "62507c838ba91cc3bea7b4fba9cab9cc8fdf00e2a90e447f9d69b111726e68e5"
+      },
+      "open_handles": 0
+    },
+    {
+      "key": "move:/Users/xiaotwu/.android/avd/Muses_P0_BitChord_191.ini",
+      "complete": true,
+      "time_unix": 1794345039.153347,
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/Muses_P0_BitChord_191.ini",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 125,
+        "allocated_bytes": 4096,
+        "metadata_sha256": "62507c838ba91cc3bea7b4fba9cab9cc8fdf00e2a90e447f9d69b111726e68e5"
+      }
+    }
+  ],
+  "failures": [],
+  "completed_unix": 1794345039.1535518,
+  "free_after": 574711914496,
+  "physical_recovery_claim_bytes": 0,
+  "note": "Same-volume recoverable moves; APFS free-space change is not exclusive recovery."
+}

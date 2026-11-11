@@ -1,0 +1,67 @@
+install prefix            /usr/local
+source path               /Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/work/sources/ffmpeg-8.0
+C compiler                clang
+C library                 
+host C compiler           gcc
+host C library            
+ARCH                      aarch64 (generic)
+big-endian                no
+runtime cpu detection     yes
+NEON enabled              yes
+DOTPROD enabled           yes
+I8MM enabled              yes
+SVE enabled               yes
+SVE2 enabled              yes
+debug symbols             no
+strip symbols             yes
+optimize for size         no
+optimizations             yes
+static                    yes
+shared                    no
+network support           yes
+threading support         pthreads
+safe bitstream reader     yes
+texi2html enabled         no
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          no
+makeinfo supports HTML    no
+xmllint enabled           yes
+
+External libraries:
+
+External libraries providing hardware acceleration:
+
+Libraries:
+avcodec                 avutil
+avformat                swresample
+
+Programs:
+
+Enabled decoders:
+aac                     opus
+
+Enabled encoders:
+
+Enabled hwaccels:
+
+Enabled parsers:
+aac                     opus
+
+Enabled demuxers:
+matroska                mov
+
+Enabled muxers:
+
+Enabled protocols:
+file                    http                    tcp
+
+Enabled filters:
+
+Enabled bsfs:
+
+Enabled indevs:
+
+Enabled outdevs:
+
+License: LGPL version 2.1 or later

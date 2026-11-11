@@ -1,0 +1,214 @@
+{
+  "source_sha256": {
+    "ios/RunPolicy.h": "c6c2a116efb4d3cdb517065ea1cc2b36f32287b4c2c899cc575fdad125bb7cd7",
+    "ios/PolicyTests.c": "c1bdc57285dacba01efa205842fabb647cd04abf51c597bbe74faf19f6a9f2ba",
+    "ios/RealMediaABITests.cpp": "bfd48248129dfd5f9c2f92a88fa7203bef621cc2113215f5b091ec6379691f43",
+    "ios/run_real_abi.py": "43c796694a45640fe26563659dbdd138613357317c814d8e79f6f1c2077dd524",
+    "ios/freeze_evidence.py": "41ef72bd04ad2a6b34f39461b7742d3e3eb2ea75b1e0d367da89aca0a49077ad",
+    "ios/README.md": "cedfd4db33461a1371b44d8013832cf554870a2f2e803cf60e52446abe4bed5a",
+    "ios/iOSMain.m": "bf3b2c258c366eed0c106c727c3c5434f62de2a3ae41c1bec28de35060774471",
+    "ios/verify.py": "0cddc089b57df4d0941eb5b5f04bd60532461d43a26ca26c45a92ede06f6f84f",
+    "ios-review.md": "1d0eee654eb062b289747ba6090dfb3aea0e988219a6c97f4c1f5bdf4e4fd092"
+  },
+  "evidence": {
+    "policy-ownership/normal-build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "policy-ownership/tsan-run.log": {
+      "sha256": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+      "bytes": 133
+    },
+    "policy-ownership/tsan-build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "policy-ownership/normal-run.log": {
+      "sha256": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+      "bytes": 133
+    },
+    "policy-ownership/manifest.json": {
+      "sha256": "30d85dd6066e16240e76dba11fc7717bc95954c86660af1802e5cbea5bc2a024",
+      "bytes": 3187
+    },
+    "policy-ownership/ios-syntax.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "policy-initial/normal-build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "policy-initial/tsan-run.log": {
+      "sha256": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+      "bytes": 133
+    },
+    "policy-initial/tsan-build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "policy-initial/normal-run.log": {
+      "sha256": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+      "bytes": 133
+    },
+    "policy-initial/manifest.json": {
+      "sha256": "0ef1aa8cf52cd30acd5691fc84b63d967c8442c67f45d54aa254fe113828c382",
+      "bytes": 3187
+    },
+    "policy-initial/ios-syntax.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "guard-receipts/97a4c89d16e04b0185dcc574faaca7f3.json": {
+      "sha256": "b327a5ea7b514213bc89a1930758bcde7e165529215ea73659677bca107e1aec",
+      "bytes": 583
+    },
+    "guard-receipts/3bfcb1a513cb4fadac91a7c028c1602b.json": {
+      "sha256": "a661d61a3715f6af552b93bc11bc8bad8d9c873e92442066c9e8dc3ea68fd9e0",
+      "bytes": 585
+    },
+    "guard-receipts/6f173257f94d43919e0efd10ae222359.json": {
+      "sha256": "fbd2f877370aacbc6d5360385ae275f93ff4a48ee2fd18e264b9ee7e41015657",
+      "bytes": 585
+    },
+    "guard-receipts/2e4a34d791184672b76e0104ca39cd0c.json": {
+      "sha256": "80549ce496cbc17d6fcbdfe04f5771f04edf3edce97e3f393ddb0c2797539041",
+      "bytes": 584
+    },
+    "real-audio-abi/stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "real-audio-abi/provenance.json": {
+      "sha256": "4a2cbf917b67199e6577589a425495ec054e6a08ece8651372a9c481055cd479",
+      "bytes": 2128
+    },
+    "real-audio-abi/results.jsonl": {
+      "sha256": "59eb12b0e943c7bbc25a8c563c915c2c734e0dbc8db9187da01d5ef59bebbba8",
+      "bytes": 347
+    },
+    "real-audio-abi/manifest.json": {
+      "sha256": "191210f1cce0e99303b68e6380c7e954f62846c98b5e2a990acc28086f83be06",
+      "bytes": 3356
+    },
+    "real-audio-abi/build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "policy-final/normal-build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "policy-final/tsan-run.log": {
+      "sha256": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+      "bytes": 133
+    },
+    "policy-final/tsan-build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "policy-final/normal-run.log": {
+      "sha256": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+      "bytes": 133
+    },
+    "policy-final/manifest.json": {
+      "sha256": "df9580551abc36ffccd6f949ace5018ac1f17a77f6cff6ffa78fede87b5587a5",
+      "bytes": 3187
+    },
+    "policy-final/ios-syntax.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  "scratch_cleanup_inventory": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223013",
+      "owner": "p0_audio",
+      "status": "completed helper scratch; eligible for coordinator recoverable cleanup after evidence collection",
+      "logical_bytes": 94686,
+      "allocated_bytes": 118784,
+      "open_files_observed": 0,
+      "files": {
+        "normal-build.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tsan-run.log": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+        "tsan-build.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "normal-run.log": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+        "policy-normal": "64953d36036ff89bec0b450bcbf74dec3353764d59d9763a3a7b64f1093271d8",
+        "policy-tsan": "732f70099d977735ed619edac03978634db98399043ff89a67e576b227e8caa0",
+        "manifest.json": "0ef1aa8cf52cd30acd5691fc84b63d967c8442c67f45d54aa254fe113828c382",
+        "ios-syntax.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "policy-tsan.dSYM/Contents/Info.plist": "e52f433d1490c5f806d7ca3f7c34859520956dff343405963f1d0b6cab206a22",
+        "policy-tsan.dSYM/Contents/Resources/Relocations/aarch64/policy-tsan.yml": "dc17babd1b85e52a2e85fe65ae1175e91b9bdfcc9d68ef52f6d0b7b6cfef9bf4",
+        "policy-tsan.dSYM/Contents/Resources/DWARF/policy-tsan": "2090eb76f9ff0270b68afc213fcae5a1bc1fa8cdc594948eea2ffba8c3929ce0"
+      }
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223259",
+      "owner": "p0_audio",
+      "status": "completed helper scratch; eligible for coordinator recoverable cleanup after evidence collection",
+      "logical_bytes": 94686,
+      "allocated_bytes": 118784,
+      "open_files_observed": 0,
+      "files": {
+        "normal-build.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tsan-run.log": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+        "tsan-build.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "normal-run.log": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+        "policy-normal": "64953d36036ff89bec0b450bcbf74dec3353764d59d9763a3a7b64f1093271d8",
+        "policy-tsan": "50a0c7c7800b4f5d3e0facdfcc4b48615b567b2c72976e8411d789d35e0b7819",
+        "manifest.json": "30d85dd6066e16240e76dba11fc7717bc95954c86660af1802e5cbea5bc2a024",
+        "ios-syntax.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "policy-tsan.dSYM/Contents/Info.plist": "e52f433d1490c5f806d7ca3f7c34859520956dff343405963f1d0b6cab206a22",
+        "policy-tsan.dSYM/Contents/Resources/Relocations/aarch64/policy-tsan.yml": "aa157acec7e318a084191f720824da5872a0059d7d42e44631c323604551b518",
+        "policy-tsan.dSYM/Contents/Resources/DWARF/policy-tsan": "d50bdb3e2efb888a75f80c0f76e1bce73c5a90c88d06b407a9d8c64132ff6109"
+      }
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223423",
+      "owner": "p0_audio",
+      "status": "completed helper scratch; eligible for coordinator recoverable cleanup after evidence collection",
+      "logical_bytes": 94686,
+      "allocated_bytes": 118784,
+      "open_files_observed": 0,
+      "files": {
+        "normal-build.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tsan-run.log": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+        "tsan-build.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "normal-run.log": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+        "policy-normal": "64953d36036ff89bec0b450bcbf74dec3353764d59d9763a3a7b64f1093271d8",
+        "policy-tsan": "180bd143f5f0ae387c63f420885175170914c00db61b10de3782c4ae6a567bdd",
+        "manifest.json": "df9580551abc36ffccd6f949ace5018ac1f17a77f6cff6ffa78fede87b5587a5",
+        "ios-syntax.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "policy-tsan.dSYM/Contents/Info.plist": "e52f433d1490c5f806d7ca3f7c34859520956dff343405963f1d0b6cab206a22",
+        "policy-tsan.dSYM/Contents/Resources/Relocations/aarch64/policy-tsan.yml": "9ff91bd75893611717998edce43a93e337e7e0a7b6a61ceb81ae058799fe604f",
+        "policy-tsan.dSYM/Contents/Resources/DWARF/policy-tsan": "9398c2102a091e383888806c8a7e6328141cc76e522435081c811d63cb85c12a"
+      }
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/real-audio-abi-20261110-223118",
+      "owner": "p0_audio",
+      "status": "completed helper scratch; eligible for coordinator recoverable cleanup after evidence collection",
+      "logical_bytes": 6579397,
+      "allocated_bytes": 6594560,
+      "open_files_observed": 0,
+      "files": {
+        "miniaudio.h": "6b376c7fbb1352ba1e0e432ab66069b335ea9405e45cb6c30b97ef0f3c9c3e0e",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "real-media-audio-abi": "70e5d647cddb8fa91aaeffadfd290a314114b2750dd80b78b0126a96fa104eed",
+        "provenance.json": "4a2cbf917b67199e6577589a425495ec054e6a08ece8651372a9c481055cd479",
+        "miniaudio-backend.o": "cd2a842f4ca3bcdf58c60c4545883cd72b7413382e8133e063f4ff8340ceea80",
+        "results.jsonl": "59eb12b0e943c7bbc25a8c563c915c2c734e0dbc8db9187da01d5ef59bebbba8",
+        "manifest.json": "191210f1cce0e99303b68e6380c7e954f62846c98b5e2a990acc28086f83be06",
+        "build.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "actual_free_bytes": 574404059136,
+  "physical_bytes_recovered": 0,
+  "cleanup_performed": false,
+  "phone_operations": false,
+  "external_network_requests": false,
+  "source_media_modified": false,
+  "human_audibility_tested": false,
+  "scope": "iOS controller syntax/policy and muted macOS real-file audio ABI only; source-v2 phone gate not completed"
+}

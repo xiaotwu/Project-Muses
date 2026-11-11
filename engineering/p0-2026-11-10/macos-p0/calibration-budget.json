@@ -1,0 +1,13 @@
+{
+  "scope": "Prepare output-to-microphone calibration helper; recording and audible run await user coordination",
+  "parent_stage_budget_sha256": "de134250d8992c886855224b22710e284187b56ee044bb90a58f12cb60d90c4e",
+  "scratch": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration",
+  "allocation": "interop",
+  "scratch_limit_bytes": 67108864,
+  "free_floor_bytes": 42949672960,
+  "free_before_bytes": 573756051456,
+  "capture_limit_seconds": 8,
+  "in_memory_audio_limit_bytes": 8388608,
+  "raw_audio_persistence": false,
+  "capture_on_launch": false
+}

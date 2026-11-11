@@ -1,0 +1,1775 @@
+{
+  "artifacts": [
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "miniaudio-backend.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "11194af925447dd1554d4ef367d7e933bef400ff1b690d9f162514faa11038ab",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/miniaudio-backend.o",
+      "sha256": "cd2a842f4ca3bcdf58c60c4545883cd72b7413382e8133e063f4ff8340ceea80"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "quickjs.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "40d7c158db688fbbd80ab8cfa79a99d027bb966051cc35cbd08ae7e0d599a655",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/quickjs.o",
+      "sha256": "eab9b1bf6ab7ff92584cf87eabc6b9cb462ae403873f066918a472b7810a8c48"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dtoa.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "cc0c249567f678835c89c62e92a00b57307b5b8ad5587feef061b2f97e25da1d",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/dtoa.o",
+      "sha256": "4dab262c4b13a67fe058bdad9a15625fb05cc5cc57edada8dab988b8c289a896"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "libregexp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "f120372ebd285016b44e0e9a8f481265f3ca6207e14a657bc0ff2782783f9af2",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/libregexp.o",
+      "sha256": "2edc5d05705abbf1b5e7d4a91215aedb207bb3e88a480a970c635e5699e0163c"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "libunicode.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "42086a8a352b1e35333a57b1c039458e7687f82044a4dc1031b2d787b436a4be",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/libunicode.o",
+      "sha256": "c71f51df7d74f6eb40bcdbac748310ab2bf690f1eddf4e9311baca763e08a645"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "cutils.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "43539fcc5637e995b9ab0414c22d131ba74ab908211b058be793296169b86a39",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/cutils.o",
+      "sha256": "4b76016318fec8a7926a0fbc3b2ec5e65691e53850538d06f51e236d08c262c8"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tree-sitter.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "ddedf92b2cfcc0d23f8e303eed7c75e897ada7511fa4a9d4d89efa61fd63d5da",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/tree-sitter.o",
+      "sha256": "87a30795984aef96f9886fcab5c75e91b57a2d3f34bfce72c18b7ce42a64fe5f"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "javascript.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "f3c8b0efde75dff659a473f2f0fdf3a8fbc70431b738ef3424c341af8c33007e",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/javascript.o",
+      "sha256": "472926253a06e6e461df3391fe42c7f54d42ca2447b5e67045ba3b2b7606772d"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "scanner.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "de0f3ac06dc469a4d49902f7068274156e7e270d932e5a4f288dc743b58182f7",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/scanner.o",
+      "sha256": "75132eab8d59dceffc6400182dc34ca740d9151fe4927ee858fcdb17b961a5a8"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "p0_parser.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "6c9ae55364aab9cde9d2eb704b0b28d3457130b40fffc9424e9fcecf7497fb38",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/objects/p0_parser.o",
+      "sha256": "b60f1408e68117dbcb43f97ec3527ebb77c43006d4295fc5e870cfd1f761d285"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacdec.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacdec_ac.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacdec_float.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacdec_lpd.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacdec_tab.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacdec_usac.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aac_ac3_parser.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aac_parser.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacps_common.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacps_float.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacpsdsp_float.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacsbr.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aactab.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacpsdsp_init_aarch64.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aacpsdsp_neon.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "fdctdsp_init_aarch64.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "fdctdsp_neon.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "idctdsp_init_aarch64.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "idctdsp_neon.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "opusdsp_init.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "opusdsp_neon.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "sbrdsp_init_aarch64.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "sbrdsp_neon.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "simple_idct_neon.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "ac3_parser.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "adts_header.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "adts_parser.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "allcodecs.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "avcodec.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "avdct.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "bitstream.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "bitstream_filters.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "bsf.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "cbrt_data.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "codec_desc.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "codec_par.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "d3d11va.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "decode.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dirac.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dv_profile.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "encode.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "faandct.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "faanidct.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "fdctdsp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "get_buffer.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "idctdsp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "imgconvert.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "jfdctfst.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "jfdctint.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "jni.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "jrevdct.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "kbdwin.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "lcevcdec.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mathtables.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mediacodec.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mpeg12framerate.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mpeg4audio.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mpeg4audio_sample_rates.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "options.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "celt.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dec.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dec_celt.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dsp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "parse.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "parser.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "pvq.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "rc.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "silk.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tab.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "packet.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "parser.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "parsers.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "profiles.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "pthread.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "pthread_frame.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "pthread_slice.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "qsv_api.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "raw.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "sbrdsp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "simple_idct.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "sinewin.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "threadprogress.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "utils.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "version.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "vlc.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "vorbis_data.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "vorbis_parser.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "xiph.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "ac3_channel_layout_tab.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mpegaudiotabs.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "to_upper4.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "e8c0118a853bd2ba774cbe5660adee5e06b2c52a6987f0549f4a70ce38475c8d",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/lib/libavcodec.a",
+      "sha256": "cdbf9ded338aa5d48a755c3d8c19b6d5692d392ef3f7b96818bb84cf0cea1e72"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "allformats.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "avformat.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "avio.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aviobuf.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "demux.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "demux_utils.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dovi_isom.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dump.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dv.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dvdclut.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "file.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "flac_picture.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "format.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "http.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "httpauth.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "iamf.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "iamf_parse.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "iamf_reader.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "id3v1.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "id3v2.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "isom.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "isom_tags.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "matroska.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "matroskadec.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "metadata.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mov.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mov_chan.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mov_esds.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mux.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mux_utils.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "network.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "oggparsevorbis.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "options.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "os_support.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "protocols.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "qtpalette.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "replaygain.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "riff.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "riffdec.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "rmsipr.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "sdp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "seek.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tcp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "url.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "urldecode.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "utils.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "version.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "vorbiscomment.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "0c0e760441a578e9b625a1488bdc897a4eb37245cc7e1eb510e0143b89e451d8",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/lib/libavformat.a",
+      "sha256": "8fbc4f843b26e9776002cee1a159bd75b2a8372e7fc949e88b2af8377cbd1936"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "cpu.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "cpu_sve.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "float_dsp_init.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "float_dsp_neon.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tx_float_init.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tx_float_neon.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "adler32.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aes.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "aes_ctr.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "ambient_viewing_environment.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "audio_fifo.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "avsscanf.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "avstring.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "base64.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "blowfish.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "bprint.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "buffer.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "camellia.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "cast5.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "channel_layout.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "container_fifo.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "cpu.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "crc.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "csp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "des.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "detection_bbox.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dict.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "display.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dovi_meta.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "downmix_info.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "encryption_info.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "error.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "eval.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "executor.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "fifo.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "file.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "file_open.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "film_grain_params.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "fixed_dsp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "float_dsp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "float_scalarproduct.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "frame.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "hash.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "hdr_dynamic_metadata.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "hdr_dynamic_vivid_metadata.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "hmac.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "hwcontext.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "hwcontext_stub.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "iamf.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "imgutils.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "integer.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "intmath.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "lfg.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "lls.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "log.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "log2_tab.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "lzo.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mastering_display_metadata.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mathematics.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "md5.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "mem.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "murmur3.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "opt.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "parseutils.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "pixdesc.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "pixelutils.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "random_seed.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "rational.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "rc4.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "refstruct.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "reverse.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "ripemd.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "samplefmt.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "sha.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "sha512.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "side_data.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "slicethread.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "spherical.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "stereo3d.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tdrdi.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tea.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "threadmessage.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "time.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "timecode.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "timecode_internal.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "timestamp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tree.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "twofish.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tx.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tx_double.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tx_float.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "tx_int32.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "utils.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "uuid.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "version.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "video_enc_params.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "video_hint.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "xga_font_data.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "xtea.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "1c0f3b4cebb45df9425d579aab1fdbfcdc8a5f9701d13cae553835f7ee9d0165",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/lib/libavutil.a",
+      "sha256": "98ad0cbf1520bc1e9b015f16eb830f688f9d77852ecfd6d7163f77e3ad5a83d3"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "audio_convert_init.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "audio_convert_neon.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "resample.o",
+          "minimum": "26.0",
+          "sdk": "n/a"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "resample_init.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "audioconvert.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "dither.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "options.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "rematrix.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "resample.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "resample_dsp.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "swresample.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "swresample_frame.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        },
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "version.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "0bc6f1ff972e696250d35fb3f0eb26bc1976490fd919b94505051ff9596ae9b8",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/kit/lib/libswresample.a",
+      "sha256": "c61c832836c6c6d053c270ad52dc850c8deafdeec1d03444afc219349b47b39c"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "Reference.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "ceada4d34b317d39d54a7e50f1b3c91157793c51f3629e3a289000c9914c691e",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049/objects/Reference.o",
+      "sha256": "ac7c0dd24ceda3bf2a934bec8d1ae3bbbad8e77f27c6e3fdcec24d2e6dc687e2"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "SourceResolver.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "024b2ed0caf7d9454735197978515894e80749983698e0e58842031053ac2237",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049/objects/SourceResolver.o",
+      "sha256": "411ce40edbf0f582d5924498b9efd371fb7e648ef733c56234ab876c62705b91"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "Streaming.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "2de3c44759e6ee297b888b2e0c90f6c2717d03b3a7ffbc73c057c48f72029aa2",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049/objects/Streaming.o",
+      "sha256": "535dc4a1f42ebea92ae08544d148b1e6db9da84bb0da14398aa789cc5f4f822a"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "transport-local.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "4ddc68060154ffa8267ada7da8fa2eeb0b06e40551c750588d1c4de57e5e3ab8",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049/objects/transport-local.o",
+      "sha256": "d29783b6324b035bc104d7375563dea204ed688000a4842caf868afc74e987ce"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "transport-public.o",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "6e1bd0bf738e91f8b130f9eca63c5e59f7457763b1b0701d22227d1c96ddff78",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049/objects/transport-public.o",
+      "sha256": "f57aaa6a5ec0fb4950227281bb1475f5251c3e02b662774b602b0d3ed4fc31fc"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "stream-local",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "f03a367b2ff2034b538c14d1e6563beb10a8bc46fc2d956810b57f8f5f809dde",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049/stream-local",
+      "sha256": "a7dc8c2baab282869261c5972d05149c258882a5a240f44bc8b1149bee65c643"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "stream-public",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "eee85ab0984a811c3094337c3ea95954a4cc0c45fa034ed0ea8fc36e9eb9f12b",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049/stream-public",
+      "sha256": "9a611f57a01deaa9823127aeab7c00b6abc1e3b43c2d8f5b30b408600af348c0"
+    },
+    {
+      "members": [
+        {
+          "command": "LC_BUILD_VERSION",
+          "member": "reference",
+          "minimum": "26.0",
+          "sdk": "27.2"
+        }
+      ],
+      "otool_stdout_sha256": "ed68ffad51f3fe8cf0b15f1842d84c74e81933c39ad87519eac5081e5761d194",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049/reference",
+      "sha256": "73242be40b97f10d4034ee03cc2a7f4aa6aad65b17dadebf1266785b2c83de46"
+    }
+  ],
+  "maximum_minimum_version": "26.0",
+  "method": "otool -l every linked object/archive member and final binary; ar -t count cross-check",
+  "runtime_on_macos_26": false
+}

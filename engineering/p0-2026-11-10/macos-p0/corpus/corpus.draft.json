@@ -1,0 +1,2677 @@
+{
+  "schema_version": 1,
+  "corpus_id": "macos-p0-candidates-v1",
+  "status": "draft",
+  "created_on": "2026-11-10",
+  "owner": "muses-p0",
+  "frozen_at": null,
+  "reviewer": null,
+  "cases": [
+    {
+      "case_id": "C001",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "YQHsXMglC9A",
+        "page": "https://www.youtube.com/watch?v=YQHsXMglC9A"
+      },
+      "metadata": {
+        "title": "Hello",
+        "artist": "Adele",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=YQHsXMglC9A",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C002",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "mHONNcZbwDY",
+        "page": "https://www.youtube.com/watch?v=mHONNcZbwDY"
+      },
+      "metadata": {
+        "title": "Hello",
+        "artist": "Lionel Richie",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=mHONNcZbwDY",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C003",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "kTJczUoc26U",
+        "page": "https://www.youtube.com/watch?v=kTJczUoc26U"
+      },
+      "metadata": {
+        "title": "STAY",
+        "artist": "The Kid LAROI, Justin Bieber",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=kTJczUoc26U",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C004",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "JF8BRvqGCNs",
+        "page": "https://www.youtube.com/watch?v=JF8BRvqGCNs"
+      },
+      "metadata": {
+        "title": "Stay",
+        "artist": "Rihanna, Mikky Ekko",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=JF8BRvqGCNs",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C005",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "y8AWFf7EAc4",
+        "page": "https://www.youtube.com/watch?v=y8AWFf7EAc4"
+      },
+      "metadata": {
+        "title": "Hallelujah",
+        "artist": "Jeff Buckley",
+        "duration_ms": null,
+        "media_kind": "live_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=y8AWFf7EAc4",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "Live at Bearsville",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C006",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "YrLk4vdY28Q",
+        "page": "https://www.youtube.com/watch?v=YrLk4vdY28Q"
+      },
+      "metadata": {
+        "title": "Hallelujah",
+        "artist": "Leonard Cohen",
+        "duration_ms": null,
+        "media_kind": "live_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=YrLk4vdY28Q",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "Live in London 2008",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C007",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "djV11Xbc914",
+        "page": "https://www.youtube.com/watch?v=djV11Xbc914"
+      },
+      "metadata": {
+        "title": "Take On Me",
+        "artist": "a-ha",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=djV11Xbc914",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "Official Video 4K",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C008",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "HzdD8kbDzZA",
+        "page": "https://www.youtube.com/watch?v=HzdD8kbDzZA"
+      },
+      "metadata": {
+        "title": "Take on Me",
+        "artist": "a-ha",
+        "duration_ms": null,
+        "media_kind": "audio",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=HzdD8kbDzZA",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "Hunting High and Low",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C009",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "92SGEe8l2Ng",
+        "page": "https://www.youtube.com/watch?v=92SGEe8l2Ng"
+      },
+      "metadata": {
+        "title": "Take On Me (MTV Unplugged)",
+        "artist": "a-ha",
+        "duration_ms": null,
+        "media_kind": "audio",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=92SGEe8l2Ng",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "MTV Unplugged - Summer Solstice",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C010",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "jg5mXCCbd0U",
+        "page": "https://www.youtube.com/watch?v=jg5mXCCbd0U"
+      },
+      "metadata": {
+        "title": "Take On Me (MTV Unplugged / Edit)",
+        "artist": "a-ha",
+        "duration_ms": null,
+        "media_kind": "audio",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=jg5mXCCbd0U",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "MTV Unplugged edit",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C011",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "4D7u5KF7SP8",
+        "page": "https://www.youtube.com/watch?v=4D7u5KF7SP8"
+      },
+      "metadata": {
+        "title": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)",
+        "artist": "Daft Punk",
+        "duration_ms": null,
+        "media_kind": "audio",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=4D7u5KF7SP8",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "Random Access Memories",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C012",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "Rgrt_8mXrK8",
+        "page": "https://www.youtube.com/watch?v=Rgrt_8mXrK8"
+      },
+      "metadata": {
+        "title": "Get Lucky (Radio Edit - feat. Pharrell Williams and Nile Rodgers)",
+        "artist": "Daft Punk",
+        "duration_ms": null,
+        "media_kind": "audio",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=Rgrt_8mXrK8",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "radio_edit",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C013",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "NnC2MtBSdsg",
+        "page": "https://www.youtube.com/watch?v=NnC2MtBSdsg"
+      },
+      "metadata": {
+        "title": "Get Lucky (Daft Punk Remix)",
+        "artist": "Daft Punk",
+        "duration_ms": null,
+        "media_kind": "audio",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=NnC2MtBSdsg",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "remix",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C014",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "5NV6Rdv1a3I",
+        "page": "https://www.youtube.com/watch?v=5NV6Rdv1a3I"
+      },
+      "metadata": {
+        "title": "Get Lucky (Official Audio) ft. Pharrell Williams, Nile Rodgers",
+        "artist": "Daft Punk",
+        "duration_ms": null,
+        "media_kind": "audio",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=5NV6Rdv1a3I",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "unknown",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C015",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "SX_ViT4Ra7k",
+        "page": "https://www.youtube.com/watch?v=SX_ViT4Ra7k"
+      },
+      "metadata": {
+        "title": "Lemon",
+        "artist": "米津玄師 Kenshi Yonezu",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "ja",
+        "latin"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C016",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "ZRtdQ81jPUQ",
+        "page": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ"
+      },
+      "metadata": {
+        "title": "アイドル",
+        "artist": "YOASOBI",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "ja",
+        "latin"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C017",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "x8VYWazR5mE",
+        "page": "https://www.youtube.com/watch?v=x8VYWazR5mE"
+      },
+      "metadata": {
+        "title": "夜に駆ける",
+        "artist": "YOASOBI",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=x8VYWazR5mE",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "ja",
+        "latin"
+      ],
+      "tags": [
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C018",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "4DxL6IKmXx4",
+        "page": "https://www.youtube.com/watch?v=4DxL6IKmXx4"
+      },
+      "metadata": {
+        "title": "炎",
+        "artist": "LiSA",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "unknown",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=4DxL6IKmXx4",
+        "notes": "Public page fetch throttled; proposed identity remains unknown. No repeated request or access bypass."
+      },
+      "languages": [
+        "ja",
+        "latin"
+      ],
+      "tags": [
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "unknown",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C019",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "Qp3b-RXtz4w",
+        "page": "https://www.youtube.com/watch?v=Qp3b-RXtz4w"
+      },
+      "metadata": {
+        "title": "うっせぇわ",
+        "artist": "Ado",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=Qp3b-RXtz4w",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "ja",
+        "latin"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C020",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "HsuGYhLsKyo",
+        "page": "https://www.youtube.com/watch?v=HsuGYhLsKyo"
+      },
+      "metadata": {
+        "title": "プリマドンナ",
+        "artist": "Roselia",
+        "duration_ms": null,
+        "media_kind": "unknown",
+        "state": "unknown",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=HsuGYhLsKyo",
+        "notes": "Public page fetch throttled; proposed identity remains unknown. No repeated request or access bypass."
+      },
+      "languages": [
+        "ja",
+        "latin"
+      ],
+      "tags": [
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "unknown",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C021",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "sHD_z90ZKV0",
+        "page": "https://www.youtube.com/watch?v=sHD_z90ZKV0"
+      },
+      "metadata": {
+        "title": "稻香 Rice Field",
+        "artist": "周杰倫 Jay Chou",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=sHD_z90ZKV0",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "zh",
+        "latin"
+      ],
+      "tags": [
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C022",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "bu7nU9Mhpyo",
+        "page": "https://www.youtube.com/watch?v=bu7nU9Mhpyo"
+      },
+      "metadata": {
+        "title": "告白氣球 Love Confession",
+        "artist": "周杰倫 Jay Chou",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=bu7nU9Mhpyo",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "zh",
+        "latin"
+      ],
+      "tags": [
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C023",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "_sQSXwdtxlY",
+        "page": "https://www.youtube.com/watch?v=_sQSXwdtxlY"
+      },
+      "metadata": {
+        "title": "小幸運 A Little Happiness",
+        "artist": "田馥甄 Hebe Tien",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=_sQSXwdtxlY",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "zh",
+        "latin"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "Our Times movie-theme MV",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C024",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "YD9r_tTtlaA",
+        "page": "https://www.youtube.com/watch?v=YD9r_tTtlaA"
+      },
+      "metadata": {
+        "title": "小幸運 (我的少女時代電影主題曲)",
+        "artist": "田馥甄",
+        "duration_ms": null,
+        "media_kind": "audio",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=YD9r_tTtlaA",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "zh"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "movie_theme_audio",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C025",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "T4SimnaiktU",
+        "page": "https://www.youtube.com/watch?v=T4SimnaiktU"
+      },
+      "metadata": {
+        "title": "光年之外",
+        "artist": "G.E.M. 鄧紫棋",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "unknown",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=T4SimnaiktU",
+        "notes": "Public page fetch failed; proposed identity remains unknown."
+      },
+      "languages": [
+        "zh",
+        "latin"
+      ],
+      "tags": [
+        "mixed_script",
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "unknown",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C026",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "jvqFAi7vkBc",
+        "page": "https://www.youtube.com/watch?v=jvqFAi7vkBc"
+      },
+      "metadata": {
+        "title": "Sam Altman: OpenAI, GPT-5, Sora, Board Saga, Elon Musk, Ilya, Power & AGI | #419",
+        "artist": "Lex Fridman",
+        "duration_ms": null,
+        "media_kind": "podcast",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://lexfridman.com/sam-altman-2/",
+        "notes": "Publisher page links exact YouTube embed and chapter headings beyond one hour. Total duration and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "unicode_punctuation",
+        "long_content",
+        "chaptered_podcast"
+      ],
+      "recording": "unknown",
+      "version": "full_episode_419",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C027",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "JN3KPFbWCy8",
+        "page": "https://www.youtube.com/watch?v=JN3KPFbWCy8"
+      },
+      "metadata": {
+        "title": "Elon Musk: War, AI, Aliens, Politics, Physics, Video Games, and Humanity | #400",
+        "artist": "Lex Fridman",
+        "duration_ms": null,
+        "media_kind": "podcast",
+        "state": "catalog_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://lexfridman.com/elon-musk-4/",
+        "notes": "Publisher page links exact YouTube embed and chapter headings beyond one hour. Total duration and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "long_content",
+        "chaptered_podcast"
+      ],
+      "recording": "unknown",
+      "version": "full_episode_400",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C028",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "aqz-KE-bpKQ",
+        "page": "https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+      },
+      "metadata": {
+        "title": "Big Buck Bunny",
+        "artist": "Blender Foundation",
+        "duration_ms": null,
+        "media_kind": "film",
+        "state": "unknown",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+        "notes": "Existing P0 source-v2 complete-transfer/decode evidence is separate; no present corpus audition or onset measurement."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "unknown",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C029",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "eRsGyueVLvQ",
+        "page": "https://www.youtube.com/watch?v=eRsGyueVLvQ"
+      },
+      "metadata": {
+        "title": "Sintel",
+        "artist": "Blender Foundation",
+        "duration_ms": null,
+        "media_kind": "film",
+        "state": "unknown",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=eRsGyueVLvQ",
+        "notes": "Existing P0 source-v2 complete-transfer/decode evidence is separate; no present corpus audition or onset measurement."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "unknown",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C030",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "JGwWNGJdvx8",
+        "page": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+      },
+      "metadata": {
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C031",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "dQw4w9WgXcQ",
+        "page": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      },
+      "metadata": {
+        "title": "Never Gonna Give You Up",
+        "artist": "Rick Astley",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "unknown",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "notes": "Corrected an initially mistyped 10-character ID; the proper 11-character candidate still needs metadata verification."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "unknown",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C032",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "fJ9rUzIMcZQ",
+        "page": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ"
+      },
+      "metadata": {
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "Official Video Remastered",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    },
+    {
+      "case_id": "C033",
+      "role": "candidate",
+      "source": {
+        "provider": "youtube",
+        "id": "Zi_XLOBDo_Y",
+        "page": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y"
+      },
+      "metadata": {
+        "title": "Billie Jean",
+        "artist": "Michael Jackson",
+        "duration_ms": null,
+        "media_kind": "music_video",
+        "state": "page_title_observed",
+        "checked_on": "2026-11-10",
+        "reference": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y",
+        "notes": "Public page title/catalog only; duration, playable identity and audible onset unverified."
+      },
+      "languages": [
+        "latin"
+      ],
+      "tags": [
+        "short_content_candidate"
+      ],
+      "recording": "unknown",
+      "version": "studio_music_video",
+      "account_condition": "anonymous_public_unverified",
+      "region_condition": "unknown",
+      "retention_policy": "stable_metadata_only; no media captured in this task",
+      "checks": {
+        "media_transport": {
+          "state": "unknown",
+          "extent": "unknown",
+          "received_bytes": null,
+          "expected_bytes": null,
+          "evidence": null
+        },
+        "media_decoded": {
+          "state": "unknown",
+          "extent": "unknown",
+          "decoded_frames": null,
+          "format": null,
+          "evidence": null
+        },
+        "native_output_submitted": {
+          "state": "unknown",
+          "decoded_frames_consumed": null,
+          "submitted_frames": null,
+          "nonzero_frames": null,
+          "muted": null,
+          "evidence": null
+        },
+        "audibility": {
+          "state": "unknown",
+          "evidence": null
+        },
+        "recording_identity": {
+          "state": "unknown",
+          "evidence": null
+        }
+      },
+      "onset": {
+        "state": "unknown",
+        "leading_silence_ms": null,
+        "evidence": null
+      },
+      "capabilities": {
+        "state": "unknown",
+        "formats": [],
+        "sample_rates_hz": [],
+        "offline_save": "unknown",
+        "evidence": null
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "relation_id": "same-hello",
+      "kind": "same_title",
+      "members": [
+        "C001",
+        "C002"
+      ],
+      "variants": [],
+      "state": "proposed",
+      "timeline_equivalent": "unknown",
+      "automatic_substitution": false,
+      "evidence": null,
+      "note": "Different artists; distinct recordings proposed; never replace by normalized title."
+    },
+    {
+      "relation_id": "same-stay",
+      "kind": "same_title",
+      "members": [
+        "C003",
+        "C004"
+      ],
+      "variants": [],
+      "state": "proposed",
+      "timeline_equivalent": "unknown",
+      "automatic_substitution": false,
+      "evidence": null,
+      "note": "Case-normalized title collision; distinct artist recordings proposed."
+    },
+    {
+      "relation_id": "same-hallelujah",
+      "kind": "same_title",
+      "members": [
+        "C005",
+        "C006"
+      ],
+      "variants": [],
+      "state": "proposed",
+      "timeline_equivalent": "unknown",
+      "automatic_substitution": false,
+      "evidence": null,
+      "note": "Different artists/live performances; do not reuse progress or lyric timing."
+    },
+    {
+      "relation_id": "versions-take-on-me",
+      "kind": "version_family",
+      "members": [
+        "C008",
+        "C009",
+        "C010"
+      ],
+      "variants": [
+        "studio",
+        "live",
+        "radio_edit"
+      ],
+      "state": "proposed",
+      "timeline_equivalent": "unknown",
+      "automatic_substitution": false,
+      "evidence": null,
+      "note": "Studio, unplugged and edited unplugged labels observed; timeline/precise edit relation still unreviewed."
+    },
+    {
+      "relation_id": "versions-get-lucky",
+      "kind": "version_family",
+      "members": [
+        "C011",
+        "C012",
+        "C013"
+      ],
+      "variants": [
+        "original",
+        "radio_edit",
+        "remix"
+      ],
+      "state": "proposed",
+      "timeline_equivalent": "unknown",
+      "automatic_substitution": false,
+      "evidence": null,
+      "note": "Album, radio edit and artist remix labels observed; actual recording relation unreviewed."
+    },
+    {
+      "relation_id": "mv-audio-take-on-me",
+      "kind": "mv_audio",
+      "members": [
+        "C007",
+        "C008"
+      ],
+      "variants": [],
+      "state": "proposed",
+      "timeline_equivalent": "unknown",
+      "automatic_substitution": false,
+      "evidence": null,
+      "note": "Independent video/audio IDs; intro/edit equivalence unknown; never transfer timeline automatically."
+    },
+    {
+      "relation_id": "mv-audio-little-happiness",
+      "kind": "mv_audio",
+      "members": [
+        "C023",
+        "C024"
+      ],
+      "variants": [],
+      "state": "proposed",
+      "timeline_equivalent": "unknown",
+      "automatic_substitution": false,
+      "evidence": null,
+      "note": "Movie MV and official audio IDs; possible dialogue/intro differences unmeasured."
+    }
+  ],
+  "negative_cases": [
+    {
+      "case_id": "N001",
+      "kind": "removed_or_nonexistent",
+      "source_id": null,
+      "state": "unknown",
+      "expected_error": "source_unavailable",
+      "recovery": "Preserve occurrence and explicit unavailable state; no automatic recording replacement.",
+      "selection_gap": "Select a reproducibly absent public ID; no invented assertion that an arbitrary ID is absent.",
+      "evidence": null
+    },
+    {
+      "case_id": "N002",
+      "kind": "authorization_required",
+      "source_id": null,
+      "state": "unknown",
+      "expected_error": "authorization_required",
+      "recovery": "Stop and present account requirement; do not fetch cookies or silently switch account scope.",
+      "selection_gap": "Need an authorized test-owned or publicly documented restricted identity; do not inspect user account.",
+      "evidence": null
+    },
+    {
+      "case_id": "N003",
+      "kind": "region_or_account_restricted",
+      "source_id": null,
+      "state": "unknown",
+      "expected_error": "capability_restricted",
+      "recovery": "Preserve explicit unsupported reason; no regional bypass or automatic alternate recording.",
+      "selection_gap": "Actual restriction and environment need a bounded receipt; not yet selected.",
+      "evidence": null
+    },
+    {
+      "case_id": "N004",
+      "kind": "expired_resolution",
+      "source_case_id": "C028",
+      "state": "unknown",
+      "expected_error": "resolution_expired",
+      "recovery": "Re-resolve the same identity once under the original action deadline; never retain the signed URL.",
+      "selection_gap": "Use an owned injected-expiry fixture and separately label it synthetic; live expiry unverified.",
+      "evidence": null
+    },
+    {
+      "case_id": "N005",
+      "kind": "invalid_cache",
+      "source_case_id": "C028",
+      "state": "unknown",
+      "expected_error": "cache_invalid",
+      "recovery": "Quarantine only the task-owned corrupt cache, keep identity and bounded retry; do not alter user downloads.",
+      "selection_gap": "Owned corrupt-cache fixture not yet produced; no production cache operation.",
+      "evidence": null
+    }
+  ],
+  "queue_context": {
+    "state": "proposed",
+    "evidence": null,
+    "collection": [
+      "C001",
+      "C003",
+      "C001",
+      "N001",
+      "C004"
+    ],
+    "up_next": [
+      "C001",
+      "C023"
+    ],
+    "start_collection_index": 1,
+    "operations": [
+      "next",
+      "previous",
+      "skip_unavailable"
+    ],
+    "note": "Each occurrence needs its own queue ID; repeated identity does not count toward 30."
+  },
+  "open_coverage_gaps": [
+    "All actual playable/audible recording checks and durations remain unknown.",
+    "At least 30 main-group entries need measured natural silence <=250ms; keep longer-silence entries in a separate stratum.",
+    "Actual AAC/Opus capability and at least two sample rates need independent observation.",
+    "Short-duration selection and exact long-podcast duration/chapter labels need verification.",
+    "Negative IDs/conditions and queue behavior are planned, not verified.",
+    "Mixed-script and same-title cases are proposed; all relationship reviews remain outstanding."
+  ]
+}

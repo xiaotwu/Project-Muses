@@ -1,0 +1,24 @@
+{
+  "recorded_unix": 1794355732.6484532,
+  "journal_complete": true,
+  "retired_paths_absent": true,
+  "dedicated_trash": {
+    "logical_bytes": 2297139895,
+    "allocated_path_sum_bytes": 2314346496,
+    "allocated_unique_inode_bytes": 2314330112,
+    "files": 26519
+  },
+  "active_scratch": {
+    "logical_bytes": 524161118,
+    "allocated_path_sum_bytes": 539353088,
+    "allocated_unique_inode_bytes": 539353088,
+    "files": 4499
+  },
+  "actual_free_bytes": 573607157760,
+  "physical_recovery_claim_bytes": 0,
+  "retired_path_launch_services_matches": [],
+  "launch_services_query_exit_code": 0,
+  "retained_calibration_permission": "paused dependency; no TCC reset or foreground settings verification",
+  "nested_helpers_in_retired_calibration_apps": [],
+  "permission_blockers": []
+}

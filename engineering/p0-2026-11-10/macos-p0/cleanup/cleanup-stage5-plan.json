@@ -1,0 +1,28 @@
+{
+  "stage": 5,
+  "created_unix": 1794353510.678774,
+  "owned_root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01",
+  "trash_root": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage5",
+  "script_sha256": "841dc089e3614f13df90532c4c672f42b34d57d27774a03d0868244b31770ab3",
+  "required_manifests": [
+    {
+      "path": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/relink/evidence/manifest.json",
+      "sha256": "5e56059edd8040ea54abb2624b32738a6d2b64724bd74e13aff39bba8b96e1ca"
+    }
+  ],
+  "moves": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/work",
+      "destination_name": "relink-work",
+      "required_inventory": {
+        "entries": 10565,
+        "logical_file_bytes": 92511029,
+        "allocated_bytes": 120979456,
+        "allocated_unique_inode_bytes": 120979456,
+        "uid": 501,
+        "tree_sha256": "733eb50f1777f2ae5d6546430f4391c5b63bd22c6b222e1aead66b0bc30eee42"
+      }
+    }
+  ],
+  "retained": "Minimal relink kit retains exact source archive, app/miniaudio objects, stock/replacement archives, fixtures and signed proof binaries. Build work is obsolete; owned build/src link is recorded but never traversed."
+}

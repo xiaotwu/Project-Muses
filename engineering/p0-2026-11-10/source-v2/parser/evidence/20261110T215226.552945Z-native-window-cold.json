@@ -1,0 +1,26 @@
+{
+  "label": "native-window-cold",
+  "exit_code": 1,
+  "guard_stop": null,
+  "elapsed_ms": 25,
+  "observed_peak_rss_bytes": 5242880,
+  "rss_limit_bytes": 268435456,
+  "events": [
+    {
+      "status": "unsupported",
+      "input_bytes": 2658728,
+      "output_bytes": 0,
+      "native_peak_bytes": 6295680,
+      "native_live_after_bytes": 0,
+      "declarations": 0,
+      "selected": 0,
+      "solver_matches": 0,
+      "timestamp_matches": 0,
+      "parse_ms": 7.749,
+      "reduce_ms": 0.0,
+      "process_maxrss_bytes": 11550720
+    }
+  ],
+  "stderr_bytes": 0,
+  "binary_sha256": "d4a67232fd5a2958ef6b0dbb808b4984591df28b8f0d52831fd26b06eb975203"
+}

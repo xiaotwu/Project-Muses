@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-10T21:40:16.125263+00:00",
+  "parent_checkpoint": "b16bc3066726d84974e8317246de6b60aff41207",
+  "parent_budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "parent_guard_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "actual_free_bytes": 574673084416,
+  "scratch_allocation": "source",
+  "source_total_budget_bytes": 1073741824,
+  "subbudgets_bytes": {
+    "v2-parser": 419430400,
+    "v2-transport": 209715200,
+    "v2-integration": 314572800
+  },
+  "prior_retained_source_bytes": 22892544,
+  "probe_process_rss_limit_bytes": 268435456,
+  "quickjs_main_heap_bytes": 67108864,
+  "isolated_solver_heap_bytes": 8388608,
+  "isolated_solver_deadline_seconds": 1,
+  "media_length_limit_bytes": 16777216,
+  "script_or_descriptor_cache": "disabled until measured versioned total-budget implementation exists",
+  "no_user_device_action_until": "desktop source continuity/decoder checks pass and a new candidate is ready",
+  "preserve": [
+    "source/ initial immutable evidence",
+    "signed candidate 3 and unsigned candidate 4",
+    "previous cleanup plans, journals and failures",
+    "user data and shared dependencies"
+  ],
+  "cleanup": "frozen exact manifest, recoverable Trash; no irreversible disposal"
+}

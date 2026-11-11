@@ -1,0 +1,377 @@
+{
+  "created_utc": "2026-11-10T22:20:41.946991+00:00",
+  "candidate_root": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime",
+  "scope": "Owned obsolete offline runtime comparison scratch; parent coordinated recoverable cleanup only",
+  "active_process_handles": [],
+  "lsof_exit_code": 1,
+  "open_files": [],
+  "logical_file_bytes": 12814652,
+  "allocated_unique_inode_bytes": 14508032,
+  "file_count": 60,
+  "actual_free_bytes": 574466969600,
+  "scratch_limit_bytes": 52428800,
+  "deletion_performed": false,
+  "files": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/baseline-reduced-solver.js",
+      "logical_bytes": 179564,
+      "allocated_bytes": 180224,
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/embedding-ios.o",
+      "logical_bytes": 21072,
+      "allocated_bytes": 24576,
+      "sha256": "e82d7b78ff1254cefc22641fd44119021056d6a093da6ffda2a16d53e8f3eb9b"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/embedding-ng",
+      "logical_bytes": 1104608,
+      "allocated_bytes": 1105920,
+      "sha256": "53146b16f2ab1388b5ccf6d3320e0e6dc66fc1ad54492fb67113bae5c7deb9e6"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/fetch-smoke.bundle.js",
+      "logical_bytes": 97599,
+      "allocated_bytes": 98304,
+      "sha256": "143832d9e9c5fab755da2b97934b0a670434a45e94876cef3f4c4f50f80ad891"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/quickjs-ng-ios.o",
+      "logical_bytes": 1362816,
+      "allocated_bytes": 2162688,
+      "sha256": "c1fa0e4b65d53e533115ed60d9d590e0efe83e7f8a73a7dbadae284d60c6d449"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/build/quickjs-ng-macos.o",
+      "logical_bytes": 1380480,
+      "allocated_bytes": 2162688,
+      "sha256": "549e3288153047c2e4f4b4006740763b6b93848a203d6a47d27cf524337103e3"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/downloads/quickjs-amalgam-v0.18.0.zip",
+      "logical_bytes": 571908,
+      "allocated_bytes": 573440,
+      "sha256": "6c05066a6b62b483e2ba0f83d7a16688c6958182b214bfd693529434cef84a9e"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/extract.bundle.js",
+      "logical_bytes": 942145,
+      "allocated_bytes": 946176,
+      "sha256": "c693175852d533c240a56fcbeae087b4f784787c79d03318c8761e493ff046c8"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/extract.corrected.bundle.js",
+      "logical_bytes": 949580,
+      "allocated_bytes": 950272,
+      "sha256": "17a300a3ef421c50922459a2f5bc086a121c2156ceedd50a8b3c8cc8c003b7dd"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/player.js",
+      "logical_bytes": 2658728,
+      "allocated_bytes": 2662400,
+      "sha256": "5f2035b38e20c1e57ad8e51ada9ea82d1eaac59f2a4603ebd851f421e3a3f5dd"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/reduced.js",
+      "logical_bytes": 189450,
+      "allocated_bytes": 192512,
+      "sha256": "be8ae511cec64bb48b61ccb280f30151ef5bb61dec2466457eb471b2a5b171a9"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/inputs/reference-solver.js",
+      "logical_bytes": 179564,
+      "allocated_bytes": 180224,
+      "sha256": "0864285e763dfe18696fd8592925db8942108e383919388a11db4715658dc198"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221335.853694Z-quickjs-corrected-full-parse.json",
+      "logical_bytes": 1592,
+      "allocated_bytes": 4096,
+      "sha256": "047c4aab326765d7e05eaba97b31f3f273f61fe71c4f3f451fa1b721e87a4e31"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221335.853694Z-quickjs-corrected-full-parse.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221335.853694Z-quickjs-corrected-full-parse.stdout",
+      "logical_bytes": 305,
+      "allocated_bytes": 4096,
+      "sha256": "2e0e75844642822bbdda208cf0a766497f48feabd07cf4af52c33c36ad13443a"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221336.482014Z-quickjs-corrected-reduced-extract.json",
+      "logical_bytes": 2289,
+      "allocated_bytes": 4096,
+      "sha256": "705cb5f7803b6801b2ced9c9f451b947e380efc59a6269d63b2811fd9e60c0ea"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221336.482014Z-quickjs-corrected-reduced-extract.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221336.482014Z-quickjs-corrected-reduced-extract.stdout",
+      "logical_bytes": 812,
+      "allocated_bytes": 4096,
+      "sha256": "3dcf5cf9cd6a3b9fc7e49a8562952bd678cb8120222979eec852da1fe1f18d92"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221510.656340Z-build.json",
+      "logical_bytes": 5613,
+      "allocated_bytes": 8192,
+      "sha256": "9434cb3fae96ae3a598a49c3c72077cf669fce967c928cac7043d90e749f9549"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221549.905597Z-ng-corrected-full-parse.json",
+      "logical_bytes": 2080,
+      "allocated_bytes": 4096,
+      "sha256": "47ae403ce2b794c88646133063ef6c00b6b3abe6ed5a3e7f2b967ac0e0bb51ae"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221549.905597Z-ng-corrected-full-parse.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221549.905597Z-ng-corrected-full-parse.stdout",
+      "logical_bytes": 646,
+      "allocated_bytes": 4096,
+      "sha256": "17573b69994f28e36aed394a9540563cb2f1ce388ab35e06ea6ec37420a83536"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.196397Z-ng-corrected-reduced-extract.json",
+      "logical_bytes": 3386,
+      "allocated_bytes": 4096,
+      "sha256": "cf90e2f575e73bde067e42535965676f1a9045ae0cc1df24b8874c94d4336493"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.196397Z-ng-corrected-reduced-extract.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.196397Z-ng-corrected-reduced-extract.stdout",
+      "logical_bytes": 1625,
+      "allocated_bytes": 4096,
+      "sha256": "11ecfa72ded1768afe8c112bc4b8cc856036dde9162967ffd7bebd24932f6bb6"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.496955Z-ng-explicit-oom.json",
+      "logical_bytes": 1492,
+      "allocated_bytes": 4096,
+      "sha256": "11b8f9d3582b965bd713b1e215b3a4a4a4205479835c4955dfe9e89445d739b9"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.496955Z-ng-explicit-oom.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.496955Z-ng-explicit-oom.stdout",
+      "logical_bytes": 452,
+      "allocated_bytes": 4096,
+      "sha256": "e02a086ed5af04bdddee18f1cd5d12f54557dfd674c0a8f460fd0865e617ecd2"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.528427Z-ng-cancel.json",
+      "logical_bytes": 1749,
+      "allocated_bytes": 4096,
+      "sha256": "2ae85f5867b203afe22acb3d223ef5dea6fcf2669e24d30ebd193e9ef187f9d6"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.528427Z-ng-cancel.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.528427Z-ng-cancel.stdout",
+      "logical_bytes": 630,
+      "allocated_bytes": 4096,
+      "sha256": "91634ab44fa73ba82194d8ee0af78ef4f7c5d09f2b51dd93f2b2089b298c07cd"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.580088Z-ng-context-oom.json",
+      "logical_bytes": 1621,
+      "allocated_bytes": 4096,
+      "sha256": "7fd3d7aac94d2acda4ad807ecd4848798235e2677e676437a268b49f7d666236"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.580088Z-ng-context-oom.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.580088Z-ng-context-oom.stdout",
+      "logical_bytes": 540,
+      "allocated_bytes": 4096,
+      "sha256": "a37f4ab2c2e3e6fc5771e96e79ef13339d1ccee57fffee35f803c51daf61add5"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.611106Z-ng-fetch-smoke.json",
+      "logical_bytes": 1497,
+      "allocated_bytes": 4096,
+      "sha256": "8684da4f710fbeeb5ec23087253bd00c2e44eea8a66e89d62b54a06c734c07c2"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.611106Z-ng-fetch-smoke.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221550.611106Z-ng-fetch-smoke.stdout",
+      "logical_bytes": 372,
+      "allocated_bytes": 4096,
+      "sha256": "b71b996d3b9423ff9b37b8b490b609f21633447294f0e5bddcd23b3150f3ebe5"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221741.777400Z-build.json",
+      "logical_bytes": 5714,
+      "allocated_bytes": 8192,
+      "sha256": "a52746ab0cf8b8503afac81ea05898c37e5bd763bf6a66ca5c7d867832caf144"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221803.646289Z-ng-corrected-full-parse.json",
+      "logical_bytes": 2392,
+      "allocated_bytes": 4096,
+      "sha256": "85bd7803a0720ccbd4c0d2a4e518f425362a2a7ccb4548d35d716d1e09144ea9"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221803.646289Z-ng-corrected-full-parse.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221803.646289Z-ng-corrected-full-parse.stdout",
+      "logical_bytes": 866,
+      "allocated_bytes": 4096,
+      "sha256": "d86a4e153eaa36f7f1dc29b5cc70dd0bac01b90c69706eab02140d62f0c3c07c"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221803.963423Z-ng-corrected-reduced-extract.json",
+      "logical_bytes": 3386,
+      "allocated_bytes": 4096,
+      "sha256": "9f1b03e68ed0cc088cb5cb2a96957ffff5b0f4bced3cde181eca8edbfc023947"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221803.963423Z-ng-corrected-reduced-extract.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221803.963423Z-ng-corrected-reduced-extract.stdout",
+      "logical_bytes": 1625,
+      "allocated_bytes": 4096,
+      "sha256": "89ce9bb91d3c68c880ecec5b5107a492e4a930f0f4386c88018437a4c696dd95"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.290829Z-ng-explicit-oom.json",
+      "logical_bytes": 1845,
+      "allocated_bytes": 4096,
+      "sha256": "ac0c38cbde1ec75f6bec6d016468b7726eae6a2e245cf4b661f99a18a1f60789"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.290829Z-ng-explicit-oom.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.290829Z-ng-explicit-oom.stdout",
+      "logical_bytes": 698,
+      "allocated_bytes": 4096,
+      "sha256": "5eba103369807c45fc4e1e33d8f3fa52f2014800c70751db63650b340a685322"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.321824Z-ng-cancel.json",
+      "logical_bytes": 1847,
+      "allocated_bytes": 4096,
+      "sha256": "a80a4f9ee1e348bf0f590ac4cc846fafaabc6b8c52afe6a54bc11fe627f08ab1"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.321824Z-ng-cancel.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.321824Z-ng-cancel.stdout",
+      "logical_bytes": 704,
+      "allocated_bytes": 4096,
+      "sha256": "b2edc046e7ba2be3e3f038eb33bec95d28a3edcbee232f8c370f0708c4a60dae"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.380050Z-ng-context-oom.json",
+      "logical_bytes": 1621,
+      "allocated_bytes": 4096,
+      "sha256": "8fa82a511902affa688652b83d5a12e6ff4f76b8d0deb13f5e3fd5812409a60c"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.380050Z-ng-context-oom.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.380050Z-ng-context-oom.stdout",
+      "logical_bytes": 540,
+      "allocated_bytes": 4096,
+      "sha256": "87d1fb0396cc0091f8c89535b37599c29bb4033079bd44413edd6b92b4ec8788"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.408669Z-ng-fetch-smoke.json",
+      "logical_bytes": 1497,
+      "allocated_bytes": 4096,
+      "sha256": "ab450195202bb02a42e3e65ccd20b4e82e6c47d27c73d84062427b59524a471a"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.408669Z-ng-fetch-smoke.stderr",
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/20261110T221804.408669Z-ng-fetch-smoke.stdout",
+      "logical_bytes": 372,
+      "allocated_bytes": 4096,
+      "sha256": "81c321b91dded2ef18cf4b54badd4505a10f68265f1d0e6aa033c282f5ce6451"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/results/bootstrap.json",
+      "logical_bytes": 1568,
+      "allocated_bytes": 4096,
+      "sha256": "9187660bf790d9be19ec64027f7aa91c5ca9ff3d60c1c12a1da348351608fc45"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/upstream/quickjs-amalgam.c",
+      "logical_bytes": 3052357,
+      "allocated_bytes": 3055616,
+      "sha256": "c58c7ee45ac100e89add606aa5a35ddd7648d8252835c5389b9439c9c9fcfc24"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/upstream/quickjs-libc.h",
+      "logical_bytes": 4389,
+      "allocated_bytes": 8192,
+      "sha256": "55c6b4504124941903fc09c35aecedddb88fa45c27d5e62c65962bb670ae17d1"
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime/upstream/quickjs.h",
+      "logical_bytes": 69016,
+      "allocated_bytes": 69632,
+      "sha256": "6d3879c856551653a1c64fabe52d6d07dc84e97bac3df45848df626702fc30de"
+    }
+  ],
+  "retention_note": "All small attempt/guard receipts and stdout/stderr are frozen in runtime/evidence; archive/input/binary hashes retained. No media, cookies, auth tokens or user data were read."
+}

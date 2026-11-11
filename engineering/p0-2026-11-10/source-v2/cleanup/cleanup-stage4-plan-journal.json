@@ -1,0 +1,117 @@
+{
+  "plan_sha256": "9d81691501a4a32a76ba77888b58d4152073836f0d8a6e62ac4cddb69ed94a93",
+  "script_sha256": "8b3954bbdff64d69fbb054bb9b9e7b8792cf3c45e60951f6f1e76ccee6d22312",
+  "started_unix": 1794352772.0966039,
+  "free_before": 574332813312,
+  "actions": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage4/01-build",
+      "inventory": {
+        "entries": 2,
+        "logical_file_bytes": 1617073,
+        "allocated_bytes": 1617920,
+        "allocated_unique_inode_bytes": 1617920,
+        "uid": 501,
+        "tree_sha256": "c12eba1a42e9210db81ffcd168eb509a117b776f636cf46b86a05211abdec5fe"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794352772.953444
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage4/02-iphoneos",
+      "inventory": {
+        "entries": 28,
+        "logical_file_bytes": 17574330,
+        "allocated_bytes": 17661952,
+        "allocated_unique_inode_bytes": 17661952,
+        "uid": 501,
+        "tree_sha256": "a95583fe74bfb577c180b2c7bcb6ffcbbafb970bd2bdf36c06a04aed964f89fd"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794352773.0936189
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/candidate-5-signed",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage4/03-candidate-5-signed",
+      "inventory": {
+        "entries": 10,
+        "logical_file_bytes": 5353705,
+        "allocated_bytes": 5369856,
+        "allocated_unique_inode_bytes": 5369856,
+        "uid": 501,
+        "tree_sha256": "16cd58d4cc91283326f65e4a052919a59abd084819b9a0897819dc4c5a2deec4"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794352773.235513
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/ios-init-debug",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage4/04-ios-init-debug",
+      "inventory": {
+        "entries": 72,
+        "logical_file_bytes": 8704748,
+        "allocated_bytes": 8802304,
+        "allocated_unique_inode_bytes": 8802304,
+        "uid": 501,
+        "tree_sha256": "ba0500696b847406e7f4e7b1e7e57562f43d37204abb5b6612e6f22601d0c431"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794352773.371847
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/media/IOS-aqz-KE-bpKQ-749288DA-745E-46D7-9991-78708464E5A3.m4a.partial",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage4/05-IOS-aqz-KE-bpKQ-749288DA-745E-46D7-9991-78708464E5A3.m4a.partial",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 1048576,
+        "allocated_bytes": 1048576,
+        "allocated_unique_inode_bytes": 1048576,
+        "uid": 501,
+        "tree_sha256": "652e94f2e028cdaff0b6b5bb442da5c3b480150f6324e1d059210acbdf10c7a0"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794352773.505585
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/media/TV_SAMSUNG-aqz-KE-bpKQ-24E5D74B-1649-42C4-B19A-25F5DACB6B4C.m4a",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage4/06-TV_SAMSUNG-aqz-KE-bpKQ-24E5D74B-1649-42C4-B19A-25F5DACB6B4C.m4a",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 15479228,
+        "allocated_bytes": 16515072,
+        "allocated_unique_inode_bytes": 16515072,
+        "uid": 501,
+        "tree_sha256": "aac516aa674b2867f0dd6d026bf963594d6d3f56e03fed85355c808b7a3010dd"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794352773.642045
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/media/TV_SAMSUNG-aqz-KE-bpKQ-277F8A82-7284-4160-865A-C0D66402825F.m4a",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage4/07-TV_SAMSUNG-aqz-KE-bpKQ-277F8A82-7284-4160-865A-C0D66402825F.m4a",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 15479228,
+        "allocated_bytes": 15990784,
+        "allocated_unique_inode_bytes": 15990784,
+        "uid": 501,
+        "tree_sha256": "2871b06eb3b872c34e529c02f3398aea80b05781ba98ba8bc365582f080a6313"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794352773.780278
+    }
+  ],
+  "failures": [],
+  "completed_unix": 1794352773.786668,
+  "free_after": 574332731392,
+  "physical_recovery_claim_bytes": 0
+}

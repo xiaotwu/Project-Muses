@@ -1,0 +1,21 @@
+{
+  "guard_receipt": "16714b20adbf4b108ecd2bc66c340c24",
+  "embedding_sha256": "793ccc05a48e2bd251eecbb5389c21d24fac535e586dfa74199d23ffe52549fc",
+  "binary_sha256": "c7b5893953109ca9b7d2c7d5335ea0664b57fcfff38f7eb147347069b3566cd2",
+  "failed_assertions": [
+    {
+      "receipt": "20261110T221549.905597Z-ng-corrected-full-parse.json",
+      "incorrect_assumption": "A returned exhausted-heap exception always has an uncatchable Error object.",
+      "observed": "Exception, 2 allocator denials, uncatchable=false; clean exit and zero live backing allocations.",
+      "correction": "Classify returned exception plus recorded allocator denial as bounded allocator failure; record error-object/null tags separately. Do not claim uncatchability for a missing error object. Always test fresh runtime after teardown."
+    },
+    {
+      "receipt": "20261110T221550.496955Z-ng-explicit-oom.json",
+      "incorrect_assumption": "Every memory-limit rejection reaches the custom backing allocator.",
+      "observed": "Uncatchable exception, zero allocator denials, clean exit and zero live backing allocations.",
+      "correction": "The fixed 1 MiB typed-array workload reaches NG's logical limit first. Record successfully retained 1 MiB allocations and require an uncatchable exception without cancellation/deadline."
+    }
+  ],
+  "unchanged_limits": { "extract_bytes": 67108864, "solver_bytes": 8388608, "rss_bytes": 268435456 },
+  "retained": "Original per-attempt JSON/stdout/stderr in runtime scratch; no failed receipts overwritten."
+}

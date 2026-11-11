@@ -1,0 +1,224 @@
+--- Streaming-2539398d.cpp
++++ Streaming.cpp
+@@ -13,6 +13,8 @@
+ extern "C" {
+ #include <libavcodec/avcodec.h>
+ #include <libavformat/avformat.h>
++#include <libavutil/intreadwrite.h>
++#include <libavutil/mathematics.h>
+ #include <libswresample/swresample.h>
+ }
+ #include <mach/mach.h>
+@@ -65,16 +67,24 @@
+ struct Decoder {
+     Session *owner;Ring ring;MTHandle *handle=nullptr;uint64_t total=0,descriptorNS=0,position=0;
+     std::thread worker;std::atomic<bool> cancel{false},done{false},inflight{false};std::atomic<int> error{0},transportStatus{0};
+-    std::mutex control;std::atomic<int> phase{Opening};std::atomic<bool> unsupportedTimeline{false};Digest producedDigest,consumedDigest,seekProducedDigest,seekConsumedDigest;
++    std::atomic<int> firstNonCancelTransportFailure{0};
++    std::atomic<bool> holdFailureReturn{false},failureReturnHeld{false},releaseFailureReturn{false};
++    std::mutex control;std::atomic<int> phase{Opening};std::atomic<double> presentationOrigin{0};Digest producedDigest,consumedDigest,seekProducedDigest,seekConsumedDigest;
++    std::atomic<bool> mappedAACPadding{false},unsupportedTimeline{false};std::atomic<double> paddingQuantizationSeconds{0};
++    std::atomic<uint64_t> sealedWrite{UINT64_MAX};
+     std::atomic<uint64_t> codecDrainFrames{0},swrDrainFrames{0},codecDrainNS{0},swrDrainNS{0},producerEndNS{0},ringDrainNS{0};
+     std::atomic<uint64_t> produced{0},consumed{0},network{0},unique{0},requests{0},bufferHigh{0},firstBytes{0},firstPCM{0},pcmNetwork{0},firstCallback{0},callbackNetworkUpper{0},contentFrames{0},readEpoch{0};
+     std::atomic<uint64_t> seekRequest{0},seekQuiesced{0},seekAck{0},seekDone{0},discarded{0};std::atomic<double> seekTarget{0},seekFirstPTS{-1};
+     std::atomic<uint64_t> sourceRate{0},sourceChannels{0},codecID{0};
++    std::atomic<uint64_t> seekCodecResets{0},seekTrimmedFrames{0};std::atomic<double> seekFirstPacketPTS{-1};
+     explicit Decoder(Session *s):owner(s){}
+     bool stopping()const;
+     static int interrupt(void *p){return static_cast<Decoder*>(p)->stopping();}
+     static int read(void *p,uint8_t *buffer,int size){auto &d=*static_cast<Decoder*>(p);if(d.stopping())return AVERROR_EXIT;
+-        size_t got=0;d.readEpoch.fetch_add(1,std::memory_order_release);d.inflight=true;MTStatus status=mt_read_at(d.handle,d.position,buffer,size,&got);MTStats s{};mt_snapshot(d.handle,&s);
++        size_t got=0;d.readEpoch.fetch_add(1,std::memory_order_release);d.inflight=true;MTStatus status=mt_read_at(d.handle,d.position,buffer,size,&got);
++        if(status<0&&status!=MT_CANCELLED){int zero=0;d.firstNonCancelTransportFailure.compare_exchange_strong(zero,status);
++            if(d.holdFailureReturn){d.failureReturnHeld=true;while(!d.releaseFailureReturn)pause_ms(1);}}
++        MTStats s{};mt_snapshot(d.handle,&s);
+         d.network=s.network_bytes;d.unique=s.unique_validated_bytes;d.requests=s.requests;d.bufferHigh=s.buffer_high_bytes;d.transportStatus=status;d.inflight=false;d.readEpoch.fetch_add(1,std::memory_order_release);
+         if(status==MT_EOF)return AVERROR_EOF;if(status==MT_CANCELLED)return AVERROR_EXIT;if(status!=MT_OK)return AVERROR(EIO);
+         uint64_t zero=0;d.firstBytes.compare_exchange_strong(zero,sp_now_ns());d.position+=got;return int(got);}
+@@ -90,14 +100,21 @@
+             if(seekQuiesced.load(std::memory_order_acquire)>=requested){discarded.fetch_add(ring.discard());seekAck.store(requested,std::memory_order_release);}
+             return;
+         }
+-        if(ring.pop(out)){consumed++;uint64_t zero=0;if(firstCallback.compare_exchange_strong(zero,now)){
++        bool available=ring.pop(out);
++        if(!available&&phase.load(std::memory_order_acquire)==Ended){
++            // Ended publishes the final write index. A failed pop BEFORE that
++            // acquire observation cannot prove the sealed ring is empty.
++            available=ring.pop(out);
++            if(!available&&ring.read.load(std::memory_order_acquire)==sealedWrite.load()){uint64_t zero=0;ringDrainNS.compare_exchange_strong(zero,now);}
++        }
++        if(available){consumed++;uint64_t zero=0;if(firstCallback.compare_exchange_strong(zero,now)){
+                 // Bounded, nonspinning sequence sample: a racing observation
+                 // conservatively forfeits the early-submission proof.
+                 auto before=readEpoch.load(std::memory_order_acquire),observed=network.load(),after=readEpoch.load(std::memory_order_acquire);
+                 callbackNetworkUpper=before!=after?total:observed+((after&1)?window:0);
+             }
+             consumedDigest.add(out,1);if(seekAck>0)seekConsumedDigest.add(out,1);if(std::abs(out[0])>1e-8f||std::abs(out[1])>1e-8f)contentFrames++;
+-        }else if(phase.load(std::memory_order_acquire)==Ended){uint64_t zero=0;ringDrainNS.compare_exchange_strong(zero,now);}
++        }
+     }
+ };
+ struct Session {
+@@ -110,7 +127,7 @@
+         while(!cancelled){uint64_t used=rss(),previous=peakRSS.load();while(used>previous&&!peakRSS.compare_exchange_weak(previous,used)){}
+             if(first.error||next.error){requestCancel(4);break;}if(used>256ull*1024*1024){requestCancel(2);break;}if(sp_now_ns()>=deadlineNS){requestCancel(3);break;}pause_ms(100);}});}
+     void requestCancel(int why=1){int zero=0;reason.compare_exchange_strong(zero,why);cancelled=true;
+-        {std::lock_guard<std::mutex> hold(handles);for(auto *d:{&first,&next})if(d->handle){d->cancel=true;d->ring.releasePublish=true;mt_cancel(d->handle);}}
++        {std::lock_guard<std::mutex> hold(handles);for(auto *d:{&first,&next})if(d->handle){d->cancel=true;d->ring.releasePublish=true;d->releaseFailureReturn=true;mt_cancel(d->handle);}}
+         sp_cancel_resolver();std::lock_guard<std::mutex> hold(deviceLock);if(deviceReady)ma_device_stop(&device);
+     }
+     void attach(Decoder &d,SPSource source){require(source.handle && source.error==0 && source.total_bytes>0 && source.total_bytes<=16ull*1024*1024,"descriptor");
+@@ -147,14 +164,18 @@
+     void seekFirst(double seconds){waitSeek(requestSeek(seconds));}
+     void finish(int why){if(joined)return;requestCancel(why);if(watchdog.joinable())watchdog.join();
+         {std::lock_guard<std::mutex> hold(deviceLock);if(deviceReady){ma_device_uninit(&device);deviceReady=false;}if(contextReady){ma_context_uninit(&context);contextReady=false;}}
+-        for(auto *d:{&first,&next})if(d->worker.joinable()){d->worker.join();joinedWorkers++;}joined=true;}
++        for(auto *d:{&first,&next})if(d->worker.joinable()){d->worker.join();joinedWorkers++;}
++        if(first.error||next.error||first.firstNonCancelTransportFailure||next.firstNonCancelTransportFailure)reason=4;joined=true;}
+     void report(const char *name){
+         std::printf("{\"gate\":\"stream_session\",\"case\":\"%s\",\"action_ns\":%llu,\"first_output_callback_ns\":%llu,\"clock_frames\":%llu,\"callbacks\":%llu,\"underflow_frames\":%llu,\"transitions\":%llu,\"pcm_pool_bytes\":%zu,\"network_total_bytes\":%llu,\"rss_peak_bytes\":%llu,\"reason\":%d,\"audible\":false,\"submitted_nonzero_frames\":0,\"speaker_first_sound_measured\":false}\n",name,actionNS,firstSubmission.load(),clock.load(),callbacks.load(),underflows.load(),transitions.load(),sizeof(first.ring.pcm)+sizeof(next.ring.pcm),first.network.load()+next.network.load(),peakRSS.load(),reason.load());
+         for(auto *d:{&first,&next})if(d->handle)std::printf("{\"gate\":\"stream_input\",\"slot\":%d,\"descriptor_ns\":%llu,\"first_validated_bytes_ns\":%llu,\"first_decoded_pcm_ns\":%llu,\"first_callback_consumption_ns\":%llu,\"first_pcm_network_bytes\":%llu,\"first_callback_network_upper_bytes\":%llu,\"total_bytes\":%llu,\"network_bytes\":%llu,\"unique_bytes\":%llu,\"requests\":%llu,\"buffer_high_bytes\":%llu,\"pcm_high_frames\":%llu,\"decoded_frames\":%llu,\"consumed_frames\":%llu,\"rendered_nonzero_content_frames\":%llu,\"sample_rate\":%llu,\"channels\":%llu,\"seek_generation\":%llu,\"seek_first_pts\":%.8f,\"discarded_seek_pcm_frames\":%llu,\"decoder_error\":%d,\"transport_status\":%d}\n",d==&first?0:1,d->descriptorNS,d->firstBytes.load(),d->firstPCM.load(),d->firstCallback.load(),d->pcmNetwork.load(),d->callbackNetworkUpper.load(),d->total,d->network.load(),d->unique.load(),d->requests.load(),d->bufferHigh.load(),d->ring.high.load(),d->produced.load(),d->consumed.load(),d->contentFrames.load(),d->sourceRate.load(),d->sourceChannels.load(),d->seekDone.load(),d->seekFirstPTS.load(),d->discarded.load(),d->error.load(),d->transportStatus.load());
+         std::fflush(stdout);
+         std::printf("{\"gate\":\"stream_end\",\"reason\":\"%s\",\"input_failure\":%s,\"joined_workers\":%u}\n",reasonName(reason),first.error||next.error?"true":"false",joinedWorkers);
+-        for(auto *d:{&first,&next})if(d->handle)std::printf("{\"gate\":\"stream_drain\",\"slot\":%d,\"phase\":\"%s\",\"codec\":\"%s\",\"unsupported_positive_timeline\":%s,\"codec_drain_ns\":%llu,\"swr_drain_ns\":%llu,\"producer_end_ns\":%llu,\"ring_drain_ns\":%llu,\"codec_drain_frames\":%llu,\"swr_drain_frames\":%llu,\"produced_frames\":%llu,\"consumed_frames\":%llu,\"produced_pcm_sha256\":\"%s\",\"consumed_pcm_sha256\":\"%s\",\"produced_tail_sha256\":\"%s\",\"consumed_tail_sha256\":\"%s\"}\n",d==&first?0:1,phaseName(d->phase),avcodec_get_name(AVCodecID(d->codecID.load())),d->unsupportedTimeline?"true":"false",d->codecDrainNS.load(),d->swrDrainNS.load(),d->producerEndNS.load(),d->ringDrainNS.load(),d->codecDrainFrames.load(),d->swrDrainFrames.load(),d->producedDigest.frames,d->consumedDigest.frames,d->producedDigest.full().c_str(),d->consumedDigest.full().c_str(),d->producedDigest.last().c_str(),d->consumedDigest.last().c_str());
++        for(auto *d:{&first,&next})if(d->handle)std::printf("{\"gate\":\"stream_drain\",\"slot\":%d,\"phase\":\"%s\",\"codec\":\"%s\",\"presentation_origin_seconds\":%.8f,\"sealed_write_frames\":%llu,\"ring_read_frames\":%llu,\"ring_remaining_frames\":%llu,\"codec_drain_ns\":%llu,\"swr_drain_ns\":%llu,\"producer_end_ns\":%llu,\"ring_drain_ns\":%llu,\"codec_drain_frames\":%llu,\"swr_drain_frames\":%llu,\"produced_frames\":%llu,\"consumed_frames\":%llu,\"produced_pcm_sha256\":\"%s\",\"consumed_pcm_sha256\":\"%s\",\"produced_tail_sha256\":\"%s\",\"consumed_tail_sha256\":\"%s\"}\n",d==&first?0:1,phaseName(d->phase),avcodec_get_name(AVCodecID(d->codecID.load())),d->presentationOrigin.load(),d->sealedWrite.load(),d->ring.read.load(),d->ring.size(),d->codecDrainNS.load(),d->swrDrainNS.load(),d->producerEndNS.load(),d->ringDrainNS.load(),d->codecDrainFrames.load(),d->swrDrainFrames.load(),d->producedDigest.frames,d->consumedDigest.frames,d->producedDigest.full().c_str(),d->consumedDigest.full().c_str(),d->producedDigest.last().c_str(),d->consumedDigest.last().c_str());
+         if(first.seekRequest)std::printf("{\"gate\":\"seek_pcm\",\"request_generation\":%llu,\"quiesced_generation\":%llu,\"ack_generation\":%llu,\"ready_generation\":%llu,\"produced_frames\":%llu,\"consumed_frames\":%llu,\"produced_pcm_sha256\":\"%s\",\"consumed_pcm_sha256\":\"%s\"}\n",first.seekRequest.load(),first.seekQuiesced.load(),first.seekAck.load(),first.seekDone.load(),first.seekProducedDigest.frames,first.seekConsumedDigest.frames,first.seekProducedDigest.full().c_str(),first.seekConsumedDigest.full().c_str());
++        std::printf("{\"gate\":\"failure_latch\",\"first_transport_failure\":%d,\"next_transport_failure\":%d}\n",first.firstNonCancelTransportFailure.load(),next.firstNonCancelTransportFailure.load());
++        std::printf("{\"gate\":\"timeline_policy\",\"aac_declared_padding_mapped\":%s,\"padding_timebase_quantization_seconds\":%.10f,\"unsupported_timeline\":%s}\n",first.mappedAACPadding?"true":"false",first.paddingQuantizationSeconds.load(),first.unsupportedTimeline?"true":"false");
++        if(first.seekRequest)std::printf("{\"gate\":\"seek_work\",\"decoder_context_recreations\":%llu,\"requested_preroll_seconds\":0.12,\"first_packet_relative_pts\":%.8f,\"converted_frames_trimmed_before_target\":%llu}\n",first.seekCodecResets.load(),first.seekFirstPacketPTS.load(),first.seekTrimmedFrames.load());
+     }
+     ~Session(){finish(1);unsigned destroyed=0;for(auto *d:{&first,&next})if(d->handle){MTStats stats{};mt_snapshot(d->handle,&stats);d->network=stats.network_bytes;mt_destroy(d->handle);d->handle=nullptr;destroyed++;}
+         std::printf("{\"gate\":\"stream_cleanup\",\"handles_destroyed\":%u,\"decoder_threads_joined\":%u,\"output_starts\":%llu,\"output_stops\":%llu,\"premute_nonzero_mix_frames\":%llu,\"clipped_samples\":%llu,\"network_total_bytes\":%llu,\"outcome\":\"pass\"}\n",destroyed,joinedWorkers,starts.load(),stops.load(),preMuteNonzero.load(),clipped.load(),first.network.load()+next.network.load());
+@@ -177,21 +198,39 @@
+         codec->pkt_timebase=track->time_base;codec->thread_count=1;ok(avcodec_open2(codec,codec->codec,nullptr));
+         require(codec->sample_rate>=8000&&codec->sample_rate<=192000&&codec->ch_layout.nb_channels>=1&&codec->ch_layout.nb_channels<=8,"format bounds");
+         sourceRate=codec->sample_rate;sourceChannels=codec->ch_layout.nb_channels;
+-        // This P0 supports presentation origin zero and codec preroll before it.
+-        // Positive origins require a separately validated timeline mapping.
+-        if(track->start_time!=AV_NOPTS_VALUE&&track->start_time>0){unsupportedTimeline=true;throw AVERROR_PATCHWELCOME;}
++        const double timebase=av_q2d(track->time_base);
++        if(track->start_time!=AV_NOPTS_VALUE)require(std::abs(track->start_time*timebase)<=1000000,"raw timestamp bound");
++        int64_t originTicks=track->start_time==AV_NOPTS_VALUE?0:track->start_time;
++        // The tested AAC/Matroska header declares CodecDelay in initial_padding.
++        // Its start_time includes that preroll. Map the declaration through the
++        // container timebase, recording its quantization instead of hardcoding
++        // a PCM crop. Do not duplicate Opus's decoder pre-skip/discard-padding.
++        if(parameters->codec_id==AV_CODEC_ID_AAC&&(parameters->initial_padding>0||parameters->trailing_padding>0)){
++            if(!std::strstr(format->iformat->name,"matroska")||track->start_time==AV_NOPTS_VALUE||track->duration!=AV_NOPTS_VALUE||parameters->trailing_padding>0||parameters->initial_padding>codec->sample_rate){unsupportedTimeline=true;throw AVERROR_PATCHWELCOME;}
++            int64_t paddingTicks=av_rescale_q(parameters->initial_padding,AVRational{1,codec->sample_rate},track->time_base);
++            originTicks+=paddingTicks;mappedAACPadding=true;paddingQuantizationSeconds=double(parameters->initial_padding)/codec->sample_rate-paddingTicks*timebase;
++        }
++        originTicks=std::max(int64_t(0),originTicks);const double origin=originTicks*timebase;
++        require(std::isfinite(origin)&&origin<=1000000,"presentation origin bound");
++        presentationOrigin=origin;
+         AVChannelLayout stereo=AV_CHANNEL_LAYOUT_STEREO;ok(swr_alloc_set_opts2(&swr,&stereo,AV_SAMPLE_FMT_FLT,rate,&codec->ch_layout,codec->sample_fmt,codec->sample_rate,0,nullptr));ok(swr_init(swr));
+-        const double timebase=av_q2d(track->time_base);double target=initialSeek,nextPTS=0;
++        double target=initialSeek,nextPTS=0;
+         // Never use a bitrate estimate as a hard presentation endpoint. For
+         // negative/unknown origins let decoder pre-skip/discard-padding stand.
+-        const double endPTS=track->start_time==0&&track->duration!=AV_NOPTS_VALUE&&av_fmt_ctx_get_duration_estimation_method(format)!=AVFMT_DURATION_FROM_BITRATE?track->duration*timebase:INFINITY;
++        const double endPTS=track->start_time!=AV_NOPTS_VALUE&&track->start_time>=0&&track->duration!=AV_NOPTS_VALUE&&format->duration_estimation_method!=AVFMT_DURATION_FROM_BITRATE?track->duration*timebase:INFINITY;
+         uint64_t currentSeek=0;std::array<float,8192*2> pcm{};phase=Decoding;
+-        auto performSeek=[&](double seconds){auto at=int64_t(std::max(0.0,seconds-.12)/timebase);ok(avformat_seek_file(format,stream,INT64_MIN,at,at,AVSEEK_FLAG_BACKWARD));
+-            avcodec_flush_buffers(codec);swr_close(swr);ok(swr_init(swr));nextPTS=seconds;target=seconds;seekFirstPTS=-1;};
++        auto performSeek=[&](double seconds){auto at=originTicks+int64_t(std::max(0.0,seconds-.12)/timebase);ok(avformat_seek_file(format,stream,INT64_MIN,at,at,AVSEEK_FLAG_BACKWARD));
++            // A new context makes each seek generation independent of decoded
++            // prefix history. This is a bounded reset, not decoding from zero.
++            avcodec_free_context(&codec);codec=avcodec_alloc_context3(avcodec_find_decoder(parameters->codec_id));require(codec,"seek codec allocation");
++            ok(avcodec_parameters_to_context(codec,parameters));codec->pkt_timebase=track->time_base;codec->thread_count=1;ok(avcodec_open2(codec,codec->codec,nullptr));
++            swr_free(&swr);ok(swr_alloc_set_opts2(&swr,&stereo,AV_SAMPLE_FMT_FLT,rate,&codec->ch_layout,codec->sample_fmt,codec->sample_rate,0,nullptr));ok(swr_init(swr));
++            seekCodecResets++;nextPTS=seconds;target=seconds;seekFirstPTS=-1;};
+         if(target>0)performSeek(target);
+         auto publish=[&](int count,double pts,int stage){
+             nextPTS=pts+double(count)/rate;for(int i=0;i<count*2;i++)require(std::isfinite(pcm[i]),"finite PCM");
+             size_t begin=size_t(std::min(double(count),std::max(0.0,std::ceil((target-pts)*rate-.01))));
++            if(currentSeek)seekTrimmedFrames+=begin;
+             size_t end=size_t(std::max(0.0,std::min(double(count),std::ceil((endPTS-pts)*rate-.01))));
+             if(begin>=end)return;
+             uint64_t zero=0;if(firstPCM.compare_exchange_strong(zero,sp_now_ns()))pcmNetwork=network.load();
+@@ -206,7 +245,7 @@
+         auto receive=[&](int stage){int code=AVERROR(EAGAIN);
+             while(!stopping()&&seekRequest.load()==currentSeek&&(code=avcodec_receive_frame(codec,frame))>=0){
+                 require(swr_get_out_samples(swr,frame->nb_samples)<=8192,"converted block bound");
+-                double pts=frame->pts==AV_NOPTS_VALUE?nextPTS:frame->pts*timebase-double(swr_get_delay(swr,codec->sample_rate))/codec->sample_rate;
++                double pts=frame->pts==AV_NOPTS_VALUE?nextPTS:frame->pts*timebase-origin-double(swr_get_delay(swr,codec->sample_rate))/codec->sample_rate;
+                 uint8_t *out=reinterpret_cast<uint8_t*>(pcm.data());int count=swr_convert(swr,&out,8192,const_cast<const uint8_t**>(frame->extended_data),frame->nb_samples);ok(count);
+                 publish(count,pts,stage);av_frame_unref(frame);
+             }
+@@ -230,15 +269,17 @@
+                 for(;;){if(stopping())break;uint8_t *out=reinterpret_cast<uint8_t*>(pcm.data());int count=swr_convert(swr,&out,8192,nullptr,0);ok(count);if(!count)break;publish(count,nextPTS,SwrDrain);}
+                 if(stopping())break;
+                 if(currentSeek){require(seekProducedDigest.frames>0,"seek has no output");seekDone=currentSeek;} // A valid short tail need not fill the prefill threshold.
+-                producerEndNS=sp_now_ns();phase.store(Ended,std::memory_order_release);break;
++                sealedWrite=ring.write.load();producerEndNS=sp_now_ns();phase.store(Ended,std::memory_order_release);break;
+             }
+             ok(code);
+-            if(packet->stream_index==stream){code=avcodec_send_packet(codec,packet);if(code==AVERROR(EAGAIN)){receive(Decoding);code=avcodec_send_packet(codec,packet);}ok(code);receive(Decoding);}
++            if(packet->stream_index==stream){if(mappedAACPadding){size_t size=0;auto *skip=av_packet_get_side_data(packet,AV_PKT_DATA_SKIP_SAMPLES,&size);if(skip&&size>=10&&(AV_RL32(skip)||AV_RL32(skip+4))){unsupportedTimeline=true;throw AVERROR_PATCHWELCOME;}}
++                if(currentSeek&&seekFirstPacketPTS<0&&packet->pts!=AV_NOPTS_VALUE)seekFirstPacketPTS=packet->pts*timebase-origin;
++                code=avcodec_send_packet(codec,packet);if(code==AVERROR(EAGAIN)){receive(Decoding);code=avcodec_send_packet(codec,packet);}ok(code);receive(Decoding);}
+             av_packet_unref(packet);
+         }
+-        if(stopping()&&phase!=Ended)phase=Cancelled;
+-    }catch(int code){if(stopping())phase=Cancelled;else{error=code;phase=Failed;}}
+-     catch(...){if(stopping())phase=Cancelled;else{error=AVERROR_UNKNOWN;phase=Failed;}}
++        if(stopping()&&phase!=Ended){if(firstNonCancelTransportFailure){error=AVERROR(EIO);phase=Failed;}else phase=Cancelled;}
++    }catch(int code){if(stopping()&&!firstNonCancelTransportFailure)phase=Cancelled;else{error=code;phase=Failed;}}
++     catch(...){if(stopping()&&!firstNonCancelTransportFailure)phase=Cancelled;else{error=AVERROR_UNKNOWN;phase=Failed;}}
+     av_frame_free(&frame);av_packet_free(&packet);swr_free(&swr);avcodec_free_context(&codec);avformat_close_input(&format);
+     if(io){av_freep(&io->buffer);avio_context_free(&io);}
+ }
+@@ -250,16 +291,22 @@
+     auto natural=[&]{uint64_t deadline=sp_now_ns()+10ull*1000000000;
+         while(!session.first.ringDrainNS&&!session.cancelled){require(sp_now_ns()<deadline,"natural drain timeout");pause_ms(2);}
+         require(session.first.ringDrainNS&&session.first.phase==Ended&&!session.first.error,"normal end state");session.finish(5);
+-        require(session.reason==5&&session.first.codecDrainNS&&session.first.swrDrainNS&&session.first.producerEndNS,"drain sequence");};
++        require(session.reason==5&&session.first.codecDrainNS&&session.first.swrDrainNS&&session.first.producerEndNS,"drain sequence");
++        require(session.first.ring.read==session.first.sealedWrite&&session.first.ring.size()==0,"sealed ring not drained");};
+     try{
+         SPSource source=live?sp_resolve(argv[2],0,"opus"):sp_local_window(argv[3],std::strtoull(argv[4],nullptr,10),!strcmp(mode,"late-failure")?32768:262144);
+-        session.attach(session.first,source);session.first.launch(0);
+-        if(!strcmp(mode,"full-ring-cancel")){
++        session.attach(session.first,source);if(!strcmp(mode,"failure-cancel-race"))session.first.holdFailureReturn=true;session.first.launch(0);
++        if(!strcmp(mode,"failure-cancel-race")){
++            uint64_t until=sp_now_ns()+3ull*1000000000;while(!session.first.failureReturnHeld&&sp_now_ns()<until)pause_ms(1);
++            require(session.first.failureReturnHeld&&session.first.firstNonCancelTransportFailure&&session.first.error==0,"failure return barrier missed");
++            session.requestCancel(6);session.finish(6);require(session.reason==4&&session.first.phase==Failed&&session.first.error,"cancel hid an earlier failure");
++            std::puts("{\"gate\":\"failure_cancel_race\",\"error_observed_before_stop\":true,\"requested_stop_reason\":\"bounded_probe_complete\",\"final_reason\":\"input_failed\"}");
++        }else if(!strcmp(mode,"full-ring-cancel")){
+             session.prepare(session.first);pause_ms(80);require(session.first.ring.size()==capacity,"ring not full");auto start=sp_now_ns();session.finish(1);
+             std::printf("{\"gate\":\"cancel_join\",\"elapsed_ms\":%.3f,\"was_full\":true}\n",(sp_now_ns()-start)/1e6);
+-        }else if(!strcmp(mode,"disconnect")||!strcmp(mode,"offset-reject")){
++        }else if(!strcmp(mode,"disconnect")){
+             bool failed=false;try{session.prepare(session.first);}catch(...){failed=true;}
+-            require(failed&&session.first.error!=0,"expected input rejection");if(!strcmp(mode,"offset-reject"))require(session.first.unsupportedTimeline,"typed timeline rejection");session.finish(4);
++            require(failed&&session.first.error!=0,"expected input rejection");session.finish(4);
+         }else{
+             session.prepare(session.first);pause_ms(80);auto before=session.first.network.load();pause_ms(80);require(before==session.first.network.load(),"backpressure");session.startOutput();
+             if(!strcmp(mode,"eof")||!strcmp(mode,"terminal-seek-reject")){
+@@ -274,8 +321,9 @@
+             }else if(!strcmp(mode,"active-cancel")){
+                 pause_ms(400);verifyEarly(session.first);session.finish(1);auto consumed=session.first.consumed.load();pause_ms(50);require(consumed==session.first.consumed,"PCM consumed after stop/join");
+                 std::puts("{\"gate\":\"active_cancel\",\"post_join_consumption_frames\":0}");
+-            }else if(live||!strcmp(mode,"tail-seek")||!strcmp(mode,"publish-seek")){
+-                pause_ms(400);verifyEarly(session.first);double target=live?std::strtod(argv[3],nullptr):std::strtod(argv[5],nullptr);
++            }else if(live||!strcmp(mode,"tail-seek")||!strcmp(mode,"publish-seek")||!strcmp(mode,"timeline-seek")){
++                pause_ms(400);if(!strcmp(mode,"timeline-seek")){require(session.first.firstCallback>0,"timeline input not consumed");std::puts("{\"gate\":\"small_timeline_fixture\",\"partial_fetch_proved\":false}");}else verifyEarly(session.first);
++                double target=live?std::strtod(argv[3],nullptr):std::strtod(argv[5],nullptr);
+                 if(!strcmp(mode,"publish-seek")){
+                     session.first.ring.holdNextPublish=true;uint64_t until=sp_now_ns()+1000000000;
+                     while(!session.first.ring.publishHeld&&sp_now_ns()<until)pause_ms(1);require(session.first.ring.publishHeld,"publish barrier missed");
+@@ -292,8 +340,10 @@
+                 require(session.transitions==1&&session.first.consumed==before&&session.next.consumed>next,"transition ownership");verifyEarly(session.next);session.finish(6);
+             }else throw std::runtime_error("unknown mode");
+         }
+-        bool expectedFailure=!strcmp(mode,"disconnect")||!strcmp(mode,"offset-reject")||!strcmp(mode,"late-failure");
+-        if(!expectedFailure)require(!session.first.error&&!session.next.error,"input error cannot pass");
++        bool expectedFailure=!strcmp(mode,"disconnect")||!strcmp(mode,"late-failure")||!strcmp(mode,"failure-cancel-race");
++        if(!expectedFailure)require(!session.first.error&&!session.next.error&&!session.first.firstNonCancelTransportFailure&&!session.next.firstNonCancelTransportFailure,"input error cannot pass");
++        int expectedReason=expectedFailure?4:(!strcmp(mode,"full-ring-cancel")||!strcmp(mode,"active-cancel"))?1:!strcmp(mode,"late")?6:5;
++        require(session.reason==expectedReason,"unexpected termination reason cannot pass");
+         require(session.first.network+session.next.network<=32ull*1024*1024,"network total");session.report(mode);
+         std::printf("{\"gate\":\"streaming_proof\",\"outcome\":\"%s\",\"media_file_written\":false,\"human_audibility\":false}\n",expectedFailure?"expected_failure_observed":"pass");return 0;
+     }catch(const std::exception &error){session.finish(7);session.report(mode);std::fprintf(stderr,"stream proof failed: %s\n",error.what());return 1;}

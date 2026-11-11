@@ -1,0 +1,111 @@
+{
+  "source_sha256": {
+    "../NativeControl.inc": "0876bc263d605cd68eb0c8b9b308da39dfc90d437784517722a70f325604091e"
+  },
+  "files": {
+    "README.md": {
+      "sha256": "b2b27c399191d8f10386d30ea851405a39109674de555569ee777c917e31bd05",
+      "bytes": 6262
+    },
+    "cleanup-candidates.json": {
+      "sha256": "3e50d17cfb166a0458e71b36cbda39b1e1746ea1758f7fdedb67d41f0f3d3df7",
+      "bytes": 5450
+    },
+    "control_tests.m": {
+      "sha256": "528b3ebf282d727e781913edc7f0604821ed0f73402b6d981ede4c9ea29686be",
+      "bytes": 8148
+    },
+    "evidence/20261110T222712.230472Z-control.json": {
+      "sha256": "36d71b9045b616bfe31f201cdad76fb7089a088087447fa74d5a4a55a54123ae",
+      "bytes": 2787
+    },
+    "evidence/20261110T222712.230472Z-control_tests.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/20261110T222712.230472Z-control_tests.stdout": {
+      "sha256": "cefe355beeee37b5fa0fddfb6fe746b8a5e38acfcc116ed3135d11a6404b38fb",
+      "bytes": 72
+    },
+    "evidence/20261110T222712.230472Z-production_smoke.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/20261110T222712.230472Z-production_smoke.stdout": {
+      "sha256": "8a3c2acab90890995f5fb636eff8245af588a99efeade0af7a63644ef3040f4b",
+      "bytes": 71
+    },
+    "evidence/20261110T223513.925314Z-compile.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/20261110T223513.925314Z-compile.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/20261110T223513.925314Z-host-wiring.json": {
+      "sha256": "7601af3d09522322820cb08af201fcbf6b632360d455a5d1fac5378df6d262e9",
+      "bytes": 13226
+    },
+    "evidence/20261110T223513.925314Z.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/20261110T223513.925314Z.stdout": {
+      "sha256": "c2110825eab49ac24b43ad6b44c083fe1921fd452bf38910c2ce307c6404f9c9",
+      "bytes": 4204
+    },
+    "evidence/guard-50e5755d6503402fab0c706f02afa0f1.json": {
+      "sha256": "f2a963dac30de0c28299106debf82b20c8dbf2731046acfd2acf03e8c9af2449",
+      "bytes": 586
+    },
+    "evidence/guard-b0617b5fd04d42b39b1c6efa1448436f.json": {
+      "sha256": "bd46c5ecdb3d9f9c4a2d82c86764bf3c5a19484b481b42c06e2750f0c1caf560",
+      "bytes": 585
+    },
+    "evidence/host-wiring-desktop-build.json": {
+      "sha256": "48f5395d653494a3ded7319b2b9acf52bd393400af8ad9a303047e8c1610c5ab",
+      "bytes": 11569
+    },
+    "freeze.py": {
+      "sha256": "701bd0d5314d0d5ed4ef2e9ccd892b76c7ec476831c583e73e2b6dc9f350bda0",
+      "bytes": 2972
+    },
+    "host-wiring/driver.m": {
+      "sha256": "2ec443df6e494355cefa93b6779c45dd2386b679e346d00ea39fe9606d5c6de2",
+      "bytes": 3877
+    },
+    "host-wiring/fresh.js": {
+      "sha256": "309ab03c38595e2f7e2729b11adf2b0bb405ec6f4f45a2ff59a68985b887f6d3",
+      "bytes": 42
+    },
+    "host-wiring/isolated-loop.js": {
+      "sha256": "1c2e1dfef55c5c083360f254d4dddf42b6261290eefe725318e81cfbb5c4043b",
+      "bytes": 130
+    },
+    "host-wiring/promise-chain.js": {
+      "sha256": "8a7ee06d8cf8b6d35dacd66c4b8bcf2ab5fe1d57031f38c5cdb650104d0d58ed",
+      "bytes": 148
+    },
+    "host-wiring/run.py": {
+      "sha256": "4a7e5543bc7a8703624419912851c94348cdf9287993895936360f707da831fc",
+      "bytes": 5573
+    },
+    "host-wiring/timers.js": {
+      "sha256": "c7beb68ddce9cac0a99b4279441a0781f11dbb9f8b2dbc3a0dd8ce4a97d2ce98",
+      "bytes": 267
+    },
+    "production_smoke.m": {
+      "sha256": "31ad1c3f0cdfdd5b09a08ed6c7d5028fa821d4f06d4d5802bd2abb5bcc3c9205",
+      "bytes": 1047
+    },
+    "run.py": {
+      "sha256": "5515a3b61b37ab0733556adbed0eba23b41d6f39fe9ed375d212374f4eb7feb8",
+      "bytes": 3045
+    }
+  },
+  "module_checks": 122,
+  "host_wiring_checks": 42,
+  "network_requests": 0,
+  "device_runtime_tested": false
+}

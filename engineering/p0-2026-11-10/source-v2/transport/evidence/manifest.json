@@ -1,0 +1,144 @@
+{
+  "source_hashes": {
+    "muses_transport.h": "9a9db595c3b513aed51fde14e4f4ce3506a7d9e18549350a783afe9e0c233806",
+    "run_long.py": "802cdd487ce3ddec9a04e145d4836312b829bb081821b77609547e7b3963caba",
+    "run_avio.py": "7cf0d9e796cbca7b754abc448753a379f84ed63d3edc9b2a539e1f91b6eccbad",
+    "FAILED-ATTEMPT.md": "dde20702318f8fca9a0386e76ace4a69ee6e2a3aa6d3d66953417d91ac78f473",
+    "AVIOTests.cpp": "ce8bddf820d085c0e5cf69c4f975ee517d145af02901cff686f61c04f9147afd",
+    "narrow_headers.py": "2c9e6cc9fb23c8dce42183fdd1e99f67c62bda3b4f75710ef40fe108d684a672",
+    "NativeTransport.m": "f39ae57107a16b03ff1b39d9917f9db33d9870c26eb620652150f9e9ea80d58b",
+    "LocalTests.m": "a6f72bdc4a4b7370aaaddee1ba6a17f788739c1df11e23aa341835e142d2c50b",
+    "freeze_evidence.py": "5ec8a531cb42a35cab62932daa7d330fe7d86734007bf8caa5e5a2b45cf2be7c",
+    "README.md": "990625eca2ebc6c0e2a523a28d0bb405f18ea18534a9bf4e27abed287669c74e",
+    "build_objects.py": "27ea2eed64ed923a655f2af84df344cc48a9410700c7b2fcdc024a53257bedb8",
+    "DecodeProbe.cpp": "a2f2e815cbf804fd5fa0ec7d363daa6011e41f68fdb09b5caf67127255b83f29",
+    "run_local.py": "7901be17df62fd63f577fad570180cb4720d7c166b6213b976c3206c1541865c",
+    "DecodeProbeTests.cpp": "70e50f4bea276ff275c9bf99f2db927d01ff8ad8e3e36743b8ab9f7545b0ab8f",
+    "build_decode_probe.py": "c84dedbbe05a4ab836942ec436529bf59caa11b75860570a4b02e36c79b0b94d",
+    "restore_decoder_inputs.py": "e4ef2a1fc6b8ca1a00cdba41cedee45eb23f24701f3e30715b8fe26dcdce2556",
+    "muses_decode_probe.h": "0d2d0b21a299bfc15a828d9f8d7f36dd18f2b1fcaa87d26b96f9a7d650b61bc2",
+    "LongDecodeTests.cpp": "2f3d9189769863afc3880721d558652e880275b7fbcc6fdfaad3a95616416fdd"
+  },
+  "objects": {
+    "macosx/NativeTransport.o": {
+      "sha256": "f57aaa6a5ec0fb4950227281bb1475f5251c3e02b662774b602b0d3ed4fc31fc",
+      "bytes": 43640
+    },
+    "macosx/DecodeProbe.o": {
+      "sha256": "3cf1a28644a3ff6744808014673c8c2ea144d73c283eb6761f5132d7b8d01e1d",
+      "bytes": 13464
+    },
+    "iphoneos/NativeTransport.o": {
+      "sha256": "a46054d165c69d91ee67a7113c613d682365bcb719a59e9ac993524c7e54e8a2",
+      "bytes": 44000
+    },
+    "iphoneos/DecodeProbe.o": {
+      "sha256": "88999422803d02594e0b66f20ced68bd1c7feafc981514e15f0b7c47c70cd10d",
+      "bytes": 13648
+    }
+  },
+  "verified_decoder_libraries": {
+    "libavformat": {
+      "sha256": "8fbc4f843b26e9776002cee1a159bd75b2a8372e7fc949e88b2af8377cbd1936",
+      "verified_against_original_audio_manifest": true
+    },
+    "libavcodec": {
+      "sha256": "cdbf9ded338aa5d48a755c3d8c19b6d5692d392ef3f7b96818bb84cf0cea1e72",
+      "verified_against_original_audio_manifest": true
+    },
+    "libavutil": {
+      "sha256": "98ad0cbf1520bc1e9b015f16eb830f688f9d77852ecfd6d7163f77e3ad5a83d3",
+      "verified_against_original_audio_manifest": true
+    },
+    "libswresample": {
+      "sha256": "c61c832836c6c6d053c270ad52dc850c8deafdeec1d03444afc219349b47b39c",
+      "verified_against_original_audio_manifest": true
+    }
+  },
+  "selected_runs": {
+    "transport": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-135409",
+    "avio": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/avio-20261110-135540",
+    "generic": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-probe-20261110-140447",
+    "long": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/long-20261110-141148"
+  },
+  "scratch": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-134551",
+      "logical_bytes": 444154,
+      "allocated_bytes": 466944
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-135102",
+      "logical_bytes": 445284,
+      "allocated_bytes": 466944
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/20261110-135409",
+      "logical_bytes": 445939,
+      "allocated_bytes": 466944
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/Trash",
+      "logical_bytes": 7953601,
+      "allocated_bytes": 9486336
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/avio-20261110-135540",
+      "logical_bytes": 1828505,
+      "allocated_bytes": 1839104
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-inputs",
+      "logical_bytes": 4144146,
+      "allocated_bytes": 4415488
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-probe-20261110-140339",
+      "logical_bytes": 1830295,
+      "allocated_bytes": 1839104
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/decoder-probe-20261110-140447",
+      "logical_bytes": 1830327,
+      "allocated_bytes": 1839104
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/iphoneos",
+      "logical_bytes": 58917,
+      "allocated_bytes": 65536
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/long-20261110-141148",
+      "logical_bytes": 1832100,
+      "allocated_bytes": 1843200
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/long-fixtures",
+      "logical_bytes": 1145736,
+      "allocated_bytes": 1150976
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/macosx",
+      "logical_bytes": 58361,
+      "allocated_bytes": 65536
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/narrow-headers-journal.jsonl",
+      "logical_bytes": 249822,
+      "allocated_bytes": 249856
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/narrow-headers-plan.json",
+      "logical_bytes": 257129,
+      "allocated_bytes": 258048
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/objects-manifest.json",
+      "logical_bytes": 1269,
+      "allocated_bytes": 4096
+    }
+  ],
+  "scratch_cap_bytes": 209715200,
+  "actual_free_bytes": 574480384000,
+  "cleanup": "Root coordinates stage-end; no deletion. Recovery Trash9,486,336 allocated bytes. No bytes recovered."
+}

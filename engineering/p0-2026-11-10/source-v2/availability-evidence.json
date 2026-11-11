@@ -1,0 +1,410 @@
+{
+  "scope": "Deterministic availability parser checks only; no provider or media requests",
+  "observed_stdout": "{\"gate\":\"availability_fixtures\",\"outcome\":\"pass\",\"cases\":115,\"network\":false,\"maxWaitMs\":120000}",
+  "source_sha256": {
+    "availability.mjs": "af6a013001ed81904101568dd54504d4978f1714a4864b50f565d672154de104",
+    "availability.test.mjs": "c9d5d63053c5627377945ce5c4c929aafa047883a87df76a718dca8c7671d9b7",
+    "availability.md": "ab86e5de32a38fd2e60ac2981c5739a4789038d2e5e5d98e552cee6b22af60d5"
+  },
+  "command": [
+    "python3",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/run_guarded.py",
+    "--allocation",
+    "source",
+    "--timeout",
+    "20",
+    "--",
+    "/usr/bin/env",
+    "NODE_DISABLE_COMPILE_CACHE=1",
+    "TMPDIR=/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability/tmp",
+    "/opt/homebrew/opt/node@24/bin/node",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/availability.test.mjs"
+  ],
+  "guard_receipt_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/receipts/0adabac2b5604d2280f74cfa76d47677.json",
+  "guard_receipt": {
+    "allocation": "source",
+    "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+    "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+    "command_sha256": "17c08b7023fbc7d0145585bcfe8e0dd49c9cf259055149b587e53f4f07590b26",
+    "executable": "/usr/bin/env",
+    "pid": 80058,
+    "started_unix": 1794350688.9346838,
+    "elapsed_seconds": 2.1506271362304688,
+    "returncode": 0,
+    "stop_reason": null,
+    "high_water_allocated_bytes": {
+      "total": 196583424,
+      "allocation": 186970112
+    },
+    "remaining_free_bytes": 574371426304
+  },
+  "owned_scratch": {
+    "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability",
+    "limit_bytes": 10485760,
+    "allocated_bytes_after_test": 0,
+    "contents": [
+      "empty tmp directory"
+    ],
+    "cleanup": "No failed builds or cache; empty owned directory may join root's recoverable cleanup manifest"
+  },
+  "runtime_limits": {
+    "parser_wait_ceiling_ms": 120000,
+    "caller_operational_wait_ceiling_ms": 20000,
+    "input_http_byte_budget": "Enforced by caller before JSON decoding",
+    "application_runtime_requires_node": false
+  },
+  "updated_utc": "2026-11-10T22:45:47.561741+00:00",
+  "diagnostic_change": "Strict independent content-time MILLISECONDS validation: positive safe integer start and end=-1 or >=start only; no unknown-kind broad exclusion. Fixed offset numeric shape diagnostics. Original 77 expected cases preserved; 115 total pass. No network from this subtask.",
+  "observed_shape_basis": {
+    "receipt": "evidence/20261110T222650.042036Z-resolve_next-TV_SAMSUNG-aac.json",
+    "sha256": "fc7fbb7f2fc50fa1ff40eae95023ba3a604e792480ced5c6410b4645d05735bf",
+    "field": "ad.player_vars",
+    "valueType": "string",
+    "stringLength": 97203,
+    "raw_value_saved": false
+  },
+  "player_vars_limits": {
+    "max_utf8_bytes": 131072,
+    "max_query_pairs": 64,
+    "max_key_code_units": 4096,
+    "max_recognized_value_code_units": 64,
+    "application_js_heap_bytes": 67108864,
+    "heap_limit_changed": false
+  },
+  "previous_records": [
+    {
+      "scope": "Deterministic availability parser checks only; no provider or media requests",
+      "observed_stdout": "{\"gate\":\"availability_fixtures\",\"outcome\":\"pass\",\"cases\":77,\"network\":false,\"maxWaitMs\":120000}",
+      "source_sha256": {
+        "availability.mjs": "4807001b331e9b2b196bcfd0b4f74166cee4cfa7e431f114bf57c29588339b3b",
+        "availability.test.mjs": "2ccc9634927f419372451aad05225c432a8130bffd5b553ffc7be58b5dc3cd86",
+        "availability.md": "edaed4c798d166cef7148600aea26359a31a7ad97b455de102b4a23910c23fc9"
+      },
+      "command": [
+        "python3",
+        "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/run_guarded.py",
+        "--allocation",
+        "source",
+        "--timeout",
+        "20",
+        "--",
+        "/usr/bin/env",
+        "NODE_DISABLE_COMPILE_CACHE=1",
+        "TMPDIR=/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability/tmp",
+        "/opt/homebrew/opt/node@24/bin/node",
+        "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/availability.test.mjs"
+      ],
+      "guard_receipt_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/receipts/eddb3c3513f84377839a1b32e8b160f3.json",
+      "guard_receipt": {
+        "allocation": "source",
+        "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+        "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+        "command_sha256": "17c08b7023fbc7d0145585bcfe8e0dd49c9cf259055149b587e53f4f07590b26",
+        "executable": "/usr/bin/env",
+        "pid": 79560,
+        "started_unix": 1794350386.235571,
+        "elapsed_seconds": 2.180899143218994,
+        "returncode": 0,
+        "stop_reason": null,
+        "high_water_allocated_bytes": {
+          "total": 196554752,
+          "allocation": 186970112
+        },
+        "remaining_free_bytes": 574397374464
+      },
+      "owned_scratch": {
+        "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability",
+        "limit_bytes": 10485760,
+        "allocated_bytes_after_test": 0,
+        "contents": [
+          "empty tmp directory"
+        ],
+        "cleanup": "No failed builds or cache; empty owned directory may join root's recoverable cleanup manifest"
+      },
+      "runtime_limits": {
+        "parser_wait_ceiling_ms": 120000,
+        "caller_operational_wait_ceiling_ms": 20000,
+        "input_http_byte_budget": "Enforced by caller before JSON decoding",
+        "application_runtime_requires_node": false
+      },
+      "updated_utc": "2026-11-10T22:40:24.074209+00:00",
+      "diagnostic_change": "Only unknown_placement_kind gains an exact allowlisted schema enumValue, otherwise unrecognized; original 71 expected behavior checks remain. Six additional diagnostic redaction fixtures pass. No network, parser budget or eligibility change.",
+      "observed_shape_basis": {
+        "receipt": "evidence/20261110T222650.042036Z-resolve_next-TV_SAMSUNG-aac.json",
+        "sha256": "fc7fbb7f2fc50fa1ff40eae95023ba3a604e792480ced5c6410b4645d05735bf",
+        "field": "ad.player_vars",
+        "valueType": "string",
+        "stringLength": 97203,
+        "raw_value_saved": false
+      },
+      "player_vars_limits": {
+        "max_utf8_bytes": 131072,
+        "max_query_pairs": 64,
+        "max_key_code_units": 4096,
+        "max_recognized_value_code_units": 64,
+        "application_js_heap_bytes": 67108864,
+        "heap_limit_changed": false
+      },
+      "previous_records": [
+        {
+          "scope": "Deterministic availability parser checks only; no provider or media requests",
+          "observed_stdout": "{\"gate\":\"availability_fixtures\",\"outcome\":\"pass\",\"cases\":71,\"network\":false,\"maxWaitMs\":120000}",
+          "source_sha256": {
+            "availability.mjs": "fed2f53aff91b911ff52ee9809539803a824cc389d9df9950d46aed6469c7aa7",
+            "availability.test.mjs": "c0eb73ff58ce6dbd62a729511711486eedc1396f11beb7f3039a6ae0330c537d",
+            "availability.md": "cea192697b38af31e0b4c5356fe2cfb952dffb1dbdbe121d457d8654fcaa3ddd"
+          },
+          "command": [
+            "python3",
+            "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/run_guarded.py",
+            "--allocation",
+            "source",
+            "--timeout",
+            "20",
+            "--",
+            "/usr/bin/env",
+            "NODE_DISABLE_COMPILE_CACHE=1",
+            "TMPDIR=/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability/tmp",
+            "/opt/homebrew/opt/node@24/bin/node",
+            "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/availability.test.mjs"
+          ],
+          "guard_receipt_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/receipts/c7d789d683d34ca082b9fb16a78ae6a5.json",
+          "guard_receipt": {
+            "allocation": "source",
+            "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+            "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+            "command_sha256": "17c08b7023fbc7d0145585bcfe8e0dd49c9cf259055149b587e53f4f07590b26",
+            "executable": "/usr/bin/env",
+            "pid": 78387,
+            "started_unix": 1794349824.9475808,
+            "elapsed_seconds": 2.156654119491577,
+            "returncode": 0,
+            "stop_reason": null,
+            "high_water_allocated_bytes": {
+              "total": 176717824,
+              "allocation": 167182336
+            },
+            "remaining_free_bytes": 574436790272
+          },
+          "owned_scratch": {
+            "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability",
+            "limit_bytes": 10485760,
+            "allocated_bytes_after_test": 0,
+            "contents": [
+              "empty tmp directory"
+            ],
+            "cleanup": "No failed builds or cache; empty owned directory may join root's recoverable cleanup manifest"
+          },
+          "runtime_limits": {
+            "parser_wait_ceiling_ms": 120000,
+            "caller_operational_wait_ceiling_ms": 20000,
+            "input_http_byte_budget": "Enforced by caller before JSON decoding",
+            "application_runtime_requires_node": false
+          },
+          "updated_utc": "2026-11-10T22:33:13.510068+00:00",
+          "previous_records": [
+            {
+              "scope": "Deterministic availability parser checks only; no provider or media requests",
+              "observed_stdout": "{\"gate\":\"availability_fixtures\",\"outcome\":\"pass\",\"cases\":55,\"network\":false,\"maxWaitMs\":120000}",
+              "source_sha256": {
+                "availability.mjs": "8492bbbbc4514316d6fcc145c02ce1eda11beaa23173f786a8c1489327ed4086",
+                "availability.test.mjs": "fb2c8919855e4e988eb4b7fe62ed9a58e779a52441f7b134942b6bab22ea9fbb",
+                "availability.md": "a181cfca9568f303488666ab49f9404694c2c06f3d144049f98ac53e55b536c2"
+              },
+              "command": [
+                "python3",
+                "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/run_guarded.py",
+                "--allocation",
+                "source",
+                "--timeout",
+                "20",
+                "--",
+                "/usr/bin/env",
+                "NODE_DISABLE_COMPILE_CACHE=1",
+                "TMPDIR=/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability/tmp",
+                "/opt/homebrew/opt/node@24/bin/node",
+                "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/availability.test.mjs"
+              ],
+              "guard_receipt_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/receipts/a1b7ecdadb8b48ccb0cc211cb24cfabf.json",
+              "guard_receipt": {
+                "allocation": "source",
+                "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+                "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+                "command_sha256": "17c08b7023fbc7d0145585bcfe8e0dd49c9cf259055149b587e53f4f07590b26",
+                "executable": "/usr/bin/env",
+                "pid": 78020,
+                "started_unix": 1794349434.509024,
+                "elapsed_seconds": 2.1497862339019775,
+                "returncode": 0,
+                "stop_reason": null,
+                "high_water_allocated_bytes": {
+                  "total": 176422912,
+                  "allocation": 166912000
+                },
+                "remaining_free_bytes": 574448758784
+              },
+              "owned_scratch": {
+                "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability",
+                "limit_bytes": 10485760,
+                "allocated_bytes_after_test": 0,
+                "contents": [
+                  "empty tmp directory"
+                ],
+                "cleanup": "No failed builds or cache; empty owned directory may join root's recoverable cleanup manifest"
+              },
+              "runtime_limits": {
+                "parser_wait_ceiling_ms": 120000,
+                "caller_operational_wait_ceiling_ms": 20000,
+                "input_http_byte_budget": "Enforced by caller before JSON decoding",
+                "application_runtime_requires_node": false
+              },
+              "updated_utc": "2026-11-10T22:24:44.066338+00:00",
+              "previous_records": [
+                {
+                  "scope": "Deterministic availability parser checks only; no provider or media requests",
+                  "observed_stdout": "{\"gate\":\"availability_fixtures\",\"outcome\":\"pass\",\"cases\":48,\"network\":false,\"maxWaitMs\":120000}",
+                  "source_sha256": {
+                    "availability.mjs": "fb1900e32a327386ab8103f4de11b0e0e104afc335c0ec015abb87173afa5ce8",
+                    "availability.test.mjs": "b7e7661090b49d9d677af6ff068d32538b241613f6206d699d641fbc6bf1653c",
+                    "availability.md": "46a3aaba733691b902a4369d2cde374b8abd223eea1285d54b24ff32b2c0153f"
+                  },
+                  "command": [
+                    "python3",
+                    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/run_guarded.py",
+                    "--allocation",
+                    "source",
+                    "--timeout",
+                    "20",
+                    "--",
+                    "/usr/bin/env",
+                    "NODE_DISABLE_COMPILE_CACHE=1",
+                    "TMPDIR=/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability/tmp",
+                    "/opt/homebrew/opt/node@24/bin/node",
+                    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/availability.test.mjs"
+                  ],
+                  "guard_receipt_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/receipts/3d3c0faef68c495f8770c228e67e156a.json",
+                  "guard_receipt": {
+                    "allocation": "source",
+                    "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+                    "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+                    "command_sha256": "17c08b7023fbc7d0145585bcfe8e0dd49c9cf259055149b587e53f4f07590b26",
+                    "executable": "/usr/bin/env",
+                    "pid": 73379,
+                    "started_unix": 1794347388.730346,
+                    "elapsed_seconds": 2.144976854324341,
+                    "returncode": 0,
+                    "stop_reason": null,
+                    "high_water_allocated_bytes": {
+                      "total": 98746368,
+                      "allocation": 89522176
+                    },
+                    "remaining_free_bytes": 574611234816
+                  },
+                  "owned_scratch": {
+                    "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/availability",
+                    "limit_bytes": 10485760,
+                    "allocated_bytes_after_test": 0,
+                    "contents": [
+                      "empty tmp directory"
+                    ],
+                    "cleanup": "No failed builds or cache; empty owned directory may join root's recoverable cleanup manifest"
+                  },
+                  "runtime_limits": {
+                    "parser_wait_ceiling_ms": 120000,
+                    "caller_operational_wait_ceiling_ms": 20000,
+                    "input_http_byte_budget": "Enforced by caller before JSON decoding",
+                    "application_runtime_requires_node": false
+                  }
+                }
+              ],
+              "diagnostic_change": "Fixed field category/type/length only; existing result and all 48 original expected cases preserved. No limit expansion or network."
+            }
+          ],
+          "diagnostic_change": "Evidence-based independent 128KiB UTF-8 playerVars budget; single scan; only bounded keys/duration decoded; existing 48 expected results preserved. No network from this subtask.",
+          "observed_shape_basis": {
+            "receipt": "evidence/20261110T222650.042036Z-resolve_next-TV_SAMSUNG-aac.json",
+            "sha256": "fc7fbb7f2fc50fa1ff40eae95023ba3a604e792480ced5c6410b4645d05735bf",
+            "field": "ad.player_vars",
+            "valueType": "string",
+            "stringLength": 97203,
+            "raw_value_saved": false
+          },
+          "player_vars_limits": {
+            "max_utf8_bytes": 131072,
+            "max_query_pairs": 64,
+            "max_key_code_units": 4096,
+            "max_recognized_value_code_units": 64,
+            "application_js_heap_bytes": 67108864,
+            "heap_limit_changed": false
+          }
+        }
+      ],
+      "failed_attempt": {
+        "guard_receipt_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/receipts/008a974ebb8d45f5934579ff98a7ebef.json",
+        "guard_receipt": {
+          "allocation": "source",
+          "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+          "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+          "command_sha256": "17c08b7023fbc7d0145585bcfe8e0dd49c9cf259055149b587e53f4f07590b26",
+          "executable": "/usr/bin/env",
+          "pid": 79467,
+          "started_unix": 1794350348.184336,
+          "elapsed_seconds": 2.1609129905700684,
+          "returncode": 1,
+          "stop_reason": null,
+          "high_water_allocated_bytes": {
+            "total": 196550656,
+            "allocation": 186970112
+          },
+          "remaining_free_bytes": 574399823872
+        },
+        "cause": "New test compared the full public result to an existing abbreviated fixture expectation helper. Corrected the assertion only; production module unchanged between failed and passing runs."
+      }
+    }
+  ],
+  "intermediate_diagnostic_only": {
+    "cases": 82,
+    "source_sha256": "b235d28884419c4a9d8de186ebd7b34a5e7b7c87236c644a613321730fe10df5",
+    "guard_receipt_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/coordination/receipts/0de65271e0b443e5aef3624d010e67b1.json",
+    "guard_receipt": {
+      "allocation": "source",
+      "budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+      "runner_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+      "command_sha256": "17c08b7023fbc7d0145585bcfe8e0dd49c9cf259055149b587e53f4f07590b26",
+      "executable": "/usr/bin/env",
+      "pid": 79988,
+      "started_unix": 1794350617.440844,
+      "elapsed_seconds": 2.1587929725646973,
+      "returncode": 0,
+      "stop_reason": null,
+      "high_water_allocated_bytes": {
+        "total": 196579328,
+        "allocation": 186970112
+      },
+      "remaining_free_bytes": 574374793216
+    }
+  },
+  "observed_enum_basis": {
+    "receipt": "evidence/20261110T224053.655659Z-resolve_next-TV_SAMSUNG-aac.json",
+    "sha256": "bced5cc7e9bb2ad59814433e10304574c6dbda421d17a5e818202f164700034d",
+    "enumValue": "AD_PLACEMENT_KIND_MILLISECONDS",
+    "stringLength": 30,
+    "raw_value_saved": false
+  },
+  "semantic_basis": {
+    "fixture_retained_scratch": "source/v2-parser/fixtures/player.js",
+    "bytes": 2658728,
+    "sha256": "5f2035b38e20c1e57ad8e51ada9ea82d1eaac59f2a4603ebd851f421e3a3f5dd",
+    "schema_observation_lines": [
+      2875,
+      2977,
+      2981,
+      2982,
+      2983,
+      5946
+    ],
+    "provider_implementation_copied": false,
+    "unknown_kinds_remain_unknown": true,
+    "scope": "Initial playback time zero only; no seek/resume or midroll-service claim"
+  }
+}

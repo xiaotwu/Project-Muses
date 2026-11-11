@@ -1,0 +1,27 @@
+{
+  "plan_sha256": "e9f31be60b25782d044992d9c7c5a48e1a29e3fc9c88c9f47aa20dddd6960f10",
+  "script_sha256": "841dc089e3614f13df90532c4c672f42b34d57d27774a03d0868244b31770ab3",
+  "started_unix": 1794353533.4038541,
+  "free_before": 573721620480,
+  "actions": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/work",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage5/relink-work",
+      "inventory": {
+        "entries": 10565,
+        "logical_file_bytes": 92511029,
+        "allocated_bytes": 120979456,
+        "allocated_unique_inode_bytes": 120979456,
+        "uid": 501,
+        "tree_sha256": "733eb50f1777f2ae5d6546430f4391c5b63bd22c6b222e1aead66b0bc30eee42"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794353534.5446022
+    }
+  ],
+  "failures": [],
+  "completed_unix": 1794353534.862547,
+  "free_after": 573721563136,
+  "physical_recovery_claim_bytes": 0
+}

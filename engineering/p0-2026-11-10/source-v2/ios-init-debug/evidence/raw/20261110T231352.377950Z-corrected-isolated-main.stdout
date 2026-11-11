@@ -1,0 +1,15 @@
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_repeat","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"internal_error","case":"isolated_deadline","outcome":"pass","gate":"input_contract_case"}
+{"exception_category":"none","case":"isolated_fresh_after_deadline","outcome":"pass","gate":"input_contract_case"}
+{"checks":14,"network_requests":0,"blocked_request_calls":0,"observed_eval_heap_bytes":154880,"process_maxrss_bytes":6995968,"gate":"corrected_input_summary","outcome":"pass","failures":0,"main_eval_calls":0,"isolated_eval_calls":14,"terminator_failures":0}

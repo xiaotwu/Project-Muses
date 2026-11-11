@@ -1,0 +1,350 @@
+{
+  "created_utc": "2026-11-10T21:22:35.298196+00:00",
+  "scope": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source",
+  "read_only": true,
+  "irreversible_cleanup_authorized": false,
+  "paths": [
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/YouTubeKit-7f75a2299dc329c0b7855afb25d47663a02855cb",
+      "relative_path": "YouTubeKit-7f75a2299dc329c0b7855afb25d47663a02855cb",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 827392,
+      "logical_file_bytes": 689309
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/NativeHost-shared.o",
+      "relative_path": "build/NativeHost-shared.o",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 86016,
+      "logical_file_bytes": 82976
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/cutils.o",
+      "relative_path": "build/cutils.o",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 12288,
+      "logical_file_bytes": 9320
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/dtoa.o",
+      "relative_path": "build/dtoa.o",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 16384,
+      "logical_file_bytes": 15288
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/libregexp.o",
+      "relative_path": "build/libregexp.o",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 40960,
+      "logical_file_bytes": 39760
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/libunicode.o",
+      "relative_path": "build/libunicode.o",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 73728,
+      "logical_file_bytes": 70744
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/probe.bundle.js",
+      "relative_path": "build/probe.bundle.js",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "exact bundled JavaScript retained for unfinished device harness",
+      "allocated_bytes": 1617920,
+      "logical_file_bytes": 1617073
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/quickjs.o",
+      "relative_path": "build/quickjs.o",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 1048576,
+      "logical_file_bytes": 1023024
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/source-proof",
+      "relative_path": "build/source-proof",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 1003520,
+      "logical_file_bytes": 1002288
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/build/source-proof-jsc",
+      "relative_path": "build/source-proof-jsc",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 1024000,
+      "logical_file_bytes": 1023856
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/deps",
+      "relative_path": "deps",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 39460864,
+      "logical_file_bytes": 31344023
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/downloads",
+      "relative_path": "downloads",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 753664,
+      "logical_file_bytes": 751742
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/MusesP0Source.app",
+      "relative_path": "iphoneos/MusesP0Source.app",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "new unsigned telemetry-fixed candidate 4; unfinished probe",
+      "allocated_bytes": 6946816,
+      "logical_file_bytes": 6938856
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/NativeHost.o",
+      "relative_path": "iphoneos/NativeHost.o",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "frozen native object retained by coordinator for minimal unfinished device relink",
+      "allocated_bytes": 86016,
+      "logical_file_bytes": 82912
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/calibration-first.m4a",
+      "relative_path": "iphoneos/calibration-first.m4a",
+      "owner": "root coordinator",
+      "action": "retain unfinished probe",
+      "reason": "root-generated synthetic fixture retained by coordinator for unfinished device harness",
+      "allocated_bytes": 1163264,
+      "logical_file_bytes": 1162583
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/calibration-next.m4a",
+      "relative_path": "iphoneos/calibration-next.m4a",
+      "owner": "root coordinator",
+      "action": "retain unfinished probe",
+      "reason": "root-generated synthetic fixture retained by coordinator for unfinished device harness",
+      "allocated_bytes": 1163264,
+      "logical_file_bytes": 1162231
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/cutils.o",
+      "relative_path": "iphoneos/cutils.o",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "frozen native object retained by coordinator for minimal unfinished device relink",
+      "allocated_bytes": 12288,
+      "logical_file_bytes": 9320
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/development-entitlements.plist",
+      "relative_path": "iphoneos/development-entitlements.plist",
+      "owner": "root coordinator",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "root review; superseded signing/duplicate synthetic fixture",
+      "allocated_bytes": 4096,
+      "logical_file_bytes": 390
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/dtoa.o",
+      "relative_path": "iphoneos/dtoa.o",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "frozen native object retained by coordinator for minimal unfinished device relink",
+      "allocated_bytes": 16384,
+      "logical_file_bytes": 14904
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/iOSMain.o",
+      "relative_path": "iphoneos/iOSMain.o",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "frozen native object retained by coordinator for minimal unfinished device relink",
+      "allocated_bytes": 110592,
+      "logical_file_bytes": 110376
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/libregexp.o",
+      "relative_path": "iphoneos/libregexp.o",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "frozen native object retained by coordinator for minimal unfinished device relink",
+      "allocated_bytes": 40960,
+      "logical_file_bytes": 39800
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/libunicode.o",
+      "relative_path": "iphoneos/libunicode.o",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "frozen native object retained by coordinator for minimal unfinished device relink",
+      "allocated_bytes": 73728,
+      "logical_file_bytes": 70744
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/quickjs.o",
+      "relative_path": "iphoneos/quickjs.o",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "frozen native object retained by coordinator for minimal unfinished device relink",
+      "allocated_bytes": 1048576,
+      "logical_file_bytes": 1002328
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/signed-calibration-1",
+      "relative_path": "iphoneos/signed-calibration-1",
+      "owner": "root coordinator",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "root review; superseded signing/duplicate synthetic fixture",
+      "allocated_bytes": 6995968,
+      "logical_file_bytes": 6978498
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/signed-calibration-2",
+      "relative_path": "iphoneos/signed-calibration-2",
+      "owner": "root coordinator",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "root review; superseded signing/duplicate synthetic fixture",
+      "allocated_bytes": 6995968,
+      "logical_file_bytes": 6978594
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/iphoneos/signed-calibration-3",
+      "relative_path": "iphoneos/signed-calibration-3",
+      "owner": "root coordinator",
+      "action": "retain unfinished probe",
+      "reason": "root-owned tested signed candidate 3, includes private profile; unfinished probe",
+      "allocated_bytes": 7000064,
+      "logical_file_bytes": 6980276
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/media",
+      "relative_path": "media",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 3145728,
+      "logical_file_bytes": 3145728
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/npm-cache",
+      "relative_path": "npm-cache",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 19644416,
+      "logical_file_bytes": 19423239
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/quickjs-2026-06-04",
+      "relative_path": "quickjs-2026-06-04",
+      "owner": "p0_source agent",
+      "action": "retain unfinished probe",
+      "reason": "small pinned QuickJS source retained by coordinator for unfinished device harness",
+      "allocated_bytes": 3612672,
+      "logical_file_bytes": 3466430
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/results",
+      "relative_path": "results",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 118784,
+      "logical_file_bytes": 32552
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/tmp",
+      "relative_path": "tmp",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 2658304,
+      "logical_file_bytes": 1401940
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-build",
+      "relative_path": "youtubekit-build",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 93798400,
+      "logical_file_bytes": 92726104
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-cache",
+      "relative_path": "youtubekit-cache",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 94208,
+      "logical_file_bytes": 94208
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-config",
+      "relative_path": "youtubekit-config",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 0,
+      "logical_file_bytes": 0
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-module-cache",
+      "relative_path": "youtubekit-module-cache",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 696320,
+      "logical_file_bytes": 674058
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-probe",
+      "relative_path": "youtubekit-probe",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 12288,
+      "logical_file_bytes": 7691
+    },
+    {
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/youtubekit-security",
+      "relative_path": "youtubekit-security",
+      "owner": "p0_source agent",
+      "action": "recoverable Trash candidate; root executes",
+      "reason": "reproducible build/cache/download or failed partial; bounded receipts retained in source",
+      "allocated_bytes": 0,
+      "logical_file_bytes": 0
+    }
+  ],
+  "recoverable_candidates_allocated_bytes": 178511872,
+  "minimum_retained_allocated_bytes": 22892544,
+  "actual_free_bytes": 574696407040,
+  "lsof_exit_code": 1,
+  "open_file_lines": 0,
+  "open_files_present": false,
+  "raw_private_signing_or_crash_data_copied": false,
+  "cleanup_performed": false,
+  "bytes_recovered_by_agent": 0
+}

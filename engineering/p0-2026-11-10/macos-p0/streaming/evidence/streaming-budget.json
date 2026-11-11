@@ -1,0 +1,19 @@
+{
+  "scope": "Bounded native streaming audio prototype, desktop muted validation first",
+  "parent_stage_budget_sha256": "de134250d8992c886855224b22710e284187b56ee044bb90a58f12cb60d90c4e",
+  "scratch": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming",
+  "allocation": "audio",
+  "scratch_limit_bytes": 134217728,
+  "free_floor_bytes": 42949672960,
+  "free_before_bytes": 573721563136,
+  "stream_handles": 2,
+  "max_network_bytes_per_handle": 16777216,
+  "max_network_bytes_total": 33554432,
+  "window_bytes_per_handle": 262144,
+  "pcm_frames_per_input": 32768,
+  "max_session_seconds": 90,
+  "rss_observation_limit_bytes": 268435456,
+  "observed_not_hard_rss_limit": true,
+  "audible_by_default": false,
+  "capture_audio": false
+}

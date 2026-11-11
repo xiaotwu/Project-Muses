@@ -1,0 +1,4 @@
+Executable=/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macosx/audio-probe
+warning: Specifying ':' in the path is deprecated and will not work in a future release
+
+exit=0

@@ -1,0 +1,8 @@
+{
+  "outcome": "stopped_before_plan_or_moves",
+  "reason": "Original scanner refuses symlinks; FFmpeg build/src is an owned source link. New scanner will record the link without following it.",
+  "old_script_sha256": "09c91181fd6cb5d1e314ed4933ef894be6c8dee2ceba2276c13f06f21b7a0d74",
+  "link_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/work/build/src",
+  "link_target": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/work/sources/ffmpeg-8.0",
+  "cleanup_mutations": 0
+}

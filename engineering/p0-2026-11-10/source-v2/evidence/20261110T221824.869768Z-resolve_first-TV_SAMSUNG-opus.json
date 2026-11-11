@@ -1,0 +1,484 @@
+{
+  "mode": "resolve_first",
+  "client": "TV_SAMSUNG",
+  "codec": "opus",
+  "exit_code": 0,
+  "stop_reason": null,
+  "elapsed_seconds": 11.922246832999999,
+  "sampled_peak_rss_bytes": 81068032,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "external_deadline_seconds": 180,
+  "binary_sha256": "fe3cfd2b0a2f86991286b97a7434b1ae5f1c2b21d9deb696014db617ca83a1b5",
+  "bundle_sha256": "4ff0833f5f795358b915ecfea0a6d0073ff9306d89c7b9631599cb2fb7327a23",
+  "rows": [
+    {
+      "category": "ok",
+      "input_bytes": 2658728,
+      "native_live_after_bytes": 0,
+      "reduce_ms": 1924.275,
+      "parse_ms": 1743.19,
+      "timestamp_matches": 2,
+      "gate": "native_player_reduce",
+      "outcome": "pass",
+      "output_bytes": 189450,
+      "native_peak_bytes": 7401998,
+      "solver_matches": 1
+    },
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 2488,
+      "player_loaded": true
+    },
+    {
+      "gate": "source_profile",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "client_version": "5.20260707",
+      "reason": "public_metadata_only",
+      "status": "OK",
+      "format_count": 42,
+      "rejected_formats": 0
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "TV_SAMSUNG",
+      "video_id": "aqz-KE-bpKQ",
+      "status": "OK",
+      "audio_formats": 17,
+      "bounded_audio_formats": 13,
+      "requested_codec": "opus",
+      "requested_codec_formats": 9,
+      "direct_formats": 17,
+      "cipher_formats": 0,
+      "n_parameter_formats": 17,
+      "hls": false,
+      "sabr": false
+    },
+    {
+      "gate": "source_availability",
+      "outcome": "pass",
+      "state": "known",
+      "availableAtUnixMs": 1794349096206,
+      "waitMs": 0,
+      "reason": "no_advertised_preroll",
+      "prerollCount": 0
+    },
+    {
+      "gate": "source_descriptor",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "video_id": "aqz-KE-bpKQ",
+      "codec": "opus",
+      "itag": 251,
+      "content_length": 10258925,
+      "elapsed_ms": 2643,
+      "expires_known": true,
+      "n_present": true,
+      "n_changed": true,
+      "signature_timestamp_known": true,
+      "solver_required": true
+    },
+    {
+      "js_memory_bytes": 26571008,
+      "deadline_seconds": 90,
+      "received_bytes": 2742203,
+      "process_maxrss_bytes": 78643200,
+      "js_peak_allocated_bytes": 33139603,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 5,
+      "peak_concurrent": 1,
+      "first_byte_samples": 5
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 262144,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 1,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 524288,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 2,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 786432,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 3,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 1048576,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 4,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 1310720,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 5,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 1572864,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 6,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 1835008,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 7,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 2097152,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 8,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 2359296,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 9,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 2621440,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 10,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 2883584,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 11,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 3145728,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 12,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 3407872,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 13,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 3670016,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 14,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 3932160,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 15,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 4194304,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 16,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 4456448,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 17,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 4718592,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 18,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 4980736,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 19,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 5242880,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 20,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 5505024,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 21,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 5767168,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 22,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 6029312,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 23,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 6291456,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 24,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 6553600,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 25,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 6815744,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 26,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 7077888,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 27,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 7340032,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 28,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 7602176,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 29,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 7864320,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 30,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 8126464,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 31,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 8388608,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 32,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 8650752,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 33,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 8912896,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 34,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 9175040,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 35,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 9437184,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 36,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 9699328,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 37,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 9961472,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 38,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 10223616,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 39,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "outcome": "pass",
+      "validated_bytes": 10258925,
+      "total_bytes": 10258925,
+      "gate": "native_media_progress",
+      "requests": 40,
+      "buffer_high_bytes": 262144
+    },
+    {
+      "sha256": "08dd9fc36d077d0dd39b51f039dc35135e678aa16bb405175d85d34af12605f6",
+      "category": "ok",
+      "validated_bytes": 10258925,
+      "complete_file": 1,
+      "network_bytes": 10258925,
+      "requests": 40,
+      "expected_bytes": 10258925,
+      "buffer_high_bytes": 262144,
+      "gate": "native_media_complete",
+      "elapsed_ms": 2176.3026666885708,
+      "process_maxrss_bytes": 78692352,
+      "owned_media_filename": "TV_SAMSUNG-aqz-KE-bpKQ-0B4A9DD0-6C69-43E2-96F4-80272707AA88.webm",
+      "outcome": "pass",
+      "http_status": 206
+    },
+    {
+      "outcome": "pass",
+      "http_status": 206,
+      "local_error": 0,
+      "elapsed_ms": 3293.740749999415,
+      "gate": "native_decode_full",
+      "pcm_sha256": "40a1680ba26c9aac7aee4e3aeb0355bad8ac70758e7072d6ebb29c04c61756af",
+      "local_frames": 30459751,
+      "transport_category": "eof",
+      "nonzero_samples": 60914806,
+      "requests": 40,
+      "source_channels": 2,
+      "buffer_high_bytes": 262144,
+      "native_frames": 30459751,
+      "error": 0,
+      "first_output_seconds": 0,
+      "native_error": 0,
+      "source_sample_rate": 48000,
+      "network_bytes": 10258925,
+      "equal_pcm": 1,
+      "process_maxrss_bytes": 80642048,
+      "rms": 0.07959656096791795
+    },
+    {
+      "outcome": "pass",
+      "http_status": 206,
+      "local_error": 0,
+      "elapsed_ms": 3131.9375416787807,
+      "gate": "native_decode_seek_30s",
+      "pcm_sha256": "6a8bb7e41d645d39058762da19a9d73006f9ff5ed4568b4417e6ec17e6cb45f8",
+      "local_frames": 29019775,
+      "transport_category": "eof",
+      "nonzero_samples": 58039521,
+      "requests": 39,
+      "source_channels": 2,
+      "buffer_high_bytes": 262144,
+      "native_frames": 29019775,
+      "error": 0,
+      "first_output_seconds": 30,
+      "native_error": 0,
+      "source_sample_rate": 48000,
+      "network_bytes": 10190939,
+      "equal_pcm": 1,
+      "process_maxrss_bytes": 81084416,
+      "rms": 0.08027907134876246
+    }
+  ],
+  "unsafe_or_non_json_stdout_redacted": false,
+  "stdout_bytes": 8646,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

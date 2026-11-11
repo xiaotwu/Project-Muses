@@ -1,0 +1,91 @@
+{
+  "source_sha256": {
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/iOSMain.m": "bf3b2c258c366eed0c106c727c3c5434f62de2a3ae41c1bec28de35060774471",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/RunPolicy.h": "c6c2a116efb4d3cdb517065ea1cc2b36f32287b4c2c899cc575fdad125bb7cd7",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/PolicyTests.c": "c1bdc57285dacba01efa205842fabb647cd04abf51c597bbe74faf19f6a9f2ba",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/verify.py": "0cddc089b57df4d0941eb5b5f04bd60532461d43a26ca26c45a92ede06f6f84f"
+  },
+  "commands": [
+    [
+      "xcrun",
+      "--sdk",
+      "iphoneos",
+      "clang",
+      "-target",
+      "arm64-apple-ios17.0",
+      "-isysroot",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.2.sdk",
+      "-fobjc-arc",
+      "-fsyntax-only",
+      "-Werror",
+      "-Wno-deprecated-declarations",
+      "-Wno-incompatible-pointer-types",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/iOSMain.m"
+    ],
+    [
+      "clang",
+      "-std=c11",
+      "-O1",
+      "-pthread",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/PolicyTests.c",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223423/policy-normal"
+    ],
+    [
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223423/policy-normal"
+    ],
+    [
+      "clang",
+      "-std=c11",
+      "-O1",
+      "-pthread",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-fsanitize=thread",
+      "-g",
+      "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/source-v2/ios/PolicyTests.c",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223423/policy-tsan"
+    ],
+    [
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-transport/ios-controller-20261110-223423/policy-tsan"
+    ]
+  ],
+  "network": false,
+  "phone": false,
+  "audio": false,
+  "files": {
+    "normal-build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tsan-run.log": {
+      "sha256": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+      "bytes": 133
+    },
+    "tsan-build.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "normal-run.log": {
+      "sha256": "76ff90ced9aae4e22483e355661c8c2365ae798d8974d36f21cce1e395628cc6",
+      "bytes": 133
+    },
+    "policy-normal": {
+      "sha256": "64953d36036ff89bec0b450bcbf74dec3353764d59d9763a3a7b64f1093271d8",
+      "bytes": 34400
+    },
+    "policy-tsan": {
+      "sha256": "180bd143f5f0ae387c63f420885175170914c00db61b10de3782c4ae6a567bdd",
+      "bytes": 35352
+    },
+    "ios-syntax.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  }
+}

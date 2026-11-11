@@ -1,0 +1,237 @@
+{
+  "plan_sha256": "bbf9ebda8d39e5128fd6ebc5e65212baa65a51be81c312664fa7fef0fd835257",
+  "script_sha256": "e66d34559080ccd611ad2ceb0b4ea1cbfcefb0055a85cd00889d91e738bdafac",
+  "started_unix": 1794358619.367129,
+  "free_before": 573210460160,
+  "actions": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-002036",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/01-build-20261111-002036",
+      "inventory": {
+        "entries": 22,
+        "logical_file_bytes": 141436,
+        "allocated_bytes": 155648,
+        "allocated_unique_inode_bytes": 155648,
+        "uid": 501,
+        "tree_sha256": "4139373f6d849875891b6e88ec839f3c3edc874f0c649815222d37b8f09c63e9"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358621.2251918
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-002414",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/02-build-20261111-002414",
+      "inventory": {
+        "entries": 21,
+        "logical_file_bytes": 9426128,
+        "allocated_bytes": 9449472,
+        "allocated_unique_inode_bytes": 9449472,
+        "uid": 501,
+        "tree_sha256": "71a3c895b4ea95db4c3ef7351473a3da68f2e9b3e2d0d3ebf86670289132780f"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358621.377745
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-002533",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/03-build-20261111-002533",
+      "inventory": {
+        "entries": 23,
+        "logical_file_bytes": 9486620,
+        "allocated_bytes": 9515008,
+        "allocated_unique_inode_bytes": 9515008,
+        "uid": 501,
+        "tree_sha256": "998b422a10ec13cad399fd1d5ff344acf5649581b991d3575245cdb58654a581"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358621.543699
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003049",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/04-build-20261111-003049",
+      "inventory": {
+        "entries": 23,
+        "logical_file_bytes": 9520369,
+        "allocated_bytes": 9547776,
+        "allocated_unique_inode_bytes": 9547776,
+        "uid": 501,
+        "tree_sha256": "9de0ae3c1763f332dd1304482aad5d44f77f5428d848398be7c68b2c80e191da"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358621.708905
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/build-20261111-003710",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/05-build-20261111-003710",
+      "inventory": {
+        "entries": 23,
+        "logical_file_bytes": 9524208,
+        "allocated_bytes": 9551872,
+        "allocated_unique_inode_bytes": 9551872,
+        "uid": 501,
+        "tree_sha256": "a26bf90fee988a199e5b0633e63db90e94c215943d55d738d149e509b7483cdb"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358621.869992
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-002552",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/06-local-20261111-002552",
+      "inventory": {
+        "entries": 44,
+        "logical_file_bytes": 87744,
+        "allocated_bytes": 143360,
+        "allocated_unique_inode_bytes": 143360,
+        "uid": 501,
+        "tree_sha256": "811a2fc29c197ce6b47c5fc05b32f028f78e55ab951f74534ca7d436be251411"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358622.014032
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-003128",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/07-local-20261111-003128",
+      "inventory": {
+        "entries": 28,
+        "logical_file_bytes": 43979,
+        "allocated_bytes": 86016,
+        "allocated_unique_inode_bytes": 86016,
+        "uid": 501,
+        "tree_sha256": "3b3a0f4cb2aba4aa3f1a6fdfc976489a085cb526defeea434b8c9f2c31135edd"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358622.159384
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-003720",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/08-local-20261111-003720",
+      "inventory": {
+        "entries": 8,
+        "logical_file_bytes": 10162,
+        "allocated_bytes": 24576,
+        "allocated_unique_inode_bytes": 24576,
+        "uid": 501,
+        "tree_sha256": "9af8b39aa6f65596fd2271791b26b8883879d3373c0a5a994c4a80e4abccc4e4"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358622.3916779
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-003726",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/09-local-20261111-003726",
+      "inventory": {
+        "entries": 32,
+        "logical_file_bytes": 52690,
+        "allocated_bytes": 98304,
+        "allocated_unique_inode_bytes": 98304,
+        "uid": 501,
+        "tree_sha256": "8163bf1a6f4cd5e9fe26543db396e47a9ab13da4613af420113a7b3118ada5af"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358622.54634
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/local-20261111-004309",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/10-local-20261111-004309",
+      "inventory": {
+        "entries": 60,
+        "logical_file_bytes": 132135,
+        "allocated_bytes": 204800,
+        "allocated_unique_inode_bytes": 204800,
+        "uid": 501,
+        "tree_sha256": "5a0a57afea4dfc803913144a78007ce12e6c7dc0fbc00cc9529af6b231041f08"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358622.703966
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/public-20261111-004412",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/11-public-20261111-004412",
+      "inventory": {
+        "entries": 3,
+        "logical_file_bytes": 9015,
+        "allocated_bytes": 16384,
+        "allocated_unique_inode_bytes": 16384,
+        "uid": 501,
+        "tree_sha256": "ed55533d0a57651ed45c8dcc73ebd25abb0666a3b3ef4b0b28f882b70ad70fec"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358622.85659
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/v2/timeline-diagnostic",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/12-timeline-diagnostic",
+      "inventory": {
+        "entries": 5,
+        "logical_file_bytes": 1740873,
+        "allocated_bytes": 1744896,
+        "allocated_unique_inode_bytes": 1744896,
+        "uid": 501,
+        "tree_sha256": "6c4fae9952bf4d8ab5f7aa330c88dee5ba42e69cf43e2ebe02b8fa33b5701f07"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358622.996084
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/baseline-runtime-tests",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/13-baseline-runtime-tests",
+      "inventory": {
+        "entries": 46,
+        "logical_file_bytes": 2101968,
+        "allocated_bytes": 53248,
+        "allocated_unique_inode_bytes": 49152,
+        "uid": 501,
+        "tree_sha256": "8f847789bbfa4c4fbeccf6143a0fd984ac015a6fa6e8bf08c786915a2c49f0c7"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358623.155227
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/build-20261110-234930",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/14-build-20261110-234930",
+      "inventory": {
+        "entries": 192,
+        "logical_file_bytes": 21275312,
+        "allocated_bytes": 21618688,
+        "allocated_unique_inode_bytes": 21618688,
+        "uid": 501,
+        "tree_sha256": "76e317c2750213173d0f6b70a9c657746fc06546f9508af7442159f30f5d5b37"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358623.3337002
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/current-build.txt",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage7/15-current-build.txt",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 85,
+        "allocated_bytes": 4096,
+        "allocated_unique_inode_bytes": 4096,
+        "uid": 501,
+        "tree_sha256": "2e4a348876240ad81cdc9907e6daa6e46f90a90a3cd1319eff735686443cb25a"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794358623.502456
+    }
+  ],
+  "failures": [],
+  "completed_unix": 1794358623.5033019,
+  "free_after": 573328384000,
+  "physical_recovery_claim_bytes": 0
+}

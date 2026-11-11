@@ -1,0 +1,21 @@
+{
+  "attempt": 1,
+  "launch_outcome": "success",
+  "console_attached": false,
+  "debugger_attached": false,
+  "user-feedback": {
+    "recorded_unix": 1794351171.142578,
+    "feedback": "重试。目前只保证解锁播放没有问题。",
+    "acceptance": "foreground_audibility_confirmed_only",
+    "retry_explicitly_requested": true
+  },
+  "observation-window": {
+    "launch_outcome": "success",
+    "utc_observed": "2026-11-10T22:50:45.318927+00:00",
+    "do_not_read_device_until_unix": 1794351160.319027,
+    "console_attached": false,
+    "debugger_attached": false,
+    "signed_binary_sha256": "c4575e213217ca5ea3cee5e487640a9c5aceeda9dcbbb1efe3ec7bc6be0fde1a",
+    "bundle_sha256": "a258ea65c14b005052f88f6c12c85fef1a56764ba6fd93aee0ce8936ecb0115f"
+  }
+}

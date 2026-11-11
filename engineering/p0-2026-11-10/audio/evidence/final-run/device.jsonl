@@ -1,0 +1,2 @@
+{"kind":"dependency","ffmpeg":"8.0","license":"LGPL version 2.1 or later","miniaudio":"0.11.26","runtime_linking":false}
+{"kind":"native_device","backend":"CoreAudio","shared":true,"muted":true,"callbacks":96,"clock_frames":24576,"underflows":0,"starts":2,"stops":2,"reroutes":0,"interruptions":0,"human_audibility_verified":false}

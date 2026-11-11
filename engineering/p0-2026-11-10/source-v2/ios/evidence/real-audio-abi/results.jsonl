@@ -1,0 +1,1 @@
+{"gate":"real_media_audio_abi","outcome":"pass","first_codec":"AAC_6ch_48k","next_codec":"Opus_2ch_48k","audible":false,"clock_frames":288512,"first_consumed_frames":86848,"next_consumed_frames":249664,"nonzero_output_frames":0,"transitions":1,"transition_start_frame":38848,"transition_end_frame":86848,"underflow_frames":0,"watchdog_seconds":6}

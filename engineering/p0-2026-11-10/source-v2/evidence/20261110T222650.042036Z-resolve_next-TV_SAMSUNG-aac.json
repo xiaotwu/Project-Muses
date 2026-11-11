@@ -1,0 +1,101 @@
+{
+  "mode": "resolve_next",
+  "client": "TV_SAMSUNG",
+  "codec": "aac",
+  "exit_code": 2,
+  "stop_reason": null,
+  "elapsed_seconds": 3.361576667,
+  "sampled_peak_rss_bytes": 75776000,
+  "rss_observation_limit_bytes": 268435456,
+  "rss_is_hard_allocator_limit": false,
+  "external_deadline_seconds": 180,
+  "binary_sha256": "009a77f72c97ef8748f647179a4a6e18293ca6416ecc824490b7167bcd5be933",
+  "bundle_sha256": "8be403049d58a6a344170e82fe8584ed9c15d1044dc28a06c31e7dbfca1089f3",
+  "rows": [
+    {
+      "category": "ok",
+      "input_bytes": 2658728,
+      "native_live_after_bytes": 0,
+      "reduce_ms": 1874.329,
+      "parse_ms": 1701.776,
+      "timestamp_matches": 2,
+      "gate": "native_player_reduce",
+      "outcome": "pass",
+      "output_bytes": 189450,
+      "native_peak_bytes": 7401998,
+      "solver_matches": 1
+    },
+    {
+      "gate": "session",
+      "outcome": "pass",
+      "elapsed_ms": 2477,
+      "player_loaded": true
+    },
+    {
+      "gate": "source_availability_shape",
+      "outcome": "observed",
+      "diagnostics": [
+        {
+          "field": "ad.player_vars",
+          "valueType": "string",
+          "stringLength": 97203
+        }
+      ]
+    },
+    {
+      "gate": "source_profile",
+      "outcome": "pass",
+      "client": "TV_SAMSUNG",
+      "client_version": "5.20260707",
+      "reason": "public_metadata_only",
+      "status": "OK",
+      "format_count": 34,
+      "rejected_formats": 0
+    },
+    {
+      "gate": "source_capabilities",
+      "outcome": "observed",
+      "client": "TV_SAMSUNG",
+      "video_id": "eRsGyueVLvQ",
+      "status": "OK",
+      "audio_formats": 9,
+      "bounded_audio_formats": 9,
+      "requested_codec": "aac",
+      "requested_codec_formats": 3,
+      "direct_formats": 9,
+      "cipher_formats": 0,
+      "n_parameter_formats": 9,
+      "hls": false,
+      "sabr": false
+    },
+    {
+      "gate": "source_availability",
+      "outcome": "unsupported",
+      "reason": "invalid_string"
+    },
+    {
+      "js_memory_bytes": 26735331,
+      "deadline_seconds": 90,
+      "received_bytes": 2873360,
+      "process_maxrss_bytes": 77873152,
+      "js_peak_allocated_bytes": 33558390,
+      "js_memory_limit_bytes": 67108864,
+      "gate": "host_summary",
+      "outcome": "completed",
+      "requests": 5,
+      "peak_concurrent": 1,
+      "first_byte_samples": 5
+    },
+    {
+      "code": 2,
+      "outcome": "fail",
+      "observed_peak_rss_bytes": 77938688,
+      "reason": "none",
+      "gate": "source_operation"
+    }
+  ],
+  "unsafe_or_non_json_stdout_redacted": false,
+  "stdout_bytes": 1413,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

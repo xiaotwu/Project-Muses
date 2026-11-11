@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-11-10T21:32:16.106125+00:00",
+  "status": "P0 in progress; not a production-release acceptance",
+  "checks": {
+    "current_source_audio_and_final_interop_source_hashes": "match",
+    "local_markdown_links_reviewed": 31,
+    "retained_guard_receipts": 115,
+    "python_syntax": "all 16 files parse",
+    "json_syntax": "all retained JSON files parse",
+    "private_device_credentials_signed_url_patterns": "no matches in scoped retained-evidence scan",
+    "unexpected_binary_private_or_cache_artifacts": "none",
+    "original_family_and_three_product_main_worktrees": "clean",
+    "whitespace": "code/docs pass with raw immutable evidence excluded and intentional frozen Cargo.toml terminal blank line permitted; raw configure/test log whitespace preserved byte-for-byte",
+    "cleanup": "55 completed recoverable moves; no unfinished journal action; unique-inode/path-entry difference explained by intentional SQLite hardlink fixture"
+  },
+  "behavioral_evidence": {
+    "rust_tests": 1,
+    "swift_assertions": 91,
+    "macos_csharp_assertions": 329,
+    "physical_calibration_runs": [
+      3,
+      4,
+      5
+    ],
+    "locked_background_gate": "not established",
+    "full_source_media_gate": "not passed"
+  },
+  "manifest_sha256": {
+    "source/manifest.json": "e69accf57ea7fce311a5bd6f235ef42fa5f3561cae50c0bd37712bc357a814f4",
+    "audio/evidence/harness-source-manifest.json": "62aeee65fa71c1b6533193fa20e74620dca5a656e333e5007ba25971c40ed7e6",
+    "interop/evidence/run-20261110-123714-dcf8d5/manifest.json": "ee5cc593ca6f09b17df95751340c7096d5992cee6cabf88dbc831bb3e38c57c0",
+    "contracts/embedded-video-source-manifest.json": "89f39a4a02d543bd7d6edaaf9b2aaad7bbb081f4c814a8ec90446fc44d7e3083",
+    "contracts/validation-protocol.md": "7fa863f340baf57d88f277ad355fb000a6ada528a7a19ab6af31875611fb73a4",
+    "evidence/cleanup-stage1-plan.json": "1bfb1b7c0790f26e489e3e79a3b3870827157be2b9bc8fa8eb3e18d8bd256958",
+    "evidence/cleanup-stage1-journal.json": "782a7fac4928ec631cb1e8e6f8f58737e8cf90888c76d1cb1c261374cbc11c35",
+    "evidence/cleanup-stage2-plan.json": "a181aead9e5f607d8788bfb0e7f8a1f5e9769cbc63416e6a9e24d8834af3751c",
+    "evidence/cleanup-stage2-plan-journal.json": "0e502b141141fb4c8a2648c1ff971a22c8fbb3236bad0ea2dc8b01441d0e3691",
+    "evidence/cleanup-summary.json": "0ffa2e1fd917a39cd294c5e0150b369d389230409c2dc2ef804d753d0e8835da"
+  },
+  "publication_scope": "isolated engineering checkpoint only; no Pages, platform release, production app, or submodule changes"
+}

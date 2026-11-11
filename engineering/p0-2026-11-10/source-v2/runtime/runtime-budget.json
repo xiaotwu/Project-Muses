@@ -1,0 +1,14 @@
+{
+  "scope": "QuickJS-NG embedding-only offline safety comparison",
+  "scratch": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/v2-integration/runtime",
+  "scratch_limit_bytes": 52428800,
+  "source_allocation_limit_bytes": 1073741824,
+  "free_space_floor_bytes": 42949672960,
+  "process_rss_limit_bytes": 268435456,
+  "main_heap_bytes": 67108864,
+  "isolated_heap_bytes": 8388608,
+  "core_dumps": false,
+  "bootstrap_sha256": "966eb292a2c9c6dc57169abf7c60a4fc692ef4bc83568802ef6aaeff40542af7",
+  "parent_guard_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+  "measured_free_bytes": 574532485120
+}

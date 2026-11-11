@@ -1,0 +1,69 @@
+{
+  "objects": {
+    "miniaudio-backend.o": "cd2a842f4ca3bcdf58c60c4545883cd72b7413382e8133e063f4ff8340ceea80",
+    "app.o": "46d3624653947cbd2478308f90322264c1c4da4452831234cd6f63c29b2fe7a8"
+  },
+  "stock": {
+    "command": [
+      "clang++",
+      "-target",
+      "arm64-apple-macos26.0",
+      "-isysroot",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-fno-lto",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/objects/app.o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/objects/miniaudio-backend.o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/stock/libavformat.a",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/stock/libavcodec.a",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/stock/libswresample.a",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/stock/libavutil.a",
+      "-framework",
+      "CoreFoundation",
+      "-framework",
+      "CoreAudio",
+      "-framework",
+      "AudioToolbox",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/stock/audio-probe"
+    ],
+    "unsigned_sha256": "3f11dd4a3662475fba646e46e18c8ac1cfef44dd7c3c7b26aaac8ae8f2f38fd7",
+    "signed_sha256": "01762239629a18f22e9facec626e523f0cb8d83da4efb503eb18ad55a2215976"
+  },
+  "replacement": {
+    "command": [
+      "clang++",
+      "-target",
+      "arm64-apple-macos26.0",
+      "-isysroot",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-fno-lto",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/objects/app.o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/objects/miniaudio-backend.o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/stock/libavformat.a",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/stock/libavcodec.a",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/stock/libswresample.a",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/replacement/libavutil.a",
+      "-framework",
+      "CoreFoundation",
+      "-framework",
+      "CoreAudio",
+      "-framework",
+      "AudioToolbox",
+      "-o",
+      "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/replacement/audio-probe"
+    ],
+    "unsigned_sha256": "708fa811c34bc090fc201be801ed0d0477800e44fe63909b256dd83d7aba88f7",
+    "signed_sha256": "19c3d3a7bd1ff8dbfe30cfed3a0b2e11308e7a7b9ac1168b6dfca15f687bda63"
+  },
+  "stock_libraries": {
+    "libavformat.a": "8fbc4f843b26e9776002cee1a159bd75b2a8372e7fc949e88b2af8377cbd1936",
+    "libavcodec.a": "cdbf9ded338aa5d48a755c3d8c19b6d5692d392ef3f7b96818bb84cf0cea1e72",
+    "libswresample.a": "c61c832836c6c6d053c270ad52dc850c8deafdeec1d03444afc219349b47b39c",
+    "libavutil.a": "98ad0cbf1520bc1e9b015f16eb830f688f9d77852ecfd6d7163f77e3ad5a83d3"
+  },
+  "replacement_library_sha256": "e9519ebd23a0e7d9f96ca5f3f25b1c97a92b3e92434f4e18c3751bb464772366",
+  "version_object_sha256": {
+    "stock": "3ce1f6333f3a3856bd4bc26e4bed9f1a94a8fa741cc434466039dfe38b3ac7a2",
+    "replacement": "8bf47c5d505ff20fd43e6150f0a5ae997f8184018c3ddc7726da590b24d882a4"
+  }
+}

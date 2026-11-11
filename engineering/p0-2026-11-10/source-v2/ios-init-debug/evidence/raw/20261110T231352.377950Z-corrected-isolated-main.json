@@ -1,0 +1,110 @@
+{
+  "label": "isolated-main",
+  "exit_code": 0,
+  "guard_stop": null,
+  "elapsed_ms": 82,
+  "sampled_peak_rss_bytes": 6881280,
+  "events": [
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_repeat",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "internal_error",
+      "case": "isolated_deadline",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "exception_category": "none",
+      "case": "isolated_fresh_after_deadline",
+      "outcome": "pass",
+      "gate": "input_contract_case"
+    },
+    {
+      "checks": 14,
+      "network_requests": 0,
+      "blocked_request_calls": 0,
+      "observed_eval_heap_bytes": 154880,
+      "process_maxrss_bytes": 6995968,
+      "gate": "corrected_input_summary",
+      "outcome": "pass",
+      "failures": 0,
+      "main_eval_calls": 0,
+      "isolated_eval_calls": 14,
+      "terminator_failures": 0
+    }
+  ],
+  "stderr_bytes": 0,
+  "stdout_sha256": "d2c4fd45ea1da5728dd9af5f1e0fba68b63201d036ace47231cfc8c6ec8d58ac",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "binary_sha256": "da2dacf158b0b1d50fb6b2fe1ae0f2d1750954f96b6c068aae6ef6f9cdcda0a5"
+}

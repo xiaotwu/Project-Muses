@@ -1,0 +1,10 @@
+{
+  "mode": "background_first",
+  "timestamp": "20261110T204550.302296Z",
+  "exit_code": 1,
+  "elapsed_seconds": 1.418396249995567,
+  "stdout": "{\"gate\":\"host_capabilities\",\"outcome\":\"pass\",\"runtime\":\"QuickJS 2026-06-04\",\"library\":\"youtubei.js 18.3.0\",\"native_network\":\"URLSession\",\"webview\":false,\"node_runtime\":false}\n{\"gate\":\"session\",\"outcome\":\"pass\",\"elapsed_ms\":152,\"player_loaded\":false}\n{\"gate\":\"media_metadata\",\"outcome\":\"pass\",\"elapsed_ms\":159,\"status\":\"OK\",\"format_count\":26,\"audio_format_count\":4}\n{\"gate\":\"media_resolution\",\"outcome\":\"pass\",\"elapsed_ms\":0,\"itag\":140,\"mime_type\":\"audio/mp4\"}\n{\"gate\":\"media_bounded_download\",\"outcome\":\"fail\",\"http_status\":403,\"bytes\":0,\"chunk\":1}\n{\"js_memory_bytes\":5872028,\"deadline_seconds\":90,\"received_bytes\":1202081,\"process_maxrss_bytes\":37109760,\"js_peak_allocated_bytes\":10596718,\"js_memory_limit_bytes\":67108864,\"gate\":\"host_summary\",\"outcome\":\"completed\",\"requests\":4,\"peak_concurrent\":1,\"first_byte_samples\":3}\n",
+  "stderr_bytes": 0,
+  "bundle_sha256": "1264a7ef6955d12189785d3c37af82cdc820875a50a49c2b7ae737c86f433d54",
+  "host_sha256": "64d9e92d249e5850030e8ef8c082903776c41738df0704128214c5e776c92578"
+}

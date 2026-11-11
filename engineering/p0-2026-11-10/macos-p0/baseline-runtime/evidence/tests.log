@@ -1,0 +1,20 @@
+test_absent_and_each_unknown_root (__main__.Offline.test_absent_and_each_unknown_root) ... ok
+test_budgets (__main__.Offline.test_budgets) ... ok
+test_exact_executable_hash (__main__.Offline.test_exact_executable_hash) ... ok
+test_minimal_environment (__main__.Offline.test_minimal_environment) ... ok
+test_mock_budget_failure_retains_state (__main__.Offline.test_mock_budget_failure_retains_state) ... ok
+test_mock_complete_stops_verified_only (__main__.Offline.test_mock_complete_stops_verified_only) ... ok
+test_mock_external_helper_prevents_success (__main__.Offline.test_mock_external_helper_prevents_success) ... ok
+test_owner_hardlink_and_symlink_rejection (__main__.Offline.test_owner_hardlink_and_symlink_rejection) ... ok
+test_parent_owner_and_mode (__main__.Offline.test_parent_owner_and_mode) ... ok
+test_parent_symlink (__main__.Offline.test_parent_symlink) ... ok
+test_plan_hash_and_script_drift (__main__.Offline.test_plan_hash_and_script_drift) ... ok
+test_process_reuse_and_observed_lineage (__main__.Offline.test_process_reuse_and_observed_lineage) ... ok
+test_shared_mode_not_repaired (__main__.Offline.test_shared_mode_not_repaired) ... ok
+test_sparse_logical_accounting (__main__.Offline.test_sparse_logical_accounting) ... ok
+test_unknown_system_data (__main__.Offline.test_unknown_system_data) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.010s
+
+OK
