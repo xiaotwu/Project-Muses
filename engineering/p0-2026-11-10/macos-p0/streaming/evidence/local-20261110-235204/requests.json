@@ -1,0 +1,86 @@
+[
+  {
+    "mode": "aac",
+    "start": 0,
+    "end": 262143,
+    "length": 488694,
+    "monotonic_ns": 57886208
+  },
+  {
+    "mode": "opus",
+    "start": 0,
+    "end": 262143,
+    "length": 657042,
+    "monotonic_ns": 1255306291
+  },
+  {
+    "mode": "aac",
+    "start": 0,
+    "end": 262143,
+    "length": 488694,
+    "monotonic_ns": 2461944500
+  },
+  {
+    "mode": "opus",
+    "start": 0,
+    "end": 262143,
+    "length": 657042,
+    "monotonic_ns": 3786997958
+  },
+  {
+    "mode": "aac",
+    "start": 0,
+    "end": 262143,
+    "length": 488694,
+    "monotonic_ns": 5721115791
+  },
+  {
+    "mode": "aac",
+    "start": 366621,
+    "end": 488693,
+    "length": 488694,
+    "monotonic_ns": 6858268458
+  },
+  {
+    "mode": "opus",
+    "start": 0,
+    "end": 262143,
+    "length": 657042,
+    "monotonic_ns": 7594470583
+  },
+  {
+    "mode": "opus",
+    "start": 656867,
+    "end": 657041,
+    "length": 657042,
+    "monotonic_ns": 8704488541
+  },
+  {
+    "mode": "opus",
+    "start": 410203,
+    "end": 657041,
+    "length": 657042,
+    "monotonic_ns": 8708425291
+  },
+  {
+    "mode": "disconnect",
+    "start": 0,
+    "end": 262143,
+    "length": 488694,
+    "monotonic_ns": 9658415125
+  },
+  {
+    "mode": "ignore",
+    "start": 0,
+    "end": 262143,
+    "length": 488694,
+    "monotonic_ns": 9976124333
+  },
+  {
+    "mode": "stall",
+    "start": 0,
+    "end": 262143,
+    "length": 488694,
+    "monotonic_ns": 10091185708
+  }
+]

@@ -1,0 +1,11 @@
+--- a/libavutil/version.c
++++ b/libavutil/version.c
+@@ -30,7 +30,7 @@
+ 
+ const char *av_version_info(void)
+ {
+-    return FFMPEG_VERSION;
++    return FFMPEG_VERSION "+muses-p0-relink-1";
+ }
+ 
+ unsigned avutil_version(void)

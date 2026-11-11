@@ -1,0 +1,44 @@
+[
+  {
+    "source": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--ffmpeg-8.0.tar.xz",
+    "destination": "inputs/ffmpeg-8.0.tar.xz",
+    "bytes": 11384428,
+    "sha256": "b2751fccb6cc4c77708113cd78b561059b6fa904b24162fa0be2d60273d27b8e"
+  },
+  {
+    "source": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--sources/miniaudio.h",
+    "destination": "inputs/miniaudio.h",
+    "bytes": 4161918,
+    "sha256": "6b376c7fbb1352ba1e0e432ab66069b335ea9405e45cb6c30b97ef0f3c9c3e0e"
+  },
+  {
+    "source": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--fixtures/tone-a.m4a",
+    "destination": "inputs/tone-a.m4a",
+    "bytes": 49973,
+    "sha256": "87614a9092950c7323452a91bd2ce2491ac1bfb7654be9607e01087831f05c90"
+  },
+  {
+    "source": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/audio--fixtures/tone-b.webm",
+    "destination": "inputs/tone-b.webm",
+    "bytes": 66762,
+    "sha256": "5a9e566c2be68ba400588d7bc76c9cb9226ee44378654fde7abb9f49cc5a5538"
+  },
+  {
+    "source": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp",
+    "destination": "inputs/probe.cpp",
+    "bytes": 28192,
+    "sha256": "1137d748dbb1648bd8722c540206cce03378ea4cdd0967079e4997c15c1c1885"
+  },
+  {
+    "source": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm",
+    "destination": "inputs/backend.mm",
+    "bytes": 442,
+    "sha256": "02f109f5f74ff7a70d66e4ee20d69411a0bad97542e01f0c72ea1c4c25c78645"
+  },
+  {
+    "source": "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/p0_audio.h",
+    "destination": "inputs/p0_audio.h",
+    "bytes": 1916,
+    "sha256": "34cdd7493488e7db6c68d7b6fa4e68fa3e8a57d18b69ff83868d846b5df13097"
+  }
+]

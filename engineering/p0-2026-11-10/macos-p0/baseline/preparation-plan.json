@@ -1,0 +1,3458 @@
+{
+  "kind": "isolated_063_derivative_no_launch",
+  "script_sha256": "79aa6195393907ca11d5194e1018a7d657aad317aaf2f2b3cb1d2504b72fe872",
+  "source": "/Users/xiaotwu/.Trash/muses-release-063-nov05-01a18a83-packaging/source/build/Muses.app",
+  "destination": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-baseline/Muses P0 Baseline.app",
+  "bundle": "com.muses.acceptance.p0-baseline-20261110",
+  "scratch_budget_bytes": 805306368,
+  "free_floor_bytes": 42949672960,
+  "measured_free_bytes": 574335660032,
+  "source_inventory": {
+    "archive_sha256": "192b4297c6dac82c5115afb1ba7168bae4e88985959a5852f85344df8b9b5a44",
+    "main_sha256": "efb7398d007155d23367f7f87e4c4c9b78748b3d95110d5ef91c2fca6ade7c39",
+    "tree_sha256": "9cf3fea6ba059d2405f9f313204bbe93ef023d16b6784bd012b58f009e7810ca",
+    "logical_bytes": 357143668,
+    "nodes": 624,
+    "compiled_sections": {
+      "5f5f74657874000000000000000000005f5f5445585400000000000000000000": "7dee5d1b298c8937645353d019ef708c116f5bd9b027b25358f23eabf2f3cfa9",
+      "5f5f73747562730000000000000000005f5f5445585400000000000000000000": "14f29ad4532768ce1b5646739a9b2c489a65902c0c88e552b8c5395ccba77bed",
+      "5f5f6f626a635f7374756273000000005f5f5445585400000000000000000000": "8be10a4726e89b41d67226404ce9cad5df1420b17734636f1d53c75bf78c0181",
+      "5f5f6f626a635f6d6574686c697374005f5f5445585400000000000000000000": "c1dd6f4e1d0261bc951a3d493fe2a8d1d966ce37a6473dcc3c95ea02e65a06fa",
+      "5f5f636f6e73740000000000000000005f5f5445585400000000000000000000": "dd06d7510b6fa0f15077af42d72fd8eabc4a30586d16ba7c35d58816545761fa",
+      "5f5f636f6e7374675f737769667474005f5f5445585400000000000000000000": "4907db47f3b1c3bb2b11137e05522e505b7a001752bc2fb6ec313777f9b5f956",
+      "5f5f7377696674355f747970657265665f5f5445585400000000000000000000": "40a1f7d2c9cfaa0178822dddd3c1fcf3e1488bb565aa1dfe5d66f4cc2907be03",
+      "5f5f6f626a635f636c6173736e616d655f5f5445585400000000000000000000": "4c97a20bd80616ec820f8286881e8ac1214f0b3539bfe4994dcbd42d2a74f03f",
+      "5f5f7377696674355f6669656c646d645f5f5445585400000000000000000000": "250b095b21af7f0d260acc2629f9f250557534b7bd28291037d925afb458fb5f",
+      "5f5f7377696674355f6275696c74696e5f5f5445585400000000000000000000": "20cc56085da76aea88ff0ea7205736f758917d33583834a59415d62c6e48c909",
+      "5f5f7377696674355f7265666c7374725f5f5445585400000000000000000000": "77e8de8e6374ba6e28d2958a5aebe14e2e3631840a70bcd73bb079c94eb015f9",
+      "5f5f63737472696e67000000000000005f5f5445585400000000000000000000": "46c305865198af284912d4cfca38b51a214f492008f4577b14ef8ec9c6e965eb",
+      "5f5f7377696674355f6173736f6374795f5f5445585400000000000000000000": "46fa3bb2d303cb6f884db3aebed56c9fea2f4c66e7d796a6a9609f5173efc28f",
+      "5f5f7377696674355f70726f746f00005f5f5445585400000000000000000000": "b32f2cfd4c23df0bd5adcc5b7de65bd9f0ef1a14a3d98bdfb2941b7246a942eb",
+      "5f5f7377696674355f747970657300005f5f5445585400000000000000000000": "d03cf0a68add7ed0774b670f1865e96eedb212d3458e878b972789c7ca5a1b0a",
+      "5f5f6f626a635f6d6574686e616d65005f5f5445585400000000000000000000": "e60f8956ce90223ce93bfafaca2017050a5ad56547065251f7349f58a1606ac4",
+      "5f5f6f626a635f6d65746874797065005f5f5445585400000000000000000000": "fef23d520bd48a9451340f0ce21b4ce3ccccf53b9611c5adf7423255fb7ec0ab",
+      "5f5f6f736c6f67737472696e670000005f5f5445585400000000000000000000": "971311e1d25d20939c262f607abadaa676692cc108b456601fe2277f50f60db6",
+      "5f5f7377696674355f656e74727900005f5f5445585400000000000000000000": "18073c6fe77c78de8e1f089144efbe23b619e6317178caca819ff9be934bcd69",
+      "5f5f7377696674355f636170747572655f5f5445585400000000000000000000": "f6b6d1b56240e84305c3c4a8393993b86a608a651062125fb91489375e1af458",
+      "5f5f73776966745f61735f656e7472795f5f5445585400000000000000000000": "d113214e36429288eeee0e327b749b3fdd1b697a58c8a91953995f3c9400230d",
+      "5f5f73776966745f61735f72657400005f5f5445585400000000000000000000": "8f20430a94050a2f5d815b7fdad0e3ef5e3c310f2b27f48caf545b4eb5c83a9b",
+      "5f5f73776966745f61735f636f6e74005f5f5445585400000000000000000000": "61ce178a368ac65a1aff123b71f05c06295745c5738dc42e32f2bc00aca3010f",
+      "5f5f7377696674355f70726f746f73005f5f5445585400000000000000000000": "0a70aa9099ac2ec78c002c54a48473e838823755b0dba7353e2258a5dde90902",
+      "5f5f7377696674355f6d70656e756d005f5f5445585400000000000000000000": "4264f98ed3434ad5d27ed895195de1b55eb071c9d494026240eff4122f12afb8",
+      "5f5f756e77696e645f696e666f0000005f5f5445585400000000000000000000": "08fef3bde481b94f4e686f3cf16283e1c7a17c35ae1080a3bbb8485452a64df5",
+      "5f5f65685f6672616d650000000000005f5f5445585400000000000000000000": "a46142a6eec0d24280adf28f736ba9fe69a237d9f677bb3523682e4f41a85f22",
+      "5f5f636f6e73740000000000000000005f5f444154415f434f4e535400000000": "550fbadaa69e59e70ae46d8290a84bb0b1329f3d283bc4e1ffc42789f9f4476a",
+      "5f5f6f626a635f636c6173736c6973745f5f444154415f434f4e535400000000": "6a18092adca80dc5232afd98cc75d02c73bca5e1dd613f9727b6a5a8d1ba1778",
+      "5f5f6f626a635f70726f746f6c6973745f5f444154415f434f4e535400000000": "b0af330a6a812cc33b1a249d621bdd16ab84defea7df889195b54eb84c5cb149",
+      "5f5f6f626a635f696d616765696e666f5f5f444154415f434f4e535400000000": "7408fcdda372aaed9b8d62d262bd8e7ad4da66abeb61efb31e7c98020b1321ce",
+      "5f5f6f626a635f70726f746f726566735f5f444154415f434f4e535400000000": "b16de144878dd402c09b077822d5721ef8a3d848f38b471ebc9c37cb4f28cc2f",
+      "5f5f676f7400000000000000000000005f5f444154415f434f4e535400000000": "4b97a0ccafcd305e340352fedaa28bc05902510d1fa78978c0162fcc24574fa0",
+      "5f5f6f626a635f636f6e7374000000005f5f4441544100000000000000000000": "1ad7f33c87047381dfefb544ee52c497d5af5125f9c9e4dbbe6506ecdb98f4c0",
+      "5f5f6f626a635f73656c7265667300005f5f4441544100000000000000000000": "2bf149f0b452d8814775b73c538f9f37024ef7c7c804741462f646d63b5fcd90",
+      "5f5f6f626a635f6461746100000000005f5f4441544100000000000000000000": "44af514132dcac84d3fbccc8d38ae706c7e17499d46bb98405f871600e479189",
+      "5f5f64617461000000000000000000005f5f4441544100000000000000000000": "a939e2a938ebcbba1840a9e5ce9fc354a2a9e0f676af234ff3756a052271aea0"
+    },
+    "files": {
+      ".": [
+        "dir",
+        493
+      ],
+      "Contents": [
+        "dir",
+        493
+      ],
+      "Contents/CodeResources": [
+        "file",
+        420,
+        6630,
+        "deccb3a247fbf7e0cc026edd360a894f63d560c8a828eefc51002fd359a614f2"
+      ],
+      "Contents/Frameworks": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Autoupdate": [
+        "link",
+        493,
+        "Versions/Current/Autoupdate"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Headers": [
+        "link",
+        493,
+        "Versions/Current/Headers"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Modules": [
+        "link",
+        493,
+        "Versions/Current/Modules"
+      ],
+      "Contents/Frameworks/Sparkle.framework/PrivateHeaders": [
+        "link",
+        493,
+        "Versions/Current/PrivateHeaders"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Resources": [
+        "link",
+        493,
+        "Versions/Current/Resources"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Sparkle": [
+        "link",
+        493,
+        "Versions/Current/Sparkle"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Updater.app": [
+        "link",
+        493,
+        "Versions/Current/Updater.app"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Autoupdate": [
+        "file",
+        493,
+        707856,
+        "569bb204223adc982c5bc16a0590bf54cbafa76f4693192b88fd3579024fd8aa"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUAppcastSigningValidationStatus.h": [
+        "file",
+        420,
+        1007,
+        "513d4607ac9ba03c2203b03df307f404216c3ce7f3436784fbbef1842c742749"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUDownloadData.h": [
+        "file",
+        420,
+        1222,
+        "58184c2c068a8d43b1ee85651f9edd30a6a9e5899ac936baf4a5f15a6081d7b7"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUStandardUpdaterController.h": [
+        "file",
+        420,
+        5604,
+        "f45dfdf2315664c5891b97ad0d7ffce9ab09d067effbd2921b10b58b4831ef0f"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUStandardUserDriver.h": [
+        "file",
+        420,
+        1311,
+        "0a0e476b61932196027dd7b94e78d187f810f80c7900168eb4a5956b63d54a77"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUStandardUserDriverDelegate.h": [
+        "file",
+        420,
+        11256,
+        "d906e549f7b108979727fa56f13c029906fe48c5602538513a4b480bb45a8c2d"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUUpdateCheck.h": [
+        "file",
+        420,
+        874,
+        "1f7d05da2e466263aefe3e09130e56b2e65b8862579e07b9829c9bf5ed921c03"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUUpdatePermissionRequest.h": [
+        "file",
+        420,
+        1093,
+        "8c227246c2ea7461741db8bd7274936c3cbcbc7375fe814654d479b2650cd6bd"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUUpdater.h": [
+        "file",
+        420,
+        20262,
+        "a30b876dc722a2861fb8f271a0bf0c95bd664db4cf2af57d216d190f2e010ee7"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUUpdaterDelegate.h": [
+        "file",
+        420,
+        23537,
+        "20ea4bf5273eaa6560160941d680acec6565965162737f50ea4240845a7dde24"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUUpdaterSettings.h": [
+        "file",
+        420,
+        3428,
+        "ad7bdfc719775fe4cdf1490f45ef902ded4dcb3756402e64884397bee425edff"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUUserDriver.h": [
+        "file",
+        420,
+        16622,
+        "db9fe6cf78aca0f2f79a99898d38daff566f96c823de2bb2b985511ad77017dc"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SPUUserUpdateState.h": [
+        "file",
+        420,
+        2052,
+        "59f95e933f8b5b2b39c1e7c465aa39af021a2c88820b4b09dbcfc55b1dd19c30"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUAppcast.h": [
+        "file",
+        420,
+        1327,
+        "251d6ffa7cbc890999ddda3406834f45396cf887a71e5be9ff581883559df0a0"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUAppcastItem.h": [
+        "file",
+        420,
+        18835,
+        "21df22d4f0ebd4eaba530f77f520a29451a057b70093efec3104ce0253026cf9"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUErrors.h": [
+        "file",
+        420,
+        3289,
+        "e7e84fa6ef85b549810682ec883593f560d79b776ebec5fb11d9558a6f1f78e5"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUExport.h": [
+        "file",
+        420,
+        302,
+        "5cef024266c54e12db620f78f4d106860de0fa2a2e230dffdfe04208bb447451"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUStandardVersionComparator.h": [
+        "file",
+        420,
+        1845,
+        "7d407b9ce721d5c650e741ecb692e77f12ef3b5e18ea8136f72448e8d7208c6c"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUUpdatePermissionResponse.h": [
+        "file",
+        420,
+        2509,
+        "f9355c8044c7dc168bdaefa37ac2e986002ec328895f17119293e084dad96f21"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUUpdater.h": [
+        "file",
+        420,
+        6874,
+        "96f6f598d582ca87c9d17f3ccd7bccb0ae4f057ac6e8fafb854ad8d04de336f6"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUUpdaterDelegate.h": [
+        "file",
+        420,
+        13764,
+        "a1a08c33fd41ebdd105916d8181d222417f9feda01cdc42afa6a3151106cde36"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUVersionComparisonProtocol.h": [
+        "file",
+        420,
+        1011,
+        "28bbb424ac7ab81e2b93f61e359fefa3ed09d6a38d0b265004d2103c0f46bdb4"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/SUVersionDisplayProtocol.h": [
+        "file",
+        420,
+        3773,
+        "3f23c4fb9bbdbc19714580ee4dd7f73ffc31436ea733c9bb308c3f74e7ab512c"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Headers/Sparkle.h": [
+        "file",
+        420,
+        1170,
+        "3a442a32eb22a77bb5a08e61ac678daffdf6c697d33020b82a683baf40228e0c"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Modules": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Modules/module.modulemap": [
+        "file",
+        420,
+        95,
+        "2bcae1eb66d55dc49f58acfe856375a5bbc91c6e83bdb298d19442ae6264cfa6"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Modules/module.private.modulemap": [
+        "file",
+        420,
+        833,
+        "db1d60f57b43a9eb17f3550f5720ac53466d4385368670fb5148da5b71f43f3a"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/PrivateHeaders": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/PrivateHeaders/SPUAppcastItemStateResolver.h": [
+        "file",
+        420,
+        1105,
+        "1c3be298008c19757ae3b27083622a005bce809a01f06d2c74f6dea16f3214ee"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/PrivateHeaders/SPUGentleUserDriverReminders.h": [
+        "file",
+        420,
+        475,
+        "f56d9d277f16417d79d66a484b4afcfc47c2a9957a8c487adb5c709dad895402"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/PrivateHeaders/SPUInstallationType.h": [
+        "file",
+        420,
+        828,
+        "52a1a445f58e7c6de94ac558c23913f8081647a499262affe9ac38ff790971d4"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/PrivateHeaders/SPUStandardUserDriver+Private.h": [
+        "file",
+        420,
+        1097,
+        "acc764e731fe9e6d307fe32dea4d06b451964225c2b2a9745a23f035a9cdeaad"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/PrivateHeaders/SPUUserAgent+Private.h": [
+        "file",
+        420,
+        751,
+        "0c3ea7c6aabab32840e41c56bb22cfab4dee4dde3302603b6f4aba9ac1b5850c"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/PrivateHeaders/SUAppcastItem+Private.h": [
+        "file",
+        420,
+        1641,
+        "642ecbeecb323f7201a732b5953d60fefefa13cf894af28936dd0d7d001a101a"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/PrivateHeaders/SUInstallerLauncher+Private.h": [
+        "file",
+        420,
+        1240,
+        "cb2e9c465f08ab0309c2bf3a4d2f7c35d9c76ff5a4480694700a22298520dd94"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/Base.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/Base.lproj/Sparkle.strings": [
+        "file",
+        420,
+        6249,
+        "bf93bdde8ad020f2ba210ecfa0e84b5365d0342355a3ca39d88fec0acb1e4a40"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/Info.plist": [
+        "file",
+        420,
+        1341,
+        "5fa024aa416c13614fb5588d378aa6c16371737d9980c57fcb3e32f8208f1b86"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ReleaseNotesColorStyle.css": [
+        "file",
+        420,
+        231,
+        "76bd6999758fd8e51d17e6b482db434f9b4768c02b037af6bd2e3a000ce8cbc1"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/SUUpdateAlert.nib": [
+        "file",
+        420,
+        18490,
+        "3987a333da7c2728ef2cb9656e5eeaf0832884873cabf78353fcb9099c5d8fbe"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/SUUpdatePermissionPrompt.nib": [
+        "file",
+        420,
+        25390,
+        "2e62b9d5a736d53b1eaf217432c4d0ad05217e897787cf1bdf1071ff22308d46"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ar.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ar.lproj/Sparkle.strings": [
+        "file",
+        420,
+        3554,
+        "441182787471a3998908044515fe13e92230edaa7e2730638e72a49610f56cba"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ca.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ca.lproj/Sparkle.strings": [
+        "file",
+        420,
+        3501,
+        "7ed0d5ca300649a7f13304015008f2dede98ad743a625c17d5a5fedacc1a3b1a"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/cs.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/cs.lproj/Sparkle.strings": [
+        "file",
+        420,
+        10774,
+        "99e66decf9bc46cf5622eead4e65b3b502e3775a4e8e0f03ef1b41683ea8d518"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/da.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/da.lproj/Sparkle.strings": [
+        "file",
+        420,
+        4882,
+        "8d0ff69b79460185f941372655433bad3934f49e63bef0b4171bd66da71e55f0"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/de.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/de.lproj/Sparkle.strings": [
+        "file",
+        420,
+        11559,
+        "311035a15227fb12e85eba2a46f3f6198d98ac5590d1d38c43c4ff7430d06599"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/el.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/el.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5934,
+        "638981a4f095d8b1dabb6230d452e470359711b81803bc5df8c21e1211fd3757"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/es.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/es.lproj/Sparkle.strings": [
+        "file",
+        420,
+        7026,
+        "047b9affd0e995039072c24b8d7aa830624d03c89c524e4f58d7d6f13eca8352"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/fa.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/fa.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5716,
+        "ed9dda9e271f7a97b8a7f327e71a1b6d06e5e061b367e7da3d153e47dc319263"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/fi.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/fi.lproj/Sparkle.strings": [
+        "file",
+        420,
+        3252,
+        "c14af9bac3fce436222a4ea277a7a6c0f9b42b2d84aceea75e758ce7538acae2"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/fr.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/fr.lproj/Sparkle.strings": [
+        "file",
+        420,
+        7855,
+        "3d554dcd167b085e25a75248533f21f389593aeace912ab9952c825ffe141ce1"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/he.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/he.lproj/Sparkle.strings": [
+        "file",
+        420,
+        9657,
+        "1d795bd7329d04b7ce84b6bdc845f917369e858b2b292f117b89a6666a185723"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/hr.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/hr.lproj/Sparkle.strings": [
+        "file",
+        420,
+        6367,
+        "920041380a08b3ba50d44e8a83f59de551139845a72748d58f2387c65920b33a"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/hu.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/hu.lproj/Sparkle.strings": [
+        "file",
+        420,
+        4449,
+        "cc2a16e4d487c6fab357b4f7d0fbbf7ec882371b2130413ffcb1b69cd540d2cf"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/is.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/is.lproj/Sparkle.strings": [
+        "file",
+        420,
+        3954,
+        "403feba503410e9455cd0eaafe592a2576eedb24130ccf2cdb13dda4b101f87e"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/it.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/it.lproj/Sparkle.strings": [
+        "file",
+        420,
+        10956,
+        "56a7445c1b68d76849ac59b98aa5c20c9002d5e07e9f0a2720486160f85b7366"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ja.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ja.lproj/Sparkle.strings": [
+        "file",
+        420,
+        8697,
+        "e404910028af70579cfa208bb4fadd9e3592505fc89af208f4071f2309553fb2"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ko.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ko.lproj/Sparkle.strings": [
+        "file",
+        420,
+        7797,
+        "a6269eb3f5a07d0c4f5d7467d5065372085aef7484c518a9d784ffd6c8f5aae4"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/nb.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/nb.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5539,
+        "ef6f0dcae90c440b47ece09909e9cdf35f3383f34e72a614c8c5c0752ecbffe0"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/nl.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/nl.lproj/Sparkle.strings": [
+        "file",
+        420,
+        9574,
+        "ca9adf34fb93fe3f394ccc92114bf6a6b1f8a128bb5f362cb9f3247d7c26c77d"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/nn.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/nn.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5671,
+        "1db8c6853a550aa25382da2d55431a1c1d308d6a37676c4f8593cc1633f8a5ae"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/pl.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/pl.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5453,
+        "5c54b3f8e1eb3026e142e710e2167f2f839b73ab5ad7f18719230f33ae682aa9"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/pt-BR.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/pt-BR.lproj/Sparkle.strings": [
+        "file",
+        420,
+        9976,
+        "0292cadc2acfc34875c1e0b54e2d50de3833cd5e20c8660c8effe2b859aac84c"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/pt-PT.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/pt-PT.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5827,
+        "31b28f3e5b5f9fe3d7abf71a779751d51ff632f3190155ef3cd97d2791a40fb1"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ro.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ro.lproj/Sparkle.strings": [
+        "file",
+        420,
+        6115,
+        "b2bf064222c38a3672b01fe09406f799718cb0fc4e715121662639d6fdfea6ed"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ru.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/ru.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5784,
+        "7193af28eb2a09b9fe7119cf6065a2150c6590971b22f98c56f356cd90851923"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/sk.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/sk.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5675,
+        "e158daaa4f3f91b57cee05ab896f2c1bc467317932cc53bb7c01e7daee9e5238"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/sl.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/sl.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5646,
+        "c62770c604a6c8c89e283357c8b322d8ce6a85f4d85c09002048331f65f8d980"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/sv.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/sv.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5160,
+        "4a21ad5bcf8d836d265710c2e4a0a64f07c9551f1c49694d6734a931d23efd39"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/th.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/th.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5339,
+        "4b6c8dc2ab69a0425de3aa9dc386c6539348e3983e47aa10f94c17e345a157a5"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/tr.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/tr.lproj/Sparkle.strings": [
+        "file",
+        420,
+        6183,
+        "b040d3f02d341eba047c15dfcafb60406d0847096a94466ecab512dcfb16abb5"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/uk.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/uk.lproj/Sparkle.strings": [
+        "file",
+        420,
+        5842,
+        "ff44d58635b3e8409d54b42b72c876a43e17fa98f6ea96b32583b9e88c747ab6"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/vi.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/vi.lproj/Sparkle.strings": [
+        "file",
+        420,
+        12418,
+        "2b3b4acbadf534cd0e812b97e589f80a4e1655b07c8907e98cc31df458ffd8b7"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/zh_CN.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/zh_CN.lproj/Sparkle.strings": [
+        "file",
+        420,
+        7475,
+        "e7f543b92977e9abc907241c411d8db0f59c4fee480859b3e88e4b495e0976c8"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/zh_HK.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/zh_HK.lproj/Sparkle.strings": [
+        "file",
+        420,
+        6469,
+        "3fc210132f33d89af3d25d27c7ea19426cf6d304be50254538456e0ec4fb7858"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/zh_TW.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Resources/zh_TW.lproj/Sparkle.strings": [
+        "file",
+        420,
+        7625,
+        "76321e1dd844c9b6568cb4af7c63bb57d9d1b700109aeedd7e5721d78727b12d"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Sparkle": [
+        "file",
+        493,
+        976432,
+        "dd760d2e987cd1c815c17e7f4b46fea8b262d0fc4a70fee9e1170f965c702eee"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/Info.plist": [
+        "file",
+        420,
+        2400,
+        "59ccb021c4e784681a2042e96feaf7c47eaa7c2a6468ce5c73d6f38274385c40"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/MacOS": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/MacOS/Updater": [
+        "file",
+        493,
+        339584,
+        "7ac6cd397ca0f6223ee60bc10a129bcc52beb28a7731ff6c448cb6033167333f"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/PkgInfo": [
+        "file",
+        420,
+        8,
+        "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/_CodeSignature": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/Updater.app/Contents/_CodeSignature/CodeResources": [
+        "file",
+        420,
+        2200,
+        "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/Info.plist": [
+        "file",
+        420,
+        1717,
+        "098634fc77fd96310eff2a63d6080b76139e3b2138dade393cf1cd0ef9a4dd93"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/MacOS": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/MacOS/Downloader": [
+        "file",
+        493,
+        188544,
+        "66410ff2ab69b8e5ea2d5a73855211bc4a538bf4527bc02a61dfd7bf972bcda4"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/_CodeSignature": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Downloader.xpc/Contents/_CodeSignature/CodeResources": [
+        "file",
+        420,
+        2200,
+        "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/Info.plist": [
+        "file",
+        420,
+        1605,
+        "c382d031b287e64e0d4e6e7eec4208600e8b2abbe100f348c3b12f8baf4a348d"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/MacOS": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/MacOS/Installer": [
+        "file",
+        493,
+        206912,
+        "19eee5cea61fc2b6bf91d0d301e95051c0bd5d1f36a3e90f784a884d23a4d5c8"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/_CodeSignature": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/XPCServices/Installer.xpc/Contents/_CodeSignature/CodeResources": [
+        "file",
+        420,
+        2200,
+        "6686de10a28a2fe11b36cbb86dcbacc827cfc4ea116b4dabf1845e5aee629e9b"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/_CodeSignature": [
+        "dir",
+        493
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/B/_CodeSignature/CodeResources": [
+        "file",
+        420,
+        22762,
+        "72b030464e9ee6cec3092c13fe4ab9a29a48f16f1c485a65b4bde2b105aab70e"
+      ],
+      "Contents/Frameworks/Sparkle.framework/Versions/Current": [
+        "link",
+        493,
+        "B"
+      ],
+      "Contents/Frameworks/Sparkle.framework/XPCServices": [
+        "link",
+        493,
+        "Versions/Current/XPCServices"
+      ],
+      "Contents/Frameworks/libavcodec.62.11.100.dylib": [
+        "file",
+        493,
+        853968,
+        "b44a17a946115e5beef3825666e5d3cdb8c94e6c3983b39a698e0a6406706846"
+      ],
+      "Contents/Frameworks/libavcodec.62.dylib": [
+        "link",
+        493,
+        "libavcodec.62.11.100.dylib"
+      ],
+      "Contents/Frameworks/libavcodec.dylib": [
+        "link",
+        493,
+        "libavcodec.62.11.100.dylib"
+      ],
+      "Contents/Frameworks/libavdevice.62.1.100.dylib": [
+        "file",
+        493,
+        53760,
+        "166ba242ee3897169b59aa13546929fce96a2f247e67187fc8f4169a8487d731"
+      ],
+      "Contents/Frameworks/libavdevice.62.dylib": [
+        "link",
+        493,
+        "libavdevice.62.1.100.dylib"
+      ],
+      "Contents/Frameworks/libavdevice.dylib": [
+        "link",
+        493,
+        "libavdevice.62.1.100.dylib"
+      ],
+      "Contents/Frameworks/libavfilter.11.4.100.dylib": [
+        "file",
+        493,
+        269056,
+        "dc9a5abfb26d0180d3e6baf2f9080eef464cfa9af78d9ce2971f62265c3a1eee"
+      ],
+      "Contents/Frameworks/libavfilter.11.dylib": [
+        "link",
+        493,
+        "libavfilter.11.4.100.dylib"
+      ],
+      "Contents/Frameworks/libavfilter.dylib": [
+        "link",
+        493,
+        "libavfilter.11.4.100.dylib"
+      ],
+      "Contents/Frameworks/libavformat.62.3.100.dylib": [
+        "file",
+        493,
+        671568,
+        "2effc9091846c47e7bc07dea8f89b017d8d3e429ad0ef1554c3f6f5a9e4a2078"
+      ],
+      "Contents/Frameworks/libavformat.62.dylib": [
+        "link",
+        493,
+        "libavformat.62.3.100.dylib"
+      ],
+      "Contents/Frameworks/libavformat.dylib": [
+        "link",
+        493,
+        "libavformat.62.3.100.dylib"
+      ],
+      "Contents/Frameworks/libavutil.60.8.100.dylib": [
+        "file",
+        493,
+        732960,
+        "5f625761a4322d5321fc3af360a57be300b43b23bcdf88fc206453e1f6733c57"
+      ],
+      "Contents/Frameworks/libavutil.60.dylib": [
+        "link",
+        493,
+        "libavutil.60.8.100.dylib"
+      ],
+      "Contents/Frameworks/libavutil.dylib": [
+        "link",
+        493,
+        "libavutil.60.8.100.dylib"
+      ],
+      "Contents/Frameworks/libfreetype.6.dylib": [
+        "file",
+        493,
+        746192,
+        "29d987526abb13a2d22c322a7bfcf8968565a148eb8cc8ac82c63dce0101bc47"
+      ],
+      "Contents/Frameworks/libfreetype.dylib": [
+        "link",
+        493,
+        "libfreetype.6.dylib"
+      ],
+      "Contents/Frameworks/libfribidi.0.dylib": [
+        "file",
+        493,
+        187360,
+        "84b10aaa349512f3f8e17f2c75780223779463a619a0c875bf6eb0cf4a7eafc3"
+      ],
+      "Contents/Frameworks/libfribidi.dylib": [
+        "link",
+        493,
+        "libfribidi.0.dylib"
+      ],
+      "Contents/Frameworks/libharfbuzz-subset.0.dylib": [
+        "file",
+        493,
+        1832688,
+        "81c379a1c251f49edca9e7a47335b126f69b7f11d410f73056368edb04bf07dd"
+      ],
+      "Contents/Frameworks/libharfbuzz-subset.dylib": [
+        "link",
+        493,
+        "libharfbuzz-subset.0.dylib"
+      ],
+      "Contents/Frameworks/libharfbuzz.0.dylib": [
+        "file",
+        493,
+        1411184,
+        "65b7273067452055032e92986664743bf27e8a2eb9e673f3be52cc516fd221d3"
+      ],
+      "Contents/Frameworks/libharfbuzz.dylib": [
+        "link",
+        493,
+        "libharfbuzz.0.dylib"
+      ],
+      "Contents/Frameworks/libmpv.2.dylib": [
+        "file",
+        493,
+        2025104,
+        "03f4257ba48ecc825ea839f323b7abca32fa12d49ee525037a2afd25d51d8428"
+      ],
+      "Contents/Frameworks/libmpv.dylib": [
+        "link",
+        493,
+        "libmpv.2.dylib"
+      ],
+      "Contents/Frameworks/libplacebo.351.dylib": [
+        "file",
+        493,
+        639776,
+        "eeed5f4f95ceecb36cafed539e2d53491ae22e96fbf9dd863953d671bae16ea4"
+      ],
+      "Contents/Frameworks/libplacebo.dylib": [
+        "link",
+        493,
+        "libplacebo.351.dylib"
+      ],
+      "Contents/Frameworks/libswresample.6.1.100.dylib": [
+        "file",
+        493,
+        137600,
+        "6cebf678f25f5e015cd85f2833d7a082289b78b1c0614fb60885b0843db6f2d1"
+      ],
+      "Contents/Frameworks/libswresample.6.dylib": [
+        "link",
+        493,
+        "libswresample.6.1.100.dylib"
+      ],
+      "Contents/Frameworks/libswresample.dylib": [
+        "link",
+        493,
+        "libswresample.6.1.100.dylib"
+      ],
+      "Contents/Frameworks/libswscale.9.1.100.dylib": [
+        "file",
+        493,
+        962224,
+        "6c734002e02585b9952c68ee6db1abb792bc7ea5fe8a7734e22e9c28bfb466f1"
+      ],
+      "Contents/Frameworks/libswscale.9.dylib": [
+        "link",
+        493,
+        "libswscale.9.1.100.dylib"
+      ],
+      "Contents/Frameworks/libswscale.dylib": [
+        "link",
+        493,
+        "libswscale.9.1.100.dylib"
+      ],
+      "Contents/Helpers": [
+        "dir",
+        493
+      ],
+      "Contents/Helpers/MusesWebHomeHelper": [
+        "file",
+        448,
+        628400,
+        "ad13d969c7c92ced1652996793929bffeaca4c16fae174b761145223f3dc3a9c"
+      ],
+      "Contents/Helpers/deno": [
+        "file",
+        493,
+        80512672,
+        "8000be2fb6afe08b203a77d18ea547d11a80fd57523858063b8191acf62af7c7"
+      ],
+      "Contents/Info.plist": [
+        "file",
+        384,
+        2025,
+        "ddc0385116e13e6450d4fb0767a1cb622ff91ff51791662394e3065c5b5ccd35"
+      ],
+      "Contents/MacOS": [
+        "dir",
+        493
+      ],
+      "Contents/MacOS/Muses": [
+        "file",
+        493,
+        35557312,
+        "efb7398d007155d23367f7f87e4c4c9b78748b3d95110d5ef91c2fca6ade7c39"
+      ],
+      "Contents/Resources": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/AppIcon.icns": [
+        "file",
+        420,
+        1854398,
+        "de1a70e6e45fd3f292be49c00f23eac53dfb54d2da5382cccb041d7b7dc8ab01"
+      ],
+      "Contents/Resources/Assets.car": [
+        "file",
+        420,
+        2405640,
+        "8a97c8e88c1378c16798ee5449245c6ecfff09e1bce1e4ebd18a7e1422b70197"
+      ],
+      "Contents/Resources/IslandMoments-OFL.txt": [
+        "file",
+        384,
+        4406,
+        "b556e1676dda631644dcf2dfb2bb2da146ab273b984f0e0abfc620f02d866612"
+      ],
+      "Contents/Resources/IslandMoments-Regular.ttf": [
+        "file",
+        384,
+        615340,
+        "688e4c5368b51b0d1122c4fb4c2c8f89c685f66bec489bfe07cb3287772c4b71"
+      ],
+      "Contents/Resources/MPV-Bundle.json": [
+        "file",
+        420,
+        3705,
+        "e855813946f3a1fd9097153a8207f83e981a85c9ae8d3011da7ace425b9bfdc5"
+      ],
+      "Contents/Resources/MPV-Licenses": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/ffmpeg": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/ffmpeg/COPYING.GPLv2": [
+        "file",
+        420,
+        18092,
+        "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      ],
+      "Contents/Resources/MPV-Licenses/ffmpeg/COPYING.GPLv3": [
+        "file",
+        420,
+        35147,
+        "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      ],
+      "Contents/Resources/MPV-Licenses/ffmpeg/COPYING.LGPLv2.1": [
+        "file",
+        420,
+        26517,
+        "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+      ],
+      "Contents/Resources/MPV-Licenses/ffmpeg/COPYING.LGPLv3": [
+        "file",
+        420,
+        7651,
+        "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+      ],
+      "Contents/Resources/MPV-Licenses/ffmpeg/LICENSE.md": [
+        "file",
+        420,
+        4346,
+        "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+      ],
+      "Contents/Resources/MPV-Licenses/freetype": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/freetype/LICENSE.TXT": [
+        "file",
+        420,
+        2074,
+        "2e3bbb7d7c5c396368dd0853a790ec29ce5b8647163dde42a0493fb0d6556b2b"
+      ],
+      "Contents/Resources/MPV-Licenses/freetype/docs": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/freetype/docs/FTL.TXT": [
+        "file",
+        420,
+        6743,
+        "08c135755dd589039470f1fdbb400daaabaaa50d0b366d19cebff4d22986baa1"
+      ],
+      "Contents/Resources/MPV-Licenses/fribidi": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/fribidi/COPYING": [
+        "file",
+        420,
+        26440,
+        "32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b"
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/COPYING": [
+        "file",
+        420,
+        1971,
+        "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/src": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/src/ms-use": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/src/ms-use/COPYING": [
+        "file",
+        420,
+        1141,
+        "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/test": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/test/COPYING": [
+        "file",
+        420,
+        4370,
+        "9b35b8485f69cd298fccbb3c40a827dc06cf1185553bef827903497d2944a8d7"
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/test/shape": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/test/shape/data": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/test/shape/data/aots": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/test/shape/data/aots/COPYING": [
+        "file",
+        420,
+        593,
+        "f55f74bf740db07bb032a90aa74af4307adea3d489c1ccba12453cf0c0a764cb"
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/test/shape/data/text-rendering-tests": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/harfbuzz/test/shape/data/text-rendering-tests/COPYING": [
+        "file",
+        420,
+        584,
+        "d24039e4d22c9bc72096f6174374539d92a3d6e1163938546ec59179fe095e6f"
+      ],
+      "Contents/Resources/MPV-Licenses/libass": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/libass/COPYING": [
+        "file",
+        420,
+        755,
+        "f7e30699d02798351e7f839e3d3bfeb29ce65e44efa7735c225464c4fd7dfe9c"
+      ],
+      "Contents/Resources/MPV-Licenses/libplacebo": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/libplacebo/LICENSE": [
+        "file",
+        420,
+        24478,
+        "b3aa400aca6d2ba1f0bd03bd98d03d1fe7489a3bbb26969d72016360af8a5c9d"
+      ],
+      "Contents/Resources/MPV-Licenses/libplacebo/demos": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/libplacebo/demos/LICENSE": [
+        "file",
+        420,
+        7048,
+        "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+      ],
+      "Contents/Resources/MPV-Licenses/mpv": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/mpv/Copyright": [
+        "file",
+        420,
+        4096,
+        "bfe9ee4cceabcb8ecbfadf208d04156f73d801e6a57369a5606bb8341e204a23"
+      ],
+      "Contents/Resources/MPV-Licenses/mpv/LICENSE.GPL": [
+        "file",
+        420,
+        17984,
+        "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+      ],
+      "Contents/Resources/MPV-Licenses/mpv/LICENSE.LGPL": [
+        "file",
+        420,
+        26410,
+        "72b672113d642cbb8ef5dcc76938db801983c56e50b1400ab930f1a64d6dc8d9"
+      ],
+      "Contents/Resources/MPV-Licenses/pkgconf": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/pkgconf/COPYING": [
+        "file",
+        420,
+        509,
+        "07ee94b50a41ee3fc4e13a9b9c60b26fc28488494c465639f7e5f07a3952ec04"
+      ],
+      "Contents/Resources/MPV-Licenses/vulkan-headers": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Licenses/vulkan-headers/LICENSE.md": [
+        "file",
+        420,
+        458,
+        "ac24e5ea920e4318e4d02c4086ae51f53cfb03feed06c18df1019e7ada1ec7bc"
+      ],
+      "Contents/Resources/MPV-Provenance.json": [
+        "file",
+        420,
+        6166,
+        "e574a1ccdcd5d4966404d1c8a1a833b59762f00c5bf16af47d0499d507edf17a"
+      ],
+      "Contents/Resources/MPV-Sources": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Sources/Dependencies": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Sources/Dependencies/mpv": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Sources/Dependencies/mpv/README.md": [
+        "file",
+        420,
+        3900,
+        "83639071c3023daa7db286d496e2d3a8b25dab5f27c9412271bcf7d42ea77f9f"
+      ],
+      "Contents/Resources/MPV-Sources/Dependencies/mpv/patch-lock.json": [
+        "file",
+        420,
+        138,
+        "96cba9333fde33350c8b096834c96d55626611d670568a3a369108897d5bcdca"
+      ],
+      "Contents/Resources/MPV-Sources/Dependencies/mpv/patches": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Sources/Dependencies/mpv/patches/coreaudio-without-cocoa.patch": [
+        "file",
+        420,
+        520,
+        "30470fb40ca62a05492aa468345ea808e21f796c80ecca96a7d490d4f267126c"
+      ],
+      "Contents/Resources/MPV-Sources/Dependencies/mpv/source-lock.json": [
+        "file",
+        420,
+        2657,
+        "5071a3d9744d97fba42b7a17567fcf946221e5bd661b35bc4124f02ec7865f6b"
+      ],
+      "Contents/Resources/MPV-Sources/Dependencies/mpv/tool-lock.json": [
+        "file",
+        420,
+        1370,
+        "5ac7fcb3b08074f6387b0a031ddda34e533a922c6b0883b99185d078f6ba83e4"
+      ],
+      "Contents/Resources/MPV-Sources/Scripts": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/MPV-Sources/Scripts/prepare-mpv.py": [
+        "file",
+        493,
+        11476,
+        "5918803749d65d20ca57e9531f92e1600dc869498bf98c871ef55c044d93ccd6"
+      ],
+      "Contents/Resources/MPV-Sources/ffmpeg-8.0.tar.xz": [
+        "file",
+        420,
+        11384428,
+        "b2751fccb6cc4c77708113cd78b561059b6fa904b24162fa0be2d60273d27b8e"
+      ],
+      "Contents/Resources/MPV-Sources/freetype-2.13.3.tar.xz": [
+        "file",
+        420,
+        2617564,
+        "0550350666d427c74daeb85d5ac7bb353acba5f76956395995311a9c6f063289"
+      ],
+      "Contents/Resources/MPV-Sources/fribidi-1.0.16.tar.xz": [
+        "file",
+        420,
+        1098260,
+        "1b1cde5b235d40479e91be2f0e88a309e3214c8ab470ec8a2744d82a5a9ea05c"
+      ],
+      "Contents/Resources/MPV-Sources/harfbuzz-11.2.1.tar.xz": [
+        "file",
+        420,
+        18057576,
+        "093714c8548a285094685f0bdc999e202d666b59eeb3df2ff921ab68b8336a49"
+      ],
+      "Contents/Resources/MPV-Sources/libass-0.17.4.tar.xz": [
+        "file",
+        420,
+        452648,
+        "78f1179b838d025e9c26e8fef33f8092f65611444ffa1bfc0cfac6a33511a05a"
+      ],
+      "Contents/Resources/MPV-Sources/libplacebo-7.351.0.tar.gz": [
+        "file",
+        420,
+        848715,
+        "716954501d9b76e6906fddda66febc5886493d0673dd265ec1e6e52f4e5cd7c6"
+      ],
+      "Contents/Resources/MPV-Sources/mpv-0.41.0.tar.gz": [
+        "file",
+        420,
+        7262018,
+        "ee21092a5ee427353392360929dc64645c54479aefdb5babc5cfbb5fad626209"
+      ],
+      "Contents/Resources/MPV-Sources/pkgconf-2.5.1.tar.xz": [
+        "file",
+        420,
+        328064,
+        "cd05c9589b9f86ecf044c10a2269822bc9eb001eced2582cfffd658b0a50c243"
+      ],
+      "Contents/Resources/MPV-Sources/vulkan-headers-1.4.313.tar.gz": [
+        "file",
+        420,
+        2635494,
+        "f3298b8dc620530493296759858a69b622f98ececa0e8c75488ad2000778148f"
+      ],
+      "Contents/Resources/Metadata.appintents": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Metadata.appintents/extract.actionsdata": [
+        "file",
+        420,
+        4487,
+        "df94d1d21ceed5a997803c5cf48b399dba6dcfcdf15af54bfd752d0db4f0342c"
+      ],
+      "Contents/Resources/Metadata.appintents/version.json": [
+        "file",
+        420,
+        51,
+        "b63d0f4e634b566140765350e2f4f27c80d481175e3e395f0f7bcd5b9c04f45c"
+      ],
+      "Contents/Resources/Muses-Polyhymnia_Muses.bundle": [
+        "link",
+        493,
+        "Muses_Muses.bundle"
+      ],
+      "Contents/Resources/Muses.icns": [
+        "file",
+        420,
+        72031,
+        "4ebd2302e4cb1119dc1872ceb07acf474398dd5ca52e5639c8ee0f0e009dd697"
+      ],
+      "Contents/Resources/Muses_Muses.bundle": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Info.plist": [
+        "file",
+        420,
+        1128,
+        "b4a9378606f1078b4dda39efd04288e3791001174741633588c322ad1f9c1430"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/.gitkeep": [
+        "file",
+        420,
+        0,
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/AppIcon.icns": [
+        "file",
+        420,
+        1854398,
+        "de1a70e6e45fd3f292be49c00f23eac53dfb54d2da5382cccb041d7b7dc8ab01"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/AppIntentsLocalization": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/AppIntentsLocalization/en.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/AppIntentsLocalization/en.lproj/Localizable.strings": [
+        "file",
+        420,
+        355,
+        "62f612bc8eb9258470b66fc82da05fbc366a6d28ebc7f55fbb96a5fcedd8a3dc"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/AppIntentsLocalization/zh-Hans.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/AppIntentsLocalization/zh-Hans.lproj/Localizable.strings": [
+        "file",
+        420,
+        359,
+        "b97870cde989da5f40672bc9314cae9db8d5a7712145ca36e338d6301232b879"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/AppIntentsLocalization/zh-Hant.lproj": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/AppIntentsLocalization/zh-Hant.lproj/Localizable.strings": [
+        "file",
+        420,
+        359,
+        "2036e5dfa0d9e15a750012ca838683eb50ea0f1d829580238c6aff2d74adf395"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/Deno.entitlements": [
+        "file",
+        420,
+        247,
+        "6e07752e0fc84df8618efe7e0eed7d22350def388b45bae282675614d423d559"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/Info.plist": [
+        "file",
+        420,
+        2036,
+        "bd372f4b555a723deed4d5e4cbb383666828a03b325439fc386439a737f3b12a"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/IslandMoments-OFL.txt": [
+        "file",
+        420,
+        4406,
+        "b556e1676dda631644dcf2dfb2bb2da146ab273b984f0e0abfc620f02d866612"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/IslandMoments-Regular.ttf": [
+        "file",
+        420,
+        615340,
+        "688e4c5368b51b0d1122c4fb4c2c8f89c685f66bec489bfe07cb3287772c4b71"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/Localization": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/Localization/zh-Hant.json": [
+        "file",
+        420,
+        47928,
+        "f1d197a35aaa06b94f25ab69406dccf3d8bb9308e997d31ee6ec34f5481736cf"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/MenuBarMark.png": [
+        "file",
+        420,
+        243695,
+        "8ec2fe00cd69dae2392d97ba22f8c35de8ef4bb2eb106a05ed28a99431ac3966"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/MonteCarlo.ttf": [
+        "file",
+        420,
+        386656,
+        "487259bfac3239ca2710dbb19a7f72cb0e3762ec1bf9379f48d27754a65eac5c"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/Muses.entitlements": [
+        "file",
+        420,
+        570,
+        "92c9e40db33c33f283af47dcc3d79901b898b98947da2c02ff332e0cb6dd06fc"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/YTDLP.entitlements": [
+        "file",
+        420,
+        258,
+        "7dfc81db3e5e4a8337b49aa59b01820abcaef80bd74bada5b489e32473e17a54"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_ARC4.abi3.so": [
+        "file",
+        493,
+        117888,
+        "31e36d3b7a6ec812d8defb12ffbeaad98e0ace08aaa4ec36b14eb6522adc1eae"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_Salsa20.abi3.so": [
+        "file",
+        493,
+        118288,
+        "49389a2c7632f6fe60b2216874faf5c3f481a73de6d07657e0e6b02164fb9b67"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_chacha20.abi3.so": [
+        "file",
+        493,
+        118368,
+        "4e8ba1639ddfe650ab37fbda71cc51f4f3d457f3a5bf66259e7a410410302a3f"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_pkcs1_decode.abi3.so": [
+        "file",
+        493,
+        117952,
+        "abc1910fa7c7431b72d419e4734027e0e0732ac6eac1479d74758f5ae8a16304"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_aes.abi3.so": [
+        "file",
+        493,
+        151328,
+        "cfcea59b5b59d4e76a0b70dbf38240060a3751184a3441f1227ad9988c79b255"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_arc2.abi3.so": [
+        "file",
+        493,
+        134624,
+        "39ea880359f8aca30db2f081b28474c3df92a9a6ab23976f03f2f5cb281d74c2"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_blowfish.abi3.so": [
+        "file",
+        493,
+        134784,
+        "547679595d477ca6b4bc30c14d80a509bb88b79268b46ea2e05007351e0801da"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_cast.abi3.so": [
+        "file",
+        493,
+        135088,
+        "8f9960f57503eed0db65c331a4f5f72bf9356e59a19fbed8337b42268a791708"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_cbc.abi3.so": [
+        "file",
+        493,
+        118256,
+        "58cbdcd0477986717dc79bcc4cf94a975b4eba491de333bdbce44cd6f18e9b82"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_cfb.abi3.so": [
+        "file",
+        493,
+        118496,
+        "1bd342507c17f741b0f79e0be67b10553ebef7439c19b1e07796290d19696df6"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_ctr.abi3.so": [
+        "file",
+        493,
+        118512,
+        "9b254e47434d724b5bae45b5e65f4cb37dff011cac84da73ba1fbc9b98e43175"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_des.abi3.so": [
+        "file",
+        493,
+        200896,
+        "5b53f0ca900fb09d24cf17233f7ee1ce4d47bacbe84ef64f1e2f2705201169b9"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_des3.abi3.so": [
+        "file",
+        493,
+        200912,
+        "7926265474baeff69a9db68117b1258031952a42664a25dfe153b7aaa97d2eaf"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_ecb.abi3.so": [
+        "file",
+        493,
+        84976,
+        "a832626d59828fd68657c92fcb4e0030befa12c18d0f00229849880036660f62"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_eksblowfish.abi3.so": [
+        "file",
+        493,
+        134992,
+        "8d57a7f6b3bbd9d432cbad62c3565a4b57c7da0ad568f67b1fc3ab9965340892"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_ocb.abi3.so": [
+        "file",
+        493,
+        118720,
+        "1a3553d94b4613ccc09b0542ba4151a64538b8acfc7edf03ede89e0c752f1948"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Cipher/_raw_ofb.abi3.so": [
+        "file",
+        493,
+        118208,
+        "4c7de6a996aa8f0d6d42380cbd74213171956bbdef9b49df22600891e820f261"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_BLAKE2b.abi3.so": [
+        "file",
+        493,
+        118608,
+        "a12a084b0e1391b803c49e55bf409aa3d4aa768a5cd691668f7bbe1134eb8b93"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_BLAKE2s.abi3.so": [
+        "file",
+        493,
+        118608,
+        "0b38a0d0b516487aba685d1c8d1d5acf08240165acc3f61b624444810c27d7f8"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_MD2.abi3.so": [
+        "file",
+        493,
+        118496,
+        "38e507a8ab8121275fe2eddb9bffb794b26f0de79c475b6b0b69938125b3263c"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_MD4.abi3.so": [
+        "file",
+        493,
+        118512,
+        "d7248aa85fe50314255ecb14fd955a6a571195fc5365f598a46039a045a25d5f"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_MD5.abi3.so": [
+        "file",
+        493,
+        135600,
+        "2ae45cefeb95d7b53f36dd37b8330ca950987fe4b844e12624d09cc43a7fcaad"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_RIPEMD160.abi3.so": [
+        "file",
+        493,
+        118480,
+        "ebdf1b9e5a41a65fb6fe33b5af697d7db99454dd5dd546d687bf24d8b7670c62"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_SHA1.abi3.so": [
+        "file",
+        493,
+        135600,
+        "ef76b2bd1a12b47cfd14cf7c4d7d5fbd537d4f1200c585ba8658d08e3f4beffd"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_SHA224.abi3.so": [
+        "file",
+        493,
+        135616,
+        "a2271f4e54199638c7a667067960e37ca66f7ffbc20027f9c9face20dea00e85"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_SHA256.abi3.so": [
+        "file",
+        493,
+        135616,
+        "8657e156bfe38e6bce7f429a5bdb9db1ef33aea65546f57bc18dbc0f6f82981f"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_SHA384.abi3.so": [
+        "file",
+        493,
+        135616,
+        "9591fba130722b0fe80e4e7fb65b7c55b6b2b0e376917976aa2d21ed72bc798f"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_SHA512.abi3.so": [
+        "file",
+        493,
+        135632,
+        "726ab345be20f948b2215ea3b0349d2f9266b5b63d4eacac92487b95a9c84b2b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_ghash_portable.abi3.so": [
+        "file",
+        493,
+        118128,
+        "64b886d7ad68827cfb66bb95b7a444825532866fb4d692ea587fa389da3be474"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_keccak.abi3.so": [
+        "file",
+        493,
+        135664,
+        "618f83dc8b6e9be2d4a9ec11e48bc14b8d0ea3336d4bda1c5f93fab5e9d8c169"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Hash/_poly1305.abi3.so": [
+        "file",
+        493,
+        118832,
+        "a1ceb9098932b5a249bb77b3a1283be47a44b61618b6a47d585177da54ff2d1a"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Math": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Math/_modexp.abi3.so": [
+        "file",
+        493,
+        174288,
+        "2f6d30de77777b05e3f521c876d035e897d123ad02d7fe323053ddfaefe0ed95"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Protocol": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Protocol/_scrypt.abi3.so": [
+        "file",
+        493,
+        117872,
+        "a6822c822829abd08d12733a575562a4189135ef5c14ab6ca8cf44bd7abf2251"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/PublicKey": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/PublicKey/_curve25519.abi3.so": [
+        "file",
+        493,
+        136432,
+        "e9d0f60a517a7ccf3d737aa6afdf09060977c28c344dd4b7fe48446491cb40a9"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/PublicKey/_curve448.abi3.so": [
+        "file",
+        493,
+        175120,
+        "c26275311008aa5bac95a27680349aa95e77eab4067b1f54349a73fb3705d67c"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/PublicKey/_ec_ws.abi3.so": [
+        "file",
+        493,
+        1507664,
+        "c7948c2a5da55cffb6ffedfa20c65d959537f4a0b704de92bd18a938bb1898a2"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/PublicKey/_ed25519.abi3.so": [
+        "file",
+        493,
+        137168,
+        "3c1e435fd0a6065a9a8442ef78be256ad9cabcdf527b41bd48f00b42e50ff744"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/PublicKey/_ed448.abi3.so": [
+        "file",
+        493,
+        175808,
+        "e80bda537915b6c5c4bfd96edb171515bfb71bc40e76d873cc4ebd0599b13be2"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Util": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Util/_cpuid_c.abi3.so": [
+        "file",
+        493,
+        84736,
+        "08d72b0ce7f5d76cc85ed47fee076343ac3f9522587d612f9458ca49d073f753"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Cryptodome/Util/_strxor.abi3.so": [
+        "file",
+        493,
+        84704,
+        "7b9d1bed38ee5906d54b5da00e82c5a3af4c7a780590df94fc1e7eebc02ecbcb"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python": [
+        "link",
+        493,
+        "Python.framework/Versions/Current/Python"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Python": [
+        "link",
+        493,
+        "Versions/Current/Python"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Resources": [
+        "link",
+        493,
+        "Versions/Current/Resources"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Versions": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Versions/3.14": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Versions/3.14/Python": [
+        "file",
+        493,
+        14649696,
+        "b20ec43b35238fc5046f2bafb0c1f0f3a4c04e52dfbfae91a858aa57e761b37b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Versions/3.14/Resources": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Versions/3.14/Resources/Info.plist": [
+        "file",
+        420,
+        973,
+        "43f73ed996d116e6164161f5be1b35487618776bee221e3c753c46c477c5e450"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Versions/3.14/_CodeSignature": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Versions/3.14/_CodeSignature/CodeResources": [
+        "file",
+        420,
+        2442,
+        "c98fa4b91513cf1eb61254137c375a934a9fef2979b4f9febceb475657d740ac"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/Python.framework/Versions/Current": [
+        "link",
+        493,
+        "3.14"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/THIRD_PARTY_LICENSES.txt": [
+        "file",
+        420,
+        243550,
+        "472aefe951c7db35e1657c1d13fd337140511ed6f2b329205105ad441c5a02b7"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/_brotli.cpython-314-darwin.so": [
+        "file",
+        493,
+        1982112,
+        "30c027e49f1ba9fbcaf508c4a6c812d7f75a60d5e1ac8ad8519eba283a092ca1"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/_cffi_backend.cpython-314-darwin.so": [
+        "file",
+        493,
+        475808,
+        "0f795bda797b55cd3ee8b99f5748a0180a5cbfe0ba6d1ceda3a1df60d2162b3c"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/base_library.zip": [
+        "file",
+        420,
+        1394119,
+        "8da103e87f558bacea9e7dc1b8ff1b97814d824508ed4667b165714841b72579"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/certifi": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/certifi/cacert.pem": [
+        "file",
+        420,
+        238856,
+        "50f79f98dac192b20dbf73f35c56f0b0c557ab267ff5199d1117cc1180b70785"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/certifi/py.typed": [
+        "file",
+        420,
+        0,
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/charset_normalizer": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/charset_normalizer/cd.cpython-314-darwin.so": [
+        "file",
+        493,
+        381984,
+        "7886094e4ce68cf8644f4b5abf0e966251747eb284dd083b6087689afaccded4"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/charset_normalizer/md.cpython-314-darwin.so": [
+        "file",
+        493,
+        634432,
+        "eb190545b1070998b90192734b4d4f7dee71da04df2fd3bc44716a3954c6e7ce"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi/_wrapper.abi3.so": [
+        "file",
+        493,
+        13578608,
+        "fa7ba5a9b9626140ccadc9d7f475e468c94c18573bde68d3df8b7e3447c5574f"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/INSTALLER": [
+        "file",
+        420,
+        4,
+        "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/METADATA": [
+        "file",
+        420,
+        17139,
+        "834887f19fc5aee53f3adcafcd82f59f919b0aec976fcbef09965f316ac52fa8"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/RECORD": [
+        "file",
+        420,
+        4882,
+        "1ab8317c3b948938a88740ad1e49f97c3bfc24028a0e4491828607ba34776447"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/REQUESTED": [
+        "file",
+        420,
+        0,
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/WHEEL": [
+        "file",
+        420,
+        140,
+        "8a0146248ce0f13779616e0e65bc744ca4de7b7d8ad24620561b7431f33a7477"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/direct_url.json": [
+        "file",
+        420,
+        313,
+        "f902d21121857743ff2ea7fb12a4c8be0bb8a82a063ec16c07221cc518555bcd"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/entry_points.txt": [
+        "file",
+        420,
+        49,
+        "1f34f0a14a5b88a228e6e26baa7c4f93939dc59d0f853d1d3d34aa50ff09b3bd"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/licenses": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/licenses/LICENSE": [
+        "file",
+        420,
+        1106,
+        "3e88b029b50b6afd36d6b18642ce4c8b6eee4c903f1cfabef5b811f61e07050b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/curl_cffi-0.16.3.dist-info/top_level.txt": [
+        "file",
+        420,
+        10,
+        "6f9d58079d08fefbba5c06d21119aab606987226000c203f6da56867f4f92f3b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/libcrypto.3.dylib": [
+        "file",
+        493,
+        10756256,
+        "38d3919e1d362fbd98af61ceb7b9b6624e7c3bc2ce765d47596542c74e16a46d"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/libssl.3.dylib": [
+        "file",
+        493,
+        2079264,
+        "4977c1e85bcfab97a962319adf0c4a6792f25eb6dbf987fc625834ae03cb9d7b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/libzstd.1.dylib": [
+        "file",
+        493,
+        4325776,
+        "092125b2b4148cc0b2e9c1a3f1dfbf58df1c7b9a0f8fae1ae25593cadc327f04"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_asyncio.cpython-314-darwin.so": [
+        "file",
+        493,
+        262640,
+        "a2c9b0365def7fe3d00bf048e7d76b331529db1f40f9594be9adbbd06921a8de"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_bisect.cpython-314-darwin.so": [
+        "file",
+        493,
+        137728,
+        "79ff9a3655450465629fb2d3aa474b386dce33b6b6e15ea8896865f46626e158"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_blake2.cpython-314-darwin.so": [
+        "file",
+        493,
+        190112,
+        "0b60e057efe97efbc4f1977349d3d42209f64c07b0e00e95a76baca647d34ab2"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_bz2.cpython-314-darwin.so": [
+        "file",
+        493,
+        140416,
+        "35e430febdfbcdbc8a1cc6da3c79349322861d4bb8cffbb60a5510f8224dc5ca"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_codecs_cn.cpython-314-darwin.so": [
+        "file",
+        493,
+        384000,
+        "95d72cc568d70b788edd1c07fcc5344780e7a17c7f2fcc1ba6f83fade64e6557"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_codecs_hk.cpython-314-darwin.so": [
+        "file",
+        493,
+        383568,
+        "595d23d6793a8321aca0147b12f7503b05eb82928cd5e5a15b5c667532e53c7a"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_codecs_iso2022.cpython-314-darwin.so": [
+        "file",
+        493,
+        141616,
+        "a65890e7358114bd1e9b59111dee1a39104f48d327983ac3f38319ae9da8bfb0"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_codecs_jp.cpython-314-darwin.so": [
+        "file",
+        493,
+        598320,
+        "7301f2211b0a45573bd40424f75ab31d7f4f3524ec9b83051f7865e2af2bfdd0"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_codecs_kr.cpython-314-darwin.so": [
+        "file",
+        493,
+        351056,
+        "401998df9a349ff9445804f6a33e7aaf18b40f51255e7cf0f778098893b96d79"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_codecs_tw.cpython-314-darwin.so": [
+        "file",
+        493,
+        333840,
+        "1aa16fb7fd7f47ff98888796f940f98b733b09029be47bd019759c6354607da6"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_csv.cpython-314-darwin.so": [
+        "file",
+        493,
+        176384,
+        "4dfeb9558bf97c0cc105c75d9d9bcae2b5a9f11599c0b0e9623d8513779c811b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_ctypes.cpython-314-darwin.so": [
+        "file",
+        493,
+        416928,
+        "7dc70e91369dc0594d036cae436b4a175960b949fb543e1a9cc8553454ff17d1"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_decimal.cpython-314-darwin.so": [
+        "file",
+        493,
+        733792,
+        "59e3a56a66f8a77db245b6016be5afc688b6f00161c3124c213b41640529335a"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_elementtree.cpython-314-darwin.so": [
+        "file",
+        493,
+        258032,
+        "7ba63365c6deb63c1264b1110490801c4fb39e08ec1362735f2ddce5d9fcf992"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_hashlib.cpython-314-darwin.so": [
+        "file",
+        493,
+        219344,
+        "1acdaaec15c0fee3c8fce539d92dc69c220eb8a9eb0874437805b2b431521b0d"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_heapq.cpython-314-darwin.so": [
+        "file",
+        493,
+        137296,
+        "d9b7bad0426a5bd253f4f517830b09363818c39e019588b945e0cb253661970b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_hmac.cpython-314-darwin.so": [
+        "file",
+        493,
+        317584,
+        "7f42a879be48dc0e157a915316f3c964ce34e8675129f4699ea2a80319cb6477"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_interpqueues.cpython-314-darwin.so": [
+        "file",
+        493,
+        161216,
+        "aa84507c105b6cf04b624b1d238063cb725a7d126c0fbceb6339967e29d6c4d0"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_interpreters.cpython-314-darwin.so": [
+        "file",
+        493,
+        180608,
+        "c3228418ffaf3fed2fee0cb2613c69d054af15a781442ec58bc3d4f9ab40e3db"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_json.cpython-314-darwin.so": [
+        "file",
+        493,
+        174944,
+        "ba8a03f63a9dbc5b3de8c31152193551a779857cce189e4c8ebb700e397801ed"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_lzma.cpython-314-darwin.so": [
+        "file",
+        493,
+        537024,
+        "beda1eb31b0deadfaed010853156adfe413c5bba1dd4801e16d823f702f75459"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_md5.cpython-314-darwin.so": [
+        "file",
+        493,
+        139280,
+        "845f3eb23ab2bcbca9fe1411aed912ad2ac8c142a8aa428794a3b8c0d3f1f989"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_multibytecodec.cpython-314-darwin.so": [
+        "file",
+        493,
+        200144,
+        "9b8e4889a0334fc20e813ac591414853bee3990ca5f685310d144601a3d2ad00"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_multiprocessing.cpython-314-darwin.so": [
+        "file",
+        493,
+        141376,
+        "768f70dd191076ac19e139dab5bd5c5492d259efa21781fed18fc1b78f38b4ea"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_pickle.cpython-314-darwin.so": [
+        "file",
+        493,
+        358208,
+        "6fdaae182d90b54bb18d06b064086eb559ed78e75f0ca999d043be223d8496b1"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_posixshmem.cpython-314-darwin.so": [
+        "file",
+        493,
+        135936,
+        "56d8b589a3751cf8f1ba71eff85a78eb837d43b6e98c8223b839b38e78da9cd0"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_posixsubprocess.cpython-314-darwin.so": [
+        "file",
+        493,
+        139168,
+        "ed2381dd57724b4232852533d241594bb75a14e3de1384f48fe5ec46911d0f9e"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_queue.cpython-314-darwin.so": [
+        "file",
+        493,
+        139680,
+        "ced67b9cb754abb2af4071d45f4e0baa52f2fef6bf7d4d17a0686b204898481d"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_random.cpython-314-darwin.so": [
+        "file",
+        493,
+        138976,
+        "389504e43d9c0f37cb2302ca08a85f35db8d0507b4aaeffb800dac952ebba843"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_scproxy.cpython-314-darwin.so": [
+        "file",
+        493,
+        137456,
+        "eeca51104ce019a353f16ac578f6864881d4432da6d14b839eabd10574be579a"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_sha1.cpython-314-darwin.so": [
+        "file",
+        493,
+        139200,
+        "efce25f0d1d6e0fe00ed76140c4bed8218cbec9d0154360a4da9db98fb716336"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_sha2.cpython-314-darwin.so": [
+        "file",
+        493,
+        191072,
+        "9aef2c5904c5c14f93e5e31f4f6e5beee762a52cca7b5fe26fd68fca5090931a"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_sha3.cpython-314-darwin.so": [
+        "file",
+        493,
+        158608,
+        "145f31bd880300660af557ed45adfb7024202f92fe2849eb0d14524f0424dff2"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_socket.cpython-314-darwin.so": [
+        "file",
+        493,
+        273184,
+        "2ae6d207807b821d55c66ff5f6c3ebd9cf8ba407ede7b99ebfc365f6a8b6b28a"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_sqlite3.cpython-314-darwin.so": [
+        "file",
+        493,
+        2557392,
+        "0f50edc02da504ccb620f311aefd8aa7f8120ce245217273fe8c22eb86bfb503"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_ssl.cpython-314-darwin.so": [
+        "file",
+        493,
+        483744,
+        "cf19b3356d124f863f2bc7ffbc26a69ef07cf718e109a8e04be3b74bd5201d7d"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_statistics.cpython-314-darwin.so": [
+        "file",
+        493,
+        118416,
+        "ee76e647cdd34d4ee18345afcb42deaf0fb52c4622842171e9e81cb0b1fad002"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_struct.cpython-314-darwin.so": [
+        "file",
+        493,
+        202720,
+        "317a60d0e8e59b9a4fda343108ee3834b07b470fa288e40b1a44e05d6b18363b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_uuid.cpython-314-darwin.so": [
+        "file",
+        493,
+        118224,
+        "d021706a52bd5525b7d135b8d482f5b48430a6e2e1ffaf7f50e77d90525ab457"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/_zstd.cpython-314-darwin.so": [
+        "file",
+        493,
+        219152,
+        "4874daa4935ba19e70ace881eb0c255ed91d6994c24f6a5ebbc2d53e6b7a8b1f"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/array.cpython-314-darwin.so": [
+        "file",
+        493,
+        236880,
+        "5a4fb218e731d9febb4f4058793335381d2614ffc6dd7171697be29167bdfe7e"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/binascii.cpython-314-darwin.so": [
+        "file",
+        493,
+        156416,
+        "bd9ea2892eff9f81a769ee08e21c5555671bff35c4343637eec2c839a71879e0"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/fcntl.cpython-314-darwin.so": [
+        "file",
+        493,
+        137680,
+        "298b6c50cff803296624b004b0e7621603611ceb0890f3d46ef4ea74b54e3cf5"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/grp.cpython-314-darwin.so": [
+        "file",
+        493,
+        137920,
+        "b841ce99d56b14f2d44680713a1a0f9e6b37442c95fa72685c6a5999771b3c55"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/math.cpython-314-darwin.so": [
+        "file",
+        493,
+        232048,
+        "aefee85727f465f5a89fdc24c610f895bf39b3c9c37cfa4e0c3a9b4f83d2049b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/mmap.cpython-314-darwin.so": [
+        "file",
+        493,
+        159184,
+        "6c79bc596ce57ae8c0e81275d9a9bd63b8bd528c8b920d0740e1aff424df418b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/pyexpat.cpython-314-darwin.so": [
+        "file",
+        493,
+        531632,
+        "c3670f2b20b7e72555ab1d9643da7ba2a6a1284c2bb1c5530f8b08f95a1d3c23"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/readline.cpython-314-darwin.so": [
+        "file",
+        493,
+        165088,
+        "d36fead64cbfb89dfe9fa30d6d1bfbd86c42f13e237e498e3901f7cc41fc955c"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/resource.cpython-314-darwin.so": [
+        "file",
+        493,
+        138256,
+        "6214071794aff2688c5d474de9f2faa8d51b03dc4087dd32cf6e73f1e0b11600"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/select.cpython-314-darwin.so": [
+        "file",
+        493,
+        178048,
+        "1fd8458e5528ab87c97bc5a54f20414a9f202c42fa679ac08a81c8ae0f3b6d70"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/termios.cpython-314-darwin.so": [
+        "file",
+        493,
+        139472,
+        "09a02a593222b51bc0b5c6c9bf3fe8eadd5751c252f1626e027b4769564cea34"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/unicodedata.cpython-314-darwin.so": [
+        "file",
+        493,
+        1603904,
+        "387047798b27a7f6c6575390e0deaebba985c1c46442f158e73efecd8b7d9f88"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/python3.14/lib-dynload/zlib.cpython-314-darwin.so": [
+        "file",
+        493,
+        197296,
+        "55283a910bf9e121f7478189b5a5e9abff0d8dcc51a48d06241b390bc92ed839"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets/speedups.cpython-314-darwin.so": [
+        "file",
+        493,
+        118528,
+        "a560b2666f97a20f86f0462dd678cdf6981a9152d0201a5b9fd73d1f2982ecfe"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/INSTALLER": [
+        "file",
+        420,
+        4,
+        "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/METADATA": [
+        "file",
+        420,
+        6336,
+        "0d5f1279d095e7ba84ef21614af0822dc500ccb2e51b7c3a19eda7159b2dade4"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/RECORD": [
+        "file",
+        420,
+        8354,
+        "f26a24177a4b5eaa802ef44c1806cb64512e041dcc994a6325712e382e1dbe2b"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/REQUESTED": [
+        "file",
+        420,
+        0,
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/WHEEL": [
+        "file",
+        420,
+        142,
+        "95800352a0f1fe2341252933c80754a4a0cf0510f5421ac3419c5a0e8fc66159"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/direct_url.json": [
+        "file",
+        420,
+        310,
+        "a8776f8f6217aa02c09a6edaf241664758d68396cecae12508e153872933911f"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/entry_points.txt": [
+        "file",
+        420,
+        51,
+        "0e7867e1d9b912c23864c02c1e574617a0b005766b1979d1edc9cadbe5d1ef36"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/licenses": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/licenses/LICENSE": [
+        "file",
+        420,
+        1514,
+        "3d6a0c050d8bec52fabad502e45fb25bd02bcadbd70dea34d447b6a0ff4e6da8"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/websockets-17.2.dist-info/top_level.txt": [
+        "file",
+        420,
+        11,
+        "08ca5d2a49712acbd980283296dc5458e1e26d95d9d6e60856971af71b10f079"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/yt_dlp_ejs": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/yt_dlp_ejs/yt": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/yt_dlp_ejs/yt/solver": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/yt_dlp_ejs/yt/solver/core.min.js": [
+        "file",
+        420,
+        6945,
+        "18da6ce0758b416e7ae645084f4f8801f9f9d59d6c477c05eaa0ff94ebd8cc00"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/_internal/yt_dlp_ejs/yt/solver/lib.min.js": [
+        "file",
+        420,
+        151561,
+        "c55987fe697e5b9ee18830163f7af85327e9bb5c3e674b969d38c8d205eaa577"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/icon.png": [
+        "file",
+        420,
+        2423083,
+        "55c948855903de1d44564daa6a0860b26ca2aa6af090cc7168817a63de905552"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/yt-dlp": [
+        "file",
+        493,
+        10572096,
+        "375373e07d4933312cd9f834d13c78334eb44f2f5e48bd2ceaf2d081e7fbc547"
+      ],
+      "Contents/Resources/Muses_Muses.bundle/Contents/Resources/Resources/yt-dlp-LICENSE": [
+        "file",
+        420,
+        1211,
+        "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+      ],
+      "Contents/Resources/_internal": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Cryptodome": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_ARC4.abi3.so": [
+        "file",
+        493,
+        117888,
+        "bd68e3f957cdf91b406cda36d9294aa9e399fb48f99b5bf09e11805f648a7f23"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_Salsa20.abi3.so": [
+        "file",
+        493,
+        118288,
+        "621ecc110e490a065b25ac11e0537bcd6183876a2155590764a693302ec03c1f"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_chacha20.abi3.so": [
+        "file",
+        493,
+        118368,
+        "4e8e3a1060d9ebb0296464c6d43eb7529c8d88f0e507cbc82c313df8c38cfd6c"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_pkcs1_decode.abi3.so": [
+        "file",
+        493,
+        117952,
+        "dd4345c4a6c5e92cc1dd45ec67ab8e87bd73730967cb7ab4caf4e193139ae600"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_aes.abi3.so": [
+        "file",
+        493,
+        151328,
+        "07115203324eb0de78aa80a04fb45bfe56451da8bfa078f85967054b91c2221f"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_arc2.abi3.so": [
+        "file",
+        493,
+        134624,
+        "ebe3be706dbf15fb0f6ad1465390ee0213b75eb71889c62fac4e0fa04fb83c3f"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_blowfish.abi3.so": [
+        "file",
+        493,
+        134784,
+        "e01c3cf03a67681dac61faf5b2964f63c848cb3803cb53ec3c929e5f6077a6d1"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_cast.abi3.so": [
+        "file",
+        493,
+        135088,
+        "85e92d4c2c556ec8ca09f492a6559c516005e713727898f59a54c5d95aea2476"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_cbc.abi3.so": [
+        "file",
+        493,
+        118256,
+        "ff413f9803d018969927c2db2550f8040f899a309360ac37b0e2dcbb97787d2b"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_cfb.abi3.so": [
+        "file",
+        493,
+        118496,
+        "70ba6ffaf493956dfb2a583d7030462ad4a0d036ada1a71884bf791a9766d6fa"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_ctr.abi3.so": [
+        "file",
+        493,
+        118512,
+        "7a8478ae8f229850cf40bcfbdc4661a9a6c5781ff61ca806d914f9e5cb4564de"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_des.abi3.so": [
+        "file",
+        493,
+        200896,
+        "6e78329f7c48cb4d6d1a643e5008d3ed274def5b79cdd1a78342229336006033"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_des3.abi3.so": [
+        "file",
+        493,
+        200912,
+        "acd5e3595d6afc01d264031ade9743244e4830773f540847f289b483a34dd2de"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_ecb.abi3.so": [
+        "file",
+        493,
+        84976,
+        "d5799a5f05b7125e53acb7ebe5d53af50eef3f57f592d8ac09b56c33a2c43b10"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_eksblowfish.abi3.so": [
+        "file",
+        493,
+        134992,
+        "3060111c67535491f961f88e91b53ff09637c4e5e864fcb227f135f17606ae08"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_ocb.abi3.so": [
+        "file",
+        493,
+        118720,
+        "97a471fd26b7c9a124c572aa854624dc76b09ff3a2e367fc4ef1244fa7145d15"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Cipher/_raw_ofb.abi3.so": [
+        "file",
+        493,
+        118208,
+        "9549d15f95732fcbf3f43415bdf6437f8f669d6b769e04c7683ba4b324807e44"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_BLAKE2b.abi3.so": [
+        "file",
+        493,
+        118608,
+        "1096df5d900803965c3f51ccda132b0725d1a286b798be8602f7cbc3150a4dc3"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_BLAKE2s.abi3.so": [
+        "file",
+        493,
+        118608,
+        "0f1abb8432e540935e5341d7455ee7f3a865c0ebfd986cf4b33a457bffff6bae"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_MD2.abi3.so": [
+        "file",
+        493,
+        118496,
+        "58cb1c420506f1f9da3d706d9ef3fe5b68b7bb3c2ecfbcb44096e20ef56c9d5b"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_MD4.abi3.so": [
+        "file",
+        493,
+        118512,
+        "eb4719b69e48181bb1dbbe82cc78d45912c362da2b1f9f89e28ee01f5507a26f"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_MD5.abi3.so": [
+        "file",
+        493,
+        135600,
+        "625b7525399cbf7cd092946f7000eb29318d2903a32cb5fbe894ed1395258951"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_RIPEMD160.abi3.so": [
+        "file",
+        493,
+        118480,
+        "19ff0737be074ea42ab164add550acbc64dcb467706a710322d5551233a82b83"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_SHA1.abi3.so": [
+        "file",
+        493,
+        135600,
+        "0f074f7302a3f41e501e073691bbd7be735629becd568562b5d850137ba10be7"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_SHA224.abi3.so": [
+        "file",
+        493,
+        135616,
+        "6b7b793fb3974712437a3253c32be69cd51ec49bd4a5041e507009a8782bad9e"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_SHA256.abi3.so": [
+        "file",
+        493,
+        135616,
+        "d9eeedd9c6deecddd87df4485c5a587c61d1b1c00a3e6ff46e6ae55748d0708e"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_SHA384.abi3.so": [
+        "file",
+        493,
+        135616,
+        "e5edf9b05dc5bd09b085bb493a55866680fc043d7e4f554db933ae57c6e82848"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_SHA512.abi3.so": [
+        "file",
+        493,
+        135632,
+        "4f3b818e314edad1393e9f329e0d8e6edd3f6a8733534de46ebdc6958da4b3d2"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_ghash_portable.abi3.so": [
+        "file",
+        493,
+        118128,
+        "4a05226c846bd28323c0c1949921297f410bca98393389f7926c7a398084c56a"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_keccak.abi3.so": [
+        "file",
+        493,
+        135664,
+        "276ba5335ff440833def3819617fe66f5ecac1176ee6b44d52b612dd9f807a3e"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Hash/_poly1305.abi3.so": [
+        "file",
+        493,
+        118832,
+        "aca482fc1c36efc3615d6d62528d33a2f4e2c0800166282c6233517999b38196"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Math": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Cryptodome/Math/_modexp.abi3.so": [
+        "file",
+        493,
+        174288,
+        "151b83d949460cce1636273f0141820f9fb83e19d5b38ecb1d136400adcdfdcd"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Protocol": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Cryptodome/Protocol/_scrypt.abi3.so": [
+        "file",
+        493,
+        117872,
+        "5f4b485aeacd0c0452f83278b7f0b753f8664401b10399bee629da41f27442d6"
+      ],
+      "Contents/Resources/_internal/Cryptodome/PublicKey": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Cryptodome/PublicKey/_curve25519.abi3.so": [
+        "file",
+        493,
+        136432,
+        "b4c73b024d0db079431dba02e059ba59776e7e92634cbdb4d3731ac7dd148878"
+      ],
+      "Contents/Resources/_internal/Cryptodome/PublicKey/_curve448.abi3.so": [
+        "file",
+        493,
+        175120,
+        "60e73951e595219b27e3d81967afc7eb67eb333e6d850dc4408d23452402974a"
+      ],
+      "Contents/Resources/_internal/Cryptodome/PublicKey/_ec_ws.abi3.so": [
+        "file",
+        493,
+        1507664,
+        "b3de635126bc28d1fe4e6efd8b2624997e15df16deb20ac4b920f447778cee80"
+      ],
+      "Contents/Resources/_internal/Cryptodome/PublicKey/_ed25519.abi3.so": [
+        "file",
+        493,
+        137168,
+        "1c6bb7f5796dc344bb23718a1f05b4e591ec64939bc5f673071b0e058ef1a2b9"
+      ],
+      "Contents/Resources/_internal/Cryptodome/PublicKey/_ed448.abi3.so": [
+        "file",
+        493,
+        175808,
+        "9262443a6874234c9377182129aee6f3f4169aff1f37ba50a49200c4aadaeffb"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Util": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Cryptodome/Util/_cpuid_c.abi3.so": [
+        "file",
+        493,
+        84736,
+        "f26445abc29d0d35c7b230de3cd70702844213567b6ae885b6b92b9b9f16d949"
+      ],
+      "Contents/Resources/_internal/Cryptodome/Util/_strxor.abi3.so": [
+        "file",
+        493,
+        84704,
+        "6de806acf498aee8e714f65d4e5fe8d7b59f1303ea53ea768d85bfde09f20e14"
+      ],
+      "Contents/Resources/_internal/Python": [
+        "link",
+        493,
+        "Python.framework/Versions/Current/Python"
+      ],
+      "Contents/Resources/_internal/Python.framework": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Python.framework/Python": [
+        "link",
+        493,
+        "Versions/Current/Python"
+      ],
+      "Contents/Resources/_internal/Python.framework/Resources": [
+        "link",
+        493,
+        "Versions/Current/Resources"
+      ],
+      "Contents/Resources/_internal/Python.framework/Versions": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Python.framework/Versions/3.14": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Python.framework/Versions/3.14/Python": [
+        "file",
+        493,
+        14649696,
+        "7096b67ae0b37f6056f9d13f371585d1e9c15a686a9f77b2e460262c7b71258c"
+      ],
+      "Contents/Resources/_internal/Python.framework/Versions/3.14/Resources": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Python.framework/Versions/3.14/Resources/Info.plist": [
+        "file",
+        420,
+        973,
+        "43f73ed996d116e6164161f5be1b35487618776bee221e3c753c46c477c5e450"
+      ],
+      "Contents/Resources/_internal/Python.framework/Versions/3.14/_CodeSignature": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/Python.framework/Versions/3.14/_CodeSignature/CodeResources": [
+        "file",
+        420,
+        2442,
+        "c98fa4b91513cf1eb61254137c375a934a9fef2979b4f9febceb475657d740ac"
+      ],
+      "Contents/Resources/_internal/Python.framework/Versions/Current": [
+        "link",
+        493,
+        "3.14"
+      ],
+      "Contents/Resources/_internal/THIRD_PARTY_LICENSES.txt": [
+        "file",
+        420,
+        243550,
+        "472aefe951c7db35e1657c1d13fd337140511ed6f2b329205105ad441c5a02b7"
+      ],
+      "Contents/Resources/_internal/_brotli.cpython-314-darwin.so": [
+        "file",
+        493,
+        1982112,
+        "ab417f9b92c9c9ddb7aca083d00b2f965905e4eb78efdf0470d29c4c23ba748c"
+      ],
+      "Contents/Resources/_internal/_cffi_backend.cpython-314-darwin.so": [
+        "file",
+        493,
+        475808,
+        "1613ddf17f899992f87cfd661ebacbd909678f4e657cdcc04d9873d6b07524e8"
+      ],
+      "Contents/Resources/_internal/base_library.zip": [
+        "file",
+        420,
+        1394119,
+        "8da103e87f558bacea9e7dc1b8ff1b97814d824508ed4667b165714841b72579"
+      ],
+      "Contents/Resources/_internal/certifi": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/certifi/cacert.pem": [
+        "file",
+        420,
+        238856,
+        "50f79f98dac192b20dbf73f35c56f0b0c557ab267ff5199d1117cc1180b70785"
+      ],
+      "Contents/Resources/_internal/certifi/py.typed": [
+        "file",
+        420,
+        0,
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ],
+      "Contents/Resources/_internal/charset_normalizer": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/charset_normalizer/cd.cpython-314-darwin.so": [
+        "file",
+        493,
+        381984,
+        "078b0b9b213c2145ad4980dda04fc365c9a8d8ee38e323c2e03a9f8f96a37a9d"
+      ],
+      "Contents/Resources/_internal/charset_normalizer/md.cpython-314-darwin.so": [
+        "file",
+        493,
+        634432,
+        "3f9d7768b6f1a80fe23409a1088e05131731c29052857850923b7ba5c5e46831"
+      ],
+      "Contents/Resources/_internal/curl_cffi": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/curl_cffi/_wrapper.abi3.so": [
+        "file",
+        493,
+        13578608,
+        "6386a7bc9d1184f79ad9860e28ab2c6558895eb705fb9f219e6c45126b317ec7"
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/INSTALLER": [
+        "file",
+        420,
+        4,
+        "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/METADATA": [
+        "file",
+        420,
+        17139,
+        "834887f19fc5aee53f3adcafcd82f59f919b0aec976fcbef09965f316ac52fa8"
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/RECORD": [
+        "file",
+        420,
+        4882,
+        "1ab8317c3b948938a88740ad1e49f97c3bfc24028a0e4491828607ba34776447"
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/REQUESTED": [
+        "file",
+        420,
+        0,
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/WHEEL": [
+        "file",
+        420,
+        140,
+        "8a0146248ce0f13779616e0e65bc744ca4de7b7d8ad24620561b7431f33a7477"
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/direct_url.json": [
+        "file",
+        420,
+        313,
+        "f902d21121857743ff2ea7fb12a4c8be0bb8a82a063ec16c07221cc518555bcd"
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/entry_points.txt": [
+        "file",
+        420,
+        49,
+        "1f34f0a14a5b88a228e6e26baa7c4f93939dc59d0f853d1d3d34aa50ff09b3bd"
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/licenses": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/licenses/LICENSE": [
+        "file",
+        420,
+        1106,
+        "3e88b029b50b6afd36d6b18642ce4c8b6eee4c903f1cfabef5b811f61e07050b"
+      ],
+      "Contents/Resources/_internal/curl_cffi-0.16.3.dist-info/top_level.txt": [
+        "file",
+        420,
+        10,
+        "6f9d58079d08fefbba5c06d21119aab606987226000c203f6da56867f4f92f3b"
+      ],
+      "Contents/Resources/_internal/libcrypto.3.dylib": [
+        "file",
+        493,
+        10756256,
+        "74a1fbd2064292044c46a6074ef423e880d2f69531e912e1a5944c12c4bf4850"
+      ],
+      "Contents/Resources/_internal/libssl.3.dylib": [
+        "file",
+        493,
+        2079264,
+        "d402377a1275e10537b4a00d02ba2de415cfd2f9d4f28fbd910cb8b4bafb4d17"
+      ],
+      "Contents/Resources/_internal/libzstd.1.dylib": [
+        "file",
+        493,
+        4325776,
+        "d6fe6ef9ecb59706af855e9ad1d291851115b7f0bba56a9b68397efaf6541094"
+      ],
+      "Contents/Resources/_internal/python3.14": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_asyncio.cpython-314-darwin.so": [
+        "file",
+        493,
+        262640,
+        "6c1f5719ecca11f52d272423817d2bf6caea69c8c1e329b5e0d1ae5bdf0e69d0"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_bisect.cpython-314-darwin.so": [
+        "file",
+        493,
+        137728,
+        "86b645ceb3c68e2180bb659dcd26a9081771bbcd81f4df81c9924a81da57c272"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_blake2.cpython-314-darwin.so": [
+        "file",
+        493,
+        190112,
+        "2da1331ceb8eb631945384b4b5ba1944eb8e6828c468eadd14217c5e0598124d"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_bz2.cpython-314-darwin.so": [
+        "file",
+        493,
+        140416,
+        "5812ed586f145119e84a3d60e2475b5aebffcad2804df2250f4bf46bba1b21d5"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_codecs_cn.cpython-314-darwin.so": [
+        "file",
+        493,
+        384000,
+        "d02333aaa975518f9ef39598f66a12f771db60ee7f42a716e570e4c5d0a49737"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_codecs_hk.cpython-314-darwin.so": [
+        "file",
+        493,
+        383568,
+        "5d8838ffbc2bb92875ed18ad72e418fd5060c657ed25b1146fdabb5d1ee1391b"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_codecs_iso2022.cpython-314-darwin.so": [
+        "file",
+        493,
+        141616,
+        "e7fe01227baaafc15c9de601f455ce4b8cfe3e7b5aa76b395ccb000c905760f2"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_codecs_jp.cpython-314-darwin.so": [
+        "file",
+        493,
+        598320,
+        "80872f701a17765da3de458e0e3b62b5c35659d0d26e5dd6e290255f701222c8"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_codecs_kr.cpython-314-darwin.so": [
+        "file",
+        493,
+        351056,
+        "1875810f7fa82fa8e27f3a9f1cb4d0379cc68f1bdf68a1a35acb89b49fec7f33"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_codecs_tw.cpython-314-darwin.so": [
+        "file",
+        493,
+        333840,
+        "897d4a45c5da8fb9161aa57f1df3d8f7b33c29fde930f57844a6094bab1764cc"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_csv.cpython-314-darwin.so": [
+        "file",
+        493,
+        176384,
+        "da304ecb7e829f7258ff45e8fc5045dae225df6ecfe170999ba41cd0176a9e68"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_ctypes.cpython-314-darwin.so": [
+        "file",
+        493,
+        416928,
+        "affa61c2d5a2112e623c5dd1f9531d42cf45cc71b6448a89c3217cbe55c902d4"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_decimal.cpython-314-darwin.so": [
+        "file",
+        493,
+        733792,
+        "f2d787eba4bbf1949b519afb49dc40effb9bbcf614853dabe0a791e406d65c1f"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_elementtree.cpython-314-darwin.so": [
+        "file",
+        493,
+        258032,
+        "7ed6eff9dbcc68a6c6184369531fd18e029807edee0e3829ef59005056d07f49"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_hashlib.cpython-314-darwin.so": [
+        "file",
+        493,
+        219344,
+        "cbfdd69bf000f92d2e7a32e1a87507bb7a1efa33368e259aaaf16ca997cfff86"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_heapq.cpython-314-darwin.so": [
+        "file",
+        493,
+        137296,
+        "bf3970e9a99a34844f9aeb24556d4260d148335e872020e1d997a8354ad80459"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_hmac.cpython-314-darwin.so": [
+        "file",
+        493,
+        317584,
+        "c954aab8a9020b41b7688d7940924c55a6e8f55470ce5fa47b6322cfa2a6d390"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_interpqueues.cpython-314-darwin.so": [
+        "file",
+        493,
+        161216,
+        "2595b7cb77eb7a0150a1c0c0a293c128d0af137163d6a7b8d0eabbbdc748976a"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_interpreters.cpython-314-darwin.so": [
+        "file",
+        493,
+        180608,
+        "03ee1e5bbb756edcfd67719177f7ac7659df414e7056d4bf4be79da0d6ff69ef"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_json.cpython-314-darwin.so": [
+        "file",
+        493,
+        174944,
+        "28ca215e2f03e8340254a24ac8ade3150f8c3c60355dfab3f212d8d82bb8d6f0"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_lzma.cpython-314-darwin.so": [
+        "file",
+        493,
+        537024,
+        "319e9837b7b8f27e0a4790ea030fe8a9972b275ec3d7201e2db24871b18e80d4"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_md5.cpython-314-darwin.so": [
+        "file",
+        493,
+        139280,
+        "2666e3ed5ee528b1c14a93b270f449944130ba7c30260f838f305c6c3b877233"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_multibytecodec.cpython-314-darwin.so": [
+        "file",
+        493,
+        200144,
+        "66c2522fd2799762f272bfcb38d78b48bcd94ff9e127e3c80f9ed74bfcd266f4"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_multiprocessing.cpython-314-darwin.so": [
+        "file",
+        493,
+        141376,
+        "86b4fceb40d89c0dc456d9d00f34d9b831d0946c937dd7f78e4bade205acb4a8"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_pickle.cpython-314-darwin.so": [
+        "file",
+        493,
+        358208,
+        "584fdade7c1b4981b1d34678f4aaa963e18aa368050eccbd6d0543da621544db"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_posixshmem.cpython-314-darwin.so": [
+        "file",
+        493,
+        135936,
+        "ce0055f0a95a1f266c58b759b11bec43e96ee3d8c8a15c1fac2bca6a0de256f6"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_posixsubprocess.cpython-314-darwin.so": [
+        "file",
+        493,
+        139168,
+        "7e1bc4d9c32e401c5b17fc9c0571451fcd521dae543e2311253229d90d2d80ce"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_queue.cpython-314-darwin.so": [
+        "file",
+        493,
+        139680,
+        "1a7f8d75afc45c36a106dd57614df76e74af89ab9c8c8f22891e08a3deb09de6"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_random.cpython-314-darwin.so": [
+        "file",
+        493,
+        138976,
+        "f2810372ac5115055b7cd8aa6413c932397f9dfe541dfd1edaedc0182858f907"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_scproxy.cpython-314-darwin.so": [
+        "file",
+        493,
+        137456,
+        "3d831e66b65de8c208077d2215c712d82c0d0a55f5e69a0b74702e8c6954e3e8"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_sha1.cpython-314-darwin.so": [
+        "file",
+        493,
+        139200,
+        "e91b565ebe4e5f7459cb26a0eed72c861fac0614303f71394f5ac6c911d08781"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_sha2.cpython-314-darwin.so": [
+        "file",
+        493,
+        191072,
+        "fd00216b2e92988d59694a9fcce9948256dcd5eea1b4909cbf1f3e2567e73254"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_sha3.cpython-314-darwin.so": [
+        "file",
+        493,
+        158608,
+        "55708e14e766c8e30fc7d4a0d5a4685e175eaff6ce9185524bf6c6dcb4120371"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_socket.cpython-314-darwin.so": [
+        "file",
+        493,
+        273184,
+        "89fc258067d7f5521687f666850105e49d04f568bcb38232b44eb4a026a718cd"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_sqlite3.cpython-314-darwin.so": [
+        "file",
+        493,
+        2557392,
+        "b86f40d6508442b7a03d997a776cdf053c2492b96377027aca0c6fe940955e6a"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_ssl.cpython-314-darwin.so": [
+        "file",
+        493,
+        483744,
+        "59f9b1f230c5ce468edff0c0a6a8fb5cd16073b50ca40b384fc0e9cb94730b11"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_statistics.cpython-314-darwin.so": [
+        "file",
+        493,
+        118416,
+        "34f70c680f53127c8a08eb08eb9385ad5967dfd2ff372b75f9b0c44484d0e5ba"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_struct.cpython-314-darwin.so": [
+        "file",
+        493,
+        202720,
+        "3a708fb8cc8c559963b5804b1656a72cdeca6bbd422fe230b4269378f77a84ec"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_uuid.cpython-314-darwin.so": [
+        "file",
+        493,
+        118224,
+        "e3b599c9b7fe9d01b101de3b686136203874b5931103eb867c49fc6bee4ef78f"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/_zstd.cpython-314-darwin.so": [
+        "file",
+        493,
+        219152,
+        "2e0aabe9bd2034b4878b89d9eabc8888ed5d91c319c37cbdf661b13937994853"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/array.cpython-314-darwin.so": [
+        "file",
+        493,
+        236880,
+        "6c2d1f284203ab68052d31bf8d4f116a4e617f8f6d616034d1c9e1131c7c9be9"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/binascii.cpython-314-darwin.so": [
+        "file",
+        493,
+        156416,
+        "3cfc8e7bffd2101566fe68454327d95487b81c9648d2c47f672124b49ea41deb"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/fcntl.cpython-314-darwin.so": [
+        "file",
+        493,
+        137680,
+        "3313439be34691beeb236fcda82dc87cbd2ae57cb1cbd4582887159c6f12df33"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/grp.cpython-314-darwin.so": [
+        "file",
+        493,
+        137920,
+        "84b0759501559c5bb7c58404183233d4917381e983f1529bbaad4042fef53cd5"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/math.cpython-314-darwin.so": [
+        "file",
+        493,
+        232048,
+        "ca38446ec5a03eb6bd2bfccc301ce2f7249cb6e30b469db28b56df8a9ce86001"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/mmap.cpython-314-darwin.so": [
+        "file",
+        493,
+        159184,
+        "6c27a3f6eaff406640ccd9c38d8a99321c5a73a572416b19b33f4d3bd03d7e64"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/pyexpat.cpython-314-darwin.so": [
+        "file",
+        493,
+        531632,
+        "1a3dec9a9e1e199bdf3005bdc1a7ee43f49e2eca061a511d9fa53bb227eaadbb"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/readline.cpython-314-darwin.so": [
+        "file",
+        493,
+        165088,
+        "2edb9ab193e1d8cd4acef5f25d87f3db77504960bbabbcc6deeec7329216f538"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/resource.cpython-314-darwin.so": [
+        "file",
+        493,
+        138256,
+        "7c8ea7153f1e310b90c4ee3dae875b0db924be776666a7bf7b9ac1202359d8c3"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/select.cpython-314-darwin.so": [
+        "file",
+        493,
+        178048,
+        "a439d861d30bb31e140f1be4433cfd99242ae3963f5ae6d772f7313b322172ae"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/termios.cpython-314-darwin.so": [
+        "file",
+        493,
+        139472,
+        "ddd9fbacb6f4f5e24acb27f16730958658c345c7bee87dbbb6e476a74955c7d9"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/unicodedata.cpython-314-darwin.so": [
+        "file",
+        493,
+        1603904,
+        "7f79e8182f034c555da63e8a51ca19942873abc2c96090e6878b477e31fc6bc2"
+      ],
+      "Contents/Resources/_internal/python3.14/lib-dynload/zlib.cpython-314-darwin.so": [
+        "file",
+        493,
+        197296,
+        "5f3cfb61057f4680134f5da34982a4aca091a3127163474efb6433fbae7f190f"
+      ],
+      "Contents/Resources/_internal/websockets": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/websockets/speedups.cpython-314-darwin.so": [
+        "file",
+        493,
+        118528,
+        "ca1ed12292d2d3a134835394d72f1020d1b8541644370e11476526e8c54d2e7e"
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/INSTALLER": [
+        "file",
+        420,
+        4,
+        "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/METADATA": [
+        "file",
+        420,
+        6336,
+        "0d5f1279d095e7ba84ef21614af0822dc500ccb2e51b7c3a19eda7159b2dade4"
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/RECORD": [
+        "file",
+        420,
+        8354,
+        "f26a24177a4b5eaa802ef44c1806cb64512e041dcc994a6325712e382e1dbe2b"
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/REQUESTED": [
+        "file",
+        420,
+        0,
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/WHEEL": [
+        "file",
+        420,
+        142,
+        "95800352a0f1fe2341252933c80754a4a0cf0510f5421ac3419c5a0e8fc66159"
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/direct_url.json": [
+        "file",
+        420,
+        310,
+        "a8776f8f6217aa02c09a6edaf241664758d68396cecae12508e153872933911f"
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/entry_points.txt": [
+        "file",
+        420,
+        51,
+        "0e7867e1d9b912c23864c02c1e574617a0b005766b1979d1edc9cadbe5d1ef36"
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/licenses": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/licenses/LICENSE": [
+        "file",
+        420,
+        1514,
+        "3d6a0c050d8bec52fabad502e45fb25bd02bcadbd70dea34d447b6a0ff4e6da8"
+      ],
+      "Contents/Resources/_internal/websockets-17.2.dist-info/top_level.txt": [
+        "file",
+        420,
+        11,
+        "08ca5d2a49712acbd980283296dc5458e1e26d95d9d6e60856971af71b10f079"
+      ],
+      "Contents/Resources/_internal/yt_dlp_ejs": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/yt_dlp_ejs/yt": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/yt_dlp_ejs/yt/solver": [
+        "dir",
+        493
+      ],
+      "Contents/Resources/_internal/yt_dlp_ejs/yt/solver/core.min.js": [
+        "file",
+        420,
+        6945,
+        "18da6ce0758b416e7ae645084f4f8801f9f9d59d6c477c05eaa0ff94ebd8cc00"
+      ],
+      "Contents/Resources/_internal/yt_dlp_ejs/yt/solver/lib.min.js": [
+        "file",
+        420,
+        151561,
+        "c55987fe697e5b9ee18830163f7af85327e9bb5c3e674b969d38c8d205eaa577"
+      ],
+      "Contents/Resources/deno-LICENSE": [
+        "file",
+        420,
+        1074,
+        "f62497fffecc0852960c8d3e6934b9db86d16396e9b604072e923892cae3a588"
+      ],
+      "Contents/Resources/en.lproj": [
+        "dir",
+        448
+      ],
+      "Contents/Resources/en.lproj/Localizable.strings": [
+        "file",
+        384,
+        355,
+        "62f612bc8eb9258470b66fc82da05fbc366a6d28ebc7f55fbb96a5fcedd8a3dc"
+      ],
+      "Contents/Resources/icon.png": [
+        "file",
+        384,
+        2423083,
+        "55c948855903de1d44564daa6a0860b26ca2aa6af090cc7168817a63de905552"
+      ],
+      "Contents/Resources/yt-dlp": [
+        "file",
+        493,
+        10572096,
+        "0ae8f6713472a5d4839cde15227836ae6186feaa06cd25d8c74d8bce6b1d0a33"
+      ],
+      "Contents/Resources/yt-dlp-LICENSE": [
+        "file",
+        420,
+        1211,
+        "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
+      ],
+      "Contents/Resources/yt-dlp-runtime.json": [
+        "file",
+        420,
+        14055,
+        "60b3af4c7e34b727c9feb84792249dcc830847511e1ab8171483abdda7824c5a"
+      ],
+      "Contents/Resources/zh-Hans.lproj": [
+        "dir",
+        448
+      ],
+      "Contents/Resources/zh-Hans.lproj/Localizable.strings": [
+        "file",
+        384,
+        359,
+        "b97870cde989da5f40672bc9314cae9db8d5a7712145ca36e338d6301232b879"
+      ],
+      "Contents/Resources/zh-Hant.lproj": [
+        "dir",
+        448
+      ],
+      "Contents/Resources/zh-Hant.lproj/Localizable.strings": [
+        "file",
+        384,
+        359,
+        "2036e5dfa0d9e15a750012ca838683eb50ea0f1d829580238c6aff2d74adf395"
+      ],
+      "Contents/_CodeSignature": [
+        "dir",
+        493
+      ],
+      "Contents/_CodeSignature/CodeResources": [
+        "file",
+        420,
+        126017,
+        "2158ebfeb072a6cf44ff40e0091f4170ac0cffc3a1b80b4880a626cc36303cb1"
+      ]
+    }
+  }
+}

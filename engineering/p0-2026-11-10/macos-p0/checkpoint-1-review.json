@@ -1,0 +1,20 @@
+{
+  "recorded_unix": 1794355821.867136,
+  "full_whitespace_check_exit": 2,
+  "unchanged_raw_evidence_whitespace": [
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/config/ffbuild/config.mak:53: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/config/ffbuild/config.mak:112: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/config/ffbuild/config.mak:122: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/logs/01-configure.log:4: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/logs/01-configure.log:6: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/logs/02-ffmpeg-stock-build.log:83: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/logs/02-ffmpeg-stock-build.log:88: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/logs/02-ffmpeg-stock-build.log:97: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/logs/02-ffmpeg-stock-build.log:102: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/replacement.patch:4: trailing whitespace.",
+    "engineering/p0-2026-11-10/macos-p0/relink/evidence/replacement.patch:10: trailing whitespace."
+  ],
+  "reason": "Exact upstream generated configuration, compiler output and patch context are retained byte-for-byte under verified manifests. Do not rewrite evidence to remove whitespace.",
+  "other_staged_paths_check_exit": 0,
+  "other_staged_paths_check_output": ""
+}

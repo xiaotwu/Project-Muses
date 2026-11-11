@@ -1,0 +1,1497 @@
+{
+  "schema_version": 1,
+  "protocol_version": 1,
+  "campaign_id": "macos-p0-baseline-draft-v1",
+  "status": "draft",
+  "platform": "macos",
+  "corpus_sha256": "45692d6f07b302014ad633cc37054c7746afa1afafeee0c5b0c41a1eee12ec58",
+  "frozen_at": null,
+  "reviewer": null,
+  "builds": {
+    "baseline063": {
+      "role": "baseline",
+      "version": "0.6.3",
+      "source_revision": "12260f050a374ee949053e8f63b039fe20f15148",
+      "artifact_sha256": "192b4297c6dac82c5115afb1ba7168bae4e88985959a5852f85344df8b9b5a44",
+      "executable_sha256": "efb7398d007155d23367f7f87e4c4c9b78748b3d95110d5ef91c2fca6ade7c39",
+      "dependencies_sha256": null,
+      "measurement_patch_sha256": null,
+      "signature_verified": false,
+      "restrictions": "arm64/macOS26+, official original zip only; isolated measurement derivative not yet frozen"
+    },
+    "candidate": {
+      "role": "candidate",
+      "version": "unknown",
+      "source_revision": null,
+      "artifact_sha256": null,
+      "executable_sha256": null,
+      "dependencies_sha256": null,
+      "measurement_patch_sha256": null,
+      "signature_verified": false,
+      "restrictions": null
+    }
+  },
+  "environment": {
+    "environment_id": "macos-p0-unfrozen",
+    "hardware_alias": "unknown",
+    "os_version": "unknown",
+    "os_build": "unknown",
+    "sdk": "unknown",
+    "compiler": "unknown",
+    "route_alias": "unknown",
+    "capture_chain": "unknown",
+    "network_observation": "unknown",
+    "isolation_policy": "unknown"
+  },
+  "measurement": {
+    "measurement_id": "output-capture-unfrozen",
+    "capture_point": "unknown",
+    "calibration": null,
+    "tool_sha256": null,
+    "detector_sha256": null,
+    "clock_mapping_sha256": null,
+    "noise_threshold_sha256": null,
+    "evidence_window_policy_sha256": null,
+    "cleanup_plan_sha256": null,
+    "max_clock_error_ms": null,
+    "max_capture_error_ms": null
+  },
+  "strata": {
+    "main_cold": {
+      "process": "new",
+      "resolution": "miss",
+      "media": "none",
+      "prefetch": "none",
+      "connection": "unknown",
+      "metadata": "unknown",
+      "os_cache": "unknown",
+      "account": "anonymous_public",
+      "network": "reference",
+      "route": "builtin-speakers",
+      "sample_rate_hz": 48000,
+      "app_volume": 0.25,
+      "muted": false,
+      "foreground": "active",
+      "environment_id": "macos-p0-unfrozen",
+      "measurement_id": "output-capture-unfrozen"
+    }
+  },
+  "policy": {
+    "quantile": "nearest_rank",
+    "no_sound": "infinity",
+    "invalid_replacement": "append_once_same_plan_conditions",
+    "retry_clock": "original_action",
+    "thresholds": {
+      "p50_ms": 2500,
+      "p95_ms": 5000,
+      "success_rate": 0.99
+    },
+    "timeout_ms": 30000,
+    "random_seed": 20261110,
+    "interleave_algorithm": "balanced-shuffle-v1-paired-abba",
+    "scratch_limit_bytes": 134217728,
+    "free_floor_bytes": 42949672960
+  },
+  "attempt_plan": [
+    {
+      "attempt_id": "baseline063-001",
+      "pair_id": "pair-001",
+      "case_id": "C025",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-001",
+      "pair_id": "pair-001",
+      "case_id": "C025",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-002",
+      "pair_id": "pair-002",
+      "case_id": "C014",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-002",
+      "pair_id": "pair-002",
+      "case_id": "C014",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-003",
+      "pair_id": "pair-003",
+      "case_id": "C022",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-003",
+      "pair_id": "pair-003",
+      "case_id": "C022",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-004",
+      "pair_id": "pair-004",
+      "case_id": "C003",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-004",
+      "pair_id": "pair-004",
+      "case_id": "C003",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-005",
+      "pair_id": "pair-005",
+      "case_id": "C017",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-005",
+      "pair_id": "pair-005",
+      "case_id": "C017",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-006",
+      "pair_id": "pair-006",
+      "case_id": "C030",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-006",
+      "pair_id": "pair-006",
+      "case_id": "C030",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-007",
+      "pair_id": "pair-007",
+      "case_id": "C024",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-007",
+      "pair_id": "pair-007",
+      "case_id": "C024",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-008",
+      "pair_id": "pair-008",
+      "case_id": "C006",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-008",
+      "pair_id": "pair-008",
+      "case_id": "C006",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-009",
+      "pair_id": "pair-009",
+      "case_id": "C003",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-009",
+      "pair_id": "pair-009",
+      "case_id": "C003",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-010",
+      "pair_id": "pair-010",
+      "case_id": "C008",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-010",
+      "pair_id": "pair-010",
+      "case_id": "C008",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-011",
+      "pair_id": "pair-011",
+      "case_id": "C028",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-011",
+      "pair_id": "pair-011",
+      "case_id": "C028",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-012",
+      "pair_id": "pair-012",
+      "case_id": "C008",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-012",
+      "pair_id": "pair-012",
+      "case_id": "C008",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-013",
+      "pair_id": "pair-013",
+      "case_id": "C025",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-013",
+      "pair_id": "pair-013",
+      "case_id": "C025",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-014",
+      "pair_id": "pair-014",
+      "case_id": "C006",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-014",
+      "pair_id": "pair-014",
+      "case_id": "C006",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-015",
+      "pair_id": "pair-015",
+      "case_id": "C007",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-015",
+      "pair_id": "pair-015",
+      "case_id": "C007",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-016",
+      "pair_id": "pair-016",
+      "case_id": "C005",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-016",
+      "pair_id": "pair-016",
+      "case_id": "C005",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-017",
+      "pair_id": "pair-017",
+      "case_id": "C003",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-017",
+      "pair_id": "pair-017",
+      "case_id": "C003",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-018",
+      "pair_id": "pair-018",
+      "case_id": "C013",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-018",
+      "pair_id": "pair-018",
+      "case_id": "C013",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-019",
+      "pair_id": "pair-019",
+      "case_id": "C011",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-019",
+      "pair_id": "pair-019",
+      "case_id": "C011",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-020",
+      "pair_id": "pair-020",
+      "case_id": "C024",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-020",
+      "pair_id": "pair-020",
+      "case_id": "C024",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-021",
+      "pair_id": "pair-021",
+      "case_id": "C018",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-021",
+      "pair_id": "pair-021",
+      "case_id": "C018",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-022",
+      "pair_id": "pair-022",
+      "case_id": "C015",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-022",
+      "pair_id": "pair-022",
+      "case_id": "C015",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-023",
+      "pair_id": "pair-023",
+      "case_id": "C001",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-023",
+      "pair_id": "pair-023",
+      "case_id": "C001",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-024",
+      "pair_id": "pair-024",
+      "case_id": "C017",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-024",
+      "pair_id": "pair-024",
+      "case_id": "C017",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-025",
+      "pair_id": "pair-025",
+      "case_id": "C012",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-025",
+      "pair_id": "pair-025",
+      "case_id": "C012",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-026",
+      "pair_id": "pair-026",
+      "case_id": "C015",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-026",
+      "pair_id": "pair-026",
+      "case_id": "C015",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-027",
+      "pair_id": "pair-027",
+      "case_id": "C021",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-027",
+      "pair_id": "pair-027",
+      "case_id": "C021",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-028",
+      "pair_id": "pair-028",
+      "case_id": "C026",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-028",
+      "pair_id": "pair-028",
+      "case_id": "C026",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-029",
+      "pair_id": "pair-029",
+      "case_id": "C023",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-029",
+      "pair_id": "pair-029",
+      "case_id": "C023",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-030",
+      "pair_id": "pair-030",
+      "case_id": "C030",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-030",
+      "pair_id": "pair-030",
+      "case_id": "C030",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-031",
+      "pair_id": "pair-031",
+      "case_id": "C017",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-031",
+      "pair_id": "pair-031",
+      "case_id": "C017",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-032",
+      "pair_id": "pair-032",
+      "case_id": "C007",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-032",
+      "pair_id": "pair-032",
+      "case_id": "C007",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-033",
+      "pair_id": "pair-033",
+      "case_id": "C016",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-033",
+      "pair_id": "pair-033",
+      "case_id": "C016",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-034",
+      "pair_id": "pair-034",
+      "case_id": "C013",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-034",
+      "pair_id": "pair-034",
+      "case_id": "C013",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-035",
+      "pair_id": "pair-035",
+      "case_id": "C026",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-035",
+      "pair_id": "pair-035",
+      "case_id": "C026",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-036",
+      "pair_id": "pair-036",
+      "case_id": "C009",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-036",
+      "pair_id": "pair-036",
+      "case_id": "C009",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-037",
+      "pair_id": "pair-037",
+      "case_id": "C019",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-037",
+      "pair_id": "pair-037",
+      "case_id": "C019",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-038",
+      "pair_id": "pair-038",
+      "case_id": "C024",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-038",
+      "pair_id": "pair-038",
+      "case_id": "C024",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-039",
+      "pair_id": "pair-039",
+      "case_id": "C011",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-039",
+      "pair_id": "pair-039",
+      "case_id": "C011",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-040",
+      "pair_id": "pair-040",
+      "case_id": "C019",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-040",
+      "pair_id": "pair-040",
+      "case_id": "C019",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-041",
+      "pair_id": "pair-041",
+      "case_id": "C008",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-041",
+      "pair_id": "pair-041",
+      "case_id": "C008",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-042",
+      "pair_id": "pair-042",
+      "case_id": "C004",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-042",
+      "pair_id": "pair-042",
+      "case_id": "C004",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-043",
+      "pair_id": "pair-043",
+      "case_id": "C019",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-043",
+      "pair_id": "pair-043",
+      "case_id": "C019",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-044",
+      "pair_id": "pair-044",
+      "case_id": "C005",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-044",
+      "pair_id": "pair-044",
+      "case_id": "C005",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-045",
+      "pair_id": "pair-045",
+      "case_id": "C026",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-045",
+      "pair_id": "pair-045",
+      "case_id": "C026",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-046",
+      "pair_id": "pair-046",
+      "case_id": "C020",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-046",
+      "pair_id": "pair-046",
+      "case_id": "C020",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-047",
+      "pair_id": "pair-047",
+      "case_id": "C002",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-047",
+      "pair_id": "pair-047",
+      "case_id": "C002",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-048",
+      "pair_id": "pair-048",
+      "case_id": "C018",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-048",
+      "pair_id": "pair-048",
+      "case_id": "C018",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-049",
+      "pair_id": "pair-049",
+      "case_id": "C014",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-049",
+      "pair_id": "pair-049",
+      "case_id": "C014",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-050",
+      "pair_id": "pair-050",
+      "case_id": "C015",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-050",
+      "pair_id": "pair-050",
+      "case_id": "C015",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-051",
+      "pair_id": "pair-051",
+      "case_id": "C025",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-051",
+      "pair_id": "pair-051",
+      "case_id": "C025",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-052",
+      "pair_id": "pair-052",
+      "case_id": "C010",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-052",
+      "pair_id": "pair-052",
+      "case_id": "C010",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-053",
+      "pair_id": "pair-053",
+      "case_id": "C029",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-053",
+      "pair_id": "pair-053",
+      "case_id": "C029",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-054",
+      "pair_id": "pair-054",
+      "case_id": "C002",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-054",
+      "pair_id": "pair-054",
+      "case_id": "C002",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-055",
+      "pair_id": "pair-055",
+      "case_id": "C027",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-055",
+      "pair_id": "pair-055",
+      "case_id": "C027",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-056",
+      "pair_id": "pair-056",
+      "case_id": "C029",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-056",
+      "pair_id": "pair-056",
+      "case_id": "C029",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-057",
+      "pair_id": "pair-057",
+      "case_id": "C021",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-057",
+      "pair_id": "pair-057",
+      "case_id": "C021",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-058",
+      "pair_id": "pair-058",
+      "case_id": "C014",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-058",
+      "pair_id": "pair-058",
+      "case_id": "C014",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-059",
+      "pair_id": "pair-059",
+      "case_id": "C006",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-059",
+      "pair_id": "pair-059",
+      "case_id": "C006",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-060",
+      "pair_id": "pair-060",
+      "case_id": "C023",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-060",
+      "pair_id": "pair-060",
+      "case_id": "C023",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-061",
+      "pair_id": "pair-061",
+      "case_id": "C016",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-061",
+      "pair_id": "pair-061",
+      "case_id": "C016",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-062",
+      "pair_id": "pair-062",
+      "case_id": "C027",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-062",
+      "pair_id": "pair-062",
+      "case_id": "C027",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-063",
+      "pair_id": "pair-063",
+      "case_id": "C005",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-063",
+      "pair_id": "pair-063",
+      "case_id": "C005",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-064",
+      "pair_id": "pair-064",
+      "case_id": "C028",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-064",
+      "pair_id": "pair-064",
+      "case_id": "C028",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-065",
+      "pair_id": "pair-065",
+      "case_id": "C012",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-065",
+      "pair_id": "pair-065",
+      "case_id": "C012",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-066",
+      "pair_id": "pair-066",
+      "case_id": "C022",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-066",
+      "pair_id": "pair-066",
+      "case_id": "C022",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-067",
+      "pair_id": "pair-067",
+      "case_id": "C001",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-067",
+      "pair_id": "pair-067",
+      "case_id": "C001",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-068",
+      "pair_id": "pair-068",
+      "case_id": "C001",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-068",
+      "pair_id": "pair-068",
+      "case_id": "C001",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-069",
+      "pair_id": "pair-069",
+      "case_id": "C020",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-069",
+      "pair_id": "pair-069",
+      "case_id": "C020",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-070",
+      "pair_id": "pair-070",
+      "case_id": "C011",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-070",
+      "pair_id": "pair-070",
+      "case_id": "C011",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-071",
+      "pair_id": "pair-071",
+      "case_id": "C011",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-071",
+      "pair_id": "pair-071",
+      "case_id": "C011",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-072",
+      "pair_id": "pair-072",
+      "case_id": "C007",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-072",
+      "pair_id": "pair-072",
+      "case_id": "C007",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-073",
+      "pair_id": "pair-073",
+      "case_id": "C002",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-073",
+      "pair_id": "pair-073",
+      "case_id": "C002",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-074",
+      "pair_id": "pair-074",
+      "case_id": "C010",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-074",
+      "pair_id": "pair-074",
+      "case_id": "C010",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-075",
+      "pair_id": "pair-075",
+      "case_id": "C010",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-075",
+      "pair_id": "pair-075",
+      "case_id": "C010",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-076",
+      "pair_id": "pair-076",
+      "case_id": "C009",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-076",
+      "pair_id": "pair-076",
+      "case_id": "C009",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-077",
+      "pair_id": "pair-077",
+      "case_id": "C004",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-077",
+      "pair_id": "pair-077",
+      "case_id": "C004",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-078",
+      "pair_id": "pair-078",
+      "case_id": "C021",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-078",
+      "pair_id": "pair-078",
+      "case_id": "C021",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-079",
+      "pair_id": "pair-079",
+      "case_id": "C021",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-079",
+      "pair_id": "pair-079",
+      "case_id": "C021",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-080",
+      "pair_id": "pair-080",
+      "case_id": "C020",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-080",
+      "pair_id": "pair-080",
+      "case_id": "C020",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-081",
+      "pair_id": "pair-081",
+      "case_id": "C027",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-081",
+      "pair_id": "pair-081",
+      "case_id": "C027",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-082",
+      "pair_id": "pair-082",
+      "case_id": "C019",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-082",
+      "pair_id": "pair-082",
+      "case_id": "C019",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-083",
+      "pair_id": "pair-083",
+      "case_id": "C004",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-083",
+      "pair_id": "pair-083",
+      "case_id": "C004",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-084",
+      "pair_id": "pair-084",
+      "case_id": "C013",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-084",
+      "pair_id": "pair-084",
+      "case_id": "C013",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-085",
+      "pair_id": "pair-085",
+      "case_id": "C023",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-085",
+      "pair_id": "pair-085",
+      "case_id": "C023",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-086",
+      "pair_id": "pair-086",
+      "case_id": "C029",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-086",
+      "pair_id": "pair-086",
+      "case_id": "C029",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-087",
+      "pair_id": "pair-087",
+      "case_id": "C006",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-087",
+      "pair_id": "pair-087",
+      "case_id": "C006",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-088",
+      "pair_id": "pair-088",
+      "case_id": "C028",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-088",
+      "pair_id": "pair-088",
+      "case_id": "C028",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-089",
+      "pair_id": "pair-089",
+      "case_id": "C016",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-089",
+      "pair_id": "pair-089",
+      "case_id": "C016",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-090",
+      "pair_id": "pair-090",
+      "case_id": "C016",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-090",
+      "pair_id": "pair-090",
+      "case_id": "C016",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-091",
+      "pair_id": "pair-091",
+      "case_id": "C018",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-091",
+      "pair_id": "pair-091",
+      "case_id": "C018",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-092",
+      "pair_id": "pair-092",
+      "case_id": "C023",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-092",
+      "pair_id": "pair-092",
+      "case_id": "C023",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-093",
+      "pair_id": "pair-093",
+      "case_id": "C022",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-093",
+      "pair_id": "pair-093",
+      "case_id": "C022",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-094",
+      "pair_id": "pair-094",
+      "case_id": "C010",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-094",
+      "pair_id": "pair-094",
+      "case_id": "C010",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-095",
+      "pair_id": "pair-095",
+      "case_id": "C009",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-095",
+      "pair_id": "pair-095",
+      "case_id": "C009",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-096",
+      "pair_id": "pair-096",
+      "case_id": "C022",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-096",
+      "pair_id": "pair-096",
+      "case_id": "C022",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-097",
+      "pair_id": "pair-097",
+      "case_id": "C030",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-097",
+      "pair_id": "pair-097",
+      "case_id": "C030",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-098",
+      "pair_id": "pair-098",
+      "case_id": "C012",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-098",
+      "pair_id": "pair-098",
+      "case_id": "C012",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-099",
+      "pair_id": "pair-099",
+      "case_id": "C012",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-099",
+      "pair_id": "pair-099",
+      "case_id": "C012",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "candidate-100",
+      "pair_id": "pair-100",
+      "case_id": "C024",
+      "build_id": "candidate",
+      "stratum_id": "main_cold"
+    },
+    {
+      "attempt_id": "baseline063-100",
+      "pair_id": "pair-100",
+      "case_id": "C024",
+      "build_id": "baseline063",
+      "stratum_id": "main_cold"
+    }
+  ]
+}

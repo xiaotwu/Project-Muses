@@ -1,0 +1,4 @@
+/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/calibration/calibration.c:98:6: error: call to undeclared function 'explicit_bzero'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   98 | done:explicit_bzero(down,n*sizeof(float));free(down);free(reference);return result;
+      |      ^
+1 error generated.

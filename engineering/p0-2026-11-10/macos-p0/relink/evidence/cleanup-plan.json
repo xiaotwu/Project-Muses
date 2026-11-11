@@ -1,0 +1,23 @@
+{
+  "owner": "p0_audio",
+  "exact_path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/work",
+  "status": "completed and eligible for coordinator recoverable cleanup",
+  "file_count": 10427,
+  "logical_bytes": 92511029,
+  "allocated_bytes": 120979456,
+  "sorted_file_inventory_sha256": "7ed6d96d46646e54429efc7827d37c9787ff73e4e4a50ff337c1146c8015ad10",
+  "inventory_format": "JSON list sorted by relative POSIX path; fields path,bytes,allocated,sha256; sorted object keys and separators comma/colon",
+  "open_files_observed": 0,
+  "preserve": [
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/inputs",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/objects",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/stock",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/replacement",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/notices",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/config",
+    "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink/attempt-20261110-232515/logs"
+  ],
+  "cleanup_executed": false,
+  "physical_bytes_recovered": 0,
+  "actual_free_bytes": 573755387904
+}

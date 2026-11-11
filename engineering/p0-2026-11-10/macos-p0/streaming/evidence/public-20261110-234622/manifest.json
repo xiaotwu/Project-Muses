@@ -1,0 +1,11 @@
+{
+  "source_sha256": {
+    "build.py": "2d0b43cda89615fc9a1a76b77809251d25eaa346e986e4aa43b5fe5896a1b938",
+    "stream_source.h": "962c4a6e437fce01a6c510ae39079482586f00ffbd15bb1e72990966184527f2",
+    "Streaming.cpp": "8be0bd25dc5ca01ede3cd5e06166c4292d89453d62297da3fb421f4b5d55b8a1",
+    "run_local.py": "cb0b4de776ff525e3a54ccb7e1126fb4efaaffcba65dce4996d7768245f4610b",
+    "SourceAdapter.inc": "67004d0705f352cc9461c7011d1cd929555f87860025444239bccdef7042eae5",
+    "run_public.py": "a853e798782bd5a258afacb9773bbd38823c034ea2a3e8d3e5d09cef8e2026b2"
+  },
+  "result_sha256": "2b73853eb06e7063f9fcf944dcc42bcb20b3b3945337441cbfc112c01ca67ddd"
+}

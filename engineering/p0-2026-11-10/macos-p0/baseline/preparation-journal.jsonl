@@ -1,0 +1,4 @@
+{"event": "started", "unix": 1794353096.361163, "plan_sha256": "09136f9658308021ff57edc55e594087b0689dc35188b0f102519277b6721e82", "script_sha256": "79aa6195393907ca11d5194e1018a7d657aad317aaf2f2b3cb1d2504b72fe872"}
+{"event": "copy_verified", "unix": 1794353097.849375, "production_info_written": false}
+{"event": "isolated_identity_written", "unix": 1794353097.867481}
+{"event": "completed", "unix": 1794353098.4639091, "receipt_sha256": "5b1706fe1e35d1ce31642cf70a5d5b7e5942541a0bebc89766a9fd1c461d4d79"}

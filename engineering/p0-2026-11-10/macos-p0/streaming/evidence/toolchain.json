@@ -1,0 +1,35 @@
+{
+  "clang": {
+    "command": [
+      "clang",
+      "--version"
+    ],
+    "stderr": "",
+    "stdout": "Apple clang version 21.0.0 (clang-2100.4.1.1)\nTarget: arm64-apple-darwin27.2.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n"
+  },
+  "macos": {
+    "command": [
+      "sw_vers"
+    ],
+    "stderr": "",
+    "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t27.2\nBuildVersion:\t\t26B123\n"
+  },
+  "sdk": {
+    "command": [
+      "xcrun",
+      "--sdk",
+      "macosx",
+      "--show-sdk-path"
+    ],
+    "stderr": "",
+    "stdout": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk\n"
+  },
+  "xcode": {
+    "command": [
+      "xcodebuild",
+      "-version"
+    ],
+    "stderr": "",
+    "stdout": "Xcode 27.2\nBuild version 27B52\n"
+  }
+}

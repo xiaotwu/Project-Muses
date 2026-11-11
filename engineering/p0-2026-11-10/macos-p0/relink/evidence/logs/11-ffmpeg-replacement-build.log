@@ -1,0 +1,2 @@
+CC	libavutil/version.o
+AR	libavutil/libavutil.a

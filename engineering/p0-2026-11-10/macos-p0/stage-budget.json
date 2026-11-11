@@ -1,0 +1,29 @@
+{
+  "scope": "macOS P0 measurement and distribution preparation; no production integration",
+  "created_unix": 1794352813.971091,
+  "parent_budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+  "parent_total_bytes": 8589934592,
+  "free_floor_bytes": 42949672960,
+  "free_before_bytes": 574333284352,
+  "subbudgets": [
+    {
+      "owner": "root",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-baseline",
+      "bytes": 805306368,
+      "parent_allocation": "interop"
+    },
+    {
+      "owner": "p0_source",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/source/macos-corpus",
+      "bytes": 134217728,
+      "parent_allocation": "source"
+    },
+    {
+      "owner": "p0_audio",
+      "path": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink",
+      "bytes": 402653184,
+      "parent_allocation": "audio"
+    }
+  ],
+  "cleanup": "Frozen inventories and script hashes; recoverable same-volume Trash; retain bounded receipts and unfinished candidate."
+}

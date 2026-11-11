@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "checked_utc": "2026-11-11T00:06:36.737728+00:00",
+  "operation": "read_only_process_query",
+  "command": [
+    "ps",
+    "-axo",
+    "pid=,comm="
+  ],
+  "exit_code": 0,
+  "matching_processes": [],
+  "app_launched_by_this_check": false,
+  "capture_started_by_this_check": false,
+  "system_audio_settings_changed": false,
+  "scope_limit": "point-in-time process absence only; not TCC, registration, cache or preference cleanup",
+  "original_process_stop_sha256": "f1312e54df3d41d1d08602dc477d14b900cbbb36788f7b3383eb3375290cf246"
+}

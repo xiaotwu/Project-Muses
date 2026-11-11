@@ -1,0 +1,387 @@
+{
+  "plan_sha256": "8a3792fd5a50426bc7a520fbff54336ed7301d52ca47a22b118931b952c2985b",
+  "script_sha256": "f7a96ee046476f2b203d2a510eb09e794d0e1647d60eb66876fa01e8a9921366",
+  "started_unix": 1794355607.737317,
+  "free_before": 573607145472,
+  "actions": [
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/build-20261110-234236",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/01-build-20261110-234236",
+      "inventory": {
+        "entries": 192,
+        "logical_file_bytes": 21274598,
+        "allocated_bytes": 21618688,
+        "allocated_unique_inode_bytes": 21618688,
+        "uid": 501,
+        "tree_sha256": "bfbeab2acd6b93c451e909b9422fe1221fc76f5d2dbd32a9168ecafc88fafdc5"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355610.300134
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/local-20261110-234358",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/02-local-20261110-234358",
+      "inventory": {
+        "entries": 20,
+        "logical_file_bytes": 32202,
+        "allocated_bytes": 61440,
+        "allocated_unique_inode_bytes": 61440,
+        "uid": 501,
+        "tree_sha256": "98de2c22e306bdb6867ad8934d95b73d728af534926c2a95c923e218ef9a73bf"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355610.4432251
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/local-20261110-235204",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/03-local-20261110-235204",
+      "inventory": {
+        "entries": 20,
+        "logical_file_bytes": 32298,
+        "allocated_bytes": 61440,
+        "allocated_unique_inode_bytes": 61440,
+        "uid": 501,
+        "tree_sha256": "d9448420c65645cf941557f5734a54112777b51a605e53267fb6682fd402664a"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355610.574015
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/public-20261110-234622",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/04-public-20261110-234622",
+      "inventory": {
+        "entries": 3,
+        "logical_file_bytes": 12943,
+        "allocated_bytes": 20480,
+        "allocated_unique_inode_bytes": 20480,
+        "uid": 501,
+        "tree_sha256": "ba8b061aa5ba83423c8b47c093cdca8c8430b69041b3d5260d02ccc9b66a918d"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355610.705228
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-streaming/public-20261110-235239",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/05-public-20261110-235239",
+      "inventory": {
+        "entries": 3,
+        "logical_file_bytes": 12942,
+        "allocated_bytes": 20480,
+        "allocated_unique_inode_bytes": 20480,
+        "uid": 501,
+        "tree_sha256": "b7dd29a0a5b61f25a49bc3eb904988f494c94fc10644000353e34bb2f63463fa"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355610.8345852
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234146.285115Z",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/06-20261110T234146.285115Z",
+      "inventory": {
+        "entries": 4,
+        "logical_file_bytes": 2006,
+        "allocated_bytes": 8192,
+        "allocated_unique_inode_bytes": 8192,
+        "uid": 501,
+        "tree_sha256": "c507519815217468a38796adae685d4fdb27a775862d576eb2e2cc8f7ce92da2"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355610.964135
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234210.958411Z",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/07-20261110T234210.958411Z",
+      "inventory": {
+        "entries": 26,
+        "logical_file_bytes": 164583,
+        "allocated_bytes": 188416,
+        "allocated_unique_inode_bytes": 188416,
+        "uid": 501,
+        "tree_sha256": "44855e349714c101cab354133868dca5f2047c187d33ed2c78bb1a19b2b8d00d"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355611.093872
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T234608.097656Z",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/08-20261110T234608.097656Z",
+      "inventory": {
+        "entries": 33,
+        "logical_file_bytes": 231402,
+        "allocated_bytes": 266240,
+        "allocated_unique_inode_bytes": 266240,
+        "uid": 501,
+        "tree_sha256": "82bab77d035d38217c74e23c2fc704f4cf5810e5bd9df820016a85e890c9016a"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355611.227454
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/calibration.o",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/09-calibration.o",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 9848,
+        "allocated_bytes": 12288,
+        "allocated_unique_inode_bytes": 12288,
+        "uid": 501,
+        "tree_sha256": "0219510019c8e1a598d4edb2a5672bbe0cf62811d7236b044386d0f1572bd687"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355611.3591008
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-app.stderr",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/10-compile-app.stderr",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "53dea29b7eab14c0dd9bc3425ab6c13ae3052aac9183c046fa4344678218d8fa"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355611.488971
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-app.stdout",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/11-compile-app.stdout",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "8e3a85167196245e9f40f048fdb430742d5496322ad33218c48706f9487b1e39"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355611.618457
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-core.stderr",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/12-compile-core.stderr",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "d175438aa4a07ffa577ee41bf08f7c364317f21453eb01ab125717c794d2ea40"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355611.7483609
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-core.stdout",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/13-compile-core.stdout",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "8eaec3f50ec85ade78236b7878e6514b6e61c93d9982f8c4f31ff078f749b20e"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355611.880171
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-tests.stderr",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/14-compile-tests.stderr",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "4f2f1a0c01ff3e83813936f8c665a41c19767764125661e269bb534115502858"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355612.010226
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/compile-tests.stdout",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/15-compile-tests.stdout",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "290886f9fe84e990be0973df032bce3606d3e293c34ce20e6b551ea81df73b8c"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355612.139646
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/manifest.json",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/16-manifest.json",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 6800,
+        "allocated_bytes": 8192,
+        "allocated_unique_inode_bytes": 8192,
+        "uid": 501,
+        "tree_sha256": "0bf2917a2496a7c3e7f7089bb1cd14d977f5785431144a0478f99f790344d7e8"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355612.2703428
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/offline-tests",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/17-offline-tests",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 51360,
+        "allocated_bytes": 53248,
+        "allocated_unique_inode_bytes": 53248,
+        "uid": 501,
+        "tree_sha256": "de8078269d787be0e3fb8e5ed81e71650ad311761ca95cd0e4fbb12728b372c1"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355612.400933
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/sign-app.stderr",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/18-sign-app.stderr",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 159,
+        "allocated_bytes": 4096,
+        "allocated_unique_inode_bytes": 4096,
+        "uid": 501,
+        "tree_sha256": "7541d2f734a2dd71d0d2f14e464a33eb38043e789b8005bc4ddb5fe106793ef6"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355612.533948
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/sign-app.stdout",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/19-sign-app.stdout",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "a0cb2995b82448c4f9599ff8d2715a29d19bf072343a57eb83866bbdeb5ab00a"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355612.665982
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/test-dependencies.stderr",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/20-test-dependencies.stderr",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "0f7127d2150ba7cda9217054904fc8757bf716ee3e2baecbf73e98e9678bd471"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355612.799768
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/test-dependencies.stdout",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/21-test-dependencies.stdout",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 200,
+        "allocated_bytes": 4096,
+        "allocated_unique_inode_bytes": 4096,
+        "uid": 501,
+        "tree_sha256": "6f033bc69f8d4cf74c701575fa728ca78e3caafde03ed03cfc298521fd7147f4"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355612.933692
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/tests.stderr",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/22-tests.stderr",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "52c80f8c4d874d9453847e2e60ac8bf5e2fd467632a4e777a5ca4a1c9e74488f"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355613.063334
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/tests.stdout",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/23-tests.stdout",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 5989,
+        "allocated_bytes": 8192,
+        "allocated_unique_inode_bytes": 8192,
+        "uid": 501,
+        "tree_sha256": "c55c7abca996952d08e8b47dc2294923cf9c5659a78f35710285e2cc5c34684a"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355613.193099
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/verify-signature.stderr",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/24-verify-signature.stderr",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "4582559ed4cc02929773d982e77a9455adfe5920b6562bec037a3806743c8801"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355613.322593
+    },
+    {
+      "source": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/verify-signature.stdout",
+      "destination": "/Users/xiaotwu/.Trash/Muses-P0-20261110-01/stage6/25-verify-signature.stdout",
+      "inventory": {
+        "entries": 1,
+        "logical_file_bytes": 0,
+        "allocated_bytes": 0,
+        "allocated_unique_inode_bytes": 0,
+        "uid": 501,
+        "tree_sha256": "6ab5834a2f30e919f158fc2d4d72ef8d0bdecf219bfead8b2cb8ff533c8956c7"
+      },
+      "complete": true,
+      "open_handles": 0,
+      "time_unix": 1794355613.45293
+    }
+  ],
+  "failures": [],
+  "completed_unix": 1794355613.4537358,
+  "free_after": 573607079936,
+  "physical_recovery_claim_bytes": 0
+}

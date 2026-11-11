@@ -1,0 +1,32 @@
+{
+  "source_sha256": {
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/relink/plan.json": "ca860bbbe87b0af4cb9574d844fbefcd47d02585870881fc593c0a3d3e196423",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/macos-p0/relink/run.py": "0d835613db8ee10324bee6d9bc8c29ddb97e07ed7af7f40fa86bd564f916dc0c",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/probe.cpp": "1137d748dbb1648bd8722c540206cce03378ea4cdd0967079e4997c15c1c1885",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/backend.mm": "02f109f5f74ff7a70d66e4ee20d69411a0bad97542e01f0c72ea1c4c25c78645",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/p0_audio.h": "34cdd7493488e7db6c68d7b6fa4e68fa3e8a57d18b69ff83868d846b5df13097",
+    "/Users/xiaotwu/Code/Project-Muses-P0/engineering/p0-2026-11-10/audio/source-lock.json": "59681bba8204aff5dd0e50cdf8d1b45cad1993175cb13ad49fddc6c9d02878ed",
+    "/Users/xiaotwu/Code/Project-Muses-P0/LICENSE": "f1fa049b451817a47d29e07b1f56d98b5594008db2edeb048be31dcf651a2767"
+  },
+  "plan": {
+    "scope": "Standalone macOS static LGPL component replacement proof; not a production compliance determination",
+    "owner": "p0_audio",
+    "scratch": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/audio/macos-relink",
+    "scratch_limit_bytes": 402653184,
+    "free_floor_bytes": 42949672960,
+    "stage_budget_sha256": "de134250d8992c886855224b22710e284187b56ee044bb90a58f12cb60d90c4e",
+    "parent_guard_sha256": "3d07c44fa82f9ee6dd11e9167fc91b63c63724a36adf366ae0f391a98479afe0",
+    "parent_budget_sha256": "7b27e21065887ba0a9072552afa31f64c307f1df6ff8eb4c3ebac25799fe3cbc",
+    "ffmpeg_archive_sha256": "b2751fccb6cc4c77708113cd78b561059b6fa904b24162fa0be2d60273d27b8e",
+    "miniaudio_header_sha256": "6b376c7fbb1352ba1e0e432ab66069b335ea9405e45cb6c30b97ef0f3c9c3e0e",
+    "replacement": "Rebuild all four selected FFmpeg archives from the exact source; then change only av_version_info in libavutil/version.c to append +muses-p0-relink-1, rebuild libavutil.a, and relink the same frozen application and miniaudio objects",
+    "regression": [
+      "stock AAC/Opus decode, seek and bounded two-input mixer",
+      "replacement same regressions",
+      "replacement shared CoreAudio late-next session, audible=0"
+    ],
+    "signing": "ad-hoc hardened runtime, no extra entitlements; no Developer ID, notarization or release",
+    "network": "none",
+    "cleanup": "Keep bounded manifests, logs, notices, exact source archive, patch, application objects and minimal relink inputs; inventory expanded source/compiler work for coordinator recoverable cleanup. No irreversible disposal."
+  }
+}

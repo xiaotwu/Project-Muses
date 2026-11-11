@@ -1,0 +1,9 @@
+{
+  "sdk": "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+  "clang": "Apple clang version 21.0.0 (clang-2100.4.1.1)\nTarget: arm64-apple-darwin27.2.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "sdk_version": "27.2",
+  "xcode": "Xcode 27.2\nBuild version 27B52",
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t27.2\nBuildVersion:\t\t26B123",
+  "make": "GNU Make 3.81\nCopyright (C) 2006  Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.\nThere is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\nPARTICULAR PURPOSE.\n\nThis program built for i386-apple-darwin11.3.0",
+  "linker": "{\n\t\"version\": \"27106.1\",\n\t\"architectures\": [\n\t\t\"armv6\",\n\t\t\"armv7\",\n\t\t\"armv7s\",\n\t\t\"arm64\",\n\t\t\"arm64e\",\n\t\t\"arm64_32\",\n\t\t\"i386\",\n\t\t\"x86_64\",\n\t\t\"x86_64h\",\n\t\t\"armv6m\",\n\t\t\"armv7k\",\n\t\t\"armv7m\",\n\t\t\"armv7em\",\n\t\t\"armv8m.main\",\n\t\t\"armv8.1m.main\"\n\t],\n\t\"lto\": {\n\t\t\"runtime_api_version\": 30,\n\t\t\"static_api_version\": 30,\n\t\t\"version_string\": \"LLVM version 21.0.0\"\n\t},\n\t\"tapi\": {\n\t\t\"version\": \"21.0.0\",\n\t\t\"version_string\": \"Apple TAPI version 21.0.0 (tapi-2100.3.8.1)\"\n\t}\n}"
+}

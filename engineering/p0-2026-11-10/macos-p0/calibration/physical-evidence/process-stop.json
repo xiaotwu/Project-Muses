@@ -1,0 +1,11 @@
+{
+  "kind": "owned_process_stop_after_completed_calibration",
+  "pids": [
+    93220
+  ],
+  "verified_executable": "/Users/xiaotwu/.muses/tmp/p0-20261110-01/interop/macos-calibration/attempts/20261110T235039.849228Z/MusesAcousticCalibration.app/Contents/MacOS/MusesAcousticCalibration",
+  "signal": "SIGTERM",
+  "remaining_processes": [],
+  "reason": "Normal Quit shortcut did not act; app menu was empty and Dock UI unavailable. Both captures had already stopped and buffers were cleared.",
+  "new_capture_started_by_agent": false
+}

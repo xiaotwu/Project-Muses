@@ -1,0 +1,62 @@
+{
+  "application_signal_gain" : 1,
+  "baseline_attempt" : false,
+  "capture_start_host_ns" : 241238635533625,
+  "capture_stopped_host_ns" : 241244703078208,
+  "click_event_timestamp_seconds" : 241238.59005129099,
+  "click_handler_host_ns" : 241238591799916,
+  "clipped_fraction" : 0,
+  "confidence_class" : "invalid",
+  "confidence_is_probability" : false,
+  "detector_resolution_and_clock_residual_ms" : null,
+  "detector_version" : "acoustic-chain-v1",
+  "input_anchors" : 59,
+  "input_channel" : 0,
+  "input_clock_drift_ppm" : 5.3953325536149066,
+  "input_clock_max_fit_residual_ms" : 0.0022676438345969885,
+  "input_device" : {
+    "available" : true,
+    "buffer_frames" : 512,
+    "built_in" : true,
+    "device_latency_frames" : 26,
+    "muted" : 0,
+    "name" : "MacBook Pro Microphone",
+    "nominal_rate" : 48000,
+    "safety_offset_frames" : 48,
+    "volume_scalar" : 0.52549022436141968
+  },
+  "input_frames" : 283200,
+  "input_rate" : 48000,
+  "interpretation" : "Acoustic capture observation only. Device timestamp bias and DAC\/speaker\/propagation\/ADC components are not separately calibrated. No L_sound or p95 is computed; hardware-reported latency is not silently subtracted.",
+  "kind" : "measurement_chain_calibration_only",
+  "limits" : {
+    "capture_seconds" : 8,
+    "owned_audio_bytes" : 8388608,
+    "receipt_count" : 32
+  },
+  "markers" : [
+
+  ],
+  "noise_rms" : 0.00050033673606799246,
+  "outcome" : "measurement_invalid",
+  "output_device" : {
+    "available" : true,
+    "buffer_frames" : 512,
+    "built_in" : true,
+    "device_latency_frames" : 60,
+    "muted" : 0,
+    "name" : "MacBook Pro Speakers",
+    "nominal_rate" : 48000,
+    "safety_offset_frames" : 48,
+    "volume_scalar" : 0.12500001490116119
+  },
+  "output_rate" : 48000,
+  "owned_audio_reservation_bytes" : 1928192,
+  "raw_audio_saved" : false,
+  "reason" : "sequence_not_matched",
+  "reported_output_presentation_latency_s" : 0.00125,
+  "schema" : 1,
+  "source_set_sha256" : "bb473bc1f912fd6c1f7d099b5c49d5a23930cbe2592759a7b2db7ecd1278b034",
+  "submission_point" : "AVAudioSourceNode render callback before mixer and hardware",
+  "total_physical_error_bound_ms" : null
+}
