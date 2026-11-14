@@ -1,75 +1,11 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Muses is a family of native music applications for macOS, iOS and Windows 11. Explore your collection, stay in the flow and make room for the song.">
-  <link rel="canonical" href="https://xiaotwu.github.io/Project-Muses/">
-  <meta name="theme-color" content="#121316">
-  <title>Muses — One music home, three platforms</title>
-  <link rel="icon" href="assets/icon.png">
-  <link rel="stylesheet" href="assets/site.css">
-</head>
-<body>
-  <a class="skip" href="#main-content">Skip to content</a>
-  <header class="site-head shell"><a class="brand" href="./"><img src="assets/icon.png" alt="">Muses</a><nav aria-label="Main navigation"><a href="#platforms">Platforms</a><a href="#tour">Mac tour</a><a href="installation.html">Install</a><a href="https://github.com/xiaotwu/Project-Muses/releases">Release history</a><a href="https://github.com/xiaotwu/Project-Muses">GitHub</a></nav></header>
-  <main class="shell" id="main-content">
-    <section class="hero"><div class="kicker">macOS · iOS · Windows 11</div><h1>Stay with the music.</h1><p>A native home for music and playlists. Explore your collection, stay in the flow and make room for the song — on Mac, iPhone, iPad and Windows.</p><div class="actions"><a class="button primary" href="https://github.com/xiaotwu/Muses-Polyhymnia/releases/latest">Get Muses for Mac ↗</a><a class="button" href="#tour">Explore the app ↓</a></div><p class="requirement">macOS 26+ · Apple Silicon · iOS 18+ · Windows 11 · Open source</p></section>
-    <section class="platforms" id="platforms" aria-labelledby="platforms-title">
-      <div class="section-heading"><div class="kicker">The Muses family</div><h2 id="platforms-title">One idea. At home on your device.</h2><p>At the heart of Muses is Polyhymnia on the Mac. Erato and Euterpe bring the same vision to an experience shaped for each device.</p></div>
-      <div class="platform-grid">
-        <article class="platform core"><span class="platform-os">macOS 26+ · Apple Silicon</span><h3>Polyhymnia</h3><p class="platform-role">The core Muses experience</p><p>Music, playlists and podcasts, with an artwork-led library, a thoughtful queue, cover or vinyl Now Playing, available lyrics and native menu-bar controls.</p><p class="platform-status">Signed and notarized Mac release available. Version 0.5.11 remains available for macOS 14–15.</p><div class="platform-links"><a href="https://github.com/xiaotwu/Muses-Polyhymnia/releases/latest">Download for Mac ↗</a><a href="https://github.com/xiaotwu/Muses-Polyhymnia/releases">Release history</a><a href="https://github.com/xiaotwu/Muses-Polyhymnia">Source</a></div></article>
-        <article class="platform"><span class="platform-os">iOS 18+ · iPhone &amp; iPad</span><h3>Erato</h3><p class="platform-role">Your collection, on the move</p><p>Search, saved videos, favorites, playlists, queue, notes and time bookmarks, with adaptive iPhone and iPad layouts.</p><p class="platform-status">Currently in beta. The Public edition pauses video playback in the background. Experimental features and installation requirements vary by edition.</p><div class="platform-links"><a href="https://github.com/xiaotwu/Project-Muses/releases/tag/erato%2Fv1.0.0-beta.2">View iOS beta ↗</a><a href="ios/">Support &amp; policies</a></div></article>
-        <article class="platform"><span class="platform-os">Windows 11</span><h3>Euterpe</h3><p class="platform-role">Muses for the Windows desktop</p><p>An artwork-led library, a floating player, a persistent queue, available lyrics, on-demand video and Windows media and tray integration.</p><p class="platform-status">In development. A downloadable Windows version is not yet available. Features and appearance continue to evolve.</p><div class="platform-links"><a href="https://github.com/xiaotwu/Muses-Euterpe">Follow Windows development ↗</a><a href="installation.html">Availability</a></div></article>
-      </div>
-    </section>
-    <section class="tour" id="tour" aria-labelledby="tour-title"><div class="tour-head"><div><div class="kicker">Inside Polyhymnia · macOS</div><h2 id="tour-title">A closer look</h2></div><p>Choose a view or use the arrow keys.</p></div>
-      <div class="tour-tabs" role="tablist" aria-label="App screens">
-        <button class="tour-tab" role="tab" id="tab-home" aria-controls="tour-panel" aria-selected="true" tabindex="0" data-screen="0">Home</button>
-        <button class="tour-tab" role="tab" id="tab-songs" aria-controls="tour-panel" aria-selected="false" tabindex="-1" data-screen="1">Songs</button>
-        <button class="tour-tab" role="tab" id="tab-now" aria-controls="tour-panel" aria-selected="false" tabindex="-1" data-screen="2">Now Playing</button>
-        <button class="tour-tab" role="tab" id="tab-settings" aria-controls="tour-panel" aria-selected="false" tabindex="-1" data-screen="3">Settings</button>
-      </div>
-      <div id="tour-panel" class="tour-stage" role="tabpanel" aria-labelledby="tab-home"><img id="tour-image" src="assets/tour-home.png" alt="Muses Home in light appearance with music shelves and a floating player" width="1568" height="980"></div>
-      <div class="tour-caption" aria-live="polite"><div><strong id="tour-name">Discover from Home</strong><p id="tour-description">Artwork leads the way, while the floating player keeps your current song close.</p></div><div class="tour-controls"><button type="button" id="tour-prev" aria-label="Previous screen">←</button><button type="button" id="tour-next" aria-label="Next screen">→</button></div></div>
-      <p class="tour-note">A tour of Muses on macOS. Use the tabs or arrow keys to explore; playback happens in the application.</p>
-    </section>
-    <section class="features" aria-label="macOS highlights"><article class="feature"><span class="num">01 / DISCOVER</span><h3>Keep your collection close.</h3><p>Organize playlists, browse songs, albums, artists and videos, and keep favorites and listening history together.</p></article><article class="feature"><span class="num">02 / LISTEN</span><h3>A queue with context.</h3><p>Previous, Next, Up Next, repeat and shuffle work with the collection you started from. Control playback from the app, menu bar, keyboard or system media keys.</p></article><article class="feature"><span class="num">03 / GO DEEPER</span><h3>More than a cover.</h3><p>Open Now Playing for artwork and available lyrics, switch to vinyl, watch the video on demand, or return to a podcast where you left off.</p></article></section>
-    <section class="closing"><div><h2>Start with your platform.</h2><p>Download the Mac release, explore the iOS beta, or follow the Windows port.</p></div><div class="actions"><a class="button primary" href="https://github.com/xiaotwu/Muses-Polyhymnia/releases/latest">Get Muses for Mac ↗</a><a class="button" href="installation.html">Installation guide</a></div></section>
-  </main>
-  <footer class="site-foot shell"><span>© Muses · MIT licensed</span><div class="foot-links"><a href="privacy.html">Privacy</a><a href="https://github.com/xiaotwu/Project-Muses/releases">Releases</a><a href="https://github.com/xiaotwu/Project-Muses/issues">Support</a></div></footer>
-  <script>
-    (() => {
-      const screens = [
-        {src:'assets/tour-home.png', alt:'Muses Home in light appearance with music shelves and a floating player', name:'Discover from Home', description:'Artwork leads the way, while the floating player keeps your current song close.'},
-        {src:'assets/tour-songs.png', alt:'Muses Songs in dark appearance with a sortable song table', name:'Your songs, your way', description:'Move from an artwork stage to the complete sortable song table without leaving the library.'},
-        {src:'assets/tour-now-playing.jpg', alt:'Muses Now Playing in dark appearance with square cover art and timed lyrics', name:'Give the song the room', description:'Cover or vinyl artwork, playback controls and available timed lyrics take over the window.'},
-        {src:'assets/tour-settings.jpg', alt:'Muses settings in dark appearance with first-level categories and flat sections', name:'Made for your desktop', description:'Adjust appearance, playback and desktop controls in one integrated window.'}
-      ];
-      screens.forEach(screen => { const img = new Image(); img.src = screen.src; });
-      const tabs = [...document.querySelectorAll('.tour-tab')];
-      const panel = document.getElementById('tour-panel');
-      const image = document.getElementById('tour-image');
-      const name = document.getElementById('tour-name');
-      const description = document.getElementById('tour-description');
-      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-      let current = 0;
-      let pending = 0;
-      function select(index, focus = false) {
-        const next = (index + screens.length) % screens.length;
-        if (next === current) return;
-        current = next;
-        tabs.forEach((tab, i) => { tab.setAttribute('aria-selected', String(i === next)); tab.tabIndex = i === next ? 0 : -1; });
-        panel.setAttribute('aria-labelledby', tabs[next].id);
-        if (focus) tabs[next].focus();
-        const update = () => { const screen = screens[next]; image.src = screen.src; image.alt = screen.alt; name.textContent = screen.name; description.textContent = screen.description; image.classList.remove('changing'); };
-        clearTimeout(pending);
-        if (reduceMotion.matches) update(); else { image.classList.add('changing'); pending = setTimeout(update, 180); }
-      }
-      tabs.forEach((tab, i) => { tab.addEventListener('click', () => select(i)); tab.addEventListener('keydown', e => { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); select(current + (e.key === 'ArrowRight' ? 1 : -1), true); } else if (e.key === 'Home' || e.key === 'End') { e.preventDefault(); select(e.key === 'Home' ? 0 : screens.length - 1, true); } }); });
-      document.getElementById('tour-prev').addEventListener('click', () => select(current - 1));
-      document.getElementById('tour-next').addEventListener('click', () => select(current + 1));
-    })();
-  </script>
-</body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="0; url=https://xiaotwu.github.io/Muses/">
+<link rel="canonical" href="https://xiaotwu.github.io/Muses/">
+<title>Reremi – the Muses website has moved</title>
+<style>body{font:1rem/1.6 system-ui,sans-serif;max-width:42rem;margin:5rem auto;padding:0 1rem;color:#2a2030}a{color:#68456f}</style>
+<main><h1>Reremi – the Muses website has moved.</h1><p><a href="https://xiaotwu.github.io/Muses/">Continue to the Muses website</a>.</p></main>
+<script>location.replace('https://xiaotwu.github.io/Muses/'+location.search+location.hash);</script>
 </html>

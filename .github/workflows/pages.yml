@@ -1,41 +1,19 @@
-name: Publish Muses family website
+name: Publish legacy website redirects
 on:
   push:
     branches: [main]
-    paths: ['docs/**', 'scripts/check-site.py', '.github/workflows/pages.yml']
-  pull_request:
-    paths: ['docs/**', 'scripts/check-site.py', '.github/workflows/pages.yml']
+    paths: ['docs/**', '.github/workflows/pages.yml']
   workflow_dispatch:
+
 permissions:
   contents: read
+
 concurrency:
-  group: family-pages-${{ github.ref }}
+  group: legacy-muses-pages
   cancel-in-progress: true
+
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-      - name: Validate publication source
-        run: |
-          python3 scripts/check-site.py
-          python3 scripts/sync-site-assets.py --check
-      - uses: actions/configure-pages@v5
-        if: github.event_name != 'pull_request'
-      - uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./docs
-          destination: ./_site
-      - name: Validate rendered pages and links
-        run: python3 scripts/check-site.py --root _site --rendered
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
   deploy:
-    if: github.event_name != 'pull_request'
-    needs: build
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -44,5 +22,16 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Stage compatibility pages and existing static artwork
+        run: |
+          mkdir -p "$RUNNER_TEMP/muses-site/ios"
+          cp docs/.nojekyll docs/*.html "$RUNNER_TEMP/muses-site/"
+          cp docs/ios/*.html docs/ios/styles.css "$RUNNER_TEMP/muses-site/ios/"
+          cp -R docs/assets "$RUNNER_TEMP/muses-site/assets"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/muses-site
       - uses: actions/deploy-pages@v4
         id: deploy
